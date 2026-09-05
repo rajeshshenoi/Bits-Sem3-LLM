@@ -1,0 +1,28 @@
+prompt_id,prompt,baseline_response,time_sec,tokens_per_sec
+1,What are the key quality control requirements specified in ISO 9001 for manufacturing processes?,"ISO 9001:2015 specifies the following key quality control requirements for manufacturing processes:
+
+1. Quality objectives: The organization must establish and communicate its quality objectives.
+
+2. Quality policy: The organization must establish and communicate its quality policy.
+
+3. Quality management system: The organization must establish and implement a quality management system that includes a quality policy, objectives, and a quality plan.
+
+4. Quality control: The organization must establish and implement a quality control system that includes a quality plan, a quality control plan, and a quality assurance program.
+
+5. Quality assurance: The organization must establish and implement a quality assurance program that includes a quality control plan, a quality plan, and a quality assurance plan.
+
+6. Quality control plan: The organization must establish and implement a quality control plan that includes a quality plan, a quality control plan, and",29.37,6.8
+2,Explain the concept of Statistical Process Control (SPC) and how it is applied on a production line.,"Statistical Process Control (SPC) is a process control technique that is used to monitor and improve the quality of a production process. It is based on the idea that the quality of a product or process can be improved by controlling the process parameters to a certain extent.
+
+SPC is applied on a production line to ensure that the quality of the final product meets the required standards. The process control techniques used in SPC include:
+
+1. Setpoint: This is the target value for the process variable that is being controlled.
+
+2. Control limits: These are the limits at which the process variable is allowed to deviate from the setpoint.
+
+3. Control charts: These are graphs that show the variation of the process variable over time.
+
+4. Regression analysis: This is used to identify the relationship between the process variable and the control limits.
+
+5. Maintenance: SPC is used to identify and correct any devi",29.98,6.7
+3,What is the purpose of a Failure Mode and Effects Analysis (FMEA) in manufacturing engineering?,"A Failure Mode and Effects Analysis (FMEA) is a process used in manufacturing engineering to identify and evaluate the potential causes of failures in a product or system. The purpose of a FMEA is to identify and eliminate the root causes of failures, thereby improving the reliability and safety of the product or system. The FMEA helps to identify potential hazards, risks, and uncertainties that may cause failures, and to develop strategies to mitigate these risks. The FMEA helps to ensure that the product or system is designed and manufactured in a way that minimizes the likelihood of failures and maximizes its safety and reliability.",22.13,6.7

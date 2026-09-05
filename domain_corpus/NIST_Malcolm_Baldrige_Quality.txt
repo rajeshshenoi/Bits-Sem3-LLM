@@ -1,0 +1,988 @@
+NISTIR 4738
+Models, Managing Models,
+Quality Models:
+An Example of Quality
+Management
+Joan
+E. Tyler
+DEPARTMENT OF COMMERCE
+Natlosal InstMute of Standards
+and Tsdinology
+Manufacturing Enginsaring laboratory
+Factory Automation Syatams Division
+OMthorsburg, MD 20899
+UA DEPARTMENT OF COMMERCE
+Robart A. Mosbachar, Sacratsry
+NATIONAL INSTITUTE OF STANDARDS
+AND TECHNOLOGY
+Joho ¥L Lyons, Dlractor
+NIST
+
+\
+
+NISTIR 4738
+Models, Managing Models,
+Quality Models:
+An Example of Quality
+Management
+Joan
+E. Tyler
+U^. DEPARTMENT OF COMMERCE
+National
+Institute of Standards
+and Technology
+Manufacturing Engineering Laboratory
+Factory Automation Systems Division
+O^thersburg, MD 20899
+December 1991
+U^. DEPARTMENT OF COMMERCE
+Robert A. Mosbacher, Secretary
+NATKNIAL INSTITUTE OF STANDARDS
+AND TECHNOUMY
+Mm WL Lyons, Director
+
+\
+
+MODELS, MANAGING MODELS, QUALITY MODELS:
+AN EXAMPLE OF QUALITY MANAGEMENT
+Joan E. Tyler
+Factory Automation Systems Division
+Manufacturing Engineering Laboratory
+National Institute of Standards and Technology
+Gaithersburg, MD 20899
+“The concept of quality improvement is directly appiicabie to smaii companies as weii
+as iarge, to sen/ice industries as weii as manufacturing, and to the pubiic sector as
+weii as private enterprise,
+in order to be successfui, quality improvement programs
+must be management-ied and customer-oriented and this may require fundamental
+changes in the way companies and agencies do business."
+Excerpts from The Findings and Purposes Section of Public Law 100-107
+responsible for creation of The Malcolm Baldrige National Quality Award.
+Abstract
+Quality is an increasingly important element In competitiveness.
+This paper will focus
+on strategies used by an international standards committee for improving the
+development of its complex standard. The paper outlines an approach for use within
+the standards-making community.
+Aside from the standards-making community, any
+organization interested in establishing quality metrics and quality thresholds to assess
+technical quality should find this paper useful. An overview of a methodology for
+evaluating the technical quality of information and data models is also Included.
+These models provide the basis for the emerging STEP standard. The types of
+models denoted in the title include information, activity, data or process models which
+are represented in some formal modeling language.
+Quality thresholds to guide
+information model developers and evaluators are described, along with an overview of
+the team approach used in applying the methodology.
+Quality management
+techniques for models are described along with management's role In ensuring that
+high quality models are produced. Many basic concepts of the Malcolm Baldrige
+National Quality Award were used in building the foundation for this new approach to
+standards development.
+Key Words
+Malcolm Baldrige National Quality Award; data models; IGES/PDES Organization;
+information models; IPO; PDES; Product Data Exchange using STEP; quality
+management architecture; Standard for the Exchange of Product Model Data; STEP
+The work described in this document was funded by the Factory Automation Systems Division, National institute of Standards and
+Technology, U.S. Department of Commerce, Technology Administration and is not subject to copyright
+
+1
+Purpose
+The purpose of this paper is to describe an organizational approach to ensuring the
+quality of a design specification. The ongoing efforts of a committee developing an
+international standard are used to illustrate the approach.
+Methods for ensuring
+quality must be appropriate to the products they intend to improve.
+This paper
+describes fundamental principles of quality assessment, such as continuous
+improvement, management by fact, and the development and use of metrics, and their
+application to a product which is a design spedfication, in this case, an international
+standard.
+Ensuring quality demands persistent application of quality techniques at
+appropriate points in the product development process.’
+2
+Background
+The International Organization for Standardization (ISO) Is currently developing a
+standard known as the Standard for the Exchange of Product Model Data (STEP)\
+STEP is intended to support all aspects of product description from initial conception
+through product design, manufacture, support and disposal.
+U.S. proponents of STEP
+have asserted that the application of product data sharing will revolutionize U.S.
+manufacturing and enable U.S. industry to build on Its traditional strengths to regain
+its
+competitive edge for the twenty-first century [1].
+U.S. industry supports STEP development through the IGES/PDES^ Organization
+(IPO). The primary objective of the PDES/STEP effort Is to develop a standardized,
+neutral, computer-based format for the definition cf product data that can be used by
+different industrial applications [2].
+Information modeling technology provides a formal technique for representing the
+information requirements of the standard. Why is the development of STEP based
+upon the use of information modeling technology? Rgure
+1
+illustrates the basic
+elements leading to this dedsion:
+(1)
+An information model provides a mechanism for describing
+agreements about a subject and stating the requirements.
+STEP will be adopted as ISO 10303, Industrial Automation Systems and Integration Product Data
+Representation and Exchange, and Is being developed within Subcommittee 4 of International Organization
+for Standardization Technical Committee 184 (ISO TC184/SC4).
+* IGES, the
+Initial Graphics Exchange Specification, defines a neutral data format that allows for the
+digital exchange of Information among compiuter-alded design (CAD) systems. The PDES (Product Data
+Exchange using STEP) project within the IPO is the United States development activity in support of the
+international standard.
+2
+
+(2)
+Information modeling techniques provide the capability to
+formulate a computer-based representation of an information
+model.
+(3)
+An information model facilitates communication by providing a
+baseline for building consensus.
+(4)
+Infomiation modeling techniques concentrate on the dka
+requirements without prescribing or specifying implementation
+requirements.
+Figure 1.
+information Models Form the Basis for the Standard
+syn*tax
+1 : the arrangement of elements
+to show their relationship to one
+another
+seMnan*tlc
+1 : or or relating to meaning
+in language
+Figure
+1 places the design aspects of information modeling in a much larger context.
+The ultimate objective is a common understanding of semantics and a standard syntax
+for information specification. These features are two of the benefits derived from
+using this technology to drive the standard. These benefits, coupled with the
+requirement for achieving consensus, are key reasons for using this technology for
+STEP.
+The standard itself will consist of a set of information models that describe product
+data to be used by many industries. The STEP models contain general information
+about product descriptions, business rules, market requirements, design, manufacture,
+and support. They are either resource models or application models.
+Resource
+models describe aspects of product information such as: geometry, tolerance, shape,
+size, weight. The application models contain information specific to a particular
+domain such as: manufacturing, electronics, apparel, building and construction, etc.
+3
+
+The resource models are reusable and will remain the cornerstone for future
+development.
+The focus of this paper is on the approach taken by the STEP qualification methods
+team in developing a system of metrics for ensuring the quality of information models.
+The quality techniques were developed to be appropriate for the information modeling
+methods used by STEP. The notion of continuous improvement is advocated. The
+quality management process developed for STEP Includes regular cycles of planning,
+execution and evaluation. The quality management process begins early in the STEP
+model development process and feedback is provided to both the qualification
+methods team and model development team.
+Investigation of quality methods for
+other types of models continues in attempts to apply them to the quality management
+of information models.
+This approach was influence by efforts to promote the use of
+quality management techniques in U.S. built products, which is the subject of the
+following section.
+3 The Baldrige Influence
+Many basic concepts of the Malcolm Baldrige National Quality Awarcf were used in
+building the foundation for this new approach to standards development The
+qualification methods team gained useful information and insight through an in<iepth
+examination of the Award Criteria in the 1991 edition of the Application Guidelines [3]
+for the Malcolm Baldrige National Quality Award.
+Several key characteristics directly influenced the development of the model
+qualification methods. A more detailed description can be found in the 1992 edition of
+the Award Criteria [4] for the Malcolm Baldrige National Quality Award, excerpted
+here:
+(1)
+The Award Criteria are directed toward producing results.
+Assessment
+of these results Is based upon one or more of three factors: (1)
+improvement trends; (2) current levels; and (3) benchmarks, evaluations,
+and other comparisons that establish levels and trends relative to the
+performance of others, especially appropriately selected leaders.
+(2)
+The Award Criteria provide a link between processes and results.
+Integration in the Criteria is achieved through many direct and indirect
+relationships and linkages among the requirements,
+in addition, many
+parts of the Criteria call for aggregation and assessment of levels of
+performance, thus encouraging an integrated view of all activities.
+^ The
+National
+Institute
+of Standards and Technology (NIST), an agency of the Department
+of
+Commerce’s Technology Administration, was given the responsibility for the creation and management of
+the Award Program.
+4
+
+(3)
+The Award Criteria are part of a two-part diagnostic system.
+The Criteria
+focus on requirements.
+The scoring system focuses on the factors that
+should be used in assessing strengths and areas for improvement.
+Together the two parts of the diagnostic system direct attention to
+activities that contribute to reaching the goals of the Criteria.
+(4)
+The Award Criteria include key learning cycles. The arrows in Figure 2
+[4] denote linkage and dynamic relationships and feedback among the
+framework elements. The primary dynamic characteristic of the Criteria
+is their inclusion of cycles of continuous improvement.
+These cycles of
+learning, adaptation, and improvement are explicit and implicit in every
+part of the Criteria The cycles have four stages: (a) planning, design of
+processes, selection of indicators, deployment of requirements; (b)
+execution of plans; (c) assessment of progress, taking into consideration
+internal and external indicators; and (d) revision of plans, taking into
+consideration progress, learning, and new information.
+Figure 2.
+Baldrige Award Criteria Framework
+BALORIGE AWARD CRITERIA FRAMEWORK
+Dynamic Relationships
+5
+
+These specific characteristics are cited to give the reader an idea of how these
+generic criteria can be used to tailor a system for another domain. The Criteria can
+also aid developers searching for assessment techniques.
+These Baldrige concepts played a central role in the development of the metrics to
+verify the quality of information models supporting the STEP standard.
+Probably the
+most important lesson learned Is that high quality thresholds are attainable with
+appropriate strategies and persistent application. A recent General Accounting Office
+Study [5] revealed that to succeed, Total Quality Management (TQM) systems must
+be based on a continuous and systemic approach of gathering, evaluating, and acting
+on facts and data The model qualification team’s development effort to support
+quality ideals were built around these notions.
+4
+Need for a Model Quality Strategy
+While there are many advantages to using information modeling technology as
+suggested in Section 2, there are also risks in using
+it as the underpinning of a
+standard. An effective quality strategy can be used to manage these risks.
+The models in STEP will be ready for standardization when they are coherent,
+complete and stable. The need for a quality strategy becomes apparent from the fact
+that in many of the STEP models, the Information content was changing and
+consequently the models seemed to be incomplete. There was no consistent method
+for applying the information modeling techniques used in STEP.
+Integrating
+information from many resources is an important phase In the life cycle of developing
+STEP.
+This is a function of the Integration Committee^ The groups responsible for
+the models may have achieved technical consensus, but the models were not usable
+because they could not be understood outside the group that developed them. As
+one of the engineers from a well known aircraft company put
+it: 'Without building in
+quality as the standard emerges, there is a risk that my company will be using a
+standard based on untried, untested foundations."
+This is an important concern for
+companies which build products to the standard or the companies which buy products
+built to the standard. To mitigate this problem, the quality strategy must include
+techniques for recognizing stable and reliable models and evaluating the consistency
+of the model representation.
+Because many countries are demanding a workable STEP now.
+It is important to
+project an accurate estimate of when the models will be ready for external review.
+Sometimes, progress on models could not be discerned. There were a number of
+plausible explanations, such as unavailability of subject matter experts or a decision to
+modify the extent of the model coverage. Some explanations require no action by
+management and others provide warning signals that call for immediate action.
+It is
+* The Integration Committee of the IPO is supporting a project within Working Group 4 (WG4) of ISO
+TC184/SC4.
+6
+
+important that both progress and warning signals are visible to management.
+Therefore, the quality strategy must include techniques for evaluating and reporting
+upon progress.
+A requirement of STEP is that the models be integrated into a single usable standard.
+The Integration Committee is responsible for ensuring that models can be used
+together. Using poorly organized or improperly documented models for the integration
+is
+undesirable because
+it leads to an unacceptable margin for error. A model needs
+to be of sufficient quality for the integration team to understand the model intent. The
+quality strategy must include techniques for evaluating the organization and
+documentation of the models.
+A number of things can go wrong during the development of models. A strategy is
+needed for recognizing concerns and taking corrective action as early in the process
+as possible. The quality strategy must proactively seek both external and internal
+users’ expectations at the beginning of any quality planning and development process.
+5 The Model Qualification Approach
+A new approach for ensuring quality and measuring
+it has been developed for the
+PDES/STEP effort. The approach focuses on the quality of design specifications, for
+resource and application models.
+This quality method can be extended to related
+technologies with only minor tailoring.
+The method developed and used in the STEP community, under the direction of the
+Qualification Methods project^, has often been referred to as "Qualification," the
+process of using the methods developed by the qualification methods team.
+Qualification takes piace before the integration process described in Section 4. The
+Qualification process imposes a set of criteria on ail STEP resource and application
+models.
+Model qualification verifies the technical quality of models at various levels
+of completion. As progress on a model is made, the audience which can comprehend
+the model expands.
+The notion of model quality as
+it pertains to product data has its roots in the PDES
+Initiation Activities [6]. Much of the early evaluation was done intuitiveiy, but this early
+thinking fostered many of the ideas in the current document on the qualification
+process [7].
+There is now a more formal method for both measuring and managing
+model quality.
+When the model meets the established metrics, the true functionality of the model
+itself can be more accurately determined. These measurements can help determine
+if
+a modei has attained a level of quality sufficient to be promoted in the standards
+® Qualification Methods Is a project within Working Group 5 of ISO TC184/SC4.
+7
+
+process. The measurements in the approach are quantifiable and can be very useful
+in making management decisions.
+This approach to quality assurance differs from those of other quality assurance
+systems in two respects.
+Rrst the methodology provides for ensuring quality in
+information models. The methodology ensures that the models are understandable,
+stable, reliable, and maintainable.
+Second,
+it provides structured techniques for
+managing quality.
+It manages quality in a formal way by organizing the technical
+knowledge conveyed by a model into manageable groupings, and by providing
+techniques for tracking and assessing the development for each grouping. Thus for
+example, "maintainability" is affected by specific measur^le indicators.
+The model qualification measurement system includes:
+the identification of indicators to be used in quality assessment,
+the definition of a technique for measuring progress, and
+the provision for the management of staff resources.
+6
+Model Qualification Methodology
+This section describes the methodology developed for the review of STEP models.
+This methodology builds on the model qualification approach discussed in Section 5.
+in addition, a short example of the application of the methodology is given in Section
+6 .2 .
+6.1
+Model Quality Levels
+Model quality levels represent a generic measure of quality that can be applied to any
+measurable aspect of quality (i.e., across ail categories and indicators).
+Levels signify
+an increasingly meaningful and useful condition or state of quality. As the levels of
+quality of a model increase, the model should become more valuable and be of use to
+a wider audience.
+The quality levels are related to the promotion levels in the standardization process,
+as specified in the procedures for approval of STEP [8]. The definitions for each of
+the quality levels used in STEP are given in Table 1.
+For a model to be released to a
+broad community for review,
+it should have attained a measure of progress equivalent
+to Quality Level 3
+(i.e., the model can be dearly understood).
+8
+
+Table 1.
+Quality Levels
+Level
+Tttle
+Description
+LmraiO
+Baseline
+Estebilshed
+The work kern has been identifted and scope of the
+activity has been defined. The oorfext of the work tern
+Is defned at a level neoessaiy to attain manaoemerX
+approval to proceed.
+1
+Initial
+Ooeumentatien
+TTte work kern has been identified and scope of the
+actMty has been defined. The ootkexi of the work kem
+is defined at a level necessary to attain managemerk
+approval to proceed.
+Uv«12
+Beale
+Comprehenalen
+Anyone with a POES/STEP background oan
+unoerataitd the eeaenfial Htodel oortoepts.
+Uv«iS
+Clartty of
+Understandlno
+Model is documented sutficlentiy to support prototype
+implementatiort
+|jMet4
+Preeltion of
+Expression
+The definition and represerkation of the model or part
+enablea subject area experts who have not participated
+in the development to apply ks oonoapts oonsistently
+to real-world problems.
+L«v«l6
+Industrial
+Buitabilitv
+The model is suffidentiy defined for the use and
+implefnentation in an industrial application context.
+The Measures of Progress Report depicted in Rgure 3 shows the level of completion
+necessary to be a "qualified model", the target quality, and the actual quality level that
+the model has attained.
+Across the horizontal axis are categories for the quality of the
+model component being evaluated, and the vertical axis shows the quality levels (see
+Table 1) for assessing the semantics for the information modeling technique used.
+Figure 3.
+Measures of Progress Report
+T«g«Qa.niy
+AcnulQualUy
+/
+I
+I
+|/f-
+I
+5
+T
+^
+•
+4
+f
+f
+fu....
+3
+2
+1
+0
+Sees*
+CBCCt
+Eiped-
+llM
+Ota-
+wry
+-
+-
+QUAUTY CATEGORIES
+The methodology calls for the assignment of quality levels based upon an evaluation
+that uses three technical components.
+Each of these have specific criteria for
+measuring progress to determine the extent of improvement required.
+In this section,
+the first component, quality categories, is explicitly described, while the other two
+components, quality indicators and quality characteristics are only briefly
+introduced.
+Sections 6.2 and 7 describe how these three components are applied.
+9
+
+6.1.1
+Model Quality Categories
+The quality categories referenced in Figure 3 are broad classes of subjects which are
+used to organize the quality measurement.
+This division for overall quality
+measurement can be done either by identifying the required components of the
+completed product or by identifying activities in the development process.
+Both of
+these approaches to defining the quality categories have been used in STEP. The
+categories provide a high-level view of the types of quality assessments performed on
+a model.
+However, each quality category Is related to the model as a whole and not
+just to a section of the model.
+For instance, quality category 1, Scope, is used heavily
+in evaluating the scope statement that is present in each STEP model, but
+it is also
+used to evaluate any issues related to scope across the entire model.
+Thirteen
+categories are used in the STEP qualification process, as shown in Table 2.
+Table 2.
+Quality Categories
+QualHy Cateqory
+Title
+QC1
+Scope
+.
+QC2
+References
+QC3
+Expositions for Understandabilitv
+QC4
+Glossarv
+QCS
+Model Desion History Capture
+QC6
+Confiauration Manaaement Conformance
+QC7
+Information Requirements Compliance
+QCS
+Syntax Evaluation
+QC9
+Formal Semantic Representation
+QC9.1 Model Language Usage
+QC9.2 Semantics
+QC9.3 Model StabiTrty
+QC10
+Inteqration
+QC11
+Industrial Assessment
+QC12
+Industrial Exposure & ReooqnKion
+QC13
+ISO Directives
+6.1.2
+Model Quality Indicators
+Quality indicators are the concrete, measurable aspects of quality for any given
+category. The Indicator is measured by evaluating one or more facts about a product.
+Each fact that is to be evaluated is called a quality characteristic.
+Each time a model
+is evaluated, the quality indicators are assigned a quality level. The quality level is
+determined by an^yzlng the assessment results from the set of constituent quality
+characteristics.
+6.1.3
+Quality Characteristics
+Quality characteristics are specific measurable aspects of quality.
+Quality
+characteristics are like a checklist of information about states, conditions, events and
+10
+
+data for a given quality indicator.
+Each quality characteristic has a measurement
+technique associated with
+it.
+For example, some characteristics, such as a statement
+of scope in the model document, either exist or are absent (pass or fail).
+6.2 Example for STEP Information Models
+Due to space limitations, a sample is provided here for only one of the
+1 3 categories
+listed in Table 2.
+The following example for the category Scope details how the
+quality categories, indicators and characteristics are used to judge the quality of a
+model. A model must contain a "scope" statement and the criteria for this aspect are
+grouped into the category called "scope."
+Guidance is provided for assigning a
+quality level to the category "scope." There are five quality indicators for "scope."
+Each indicator has its own set of descriptive characteristics. The set of quality
+characteristics for the quality indicator 1 .1
+, "limits of applicability covered," is provided.
+Category: Scope (QC1)
+Scope is defined to be a complete and unambiguous statement or view of the domain
+that is being studied.
+This statement should define the bounds of the information to
+be covered in the model, and with this in mind, the scope can either be broad or
+narrow. The statement should define any limits that apply to the subject matter found
+in the model.
+For this reason, the scope statement can describe material that should
+or should not be found in the model.
+Quality Levels for the Category **ScoDe”
+During the development of the model, quality progresses through the quality
+levels defined in Table 1. Once an initial statement has been agreed to by the
+group developing the model, Level
+1 has been attained. The model will evolve
+with nominal change until the model has achieved a Level 2.
+However, the
+scope should crystallize by Level 3, with a complete and predse statement by
+Level 4.
+At Level 4, tests which simulate representative uses for the model are
+defined and the model is examined to ensure that
+it can support the tests for
+scope.
+At Level 5, a more global perspective is pursued by studying the
+relationship of this model scope to those In other existing models in STEP. The
+model is examined for any overlap with other models and how the model is
+logically organized with respect to the rest of STEP. An unambiguous scope
+definition which is consistent with the remaining STEP spedfications is
+expected by Level 5.
+Quality Indicators for the Category ”ScoDe'*
+Ql 1.1
+Limits of applicability coyered:
+This indicator is used to evaluate the
+definition and intent of the model. Any guidance or rules that should be applied
+to verify that the model achieves this intent are also included.
+11
+
+Ql 1.2
+Definition of subjects and aspects covered:
+This indicator is used to
+evaluate the definitions of terms and how the model will be used.
+Ql 1.3
+Global planning perspective covered:
+This indicator is used to
+evaluate
+if the model describes how the information represented by a model fits
+into a larger scale,
+i.e., "the big picture". A context on a very broad scale is
+provided, along with a smaller context which represents the actual model under
+review.
+Ql 1.4
+Subject planning perspective covered:
+This Indicator is used to
+evaluate
+if the model provides a high-level oven^iew of the information that is
+within the scope of the model.
+All of the significant concepts in the model
+under review should be represented. They should be consistent with the
+viewpoint of the scope but the details on concepts are not provided.
+Ql 1.5
+Project planning perspective covered:
+This indicator is used to
+evaluate
+if the model provides for the viewpoint of the project in broad enough
+terms to include both the subject planning model
+(i.e., the significant concepts)
+and the interfaces to any related models. This model acts as an Integrator and
+project management tool since
+it identifies the information requirements needed
+by the related models.
+Quality Characteristics for ”Umits of Applicability Statement (Ql I.IV*
+The scope statement should be reviewed for the existence of the following
+items which indicate increasing levels of quality:
+QCh 1.1.1 Scoping definition statement which specifies the position of the
+model within a larger context;
+QCh 1.1.2 Statement that explains the scope early in the text with prominent
+appearance;
+QCh 1.1.3 Preliminary limits of applicability statement;
+QCh 1.1.4 Complete and unambiguous statement of scope;
+QCh 1.1.5 Statement referencing any other STEP models that are needed to
+understand or use the model;
+QCh 1.1.6 Boundaries, limits, rules or conventions that determine
+all aspects of
+scope;
+QCh 1.1.7 Criteria for determining
+if the scope has been achieved, defined
+precisely enough for subject area experts; criteria demonstrates clarity, is
+obvious, and is firmly stated; and
+12
+
+QCh 1.1.8 Precision of terms used within the subject domain are evident; and
+exceptions are identified; terms are concrete, specific, and limited in extent.
+7
+Model Assessment Process
+A Qualification Pradices team has been formed to execute reviews of the models In
+STEP using this methodology and to provide feedback on the quality assessment
+techniques. The team has developed a script for guiding their activity during the
+review of the models and for applying the model qualification criteria [7]. The team
+chooses the necessary quality indicators to apply to each, component of the models in
+STEP. The team consists of individuals who are experts In the domain that the model
+describes and individuals who are experts in the STEP development methods such as
+information modeling. The team provides feedback to STEP developers in the form of
+qualification reports. The team also provides feedback
+to the Qualification Methods
+team so that the model qualification methods can be further improved. The team
+determines strengths of the model, identifies areas for improvement and states the
+issues with the model.
+The Qualification Practices team leader will organize and summarize the information.
+These reports are principally used by the model development team. The two reports
+listed below may also be useful to individuals who manage STEP development
+because they illustrate both the progress and the areas where developer resources
+need to be added in a particular area These summary reports could include: (1)
+Measures of Progress Report (see Rgure 3), and (2) Evaluators for Model
+Qualification Report (see Rgure 4).
+Figure 4.
+Evaluators for Model Qualification
+level
+level 4
+level 3
+level 2
+level
+I
+Quality
+Indicator
+Quality
+Level
+Quality
+Characteristic
+5.6
+5.12
+5.13
+5.14
+5. IS
+4.U
+4.U
+413
+4.1.4
+413
+3.11.
+3.tf
+3.12
+3.13
+3.M
+3.13
+ZV
+2.12
+2.13
+2.M
+2.13
+I.U
+I.V2
+1.5,
+1.9.
+I.IO,
+1 13
+1.6,
+1.14
+1.7,
+1.16
+01
+l.l
+01
+1.2
+01 13
+01
+1.4
+01
+1.5
+QC
+I Scope
+01
+l.l Limits of AppllcaDinty Statement (Incluslon/Excluslon Criteria)
+01
+1.2 Definition of Subjects and Aspects Covered
+01
+1.3 Global Planning Model
+01
+1.4 Subject Planning Model
+01
+1.5 Project Planning Model
+13
+
+In the Evaluators for Model Qualification Report (see Rgure 4), the quality
+characteristics that are to be reviewed for each quality indicator are identified.
+Each
+quality level has one or more characteristics associated with a given indicator. The
+set of characteristics for a quality level and a given indicator are illustrated in the cells
+of the matrix. A model is evaluated for the presence of each characteristic. The
+model is graded by a specific indicator at the highest level for which ail of the
+characteristics are present. The "measures of progress" can be defined as the
+selected set of quality indicators that are appropriate for a quality assessment
+problem. The scores for all of the quality indicators are then compared to the target
+"measure of progress" (see Rgure 3) to determine
+If the model is ready to progress to
+the next stage in the standardization process.
+The Qualification Practices team works closely with the Qualification Methods team to
+provide the continuous feedback necessary for quality improvement.
+There have been
+regular cycles of enhanced model qualification methods from the methods team,
+followed by trial and feedback from the practices team. These roles are depicted in
+Rgure 5.
+Figure 5.
+Continuous Quaiity Improvement
+14
+
+8 Management Role
+The model qualification process provides a structure for the assessment and collection
+of technical knowledge about products, and structural components to support
+managing product development.
+This structure promotes "management by fact" by
+providing visibility to the results of quality assessments.
+The model qualification process provides a system that manages the model
+development, model assessment, and model integration for STEP. The process
+provides techniques for managing the complexity by:
+(1)
+compartmentalizing the model quality indicators, so that persons
+with modeling skills or subject area knowledge can work on
+different aspects of a problem; and
+(2)
+breaking a complex problem into recognizable components
+so that the development of the model can be managed.
+One aspect of this management technique is the use of target "measures of progress."
+The first action required by management^ is to set the measures of progress for
+model development. These target measures of progress play three roles In the STEP
+development process.
+(1 )
+The first rote is to guide the team by setting and communicating
+measurable targets for quality well In advance. The
+development team can strive for the target quality and can use the
+qualification metrics to buiid quality into the product.
+(2)
+The second role is to establish the minimum expected quality
+for each stage In model development by stating the targets just
+prior to each measurement of progress on the product.
+(3)
+The third role is to require a quality level for approval
+measures by only allowing a model to move to the next stage of
+development when the quality level has met or exceeded the
+target measure of progress.
+STEP, as an international standard, demands an appropriate level of quality. A model
+must achieve the target quality level for the appropriate quality indicators before
+it is
+promoted to the next stage in the standards process.
+It is the responsibility of
+management to select the overall level of quality required, and to select the
+appropriate set of quality indicators for each type of model.
+^ The management function for this ISO effort is under the coordination, planning and directton of the
+Project Management Advisory Group (PMAG) for STEP.
+15
+
+9 Summary
+The goal of the "Model Qualification Process" is to shorten the time from technology
+innovation to development and then introduction into the market by providing for
+continuous process and quality improvement. The "Model Qualification Process" has
+contributed to both the effectiveness and productivity of information modeling within
+STEP. The Methodology is generic and can be used across industry boundaries for
+assessing models and establishing quality thresholds. The methodology also
+contributes to making STEP resource and application models more accessible to
+industry, and to managing the quality of these models.
+Other contributions from this
+effort are:
+(1)
+criteria containing the concrete nature of quality indicators and
+quality characteristics used to measure design products (the
+models);
+(2)
+a quality management system structured to facilitate the capture of
+technical quality knowledge;
+(3)
+a strategy that provides for formal management roles for directing,
+tracking and assessing quality.
+The paper presents a methodology that was tailored for ensuring quality In information
+models. The quality methods from other domains were transferred to STEP. The
+principles found in existing quality techniques were not directly transferable to STEP
+Information models. The techniques were modified to be appropriate for the modeling
+methods used by STEP. The reader should have sufficient information from the
+example provided by STEP to use the Baldrige Award Criteria in another domain.
+16
+
+References
+[1]
+Bloom, H., Carver, G.; "Concurrent Engineering Through Product Data
+Standards", NISTIR 4573, May 1991.
+[2]
+Henghold, W., Shumaker, G., and Baker, L; "Manufacturing and PDES: Crucial
+Considerations (part one)," The Journal of Manufacturing,
+Fall, 1989.
+[3]
+"1991 Application Guidelines, Malcolm Baldrige Quality Award," (available from
+Office of Quality Programs, NIST, Bldg. 101/Rm. A-537, Gaithersburg, MD
+20899).
+[4]
+"1992 Award Criteria, Malcolm Baldrige Quality Award," (available from Office of
+Quality Programs, NIST, Bldg. 101/Rm. A-537, Gaithersburg, MD 20899).
+[5]
+"Management Practices:
+U.S. Companies Improve Performance Through
+Quality Efforts," U.S. General Accounting Office, GAO/NSIAD-91-190,
+Washington, DC, 1991.
+[6]
+Kelly, J.C.; "Rnal Report of the PDES Logical Layer Initiation Task," April 28,
+1986, (available from IGES/PDES/STEP Office, NIST, Bldg. 220/Rm. A-127,
+Gaithersburg, MD 20899).
+[7]
+Jorgenson, B.R., Stumps, R., Tyler, J., Williams, A., Zimmerman, J.; "Model
+Qualification Criteria for PDES/STEP^ ISO TC184/SC4/WG5 Working Draft N21
+July 1991, (available from IGES/PDES/STEP Office, NIST, Bldg. 220/Rm.
+A-1 27, Gaithersburg, MD 20899).
+[8]
+Smith, B.; "SC-4 Policy #
+1
+- SC-4 Procedures for Approval of STEP", Version
+2, TC184/SC4 Committee, January 1991
+(available from the IGES/PDES/STEP
+Office, NIST, Bldg. 220/Rm. A127, Gaithersburg, MD
+20899).
+Acknowledgements
+The author wishes to thank Mary Mitchell, Alice Settle-Raskin, Susan Katz,
+Cita FurianI and Robert Chapman for their contributions in producing this document.
+17
+
+NIST-1 14A
+(REV. 3-90)
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+1.
+PUBUCATION OR REPORT NUMBER
+NISTIR 4738
+BIBLIOGRAPHIC DATA SHEET
+2.
+PERFORMING ORGANIZATION REPORT NUMBER
+3.
+PUBUCATION DATE
+DECEMBER 1991
+4.
+TITLE AND SUBTITLE
+Models, Managing Models, Quality Models;
+An Exaitple of Qualit:y Management
+5.
+AUTHOR(S)
+Joan E. Tyler
+6.
+PERFORMING ORGANIZATION (IF JOINT OR OTHER THAN NIST, SEE INSTRUCTIONS)
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+GAITHERSBURG, MD 20899
+7.
+CONTRACT/GRANT NUMBER
+8.
+TYPE OF REPORT AND PERIOD COVERED
+9.
+SPONSORINQ OROANIZATION NAME AND COMPLETE ADDRESS (STREET, CTTY, STATE, ZIP)
+National Institute of Standards
+& Technology
+Factory Autoration Systems Division
+Building 220, Rxm A127
+Gaithersburg, MD
+20899
+10. SUPPLEMENTARY NOTES
+11.
+ABSTRACT
+(A 20O-WORO OR LESS FACTUAL SUMMARY OF MOST SIQNIHCANT INFORMATION.
+IF DOCUMENT INCLUDES A SIGNIFICANT BIBUOGRAPHY OR
+UTERATURE SURVEY, MENTION IT HERE)
+Quality is an increasingly iitportant element in ccnpetitiveness.
+Ihis paper will focus
+on strategies underway within a standards-making organization for inproving its complex
+standard.
+This paper explains the quality approach developed to function within this
+standards environment.
+Aside from the standards^naking conraanity, any organization inter-
+ested in establishing quality metrics and quality thresholds to assess technical quality will
+find this paper useful.
+Also included is an overview of a methodology developed to verify
+the technical quality of information and data models.
+These models provide the basis for
+the standard.
+Ihe types of models denoted in the title include information, activity, data
+or process models viiich are notated in seme formal modeling language.
+Quality thresholds to
+guide information model developers and evaluators are described, along with an overview of
+the team approach used in applying the methodology.
+A description of quality management for
+models is included along with the roles of management in assuring that quality models are
+produced.
+12.
+KEY WORDS
+(6 TO 12 ENTRIES; ALPHABETICAL ORDER; CAPITALIZE ONLY PROPER NAMES; AND SEPARATE KEY WORDS BY SEMICOLONS)
+Malcolm Baldridge National Quality Award; data models;
+IGES/PDES Organization;
+information
+models;
+IPO; PDFS; Product Data Exchar^e using STEP; quality management architecture;
+Standard
+for the Exchange of Product Model Data;
+STEP
+13. AVAILABIUTY
+14. NUMBER OF PRINTED PAGES
+X
+UNUMITED
+20
+FOR OFFICIAL DISTRIBUTION. DO NOT RELEASE TO NATIONAL TECHNICAL INFORMATION SERVICE (NTIS).
+ORDER FROM SUPERINTENDENT OF DOCUMENTS, U.S. GOVERNMENT PRINTING OFFICE,
+WASHINGTON, DC 20402.
+15. PRICE
+A02
+_x_
+ORDER FROM NATIONAL TECHNICAL INFORMATION SERVICE (NTIS), SPRINGHELD, VA 22161.
+ELECTRONIC FORM
+
+V'iA)
+j
+’
+'I,,/.'-'
+"" VM'
+I
+'
+:
+i
+^ v,
+..j
+;.v',
+iTj
+I
+i
+
+I.

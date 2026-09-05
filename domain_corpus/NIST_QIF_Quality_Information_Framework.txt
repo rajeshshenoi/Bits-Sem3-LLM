@@ -1,0 +1,1273 @@
+NISTIR 8127 
+End-to-End Quality Information 
+Framework (QIF) Technology Survey 
+John Michaloski 
+Tom Hedberg 
+Hui Huang 
+Thomas Kramer 
+This publication is available free of charge from: 
+http://dx.doi.org/10.6028/NIST.IR.8127 
+April 2016
+
+NISTIR 8127 
+ 
+ 
+End-to-End Quality Information 
+Framework (QIF) Technology Survey 
+ 
+ 
+John Michaloski 
+Tom Hedberg 
+Hui Huang 
+Thomas Kramer 
+Engineering Laboratory (EL) 
+ 
+This publication is available free of charge from: 
+http://dx.doi.org/10.6028/NIST.IR.8127 
+ 
+ 
+ 
+April 2016  
+ 
+ 
+ 
+ 
+ 
+ 
+U.S. Department of Commerce 
+Penny Pritzker,  Secretary 
+National Institute of Standards and Technology  
+Willie May, Under Secretary of Commerce for Standards and Technology and Director
+
+i 
+ 
+Table of Contents 
+Notation ........................................................................................................................................................ 1 
+Background ................................................................................................................................................... 1 
+Product Lifecycle Background ....................................................................................................................... 2 
+Metrology Issues ........................................................................................................................................... 5 
+Measurement Uncertainty........................................................................................................................ 5 
+Assigning Tolerances ................................................................................................................................. 6 
+Lossless Data Exchange and Preventing Digital Tolerance Stack Up ........................................................ 9 
+Product Quality ........................................................................................................................................... 10 
+Inspection Product Cycle ........................................................................................................................ 12 
+Quality Design ......................................................................................................................................... 14 
+Quality Planning ...................................................................................................................................... 14 
+Quality Results ........................................................................................................................................ 16 
+Quality Analysis ....................................................................................................................................... 16 
+Quality Information Framework (QIF) ........................................................................................................ 19 
+QIF Software Development ......................................................................................................................... 21 
+QIF Enterprise Integration ...................................................................................................................... 24 
+Summary ..................................................................................................................................................... 24 
+Disclaimer.................................................................................................................................................... 25 
+References .................................................................................................................................................. 25
+
+ii 
+ 
+ 
+Table of Figures 
+Figure 1 Product Lifecycle Steps ................................................................................................................... 3 
+Figure 2 Manufacturing Activity in Product Lifecycle ................................................................................... 3 
+Figure 3 Ishikawa Cause Effect on Measurement Uncertainty ..................................................................... 6 
+Figure 4 Tolerance Analysis ( [18] Used with Permission) ............................................................................ 7 
+Figure 5 Activities and relations within CLTE [19] (Used with Permission) . ................................................ 8 
+Figure 6 Digital Tolerance Stack Up ............................................................................................................ 10 
+Figure 7 Dimension and Shape characteristics ........................................................................................... 11 
+Figure 8 Bolt pattern ................................................................................................................................... 11 
+Figure 9a Example Block with Hole GD&T Symbols .................................................................................... 12 
+Figure 10 Manufacturing Phases of Inspection .......................................................................................... 13 
+Figure 11 Inspection Planning ..................................................................................................................... 15 
+Figure 12 Quality Analysis and Feedback .................................................................................................... 18 
+Figure 13 QIF 2 ‘Life Saver’ Architecture .................................................................................................... 20 
+Figure 14 QIF XML Solution Space .............................................................................................................. 23
+
+1 
+ 
+Notation 
+ANSI 
+American National Standards Institute 
+CAD  
+Computer-Aided Design  
+CAM  
+Computer-Aided Manufacturing  
+CAPP 
+Computer-Aided Process Planning  
+CAQ 
+Computer-Aided Quality  
+CIM 
+Computer Integrated Manufacturing  
+DOM 
+Document Object Model 
+FAIR 
+First Article Inspection Report 
+FEA 
+Finite Element Analysis 
+GD&T 
+Geometric Dimensioning and Tolerancing 
+IMTS 
+International Manufacturing Technology Show 
+MBD  
+Model-Based Design 
+NIST 
+National Institute of Standards and Technology 
+PDF 
+Portable Document Format 
+PLM 
+Product Lifecycle Management 
+PMI  
+Product and Manufacturing Information 
+STEP 
+Standard for the Exchange of Product model data 
+QIF 
+Quality Information Framework 
+SME 
+Society of Manufacturing Engineers 
+XML 
+Extensible Markup Language 
+XSD 
+XML Schema 
+Background 
+Quality of a product may be defined as “its ability to fulfill the customer's needs and expectations” [1]. 
+Quality is defined in terms of performance requirements, which vary from product to product. For discrete 
+parts, the primary performance requirements, commonly referred to as characteristics, are with respect 
+to dimension (e.g., length, diameter, thickness, or area), geometry (e.g., flatness, cylindricity, etc.), and 
+appearance (e.g., surface finish, color, or texture). To ensure overall quality, delivered parts must meet 
+the required quality characteristics. Thus, part quality is measured by its conformance to the performance 
+requirements. 
+Intuition, “rules of thumb”, and educated guesses are ineffective ways to guarantee part quality. Quality 
+goods can only be manufactured using hard knowledge derived from superior part design, part 
+fabrication, and ongoing and continuous collection and evaluation of production data. Of interest in our 
+work is the use of quality standards, and especially feedback through quality standards, to improve part 
+design and fabrication as a consequence of the quality reporting of products. 
+Manufacturing systems are by their nature imperfect. Process variability can hinder manufacturers in their 
+effort to maintain acceptable part quality. However, inadequate control of process variability can lead to 
+scrap, rework, and repair. Maintaining close control of production quality requires measurement and 
+adjustment to design and manufacturing process errors. Inspection is used to provide insight and visibility 
+to potential production problems so that they can be rectified in a timely manner. Inspection is an integral 
+part of manufacturing activities since it measures quality. Inspection planning determines where, when,
+
+2 
+ 
+and how characteristics of a product are to be inspected. With the continued growth of product 
+complexity and variety and the constant demand of reducing the product development cycle, industries 
+are in search of more automated measurement operations, and integrated measurement knowledge. To 
+assess quality, an actual, machined part is measured and geometric dimensioning and tolerancing (GD&T) 
+characteristics are assessed by comparing the designed (commonly referred to as “nominal”) values and 
+their actual values. Good parts maintain a fit and form within the specified GD&T tolerance limits. 
+Tolerancing is widely used in industry to define the allowable variation of discrete parts from their ideal 
+shape. 
+The goal of this paper is to understand how quality information characterizing the manufactured parts 
+can be reported in a Extensible Markup Language (XML) standardized format. The Quality Information 
+Framework (QIF) is an American National Standards Institute (ANSI) standard sponsored by the 
+Dimensional Metrology Standards Consortium (DMSC) that defines an integrated set of XML information 
+models to enable the effective exchange of metrology data throughout the entire manufacturing quality 
+measurement process – from product design to inspection planning to execution to analysis and 
+reporting. The desire is that QIF will help foster a pervasive “digital thread” throughout the product 
+lifecycle contributing to feedforward and feedback flow of quality information. The hope is that 
+widespread adoption of QIF will lead to better and more optimized part design and manufacturing 
+processes performance.   
+Product Lifecycle Background 
+The widespread use of computers and the pervasive networking of information have revolutionized 
+manufacturing. The advantage of these technologies is that manufacturers now have the opportunity for 
+end-to-end dissemination and accumulation of digital information. Yet, although the field of 
+manufacturing is constantly improving and adopting innovative techniques, the transition to a completely 
+digital enterprise is still only partially complete. The hope is that formal standards for digital 
+representation throughout the enterprise will allow feedback and feedforward of manufacturing and 
+product information throughout the enterprise. These digital standards must be well-understood, 
+transcend the manufacturing domain into mainstream computer technology, yet at the same time have 
+industry-wide focus and acceptance or the potential benefits are lost. 
+Product development is a complex process involving the integration of distributed resources, such as 
+human beings, engineering tools, software systems, and a large variety of product-related machines. 
+Figure 1 shows the basic sequential steps in the product lifecycle with no feedback consideration. Stark 
+defines Product Lifecycle Management (PLM) as the business activity of managing, in the most effective 
+way, a company’s products all the way across their lifecycles; from the very first idea for a product all the 
+way through until it's retired and disposed [2].
+
+3 
+ 
+ 
+Figure 1 Product Lifecycle Steps 
+Of interest to this paper, is the product lifecycle that focuses on the “art to part” fabrication and assembly 
+of a final sellable good. Figure 2 shows a high-level abstract view of the manufacturing activity product 
+lifecycle. As such, we will focus on the product realization process, which is concerned with the design, 
+fabrication, assembly, and inspection of the final product. More specifically the digital thread will be 
+studied as both an upstream and downstream link to impart production information.  
+ 
+ 
+Figure 2 Manufacturing Activity in Product Lifecycle 
+Customer
+Requirements
+Product
+Design
+Prototyping
+Testing
+Process
+Planning
+Production
+Delivery
+Service
+Removal
+Disposal
+Model
+Tolerances
+Analysis
+Fabrication
+Planning
+Inspection 
+Planning
+Process
+Planning
+Idea
+Design
+Manufacturing Planning
+Solid Model
+Fabrication
+ Assembly
+Inspection
+Product
+Manufacturing
+Process Plan
+Data
+Inventory
+Reporting
+Requirements
+Cost
+Simulation
+Elec/Mech
+Facility
+Layout
+Supply
+Chain
+
+4 
+ 
+Product design spans an initial idea, model, refinement, and design, which requires cooperation of 
+multidisciplinary design teams and the access to various engineering tools, such as computer aided design 
+(CAD), finite element analysis (FEA), dynamic and kinematics analysis, simulation, and optimization 
+packages, and databases. 
+Product manufacturing covers fabrication, machining, inspection and assembly. Production requires 
+machines, transfer mechanisms, and supervisory control. Product engineering requires collaborative 
+multidisciplinary engineering, including: computer integrated manufacturing (CIM), computer- aided 
+manufacturing (CAM), computer-aided process planning (CAPP), computer-aided quality (CAQ), 
+computer-aided inspection planning (CAIP), etc. 
+Product development has historically been a highly sequential activity where manufacturing was 
+disconnected from engineering activities. Globalization and the rapid evolving of network tools, such as 
+the Internet and web-based technologies, have revolutionized the product development process. 
+Collaboration takes on a further importance if the manufacturing is geographically performed in different 
+locations. Collaboration is possible throughout the entire product lifecycle by using lossless feedforward 
+and feedback collaboration, but warrants a bi-directional digital thread. 
+The ability to collaborate by sharing product design and product data as well as manufacturing data among 
+authorized users is now possible. With connectivity, the effective collaboration among designer, suppliers, 
+and manufacturers throughout the entire product lifecycle is becoming much more important for 
+continued competitiveness. The environment should not only automate individual tasks in the manner of 
+traditional computer-aided engineering tools, but also mediate between individual tasks to promote 
+collaboration within the context of a product design project [3]. In collaborative manufacturing, product 
+lifecycle management (PLM) is recognized as a strategic business model to support collaborative creation, 
+management, dissemination, and use of product assets, including data, information, knowledge, etc., 
+across the extended enterprise from concept to end of life—integrating people, processes, and 
+technology [4].  
+To date, two-dimensional (2D)  product information has seen its capabilities far exceeded by three-
+dimensional modeling and analysis systems, yet 2D drawings still retain a dominant role as contracting 
+documentation. However, the emphasis on product information has moved drawings from 2D hard copy 
+support to three dimensional (3D) digital form. Product and manufacturing information (PMI) facilitates a 
+thorough 3D annotation environment that allows the association of geometrical tolerance directly to the 
+3D model.  Given this 3D digital thread world, manufacturing is primed to automate the connectivity from 
+design to shop floor, especially the role of quality feedback in improving the design, fabrication, and 
+assembly of parts. The benefits and issues of PMI and the product lifecycle with a standardized digital 
+thread with PMI have been studied, but are not yet a prevalent practice [5] [6] [7] [8]. 
+This document will give a background on product life cycle with an emphasis on the role of quality, 
+introduce QIF as an XML standard representation and exchange format for part quality information, and 
+then discuss the opportunities that QIF can play in a 3D digital thread world. The goal of this document is
+
+5 
+ 
+to use digital thread concepts in manufacturing for the incorporation of the QIF in the product lifecycle. 
+Without doubt, quality is an important consideration, as QIF offers the following potential benefits: 
+1. Real-time manufacturing and especially quality data integrated into the design phase of the 
+product lifecycle, 
+2. Lossless data feedforward from the design phase into the production quality phase. 
+Metrology Issues 
+As background, there are numerous terms used in metrology as applied to inspection measurement 
+systems and measurement results. Accuracy, precision, trueness, bias, error, variability, tolerance, 
+traceability, reliability, and uncertainty are each integral to understanding metrology concepts. We will 
+present definitions to define the metrology concepts [9] since the terminology is confusing. These terms 
+(particularly accuracy and traceability) are very often confused (and abused) in practice due to difference 
+in meaning to the seller, buyer, and user of metrology instruments [10].  
+Any given measurement result is usually taken as the estimate [11].  No measurement is exact. Trueness 
+is the closeness of a measurement result to the actual (true) value.  Error is the difference between a 
+measured value of quantity and its true value. Variability is an inherent part of measurement systems and 
+measurements – no two measurements can be expected to be the same. There are two types of 
+measurement error: systematic error and random error. Measurement bias is the systematic error that is 
+associated with the fact that a measured value contains a consistent error. A random error is caused by 
+inherently unpredictable fluctuations with the measurement device and when a measurement is repeated 
+it will generally provide a measured value that is different from the previous value.  
+In metrology, measurement uncertainty characterizes the dispersion of measured values to the true value. 
+The accuracy of a measurement system is the degree of closeness of measurements of a quantity to the 
+true value. Precision is the closeness of agreement among a set of measurement results. Precision can 
+also be defined with reference to a measurement number of decimal places. Clearly, representing a 
+measurement with a millionth decimal place versus a tenth decimal place provides a more exacting result, 
+but there is no guarantee that extra decimal places add accuracy.   
+Ideally a measurement device is both accurate and precise, with measurements all close to and tightly 
+clustered around the true value. The accuracy and precision of a measurement process is usually 
+established by repeatedly measuring some traceable reference standard. Traceability to a widely accepted 
+standard permits comparisons of measurements among users. Reliability refers to the consistency of 
+accurate results over consecutive measurements over time [12]. 
+Measurement Uncertainty 
+Decision rules for proving conformance or non-conformance with specifications are clearly defined by 
+international standards. A component dimension must be accompanied by a tolerance [13] giving a lower 
+specification limit (LSL) and an upper specification limit (USL), while a measurement result must be 
+accompanied by an estimate of measurement uncertainty (U) [14].
+
+6 
+ 
+Accuracy, properly defined as measurement uncertainty [14], is a key performance indicator for 
+metrology. The accuracy of the required measurement resources are key determinant factors for the 
+selection of inspection methods and technologies. There is a very wide spectrum of physical scale and 
+accuracy requirements for which inspection resources need to be selected, ranging from measurement of 
+small parts to large, complex products. Regardless of the scale, the dimensional measurement results 
+need to be accompanied by the statement of uncertainty as defined by “Guide to the Expression of 
+Uncertainty in Measurement” (GUM) [14]. 
+Process inspection is dictated by the capability of the process and inspection systems. The level of 
+inspection effort is dictated by the risk of Type I or Type II errors. Depending on the industry sector, such 
+risk is driven by performance, safety, and fit. The result of any measurement contains errors which 
+contribute to the overall value of measurement uncertainty as shown in Figure 3. 
+ 
+Figure 3 Ishikawa Cause Effect on Measurement Uncertainty 
+The standard ISO 14253 [15] makes it clear that the onus is on the supplier of the measurement data to 
+guarantee the conformance to specification (tolerance) of the measurements, and that the data takes 
+account of measurement uncertainty [16]. 
+Assigning Tolerances 
+Variability, uncertainty, and tolerance have to be considered within product design to assure the required 
+cost, performance, quality, and reliability.  Tolerance is the allowable variance from the true dimension of 
+a part. The importance of assigning product tolerances effects both cost and performance.  
+There is a well-known adage that states “Overtolerancing costs you money.” On one hand, tight tolerances 
+help assure satisfaction of the required specifications, but are more costly because the manufacturing 
+process must be more precise, thus require more expensive manufacturing methods, more costly process, 
+more steps, or more accurate fabrication machinery. On the other hand, loose tolerances may be cost-
+Logical
+Human Caused
+Mechanical
+Measurement
+Uncertainty
+Environmental
+Methodological
+Numerical
+Rounding
+Error
+Weak inspection
+Process planning
+Unnecessary 
+realignments
+Dust
+Light
+Temperature
+Repeated
+Clamping
+Geometrical
+formulas
+Errors in
+Holding
+Measurement
+tools
+Inconsistency of
+Forces while
+clamping
+Compensation
+Errors
+Uncertainty in
+Measuring probes
+Tool and jig
+inaccuracy
+Actuation
+uncertainty
+Humidity
+Numerical Stability
+ Translation
+Errors
+Excessive
+Probing
+ Translation
+Errors
+
+7 
+ 
+effective, but can lead to higher failure probability during manufacturing (e.g., scrap, rework) or 
+breakdown during use.  
+Tighter tolerances not only contribute to cost, but add complexity which may make producibility more 
+difficult. Milner et al. pointed out that “Customer requirements and overly conservative, and in some cases 
+required, design margins tend to drive complexity into high-reliability systems which can adversely impact 
+producibility by driving higher costs, longer manufacturing cycle times, and poor yields once the design is 
+transitioned into production” [17]. 
+Computer aided tolerancing can provide a simulation platform for modeling the effects of tolerance 
+setting within a manufacturing process or assembly. Generally, tolerance analysis uses the worst-case 
+maximum of dimensions and tolerances to calculate the maximum and minimum distance (clearance or 
+interference) between two features or parts. Statistical tolerance analysis evaluates the maximum and 
+minimum values based on some method for establishing the likelihood of obtaining the maximum and 
+minimum values. 
+ 
+Figure 4 Tolerance Analysis ( [18] Used with Permission) 
+Tolerance-cost-optimization maximizes the product specifications tolerance while meeting an acceptable 
+failure probability thus minimizing cost. Tolerance optimization during design has a positive impact on the 
+production yields; with better yields reducing product cost and improving product quality. Tolerance-cost-
+optimization uses either tolerance stackup analysis or a statistical tolerance analysis to compute the best 
+tolerances. 
+When products fail to meet expectations, designers need to understand why the assigned tolerances 
+failed to yield the exact part and assembly dimensions expected from manufacturing. Designers can then 
+compensate for these errors in the next version of the product.  
+Discerning the reason for bad parts can be improved within a digital thread manufacturing environment 
+through the use of quality feedback to help understand the manufacturing processes and product form 
+and fit issues. It would be better yet, if advice were automated to show the designer explicit flaws and 
+suggest potential improvements to the product.  
+Krogstie and Martinsen introduce Closed Loop Tolerance Engineering (CLTE) as a model that understands 
+how actors, tools, and communication flow in collaborative design between the different main activities 
+Tolerance Analysis Methods
+Basic approaches
+• 
+Worst case criterion or methods of 
+extremes
+• 
+Root sum square (RSS) criterion or 
+sample statistical method
+Advanced aproaches
+• 
+Based on complexities in process 
+distribution
+• 
+Based on complexities in assembly 
+response function
+
+8 
+ 
+in product development [19]. The CLTE model has its origin in a survey within both the design and 
+manufacturing units of a manufacturing company. The CLTE model has the following activities: 
+• 
+Functional Requirements –The definition of the product to satisfy the customer, including the 
+definition of acceptance limits for function and a rough selection of technical concepts. 
+• 
+Tolerancing - All activities that lead to the definition of “limits of specifications” of product or 
+process related parameters. 
+• 
+Process Capabilities - The manufacturing processes to produce the product as specified. 
+• 
+Product Performance - The validation of the functional behavior of the product through physical 
+testing or simulation. 
+Given this model feedforward and feedback relationships are developed to associate the various elements 
+in product development to tolerance engineering. Figure 5 shows the feedforward and feedback 
+relationships within the CLTE model. 
+ 
+Figure 5 Activities and relations within CLTE [19] (Used with Permission) . 
+Merging the tolerancing language (GD&T) with variation insight can lead to better tolerance analysis and 
+more robust products. But tolerances, variation, and robustness are drawing from different sources of 
+knowledge and require collaboration to share pertinent tolerance information. Figure 5 shows the 
+relationships that form the basis of information distribution between activities.  In the CLTE relationship 
+diagram, actors can be designers, project leaders, management, manufacturing operators, test engineers, 
+process engineers, foremen, etc. Tools and practices support the actors in making appropriate decisions 
+when working with the four main activities. The lack of tools or wrong application of them can, in the 
+same way, lead to inappropriate decisions. Table 1 presents the activities involved in the differing CLTE 
+relationships. Of importance to the digital thread, is the automation of quality information flow in a CLTE 
+model.  As a first automation attempt at CLTE, the feedback relations pointing to the left in the CLTE model 
+could be automated using QIF XML to allow reuse of existing tolerance knowledge. 
+Functional
+Requirements
+Tolerancing
+Process
+Capabilities
+Product
+Performance
+1a
+1b
+2a
+2b
+3a
+3b
+4a
+5a
+6a
+4b
+5b
+6b
+
+9 
+ 
+Table 1 CLTE Relationship Activities [19] 
+Relation 
+Activities 
+1a 
+How are functional requirements transformed into specifications? Which actors translate such 
+requirements?  
+1b  
+Given existing limits of specifications: How are the assumptions for the tolerances stored for 
+following projects? 
+2a  
+For each single parameter in a product or process: How well do the specifications fit the capability 
+of the process? 
+2b  
+For each single parameter in a product or process: Are the critical parameters identified? Does 
+capability data exist? 
+3a  
+Are the critical parameters for product performance known? How are the capability data for these 
+satisfactory? 
+3b  
+Are sources of variation in product performance understood? Is knowledge gained in test 
+departments looped back? 
+4a  
+Do functional requirements lead to a pre-definition of the manufacturing process? Is the 
+parameter possible to manufacture? 
+4b  
+Can critical and less critical parameters be distinguished? Does capability data exist for 
+critical parameters? 
+5a  
+For a given product or process: Are the key parameters (and their variation) influencing the 
+product performance known? 
+5b 
+ For a given product or process: Can variation in product performance be traced back to 
+variation in key parameters? 
+6a  
+Can the chosen functional requirements be met by corresponding product performance? 
+6b  
+To what extent is existing knowledge from testing, simulation, and manufacturing relevant 
+for following projects? 
+ 
+The relationship and questions posed by the CLTE model form a basis for understanding the role of quality 
+in the feedback and feedforward of production knowledge represented by the manufacturing digital 
+thread. 
+Lossless Data Exchange and Preventing Digital Tolerance Stack Up 
+In a complete digital thread, all transfer of information is done through the use of “lossless” digital 
+representation. Generally, lossless data exchange refers to compression techniques (such as Joint 
+Photographic Experts Group (JPEG), or Moving Picture Experts Group (MPEG)) but in this case refers to 
+the exchange of information from one stage in the product lifecycle to another. It may be preferable from 
+the perspective of the Standard for the Exchange of Product model data (STEP) to use the STEP standard 
+all the time for content as well as any translation. In theory, using the same representation will not result 
+in any loss of information (or injection of errors).  
+Translation from one design language into another imparts variability into the design due to 
+heterogeneous mapping of one representation into another. If the language translations imparted zero 
+variability, the information would be identical; however, this is not usually the case. Digital tolerance 
+stackup refers to the loss of precision in translating from one representation language to another (CAD-
+>STEP->QIF) and the requirement to increase the tolerance of the part design to compensate for the loss 
+of precision.
+
+10 
+ 
+For example, a translated part must maintain a given tolerance of +/- 0.05, so it must decrease its 
+tolerance zone to +/- 0.04 to accommodate the potential imprecision of 0.01 due to the translation from 
+language A to language B. Thus, an acceptable translation from CAD into STEP may allow a +/-0.01 
+allowance around a box, which when stacked up with the translation of STEP into QIF means another loss 
+of +/-0.01. In order for the part to maintain a manufacturability of +/- 0.05, it has to decrease the tolerance 
+of the original part to +/- 0.04 and then to +/-0.03 to accommodate the loss of accuracy. Stacking two 
+translations means a loss of +/- 0.01 for each translation and a loss of +/- 0.02 precision total, which 
+corresponds to a decrease in tolerance of +/- 0.01 for each translation. So the effect is a decrease in 
+tolerance (which costs money) for each loss of precision for each translation. 
+ 
+ 
+Figure 6 Digital Tolerance Stack Up 
+There has been much activity in developing manufacturing open standards: STEP [20], JTOpen [21], and 
+QIF [22].  Despite all the effort in open standards, adoption has been slow. One of the major reasons for 
+this is that meaning is often lost in data translation. Correct implementation of authoring systems and 
+translators using product PMI associated with a CAD model such as geometric tolerances, dimensional 
+tolerances, and datum features is essential for broader industry adoption of open standards. Lipman and 
+Lubell discuss an approach used at NIST for checking the conformance of STEP files to the recommended 
+practice for PMI representation [23].  Until CAD and PMI can guarantee a lossless translation between 
+proprietary and neutral standard representations, manufacturers will be reluctant to attempt this action. 
+Product Quality  
+Quality needs to be initially defined in terms of characteristics, which vary from product to product. To 
+ensure overall quality, delivered products must adhere to quality characteristics. Product quality is 
+measured by its conformance to the design requirements including dimension, tolerance, and surface 
+finish. The selection of a manufacturing process to produce a quality part depends on many constituent 
+factors (machine tools, cutting tools, fixtures, process plan) and is greatly based on cost and process 
+capabilities. Thus for example, the ability to produce a part depends on the machining of parts that adhere 
+to given tolerances. Missing part tolerances are harmful as both cost and quality suffer. Clearly, no 
+manufacturing process can make a perfect part, such that, designers must specify the acceptable 
+variations to determine whether an actual part is a “good” part.  
+Today, symbols to represent GD&T information on a part drawing have been standardized under different 
+organizations, including ISO [24], as well as the ANSI Y14.5 [25] The standard GD&T symbols provide a 
++/- .05
++/- 0.05  
++/- 0 .01
+
+11 
+ 
+means for specifying the shape requirements of, and the interrelationships between, part features. GD&T 
+defines the nominal, as-modeled, or as-intended geometry. In GD&T, a datum is a theoretically exact 
+point, axis, or plane and serves as the origin from which the tolerance characteristics of features of a part 
+are established. GD&T specifications define the allowable datum variation by assigning tolerances, which 
+are generally categorized into geometrical and dimensional tolerances. Geometrical tolerances are used 
+to control the form, profile, orientation, location and runout of features. Dimensional tolerances are used 
+to control the size and location of a feature referring to the datum. Form tolerances are applicable to 
+single (individual) features or elements of a single feature; therefore, form tolerances are not related to 
+datum. Form tolerance is a subset of geometric tolerances. It includes straightness, flatness, circularity, 
+and cylindricity. This type of tolerance can be used for two distinctly different controls: surface control 
+and control of derived median planes or derived median lines.  
+ 
+Figure 7 Dimension and Shape characteristics 
+ Since drilling holes constitutes anywhere from 60 % to 80 % of machining operations, 
+we will use a bolt pattern shown in Figure 8 as an example to explain the various 
+interrelated modeling GD&T elements. In three dimensions, holes are represented by 
+cylindrical features typically contained within a block. Figure 9a shows a rectangular 
+part with a hole at (10,5) from the part origin (left hand bottom corner), and a 0.05 
+cylindricity 
+ specification defining the hole tolerance. The adjoining Figure 9b 
+shows that this means that there is a tolerance zone for the cylindrical axis, and that 
+three (3) circles generated from measuring points on the top/mid/bottom circles within the cylinder and 
+the line generated from fitting these centers must be within 0.05 mm of the actual center line. 
+Surface
+Texture
+Geometric
+characteristic
+Dimensional
+characteristic
+Linear
+Angular
+Orientation
+Location
+Form
+Roughness
+Waviness
+Characteristic
+Figure 8 Bolt pattern
+
+12 
+ 
+ 
+Figure 9a Example Block with Hole GD&T Symbols 
+Figure 9b Cylindricity Tolerance fitting 
+ 
+Inspection Product Cycle 
+Given this example, there are multiple phases of inspection. Figure 10 gives a brief overview of the main 
+information modeling aspects of quality and the relationship to manufacturing processes (part design and 
+tolerancing, inspection planning, inspection, analysis, and reporting.) 
+0.05
+ 
+C
+A
+B
+
+13 
+ 
+ 
+Figure 10 Manufacturing Phases of Inspection 
+DESIGN. In the Design phase, a characteristic (e.g., cylindricity tolerance) can be associated to one or more 
+part features (i.e., the hole). In our terminology, a part means the part design, and a physical instance of 
+a part is called an actual component. 
+PLAN. Once the feature and characteristic are developed, a Plan can be undertaken to assign nominal 
+measurement points for the inspection device to probe. These nominal measurement points are assigned 
+to the Feature Nominal, as defined in Figure 10 as the Point2Measure box. 
+INSPECT. Now an inspection can be done. Inspection using a measurement device produces data for the 
+Measurement Points box which contains the probe readings corresponding to the nominal point lists. This 
+Measurement Points could be generated by a simulation in the case that validation of tolerance planning 
+and analysis is desired. 
+ANALYZE. An Inspection is performed and a set of points are recorded (MeasuredPoints in Figure 10). The 
+recorded inspection points are contained in the Feature Actual measured data point set. Given the 
+measured points, the part can be compared to the GD&T specification to determine the goodness of the 
+part. 
+Today, symbols to represent GD&T tolerances on a part drawing have been standardized by different 
+standards organizations. The standard GD&T symbols provide a means for specifying the shape 
+requirements of, and the interrelationships between, part features. Although automated inspection using 
+GD&T technology has become commonplace, the solutions for the planning, programming, and reporting 
+Feature(s)
+Characteristic
+1,,n
+Plan
+Points2Measure
+1,,n
+Inspect
+Measured 
+Points
+1to1mapping
+Analyze
+Feature(s)
+Characteristic
+1,,n
+Points2Measure
+1,,n
+Feature(s)
+Characteristic
+1,,n
+Measured Points
+1to1mapping
+Points2Measure
+1,,n
+Feature(s)
+Characteristic
+1,,n
+Goodness
+1to1mapping
+Good/Bad
+DESIGN
+PLAN
+INSPECT
+ANALYZE
+
+14 
+ 
+of measuring data are still vendor specific, and as a result interoperability and quality results portability 
+suffer.  
+Quality Design 
+Product design spans an initial idea, model, and refinement. This process requires cooperation of 
+multidisciplinary design teams and access to various engineering tools (such as CAD, FEA, dynamic and 
+kinematics analysis, simulation, and optimization packages), databases, and knowledge bases. Quality 
+design specifies the part quality metrics by identifying features critical to fit and function first. The output 
+is a list of features associated with tolerances and datum. 
+Product and manufacturing information (PMI) conveys information such as GD&T, 3D annotation (text), 
+surface finish, and material specifications. CAD systems that support STEP AP 242 Edition 2 [26]now have 
+the capability to generate, save, or transmit tolerance information in a standard format. 
+The level of inspection required for any given feature is dictated by the risk of non-conformance. 
+Depending on the industry sector, design risk is driven by performance, safety, cost, and fit. 
+Manufacturing and inspection risks are dictated by the capability of the fabrication, inspection, and 
+assembly systems. The measurement range, work volume, and precision of inspection resources dictate 
+the ability to handle the part tolerance defined by the PMI. 
+Quality Planning 
+Quality planning uses the features and the corresponding characteristic tolerances to assign nominal 
+measurement points for the inspection device to probe (number and location of feature points to 
+measure) based on type of feature and the specific characteristic tolerance. With the continued growth 
+of product complexity and variety, there is a constant demand for more sophisticated planning. 
+Our research emphasizes the use of standards to facilitate interoperable quality information exchange. 
+Quality planning systems import the product model data with PMI, then import Resources and Rules 
+information and generate/export Plans (whats and hows). Figure 11 shows the interplay of the various 
+quality components in inspection/quality planning.
+
+15 
+ 
+ 
+Figure 11 Inspection Planning 
+• 
+Characteristic – a quality requirement such as dimension, tolerance, finish, material, or assembly, 
+used in an inspection process. The importance of GD&T has already been explained. The finish 
+and material impact quality but are out of scope for this document. Figure 7 illustrates the 
+hierarchical relationship of characteristics to texture, geometric, and dimensional tolerancing. 
+• 
+Part Feature – defines a manufacturable feature. 
+• 
+Resources – objects that perform or facilitate measurements. Clearly if a resource does not have 
+the capability to measure to enough precision, then it is not a candidate resource. 
+o Probes – inspection of a given part requires a sensor to measure a particular feature. 
+Different probes may be more suitable to different inspection features, and the matching 
+of probe to feature/characteristic quality is part of the planning effort. Further, probe 
+operation may be human hand-held or require a coordinate measuring machine. Also 
+important when comparing probes, is measuring accuracy, precision, uncertainty, 
+repeatability, and the gaging force specifications. These specifications should be matched 
+to the requirements of the measuring and inspection operation. 
+o Instrument – may require a probe or be a gauge or coordinate measuring machine (CMM). 
+Choosing the right CMM for any application requires considering several factors, 
+including, the size, weight, and shape of the parts to be measured so that a CMM with 
+Inspection
+Planning
+Inspection
+Algorithms
+Setup
+Finish
+Material
+Resources
+Probes
+Instrument
+Part
+Features
+Configuration
+&
+Capability
+Rules
+Characteristics
+GD&T
+Fixtures,
+Etc.
+
+16 
+ 
+the appropriate configuration, i.e., fixed or moving bridge, horizontal arm, cantilever, 
+gantry, or portable is selected during planning. 
+• 
+Rules – a specification of the type of measurement activity that should be carried out, given a 
+condition context. For example, depending on the rules, an inspection device can measure 9, 15, 
+or 1000 cylinder points to assess the quality. Rules are used to define the appropriate inspection 
+procedures given the quality context. 
+• 
+Setup – describes how the measurement components, such as part, measurement device, and 
+inspection fixtures are to be physically organized. 
+Quality Results 
+Quality measurement performs part inspection, in which the actual measurement points are saved, with 
+each actual point corresponding to the planned nominal point. Quality results represent parts as 
+collections of production knowledge, which includes design, manufacturing, and inspection data. For 
+example, a hole can be expressed with geometric design data for the hole location, diameter, and depth. 
+A hole can also be associated with GD&T data to ascribe the tolerance of the hole location, diameter, and 
+depth as well as relationships to other features.  
+Quality results provides a mechanism to record measurement data generated from one or more 
+inspections in a digital (computer-readable) format for all GD&T elements. Elements include but are not 
+limited to assembly information, part information, features, characteristics, nominal data, actual data 
+along with traceability information that is collected during the inspection process such as operator 
+identifier, and inspection environment attributes.  
+To assess the quality, the measurement data for a manufactured part and the corresponding GD&T 
+specifications are compared against the nominal values. Good parts maintain a fit and form within the 
+specified GD&T tolerance limits. Tolerancing is widely used in industry to define the allowable variation 
+of discrete parts from their ideal shape. 
+Often the quality of the product must include traceability reporting to satisfy regulatory compliance. 
+Traceability offers information about the circumstances of a quality measurement process, for example, 
+the date, time, product instance, machinery, measurements, among others.  
+Quality Analysis 
+Manufacturing systems are by their nature imperfect. Inadequate control of process variability can lead 
+to scrap, rework, and repair. Assuming a stable manufacturing environment, close control of production 
+quality through frequent measurement and adjustment to process errors is desirable. Quality analysis 
+compares the product measured dimensions to the nominal dimensions and based on the allowed 
+tolerance will report the nature of the errors, sometimes over multiple parts, associated with each 
+measured feature. 
+A major part of quality analysis is statistical process control (SPC), which as its name suggests is a statistical 
+method of quality assessment. SPC uses techniques pioneered by Walter A. Shewhart at Bell Laboratories 
+in the early 1920s [27]. SPC aims to detect quality (and by implication process) variation at any point of
+
+17 
+ 
+time. In the context of the quality life cycle, SPC uses statistical methods to analyze multiple sequential 
+quality reports. SPC uses statistical methods to observe the quality of the performance of the 
+manufacturing or design process (as measured by the variability) in order to detect significant variations 
+before they result in sub-standard production.  
+Also as the name suggests, in SPC, sufficiently large numbers of samples have to be included in the analysis 
+to render statistically meaningful results.  The number of samples required could depend on several 
+factors, such as the desirable/required confidence/reliability levels of the SPC results, the availability of 
+the samples, and the time given for the SPC study. 
+These SPC techniques are based on measuring process output and using statistical methods to detect 
+excessive variation. Results of the statistical methods are then summarized visually by control charts. SPC 
+interpretation is based on assessing the variation in the studied process. It is expected that there will be 
+some variation in a process. However, control chart rules should detect poor quality. It is then the onus 
+of either or both the product design and manufacturing process to determine the source(s) and root cause 
+of the variation; and remediate the cause.   
+SPC uses upper and lower control limits based on statistical standard deviation (i.e., σ) distances from the 
+mean. A centerline bisects the upper and lower control limits. Some of the typical SPC rules, from the 
+Western Electric set of rules [28], are typified by: 1) detection of any single data point falls outside the 3σ 
+limit from the centerline 2) two out of three consecutive points fall beyond the 2σ limit, on the same side 
+of the centerline; 3) four out of five consecutive points fall beyond the 1σ limit, on the same side of the 
+centerline; and 4) nine consecutive points fall on the same side of the centerline. SPC has other general 
+performance metrics to detect erroneous error patterns (with or without associated control chart rule) 
+including: 1) stratification - variation small relative to control limits; 2) mixture - tendency to avoid the 
+centerline; 3) systematic - negative autocorrelation—a long series of observations that alternate high-
+low-high-low; 4) repetition - tendency of one chart to follow the same pattern as its predecessor; and 5) 
+trends - sustained drift or shift in the long-term mean. Worst cases are that these statistical errors are 
+large enough to render the manufacturing process incapable of producing the parts with required quality. 
+However, it is the association of bad quality to the source of the problem that can be difficult to resolve. 
+Since most quality assessment uses established SPC algorithms, these techniques are for determining a 
+problem, rather than resolving the problem. Further, much of the quality assessment and production 
+feedback is manual. Instead, the use of advanced software technologies, such as machine learning or big data 
+analysis, should be able to catalog and then analyze the results to produce feedback in an end-to-end quality 
+chain. Further, the use of more modern technique should be researched to see if these technologies are 
+amenable to not only detecting but associating problems to root causes.  
+Figure 12 shows the relationship among the various components in the analysis of quality information on 
+the upstream and downstream product lifecycle. It is the rejection of parts based on quality and the 
+automation of the constituent steps in dealing with the remediation that provides the clear cut benefits. 
+The terminology used is as follows. C&R refers to the cause and remedy. ECR refers to an engineering 
+change request. PR refers to a problem report. There are some aspects of the quality information models
+
+18 
+ 
+that have been standardized, but complete standardization (and use of these electronic standards) to 
+provide the necessary quality, manufacturing, and product information is not available at this time. This 
+is the rationale for the mix of manual and automated modes.  
+ 
+ 
+Figure 12 Quality Analysis and Feedback 
+Rules describe the best practices to be used in a production of the given product or assembly. Resources 
+describe the hardware and software assets and processes used for manufacturing of a part. Results deal 
+with recording of part measurements. Product and PMI include product definition and tolerancing 
+information. Analysis deals with multiple part inspections and generally include statistics (such as those 
+in SPC). Analysis is dependent on algorithms for comparisons and interpretation of the rules, resources, 
+plans, and results. Acceptance of a statistical error depends on the underlying algorithms used to identify 
+quality. For example, SPC control charts have some performance metrics for the evaluation of production. 
+Analysis that yields non-compliance with SPC algorithms for trends, zones, and standard deviation result 
+in rejection of parts. The rejection of parts leads to the cause and remediation steps. In Figure 12, Cause 
+and Remediation Rules are assumed to exist, in order for the cause for quality non-compliance to be 
+identified. If a matching C&R is found, then a problem report is issued detailing the production deficiency, 
+the cause, and remediation. A C&R is generic in nature and the C&R needs to be mapped into an ECR for 
+either the engineering design or manufacturing units or both.   
+Quality
+Results
+ANALYSIS
+Causes / 
+Remedies (C&R)
+Definitions
+End
+Yes
+No
+Disposition 
+Causes / 
+Remedies
+Disposition 
+PRs
+Generate 
+ECR
+Engineering C&R 
+Correlations
+PMI
+Product
+Design
+Manufacturing
+No
+Process
+Resources
+Process
+Rules
+Accept
+PRs
+
+19 
+ 
+ An ECR is used to describe a suggested enhancement or problem with a product. Within the context of a 
+quality lifecycle, an ECR originates from detected failure within quality analysis that can be remediated by 
+an engineering change. Such failures include non-conforming part and assembly tolerances, repeatable 
+part deficiencies, product enhancement ideas, and other various sources. The ECR could propose 
+improvements with product components or assemblies, or the ECR could address manufacturing 
+problems by specifying changes to the manufacturing process or equipment. 
+Currently, most of the remediation is achieved through the use of human knowledge, given the experience 
+and understanding to interpret the quality problems. It is hoped that through the use of computer 
+analysis, such as machine learning or big data techniques, the computer would understand and interpret 
+quality problems and then initiate the ECR. This would imply that the computer can be taught the 
+knowledge, patterns, and interpretations through viable machine learning techniques. 
+Quality Information Framework (QIF)  
+The Quality Information Framework (QIF) is an ANSI standard sponsored by the Dimensional Metrology 
+Standards Consortium (DMSC) that defines an integrated set of Extensible Markup Language (XML) 
+information models to enable the effective exchange of metrology data throughout the entire 
+manufacturing quality measurement process – from product definition to inspection planning to 
+execution to analysis and reporting. QIF handles feature-based dimensional metrology, quality 
+measurement planning, first article inspection, and discrete quality measurement. QIF is gaining attention 
+as an important quality technology [29] [30] [31] [32] [33] [34]. 
+The Extensible Markup Language (XML) is a metalanguage, that is, a language used to create other XML 
+languages. XML is typically used for defining a language to exchange data across the internet. With XML, 
+the contextual meaning of the data can be represented to create a more application-specific language. 
+The XML structure is a tree of elements containing branches of XML elements. An XML element is 
+delimited by a start tag (ex: <ElementName>) and an end tag (</ElementName >) with CDATA being the non-
+markup character data (not XML tag related) between the tags. Elements can also have attributes, which 
+are name-value pairs inside start tag (e.g.,: < PartDefinition id="partDefinition1">). The structure of XML is 
+fundamentally tree oriented (a graph without any cycles). In QIF, the cross linking of information is done 
+using unique identifiers (as shown by the “id” attribute).  
+QIF is based on XML, and uses terminology and semantics from the inspection world to represent the 
+various elements in the QIF specification. The QIF information models are contained in files written in the 
+XML Schema Definitions (XSD). The QIF XSD Version 2.0 models consists of six application schema files 
+QIFRules, QIFResults, QIFPlans,  QIFProduct, QIFStatistics, and QIFMeasurementResources bundled into a 
+QIF Document. QIF also includes a library of XSD schema files containing information items used by all QIF 
+applications (Auxiliary,  Characteristics,  Expressions, Features,  GenericExpressions,  Geometry,  
+IntermediatesPMI,  Primitives,  PrimitivesPD,  PrimitivesPMI,  Statistics, Topology,  Traceability,  Units, and 
+Visualization ). Figure 13 shows a high level perspective of the relationship among the different IF 
+information models. At the core of the QIF architecture is the reusable QIF library which contains 
+definitions and components that are referenced by the application areas. Around the QIF library core,
+
+20 
+ 
+Figure 13 shows the six QIF application area information models, Model-Based Design (MBD) which is 
+equivalent to QIFProduct, Plans, Resources, Rules, Results, and Statistics. The “QIF Execution” model is, in 
+the current version of QIF, a placeholder for future standardization and is now handled by the Dimensional 
+Measuring Interface Standard (DMIS) standard [35]. The order of generation of QIF data generally 
+proceeds clockwise around the diagram, beginning with QIF MBD and ending with QIF Statistics. Of note, 
+users of the QIF information model are not required to implement the entire model. 
+   
+Figure 13 QIF 2 ‘Life Saver’ Architecture 
+The flow of QIF data starts with generation of CAD + PMI data exported as QIF Model Based Design (MBD) 
+application data. Quality planning systems import the MBD and generate Plans (whats), then import 
+Resources and Rules information and export Plans (whats and hows). Programming systems import Plans 
+to generate Dimensional Measurement Equipment (DME) specific programs, or general instructions to 
+guide inspection. Dimensional measurement equipment executes programs and evaluates characteristics 
+of a single manufactured part or assembly and exports the measurements as Results. Analysis systems, 
+typically performing statistical process control, import single parts Results and generate analysis of 
+multiple part batches as QIF Statistics data. 
+QIF is intended to handle both lossless feedforward information translation, and cater to the ability to 
+provide feedback integration to the product lifecycle in a unified and universal XML format. Currently, the 
+translation from a CAD model based definition into the QIF format has been approached, and commercial 
+products are available and standard processes are under development.  
+One goal of QIF is to satisfy the input specification requirements of GD&T. Another goal of QIF is to satisfy 
+the requirements derived from output results of quality assessment standards, such as AS9100, 
+specifically AP9102A – First Article Inspection Report [36]. Users of the QIF information model are not 
+Model-Based
+Definition
+(CADz,
+STEP AP242)
+QIF-
+Statistics
+QIF-Results
+QIF-
+Rules
+Whats
+Hows
+QIF-Plans
+QIF-
+Execution
+(DMIS)
+QIF-
+Resources
+QIF-MBD
+(PDPMI)
+QIF
+Library
+XML Schema
+
+21 
+ 
+required to implement the entire model. Any of the six application models may be used singly for 
+exchange of quality data between software systems. 
+QIF Software Development 
+QIF is an extensive standard and fully defines most areas of quality information, including: quality 
+measurement plans, measurement results, measurement rules, measurement resources, and results 
+analysis. Currently, QIF has no competing standard or representation to represent measurement results, 
+so QIF can be exploited in this area and offer many benefits. Reporting, recording, and analyzing QIF 
+measurement results offer some promising opportunities.  
+AS9102 is the Society of Manufacturing Engineers (SME) Aerospace Quality Standard, known as, First 
+Article Inspection Report (FAIR). The purpose of the First Article Inspection is to provide objective evidence 
+that all engineering design and specification requirements are properly understood, accounted for, 
+verified, and documented. The purpose of AS9102 standard is to provide a consistent documentation 
+requirement for aerospace components First Article Inspection. QIF can be used to generate AS9102 
+reports and specific information for filling out a FAIR may be extracted from a QIF 2.0 XML instance file. 
+The QIF standards process was especially committed to prove that QIF was sufficient in supplying FAIR 
+information. The application of QIF to produce FAIR reports was demonstrated at the 2014 International 
+Manufacturing Technology Show (IMTS) [37]. 
+In exploratory research at the National Institute of Standards and Technology (NIST), QIF has been applied 
+to a variety of applications. CodeSynthesis and the Xerces XML/XSD parser have been used to develop 
+several QIF software programs useful in end-to-end quality management. These include parsing the QIF 
+XML into native C++ format, serializing the C++ native format into QIF XML, generating Structured Query 
+Language (SQL) [38] data tables from the QIF XSD, and storing QIF XML file instances into the SQL data 
+bases. Figure 14 shows the block diagram of various components that were used in QIF software 
+development. This QIF software development includes: 
+1. First, CodeSynthesis was downloaded, installed, and then used for C++ code generation. This C++ 
+code was compiled and linked with Visual Studio 2010, and the application using the 
+CodeSynthesis and Document Object Model (DOM) parsing of QIF was developed. Using the QIF 
+explanation of XML First Article Inspection Reporting, Xerces XPath was used to generate FAIR 
+report 1, and then more specialized code was developed to read and generate FAIR Report 3. The 
+C++ application based on the CodeSynthesis output the FAIR report in HyperText Markup 
+Language (HTML) that if opened by Google Chrome was able to produce a clean Portable 
+Document Format (PDF) output. 
+2. The generated C++ code was also tested by writing QIF results into the native C++ representation, 
+and then serializing the results into QIF XML. 
+3. Generation of SQL data definition language (DDL) was done to generate SQL data base tables. This 
+software development was aimed at archiving the QIF XML.  Although XML is a fine exchange 
+language, saving the files into a data base is imperative for archival purposes. Given that XSD
+
+22 
+ 
+defines all the types, it seemed natural to map this specification into type and table SQL DDL and 
+the read the QIF XML and insert this into the database using the XSD parsing knowledge.  
+ 
+SQL DDL is compatible with many open source data base providers, such as MySql and PostgreSQl. 
+However, it was deemed of utmost importance that SQL tables support arrays within the fields. 
+SQL has included this part of the standard since 2004, but some solutions (e.g., MySql) do not 
+support arrays. The code was based on the fact that Xerces parsed the QIF XSD, however, the 
+documentation describing the XSD parsing was quite limited and the representation from the 
+parsing was also complicated. For this reason a symbol table was used to unwind the Xerces XSD 
+parsing into a simpler format. Further, many advanced features not considered relevant to 
+mapping QIF XSD to SQL DDL were ignored. QIF XSD exercised many features of XSD, but those 
+XSD features that were not part of QIF were considered out of scope. 
+4. Generation of SQL insertion DDL was developed. The SQL DDL and QIF XML were done after Xerces 
+parsed the QIF XSD and also parsed the QIF XML. At some point with a better understanding of 
+the Xerces toolkit, the steps to unwind and decipher the Xerces mapping will be unnecessary.  
+5. The use of Open Database Connectivity (ODBC) was used to insert the QIF XML into the 
+PostgreSQL database, instead of QIF DDL. ODBC is widely supported today, with drivers available 
+for most platforms and most databases. Of note, the distinction between 64 and 32 bit ODBC 
+caused some headaches. The main issue is insertion of QIF/XML requiring arrays or table entries. 
+These insertions require an index from another preexisting table – so these insertions had to be 
+completed before the “higher” level insertion was able to complete.
+
+23 
+ 
+ 
+Figure 14 QIF XML Solution Space 
+The saving of multiple QIF XML files was considered important, so the saving of any QIF document into an 
+SQL data base was developed. The open source PostgreSQL data base was selected since it supports arrays 
+within SQL table fields. PostgreSQL allows columns of a table to be defined as variable-length 
+multidimensional arrays. XML depends on the Element tag, which is a container object designed to store 
+hierarchical data structures in memory. The element tag can have any number of child subelements and 
+can be a list or array. Because of this common XML element software pattern, the mapping of a nested 
+hierarchical list into an SQL array is quite straightforward. 
+In spite of reliance on SQL array structures, the number of SQL tables generated from the QIF schema was 
+quite large (i.e., 1408). Further, although QIF XML was parsed and added to the SQL QIF data base, it is 
+not clear how easily it is to access multiply derived substitution groups from the XML. 
+The existence of QIF alone does not guarantee success. Hopefully, helpful open source examples will assist 
+manufacturers to understand the benefits of QIF and desire technology and solutions based on QIF.  
+There are many open source software projects that would help industrial partners understand and use 
+QIF. These include: 
+1. Software to translate measurement output from one or more native commercial software quality 
+systems into QIF 2.0 XML. Once proprietary quality measurements are translated into QIF XML, it 
+QIF XSD 
+Xerces 
+XML/XSD 
+Parser/Serializer  
+C++ 
+Generated Code 
+CodeSynthesis 
+w/ Xerces 
+QIF XML 
+Parse w/ C++ 
+Generated Code 
+FAIR 1&3 
+PostgreSQL 
+Tables 
+QIF XSD 
+C++ Software 
+Development 
+Xerces 
+XML/XSD 
+Parser/Serializer  
+PostgreSQL 
+Table Insertion 
+QIF XML 
+C++ Software 
+Development
+
+24 
+ 
+is then straightforward to bundle and transmit the output into as an MTConnect “asset” [39]. 
+Once in this QIFXML format, the data could be stored into the SQL data base.  
+2. The use of QIF XML to represent part features and quality inspections could be used to record 
+defective part GD&T measurements that correlate to a known (or several known) causes and then 
+used to train a machine learning program to identify the cause of inspection deviations. 
+3. Regenerate QIF XML files from the SQL data base entries. 
+QIF Enterprise Integration 
+Recently, there has been interest in applying the web-enabled, real-time networking concepts to the 
+communication of quality data in a standard XML format.  Historically, the representation of quality data 
+has been customized for the particular phase of manufacturing, including, design tolerances, 
+measurement planning, inspection, recording/reporting, traceability logging, and statistical process 
+control (SPC). The proliferation of data formats in the quality lifecycle is counterproductive, and Quality 
+Information Framework (QIF) unifies the disparate quality related information models. With a common 
+quality model, it is now cost-effective to disseminate quality information throughout the enterprise. 
+Further, it is difficult to improve products and systems if they cannot be accurately measured and 
+quantitatively characterized. In order to reduce costs, increase interoperability, and maximize enterprise 
+integration, the MTConnect standards have been developed to “open” machine tools and factory floor 
+devices for the manufacturing industry [40]. MTConnect is based upon prevalent web technology and 
+provides free software development kits to minimize technical and economic barriers to MTConnect 
+adoption. 
+Preliminary integration of the QIF quality standard and MTConnect has been done on a computer numeric 
+control (CNC) system which shows the benefits of such information [39].  The lack of quality standards has 
+led to time-consuming and inefficient production quality assessment with numerous opportunities for 
+error and misinterpretation. Indeed, the use of MTConnect eases the integration of quality results into 
+production processes with its use of XML and Internet communication web technologies.  The role of 
+MTConnect, inspection, and SPC was explored by Atluru and Deshpande [41]. A standalone SPC tool was 
+developed that communicated with an on-machine probe and analyzed the inspection data to carry out a 
+statistical analysis and then distribute the real-time results via an MTConnect network. 
+Summary 
+This paper reviewed the product life cycle and the role of quality in the design and manufacture of 
+products. An emphasis was placed on the “digital thread” for pervasive networking of production 
+information, especially quality. Of interest was the Quality Information Framework (QIF), which is an ANSI 
+standard that defines an integrated set of XML information models to enable the effective exchange of 
+metrology data throughout the entire manufacturing quality measurement process – from product 
+definition to inspection planning to execution to analysis and reporting.   The QIF library and QIF 
+applications also provide generic templates for the user to instantiate for their own implementations, thus 
+enhancing the code reuse and consistency for the implementations.  The ongoing efforts of integrating
+
+25 
+ 
+MTConnect provide a mechanism to further expand integrated manufacturing into the design and 
+manufacturing processes. 
+The migration of product data management from 2D paper and drawing based to standardized digital 3D 
+model based is the goal of the digital thread project at NIST [42]. It is hoped that the benefits of an all-
+digital pervasive format will be apparent to manufacturers, in spite of perceived detrimental 
+consequences of making the transition. 
+Disclaimer 
+Commercial equipment and software, many of which are either registered or trademarked, are identified 
+in order to adequately specify certain procedures. In no case does such identification imply 
+recommendation or endorsement by the National Institute of Standards and Technology, nor does it imply 
+that the materials or equipment identified are necessarily the best available for the purpose. 
+References 
+[1]  United Nations Industrial Development Organization, "Working paper - product quality: A guide for 
+small and medium-sized enterprises," 2006. 
+[2]  J. Stark, Product Lifecycle Management Decision Engineering, Springer London, 2011.  
+[3]  Q. Hao, W. Shen, Z. Zhang, S.-W. Park and J.-K. Lee, "Agent-based collaborative product design 
+engineering: An industrial case study," Computers in Industry, vol. 57, no. 1, pp. 26-38, January 2006. 
+[4]  X. Ming, J. Yan, X. Wang, S. Li, W. Lu, Q. Peng and Y. Ma, "Collaborative process planning and 
+manufacturing in product lifecycle management," Computers in Industry, vol. 59, no. 2-3, pp. 154-
+166, 2008.  
+[5]  F. Ricci, J. Sauza Bedolla, M. G. and P. Chiabert, "PMI: a PLM Approach for the Management of 
+Geometrical and Dimensional Controls in Modern Industries," COMPUTER-AIDED DESIGN AND 
+APPLICATIONS, pp. 36-43, 2014.  
+[6]  A. B. Feeney, S. P. Frechette and V. Srinivasan, "A Portrait of an ISO STEP Tolerancing Standard as an 
+Enabler of Smart Manufacturing Systems," JOURNAL OF COMPUTING AND INFORMATION SCIENCE 
+IN ENGINEERING , vol. 15, no. 2, 2015.  
+[7]  F. Ahmed and S. Han, "Semantic Mismatches for Interoperability of Product and Manufacturing 
+Information," International Journal of CAD/CAM, vol. 13, no. 2, 2013.
+
+26 
+ 
+[8]  J. Camba, M. Contero, M. Johnson and P. Company, "Extended 3D annotations as a new mechanism 
+to explicitly communicate geometric design intent and increase CAD model reusability," Computer-
+Aided Design, vol. 57, pp. 61-73, 2014.  
+[9]  R. A. Fletcher, G. W. Mulholland, M. R. Winchester, R. L. King and D. B. Klinedinst, "Calibration of a 
+Condensation Particle Counter Using a NIST Traceable Method," Aerosol Science and Technology, 
+vol. 43, no. 5, pp. 425-441, 2009.  
+[10] R. D. Larrabee and M. T. Postek, "Precision, accuracy, uncertainty and traceability and their 
+application to submicrometer dimensional metrology," Solid-State Electronics, vol. 36, no. 5, pp. 
+673-684, May 1993.  
+[11] Joint Committee for Guides in Metrology (JCGM), "International vocabulary of metrology — Basic 
+and general concepts and associated terms (VIM)," 2008. 
+[12] Wikipedia, "Metrology," [Online]. Available: https://en.wikipedia.org/wiki/Metrology. [Accessed 29 
+7 2015]. 
+[13] BS EN ISO 1101, "Geometrical Product Specifications (GPS) – Tolerances of Form, Orientation, 
+Location and Run-Out," 2005. 
+[14] ISO/IEC, "General Metrology. Part 3: Guide to the Expression of Uncertainty in Measurement 
+(GUM)," 1995. 
+[15] International Organization for Standardization, "ISO 14253-1:2013 Geometrical product 
+specifications (GPS) -- Inspection by measurement of workpieces and measuring equipment -- Part 
+1: Decision rules for proving conformity or nonconformity with specifications," 2013. 
+[16] P. Maropoulos and D. Ceglarek, "Design verification and validation in product lifecycle," CIRP Annals 
+- Manufacturing Technology, vol. 59, no. 2, pp. 740-759, 2010.  
+[17] T. Milner, M. Volas and A. Sanders, "Systems Engineering Methodology for Linking Requirements to 
+Design Complexity and Manufacturing Trade Space Constraints," Procedia Computer Science, vol. 
+16, pp. 947-956, 2013.  
+[18] P. Singh, P. Jain and S. Jain, "Important Issues in Tolerance Design of Mechanical Assemblies. Part 1: 
+Tolerance Analysis," Proceedings of the IMechE Part B: Journal of Engineering Manufacture, vol. 223, 
+no. 10, p. 1225–1247, 2009.  
+[19] L. Krogstie and K. Martinsen, "Closed Loop Tolerance Engineering - A Relational Model Connecting 
+Activities of Product Development," in 45th CIRP Conference on Manufacturing Systems 2012, 
+10.1016/j.procir.2012.07.089, 2012.
+
+27 
+ 
+[20] ISO, "ISO 10303-1:1994 - Industrial automation systems and integration -- Product data 
+representation and exchange -- Part 1: Overview and fundamental principles," International 
+Organization for Standardization, 1994 . 
+[21] ISO, "ISO 14306:2012 Industrial automation systems and integration -- JT file format specification 
+for 3D visualization," International Organization for Standardization, 2012. 
+[22] DMSC, "ANSI/QIF Part 1–2014: Quality Information Framework (QIF) – An Integrated Model for 
+Manufacturing Quality Information Part 1: Overview and Fundamental Principles Version 2.0," 
+Dimensional Metrology Standards Consortium, Inc. (DMSC), 2014. 
+[23] R. Lipman and J. Lubell, "Conformance checking of PMI representation in CAD model STEP data 
+exchange files," Computer-Aided Design, vol. 2015, pp. 14-23.  
+[24] International Organization for Standardization, "ISO 1101:2012 Geometrical product specifications 
+(GPS) -- Geometrical tolerancing -- Tolerances of form, orientation, location and run-out," 2012. 
+[25] American Society of Mechanical Engineers, "ASME Y14.5-2009 Dimensioning and Tolerancing - 
+Engineering Drawing and Related Documentation Practices," 2009. 
+[26] ISO, "ISO 10303-242:2014 - Industrial automation systems and integration -- Product data 
+representation and exchange -- Part 242: Application protocol: Managed model-based 3D 
+engineering," International Organization for Standardization, 2014. 
+[27] M. Wilcox, "Prediction and pragmatism in Shewhart’s theory of statistical control," Management 
+Decision, vol. 42, no. 1, pp. 152-165, 2004.  
+[28] A. H. a. M. Mathur, "A Very Simple Set of Process Control Rules," Quality Engineering, vol. 5, no. 2, 
+pp. 21-29, 1991.  
+[29] B. Pippenger, "Three-dimensional model for manufacturing and inspection," in Proceedings ASME 
+Turbo Expo 2013: Turbine Technical Conference and Exposition, San Antonio, 2013.  
+[30] Y. Zhao, T. Kramer, W. Rippey, J. Horst and F. Proctor, "An integrated data model for quality 
+information exchange in manufacturing systems," in Proceedings of the 37th International 
+MATADOR 2012 Conference, Manchester, United kingdom, 2013.  
+[31] Y. F. Zhao, J. A. Horst, T. R. Kramer, W. Rippey and R. J. Brown, "Quality Information Framework - 
+Integrating metrology processes," IFAC Proceedings Volumes (IFAC-PapersOnline), vol. 14, no. Part 
+1, pp. 1301 - 1308, 2012.  
+[32] T. Kramer, R. Stone, M. Hoffman, S. Hoffman and W. Rippey, "Design and Usage Guide for Version 
+0.92 of the Quality Information Framework Data Model and XML (Extensible Markup Language)
+
+28 
+ 
+Schemas," US Department of Commerce, National Institute of Standards and Technology Internal 
+Report, 2012.  
+[33] B. Morey, "Metrology Takes Flight," MANUFACTURING ENGINEERING, vol. 152, no. 2, 2014.  
+[34] Y. Zhao, T. Kramer, R. Brown and X. Xu, Information modeling for interoperable dimensional 
+metrology, Springer Science & Business Media, 2011.  
+[35] ANSI, "ANSI/DMIS 105.2 Dimensional Measuring Interface Standard, Rev. 5.2, Part 1," American 
+National Standards Institute, 2009. 
+[36] SME International, "AS9102 - Aerospace First Article Inspection Requirement Revision B," 6 10 2014. 
+[Online]. Available: http://standards.sae.org/as9102b/. [Accessed 22 8 2015]. 
+[37] Dimensional Metrology Standards Consortium (DMSC), "IMTS 2014 - DMSC Demonstrates New QIF 
+2.0," 2014. [Online]. Available: https://youtu.be/TqeVfqYX3PA. [Accessed 13 7 2015]. 
+[38] International Organization for Standardization, "ISO/IEC 9075 - 2:2011 Part 2: Foundation 
+(SQL/Foundation). It contains the most central elements of the language and consists of both 
+mandatory and optional features.," ISO, 2011. 
+[39] J. Michaloski, Y. F. Zhao, B. E. Lee and W. Rippey, "Web-enabled, real-time, quality assurance for 
+machining production systems," in Proceedings of the 12th CIRP Conference on Computer Aided 
+Tolerancing (CIRP CAT 2012), Huddersfield, UK, 2012.  
+[40] MTConnect Institute, "MTConnect Standard," [Online]. Available: http://mtconnect.org. [Accessed 
+23 7 2015]. 
+[41] S. Atluru and A. Deshpande, "Statistical Process Monitoring With MTConnect," in ASME 2012 
+International Manufacturing Science and Engineering Conference, 2012.  
+[42] National Institute of Standards and Technology, "Enabling the Digital Thread for Smart 
+Manufacturing," 
+[Online]. 
+Available: 
+http://www.nist.gov/el/msid/infotest/digital-thread-
+manufacturing.cfm. [Accessed 10 7 2015].

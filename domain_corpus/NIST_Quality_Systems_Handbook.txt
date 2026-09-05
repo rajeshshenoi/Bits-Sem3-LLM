@@ -1,0 +1,4105 @@
+Archived NIST Technical Series Publication 
+The attached publication has been archived (withdrawn), and is provided solely for historical purposes. 
+It may have been superseded by another publication (indicated below). 
+Archived Publication 
+Series/Number: 
+Title: 
+Publication Date(s): 
+Withdrawal Date: 
+Withdrawal Note: 
+Superseding Publication(s) 
+The attached publication has been superseded by the following publication(s): 
+Series/Number: 
+Title: 
+Author(s): 
+Publication Date(s): 
+URL/DOI: 
+Additional Information (if applicable) 
+Contact: 
+Latest revision of the  
+attached publication: 
+Related information: 
+Withdrawal 
+announcement (link): 
+Date updated: June 9, 2015 
+SP 330
+The International System of Units (SI)
+July 1986
+March 15, 2018
+Information is outdated and was replaced by newer editions.
+NBS SP 330
+The International System of Units (SI)
+Barry N. Taylor
+August 1991
+https://doi.org/10.6028/NIST.SP.330e1991
+Linda Crown or Elizabeth Gentry
+March 2008
+https://doi.org/10.6028/NIST.SP.330e2008
+
+A111D3
+3flfiD33
+o
+REFERENCE
+i
+NIST
+PUBLICATIONS
+NBS SPECIAL PUBLICATION 330
+1986 EDITION
+U.S. DEPARTMENT OF COMMERCE / National Bureau of Standards
+THE UNTERNAllOMAL
+SYSTEM OF UMTS (SD
+
+K
+he National Bureau of Standards' was established by an act of Congress on March 3,
+1901. The
+Jy
+Bureau's overall goal
+is to strengthen and advance the nation's science and technology and facilitate
+their effective application for public benefit. To this end, the Bureau conducts research and provides: (1) a
+basis for the nation's physical measurement system, (2) scientific and technological services for industry and
+government, (3) a technical basis for equity in trade, and (4) technical services to promote public safety.
+The Bureau's technical work
+is performed by the National Measurement Laboratory, the National
+Engineering Laboratory, the Institute for Computer Sciences and Technology, and the Institute for Materials
+Science and Engineering
+.
+The National Measurement Laboratory
+Provides the national system of physical and chemical measurement;
+coordinates the system with measurement systems of other nations and
+furnishes essential services leading to accurate and uniform physical and
+chemical measurement throughout the Nation's scientific community, in-
+dustry, and commerce; provides advisory and research services to other
+Government agencies; conducts physical and chemical research; develops,
+produces, and distributes Standard Reference Materials; and provides
+calibration services. The Laboratory consists of the following centers:
+•
+Basic Standards^
+•
+Radiation Research
+• Chemical Physics
+•
+Analytical Chemistry
+The National Engineering Laboratory
+Provides technology and technical services to the public and private sectors to
+address national needs and to solve national problems; conducts research in
+engineering and applied science in support of these efforts; builds and main-
+tains competence in the necessary disciplines required to carry out this
+research and technical service; develops engineering data and measurement
+capabilities; provides engineering measurement traceability services; develops
+test methods and proposes engineering standards and code changes; develops
+and proposes new engineering practices; and develops and improves
+mechanisms to transfer results of its research to the ultimate user. The
+Laboratory consists of the following centers:
+Applied Mathematics
+Electronics and Electrical
+Engineering-
+Manufacturing Engineering
+Building Technology
+Fire Research
+Chemical Engineering^
+The Institute for Computer Sciences and Technology
+Conducts research and provides scientific and technical services to aid
+• Programming Science and
+Federal agencies in the selection, acquisition, application, and use of com-
+Technology
+puter technology to improve effectiveness and economy in Government
+• Computer Systems
+operations in accordance with Public Law 89-306 (40 U.S.C. 759), relevant
+Engineering
+Executive Orders, and other directives; carries out this mission by managing
+the Federal Information Processing Standards Program, developing Federal
+ADP standards guidelines, and managing Federal participation in ADP
+voluntary standardization activities; provides scientific and technological ad-
+visory services and assistance to Federal agencies; and provides the technical
+foundation for computer-related policies of the Federal Government. The In-
+stitute consists of the following centers:
+The Institute for Materials Science and Engineering
+Conducts research and provides measurements, data, standards, reference
+materials, quantitative understanding and other technical information funda-
+mental to the processing, structure, properties and performance of materials;
+addresses the scientific basis for new advanced materials technologies; plans
+research around cross-country scientific themes such as nondestructive
+evaluation and phase diagram development; oversees Bureau-wide technical
+programs in nuclear reactor radiation research and nondestructive evalua-
+tion; and broadly disseminates generic technical information resulting from
+its programs. The Institute consists of the following Divisions:
+Ceramics
+Fracture and Deformation ^
+Polymers
+Metallurgy
+Reactor Radiation
+'Headquarters and Laboratories at Gaithersburg, MD, unless otherwise noted; mailing address
+Gaithersburg, MD 20899.
+^Some divisions within the center are located at Boulder, CO 80303.
+'Located at Boulder, CO, with some elements at Gaithersburg, MD.
+
+THE INTERNATIONAL SYSTEM OF UNITS (SD
+Edited by
+David T. Goldman
+National Bureau of Standards
+United States of America
+R. J. Bell
+National Physical Laboratory
+United Kingdom
+This translation has been approved by
+the International Bureau of Weights
+and Measures.
+(Supersedes NBS Special Publication
+330 1981 Edition)
+Issued July 1986
+1
+*<">E«U 0»
+U.S. DEPARTMENT OF COMMERCE, Malcolm Baldrige, Secretary
+NATIONAL BUREAU OF STANDARDS, Ernest Ambler, Director
+
+National Bureau of Standards Special Publication 330, 1986 Edition
+Natl. Bur. Stand. (U.S.), Spec. Publ. 330, 1986 Edition, 56 pages (July 1986)
+CODEN: XNBSAV
+U.S. GOVERNMENT PRINTING OFFICE
+WASHINGTON: 1986
+For sale by the Superintendent of Documents, U.S. Government Printing Office, Washington, DC 20402
+
+Foreword
+This booklet
+is the United States edition of the English translation of the
+fifth edition of "Le
+Systeme International d'Unites (SI)," the definitive publication in the French language issued in
+1985 by the International Bureau of Weights and Measures (BIPM). This U.S. edition, which con-
+forms in substance with the British edition that follows the French text in the BIPM document is the
+result of a joint effort by the National Bureau of Standards (NBS) of the United States and the
+National Physical Laboratory (NPL) in the United Kingdom. In order to make this booklet accept-
+able to the broadest community of users in the USA,
+it was necessary to recognize present U.S.
+practices and standards as they are found
+in the literature of our domestic voluntary standards
+organizations such as the ASTM and the IEEE, and to use American spelling of certain words. This
+American version differs from the British one in the following details:
+(1) it uses the dot instead of
+the comma as the decimal marker; (2) the American spellings "meter," "liter," and "deka" are used
+rather than the British "metre,"
+"litre," and "deca";
+(3) six footnotes are added to identify U.S.
+practices that differ from those of the British; and (4) it contains a few instances of common words
+in which the American spelling or usage differs from the British.
+The British version will be available from the National Physical Laboratories; the American version
+can
+be. ordered
+from
+the
+Superintendent
+of Documents,
+U.S.
+Government
+Printing
+Office,
+Washington, DC 20402.
+Both the U.S. and the British versions represent the best efforts to render an authoritative transla-
+tion; however, in case of a dispute the French text represents the official position of the BIPM.
+SI, the present-day descendant of the Metric System, has become the universal language of scien-
+tists. It is the universal language of measurement in most countries.
+I am pleased to present this updated translation of the official French text to the U.S. scientific and
+technical community. It provides a complete documentation and current updating of the foundation
+and fundamental principles of SI.
+I sincerely hope that
+it will contribute to a better understanding,
+better dissemination, and to a more uniformly correct utilization of SI.
+Ernest Ambler,
+Director,
+National Bureau of Standards
+iii
+
+Preface to the 5th Edition
+Since 1970, the International Bureau of Weights and Measures (Bureau International des Poids et
+Mesures, BIPM) has regularly published this document containing Resolutions and Recommenda-
+tions of the General Conference on Weights and Measures (Conference General des Poids
+et
+Mesures, CGPM) and the International Committee for Weights and Measures (Comite International
+des Poids et Mesures, CIPM) on the International System of Units. Explanations have been added
+as well as relevant extracts from the International Standards of the International Organization for
+Standardization (ISO) for the practical use of the System.
+The Consultative Committee for Units (Comite Consultatif des Unites, CCU) of the CIPM helped
+to draft the document and has approved the fmal text.
+Appendix
+I
+reproduces
+in chronological
+order
+the
+decisions
+(Resolutions, Recommendations,
+Declarations, etc.) promulgated since 1889 by the CGPM and the CIPM on units of measurement
+and on the International System of Units.
+Appendix II outlines the measurements, consistent with the theoretical definitions given here, which
+metrological laboratories can make to realize the units and to calibrate highest-quality material
+standards.
+This 5th edition is a revision of the 4th edition (1981);
+it takes into consideration the decisions of the
+17th General Conference on Weights and Measures (1983) and of the International Committee for
+Weights and Measures (1981,
+1982,
+1983,
+1984), and the amendments made by the Consultative
+Committee for Units (1982, 1984).
+(text omitted here not relevant to U.S. edition)
+October 1985
+P. GIACOMO
+Director, BIPM
+J. de BOER
+Chairman, CCU
+iv
+
+The International System of Units
+Contents
+Page
+Foreword
+iii
+Preface to the 5th Edition
+iv
+I.
+Introduction
+1
+1.1
+Historical note
+1
+1.2
+The three classes of SI units
+1
+1.3
+The SI prefixes
+2
+1.4
+System of quantities
+2
+1.5
+Legislation on units
+2
+II.
+SI units
+3
+II. 1
+SI base units
+3
+II. 1.1
+Definitions
+3
+II. 1.2
+Symbols
+5
+II.2
+SI derived units
+6
+II. 3
+SI supplementary units
+8
+II.4
+Rules for writing and using SI unit symbols
+9
+III.
+Decimal multiples and sub-multiples of SI units
+10
+III. l
+SI prefixes
+10
+III.2
+Rules for using SI prefixes
+10
+III. 3 The kilogram
+11
+IV.
+Units outside the International System
+12
+IV. 1
+Units used with the International System
+12
+IV.2
+Units in use temporarily
+13
+IV.3 CGS units
+14
+IV.4 Other units
+15
+Appendix
+I. Decisions of the CGPM and the CIPM
+16
+Appendix II. Practical Realization of the Definitions of Some Important Units
+40
+Appendix III. Organs of the Meter Convention
+47
+Index
+50
+V
+
+I.
+INTRODUCTION
+1.1
+Historical note
+In 1948 the 9th CGPM', by its Resolution 6, instructed the CIPM:*
+"to study the
+establishment of a complete set of rules for units of measurement"; "to find out for
+this purpose, by official inquiry, the opinion prevailing in scientific, technical, and
+educational circles in all countries" and "to make reconmiendations on the estab-
+lishment of a practical system of units of measurement suitable for adoption by
+all
+signatories to the Meter Convention."
+The same General Conference also laid down, by its Resolution 7, general princi-
+ples for unit symbols and also gave a list of units with special names.
+The 10th CGPM (1954), by
+its Resolution
+6, and the
+14th CGPM (1971) by
+its
+Resolution 3, adopted as base units of this "practical system of units," the units of
+the following seven
+quantities:
+length, mass,
+time,
+electric
+current, thermody-
+namic temperature, amount of substance, and luminous intensity.
+The 11th CGPM (1960), by its Resolution
+12, adopted the name International Sys-
+tem of Units, with the international abbreviation SI, for this practical system of
+units of measurement, and laid down rules for the prefixes, the derived and supple-
+mentary units, and other matters, thus establishing a comprehensive specification
+for units of measurement.
+1.2
+The three classes of SI units
+SI units are divided into three classes: base units, derived units, and supplementary
+units.
+From the scientific point of view, division of SI units into these three classes is to
+a certain extent arbitrary, because
+it is not essential to the physics of the subject.
+Nevertheless,
+the General Conference,
+considering the advantages of a
+single,
+practical worldwide system of units for international relations, for teaching, and for
+scientific work, decided to base the International System on a choice of seven
+well-defined units which by convention are regarded
+as dimensionally indepen-
+dent: the meter, the kilogram, the second, the ampere, the kelvin, the mole, and the
+candela (see II. 1, p.
+3). These SI units are called base units.
+The second class of SI units contains derived units; i.e., units that can be formed by
+combining base units according to the algebraic relations Hnking the corresponding
+quantities. The names and symbols of some units thus formed in terms of base units
+can be replaced by special names and symbols which can themselves be used to
+form expressions and symbols of other derived units (see II.2, p.
+6).
+The
+1 1th CGPM (1960) admitted a third class of SI units, called supplementary units
+and containing the SI units of plane and solid angle (see
+II. 3, p.
+8).
+The SI units of these three classes form a coherent set of units in the sense normally
+attributed to the word "coherent";
+i.e., a system of units mutually related by rules
+of multiplication and division without any numerical factor. Following CIPM Rec-
+onunendation
+1 (1969), the units of this coherent set of units are designated by the
+name SI units.
+For the meaning of these abbreviations, see the preface.
+1
+
+It is important to emphasize that each physical quantity has only one SI unit, even
+if the name of this unit can be expressed in different forms, but the inverse is not
+true: the same SI unit name can correspond to several different quantities (see p. 7).
+1.3
+The SI prefixes
+The General Conference has adopted a series of prefixes to be used in forming the
+decimal multiples and submultiples of SI units (see III.l, p.
+10). Following CIPM
+Recommendation
+1 (1969), the set of prefixes is designated by the name SI prefixes.
+The multiples and submultiples of SI
+units, which are formed by using the SI
+prefixes, should be designated by their complete name, multiples and submultiples of
+SI units, in order to make a distinction between them and the coherent set of SI
+units proper.
+1.4
+System of quantities
+This book does not deal with the system of quantities used with the SI units, an area
+handled by Technical Committee 12 of the International Organization for Standard-
+ization (ISO) which, since 1955, has published a series of International Standards on
+quantities and their units, and which strongly recommends the use of the Interna-
+tional System of Units.'
+In these International Standards, ISO has adopted a system of physical quantities
+based on the seven base quantities:
+length, mass, time, electric current, thermody-
+namic temperature, amount of substance, and luminous intensity. The other quanti-
+ties—the derived quantities—are defined in terms of these seven base quantities; the
+relationships between the derived quantities and the base quantities are expressed
+by a system of equations.
+It is this system of quantities and equations that is prop-
+erly used with the SI units.
+1.5
+Legislation on units
+Countries have established, through legislation, rules concerning the use of units on
+a national basis,
+either for general
+use, or for specific areas such as commerce,
+health or public safety, education, etc. In a growing number of countries this legis-
+lation is based on the use of the International System of Units.
+The International Organization ofLegal Metrology (OIML), founded in 1955, is con-
+cerned with the international harmonization of this legislation.
+' ISO 31, in "Units of measurement", ISO Standards Handbook 2, 2nd Edition, ISO, Geneva, 1982, pp.
+19-238.
+2
+
+II.
+SI UNITS
+II.l
+SI base units
+Ob)
+unit of
+mass
+Gdlogram)
+II.l.l
+Definitions
+(a)
+unit of
+The definition of the meter based upon the interaational prototype of platinum-irid-
+length
+ium, in force since 1889, had been replaced by the 11th CGPM (1960) by a defini-
+(meter)
+tion based upon the wavelength of a krypton-86 radiation. In order to increase the
+precision of realization of the meter, the 17th CGPM (1983) replaced this latter
+definition by the following:
+The meter is the length of the path travelled by light in vacuum during a time interval
+0/1/299 792 458 of a second (17th CGPM (1983), Resolution
+1).
+The old international prototype of the meter which was legalized by the 1st CGPM
+in 1889 is still kept at the International Bureau of Weights and Measures under the
+conditions specified in 1889.
+The 1st CGPM (1889) sanctioned the international prototype of the kilogram and
+declared:
+this prototype shall henceforth be considered to be the unit of mass.
+The 3d CGPM (1901), in a declaration intended to end the ambiguity which existed
+as to the meaning of the word "weight"
+in popular usage, confirmed that the
+kilogram is the unit of mass; it is equal to the mass of the international prototype of the
+kilogram (see the complete declaration, p.
+17).
+This international prototype made of platinum-iridium is kept at the BIPM under
+conditions specified by the
+1st CGPM in 1889.
+unit of
+The unit of time, the second, was defined originally as the fraction 1/86 400 of the
+time
+mean solar day. The exact definition of "mean solar day" was left to astronomers,
+(second)
+but their measurements have shown that on account of irregularities in the rotation
+of Earth, the mean solar day does not guarantee the desired accuracy. In order to
+define the unit of time more precisely the 11th CGPM (1960) adopted a definition
+given by the International Astronomical Union which was based on the tropical
+year. Experimental work had, however, already shown that an atomic standard of
+time-interval, based on a transition between two energy levels of an atom or a
+molecule, could be realized and reproduced much more accurately. Considering
+that a very precise definition of the unit of time of the International System, the
+second,
+is indispensable for the needs of advanced metrology, the
+13th CGPM
+(1967) decided to replace the definition of the second by the following:
+The second is the duration of 9 192 631
+770 periods of the radiation corresponding to
+the transition between the two hyperfine levels of the ground state of the cesium-133
+atom. (13th CGPM (1967), Resolution
+1).
+unit of
+Electric
+units, called "international," for current and resistance, had been intro-
+electric
+duced by the International Electrical Congress held in Chicago in
+1893, and the
+current
+definitions of the "international" ampere and the "international" ohm were con-
+(ampere)
+firmed by the International Conference of London in 1908.
+Although
+it was already obvious on the occasion of the 8th CGPM (1933) that
+there was a unanimous desire to replace those "international" units by so-called
+"absolute" units, the official decision to abolish them was only taken by the 9th
+(c)
+(d)
+3
+
+CGPM (1948), which adopted for the unit of electric current, the ampere, the
+following definition:
+The ampere is that constant current which, if maintained in two straight parallel con-
+ductors of infinite length, of negligible circular cross section, and placed 1 meter apart
+in vacuum, would produce between these conductors a force equal to 2xl0~^ newton
+per meter of length. (CIPM (1946), Resolution 2 approved by the 9th CGPM, 1948).
+The expression "MKS unit of force" which occurs in the original text has been replaced here
+by "newton," the name adopted for this unit by the 9th CGPM (1948, Resolution 7).
+(e)
+unit of
+The definition of the unit of thermodynamic temperature was given in substance by
+thermo-
+the 10th CGPM (1954, Resolution 3) which selected the triple point of water as the
+dynamic
+fundamental fixed point and assigned to it the temperature 273.16 K by definition,
+temper-
+The 13th CGPM (1967, Resolution 3) adopted the name kelvin (symbol K) instead
+ature
+of "degree Kelvin" (symbol °K) and in its Resolution 4 defined the unit of thermo-
+(kelyin)
+dynamic temperature as follows:
+The kelvin, unit ofthermodynamic temperature,
+is the fraction 1/273.16 of the thermo-
+dynamic temperature of the triple point of water. (13th CGPM (1967), Resolution 4).
+The
+13th CGPM (1967, Resolution
+3) also decided that the unit kelvin and
+its
+symbol K should be used to express an interval or a difference of temperature.
+Note :
+In addition to the thermodynamic temperatiu-e (symbol 7^, expressed in kelvins, use
+is also made of Celsius temperature (symbol 0 defined by the equation
+t = T-To
+(f)
+unit of
+amount of
+substance
+(mole)
+where 7o=273.15 K by definition. To express Celsius temperature, the unit "degree Celsius"
+which is equal to the unit "kelvin"
+is used; in this case, "degree Celsius" is a special name
+used in place of "kelvin." An interval or difference of Celsius temperature can, however, be
+expressed in kelvins as well as in degrees Celsius.
+Since the discovery of the fundamental laws of chemistry,
+units of amount of
+substance called, for instance, "gram-atom" and "gram-molecule," have been used
+to specify amounts of chemical elements or compounds. These units had a direct
+connection with "atomic weights" and "molecular weights," which were in fact
+relative masses. "Atomic weights" were originally referred to the atomic weight of
+oxygen (by general agreement taken as
+16). But whereas physicists separated iso-
+topes in the mass spectrograph and attributed the value 16 to one of the isotopes of
+oxygen, chemists attributed that same value to the (slightly variable) mixture of
+isotopes
+16,
+17,
+18, which was for them the naturally occurring element oxygen.
+Finally an agreement between the International Union of Pure and Applied Physics
+(lUPAP) and the International Union of Pure and Applied Chemistry (lUPAC)
+brought this duality to an end in 1959/60. Physicists and chemists have ever since
+agreed to assign the value
+12 to the isotope 12 of carbon. The unified scale thus
+obtained gives values of "relative atomic mass."
+It remained to define the unit of amount of substance by fixing the corresponding
+mass of carbon 12; by international agreement, this mass has been fixed at 0.012 kg,
+and the unit of the quantity, "amount of substance,"
+^ has been given the name mole
+(symbol mol).
+^ The name of this quantity, adopted by lUPAP, lUPAC, and ISO is in French "quantite de matiere"
+and in EngHsh "amount of substance"; (the German and Russian translations are "Stoffmenge" and
+« KOJnieCTBOBeincCTBaw. The French name
+recalls
+"quantitas materiae" by which
+in the past the
+quantity now called "mass" used to be known; we must forget this old meaning, for mass and amount of
+substance are entirely different quantities.
+4
+
+(g)
+unit of
+luminous
+intensity
+(candeia)
+Following proposals of lUPAP, lUPAC, and ISO, the CIPM gave in
+1967, and
+confirmed
+in
+1969,
+the following
+definition of the mole, adopted by the
+14th
+CGPM (1971, Resolution 3):
+1.
+The mole is the amount ofsubstance ofa system that contains as many elementary
+entities as there are atoms in 0.012 kilogram of carbon 12.
+2.
+When the mole is used, the elementary entities must be specified and may be atoms,
+molecules,
+ions, electrons, other particles, or specified groups of such particles.
+In the definition of the mole,
+it is understood that unbound atoms of carbon 12, at
+rest and in their ground state, are referred to.
+Note that this definition specifies at the same time the nature of the quantity whose
+unit is the mole.
+The units of luminous intensity based on flame or incandescent filament standards
+in use in various countries before 1948 were replaced initially by the "new candle"
+based on the luminance of a Planckian radiator (a blackbody) at the temperature of
+freezing platinum. This decision had been prepared by the International Commis-
+sion on Illumination (CIE) and by the International Committee for Weights and
+Measures before 1937, and was promulgated by the CIPM in 1946, and then ratified
+in 1948 by the 9th CGPM which adopted a new international name for this unit, the
+candeia (symbol cd); in 1967 the 13th CGPM gave an amended version of the 1946
+definition.
+Because of the experimental difficulties in realizing a Planck radiator at high tem-
+peratures and the new possibilities offered by radiometry,
+i.e., the measurement of
+optical radiation power, the 16th CGPM adopted in 1979 the following new defini-
+tion:
+The candeia
+is the luminous
+intensity,
+in a given
+direction, of a source that emits
+monochromatic radiation offrequency 540 X 10'^ hertz and that has a radiant intensity
+in that direction of (1/683) watt per steradian. (16th CGPM (1979), Resolution
+3).
+U.1.2
+Symbols
+The base units of the International System are collected in table
+1 with their names
+and their symbols (10th CGPM (1954), Resolution 6; 11th CGPM (1960), Resolu-
+tion
+12; 13th CGPM (1967), Resolution 3; 14th CGPM (1971), Resolution 3).
+Table
+1
+SI base units
+SI Unit
+Quantity'
+Name
+Symbol
+length
+meter
+m
+mass
+kilogram
+kg
+time
+second
+s
+electric current
+ampere
+A
+thermodynamic temperature
+kelvin
+K
+amount of substance
+mole
+mol
+luminous intensity
+candeia
+cd
+Translator's note: "Quantity"
+is the technical word for measurable attributes of phenomena or matter.
+5
+
+11.2
+SI derived units
+Derived units are expressed algebraically in terms of base units by means of the
+mathematical symbols of multiplication and division (see table 2 for some exam-
+ples).
+Table 2
+Examples ofSI derived units expressed in terms of base units
+SI Unit
+Quantity
+Name
+Symbol
+area
+square meter
+volume
+cubic meter
+m'
+speed, velocity
+meter per second
+m/s
+acceleration
+meter per second squared
+m/s^
+wave number
+reciprocal meter
+m-'
+density, mass density
+kilogram per cubic meter
+kg/m'
+speciflc volume
+cubic meter per kilogram
+m'Ag
+current density
+ampere per square meter
+A/m^
+magnetic field strength
+ampere per meter
+A/m
+concentration
+(of amount of substance)
+mole per cubic meter
+mol/m'
+luminance
+candela per square meter
+cd/m^
+Certain derived units have been given special names and symbols. These names and
+symbols are given in tables 3 and
+3'; they may themselves be used to express other
+derived units (see table 4 for some examples).
+In Tables
+3,
+3', 4, and
+5, the final column gives expressions for the SI units con-
+cerned in terms of SI base units. In this column, factors such as m°, kg", etc. that are
+equal to
+1 are not generally shown explicitly.
+Table 3
+SI derived units with special names
+SI Unit
+Quantity
+Name
+Symbol
+Expression
+in terms
+of other
+units
+Expression
+in terms
+of SI base
+units
+frequency
+hertz
+Hz
+S-'
+force
+newton
+N
+m
+• kg
+• s~^
+pressure, stress
+pascal
+Pa
+N/m^
+m"'
+• kg
+• s~^
+energy, work, quantity
+of heat
+joule
+J
+N-m
+m^
+• kg
+• s"^
+power, radiant flux
+watt
+W
+J/s
+m^
+• kg
+• s~'
+electric charge.
+quantity of electricity
+coulomb
+C
+s-A
+electric potential.
+potential difference.
+electromotive force
+volt
+V
+W/A
+m^-kg-s-5- A-'
+capacitance
+farad
+F
+C/V
+m-^-kg-'-s*-A^
+electric resistance
+ohm
+a
+V/A
+m^
+• kg
+• S-'
+• A-'
+electric conductance
+Siemens
+s
+A/V
+m-2-kg-' -s'- A^
+magnetic flux
+weber
+Wb
+V-s
+m^-kg-s-^- A-'
+magnetic flux density
+tesla
+T
+Wb/m^
+kg -8-2 -A-'
+inductance
+henry
+H
+Wb/A
+m^
+• kg
+. S-'
+• A-2
+Celsius temperature*"*
+degree Celsius
+°C
+K
+luminous flux
+lumen
+Im
+cd
+• sr<*'
+illuminance
+lux
+Ix
+Im/m^
+m-^
+• cd
+• sr<*'
+See page 4, e. Note.
+In photometry, the symbol sr is maintained in expressions for units {see II.3., p.
+8).
+6
+
+Table 3'
+SI derived units with special names admitted for reasons of safeguarding human health
+SI Unit
+Quantity
+Name
+Symbol
+Expression in terms
+Expression in terms
+of other units
+of SI base units
+activity (of a
+radionuclide)
+becquerel
+Bq
+S-'
+absorbed dose,
+specific energy
+imparted, kerma.
+absorbed dose
+index
+gray
+Gy
+JAg
+m^
+. s-^
+dose equivalent.
+dose equivalent
+index
+sievert
+Sv
+JAg
+2
+—2
+m'
+• s
+Table 4
+Examples ofSI derived units expressed by means of special names
+SI Unit
+Expression
+Quantity
+Name
+Symbol
+in terms of
+SI base units
+dynamic viscosity
+pascal second
+Pas
+—
+1
+1,
+„ —
+1
+m
+• kg
+• s
+moment of force
+newton meter
+N-m
+2
+1
+-—2
+m
+• kg
+• s
+surface tension
+newton per meter
+N/m
+1
+«-2
+kg
+• s
+heat flux density.
+irradiance
+watt per square meter
+kg
+• s
+'
+heat capacity, entropy
+joule per kelvin
+J/K
+m
+• kg
+• s
+• K
+'
+specific heat capacity.
+joule per kilogram
+specific entropy
+kelvin
+J/(kg
+• K)
+2
+—2 V —
+I
+m^
+• s
+• K
+'
+specific energy
+joule per kilogram
+JAg
+2
+—2
+m
+• s
+thermal conductivity
+watt per meter kelvin
+W/(m
+• K)
+m
+kg
+s
+• K
+energy density
+joule per cubic meter
+J/m'
+m
+• kg
+• s
+electric field strength
+volt per meter
+V/m
+1
+—3
+A — I
+m
+• kg
+• s
+-A
+'
+electric charge density
+coulomb per cubic meter
+C/m'
+— 3
+A
+m
+• s
+• A
+electric flux density
+coulomb per square meter
+C/m^
+— 2
+A
+m
+'
+• s
+• A
+permittivity
+farad per meter
+F/m
+m-'-kg-' -s*- A^
+permeability
+henry per meter
+H/m
+m
+• kg
+• s~^
+• A~^
+molar energy
+joule per mole
+J/mol
+m^
+• kg
+• s~^
+• mol~'
+molar entropy, molar
+heat capacity
+joule per mole kelvin
+J/(mol
+• K)
+m^-kg-s-'-K-' -mol-'
+exposure (x and y rays)
+coulomb per kilogram
+CAg
+kg~'
+• s
+•
+A
+absorbed dose rate
+gray per second
+Gy/s
+m^-s-'
+A single SI unit name may correspond to several different quantities, as has been
+mentioned in paragraph 1.2 (p. 2). In the above tables, where the list of quantities is
+not exhaustive, one finds several examples. Thus the joule per kelvin (J/K) is the SI
+unit for the quantity heat capacity as well as for the quantity entropy; also the
+ampere (A)
+is the SI unit for the base quantity electric current as well as for the
+derived quantity magnetomotive force. The name of the unit is thus not sufficient
+to define the quantity measured; in particular, measuring instruments should indi-
+cate not only the unit but also the measured quantity concerned.
+7
+
+A derived unit can often be expressed in several different ways by using names of
+base units and special names of derived units:
+for example, in place of joule one
+may write newton meter or even kilogram meter squared per second squared.
+However, this algebraic freedom is governed by common-sense physical consider-
+ations.
+In practice, with certain quantities one gives preference to using certain special unit
+names, or certain combinations of units,
+in order to
+facilitate the distinction be-
+tween quantities having the same dimension. For example, one designates the SI
+unit of frequency as the hertz rather than the reciprocal second, and one designates
+the SI unit of moment of force as the newton meter rather than the joule.
+In the field of ionizing radiation,
+in the same way one designates the SI unit of
+activity as the becquerel rather than the reciprocal second and the SI
+units of
+absorbed dose and dose equivalent as gray and sievert, respectively,
+rather than
+the joule per kilogram.^
+Note:
+Dimensionless
+quantities. —The
+values of certain
+so-called
+dimensionless
+quantities, as for example refractive index, relative permeability, or relative permit-
+tivity, are defined as the ratio of two comparable quantities. These dimensionless
+quantities are expressed by pure numbers. The coherent SI unit is then the ratio of
+two identical SI units and may be expressed by the number
+1.
+II.3
+SI supplementary units
+This class contains two units:
+the SI unit of plane angle, the radian, and the SI unit
+of solid angle, the steradian (11th CGPM (1960), Resolution
+12).
+Considering
+that
+plane angle
+is
+generally expressed
+as
+the
+ratio between two
+lengths and solid angle as the ratio between an area and the square of a length, and
+in order to maintain the internal coherence of the International System based on
+only seven base units, the CIPM (1980) specified that, in the International System,
+the supplementary units radian and steradian are dimensionless derived units. This
+implies that the quantities plane angle and solid angle are considered as dimension-
+less derived quantities.
+Table 5
+SI supplementary units
+SI Unit
+Expression
+Quantity
+Name
+Symbol
+in terms of
+SI base units
+plane angle
+radian
+rad
+m-m"' = 1
+solid angle
+steradian
+sr
+These supplementary units may be used in expressions for derived units to facilitate
+distinguishing between quantities of different nature but the same dimension. Some
+examples of the use of supplementary units in forming derived units are given in
+table 6.
+^ See page 39 Recommendation
+1 (CI- 1984) adopted by the CIPM.
+8
+
+Table 6
+Examples ofSI derived units formed by using supplementary units
+Quantity
+SI Unit
+Name
+Symbol
+angular velocity
+radian per second
+rad/s
+angular acceleration
+radian per second squared
+rad/s^
+radiant intensity
+watt per steradian
+W/sr
+radiance
+watt per square meter steradian
+W-m-^-sr-'
+II.4
+Rules for writing and using SI unit symbols
+The general principles concerning writing the unit symbols were adopted by the
+9th CGPM (1948, Resolution 7):
+1.
+Roman (upright) type, in general lower case, is used for the unit symbols. If however,
+the name of the unit
+is derived from a proper name, the
+first letter of the symbol
+is in
+upper case.
+2.
+Unit symbols are unaltered in the plural.
+3.
+Unit symbols are not followed by a period.
+To insure uniformity in the use of the SI unit symbols, ISO International Stan-
+dards give certain recommendations. Following these recommendations:
+a)
+The product of two or more units may be indicated in any of the following
+ways,*
+for example
+:
+N
+• m,
+N
+. m,
+or N m.
+b)
+A solidus (oblique stroke, /), a horizontal line, or negative exponents may be
+used to express a derived unit formed from two others by division,
+for example
+:
+m/s,
+™,
+or m
+• s~'
+c)
+The solidus must not be repeated on the same line unless ambiguity is avoided
+by parentheses. In complicated cases negative exponents or parentheses should be
+used,
+for example
+:
+m/s^
+or m-s~^
+but not:
+m/s/s
+m-kg/(s^-A)
+or m-kg-s~''A~'
+m-kg/sVA
+USA Editors' note: See American National Standard ANSI/IEEE Std 260-1978, which states that in
+USA practice only the raised dot of these three ways is used.
+9
+
+III.
+DECIMAL
+MULTIPLES
+AND
+SUB-MULTIPLES
+OF
+SI
+UNITS
+in.l
+SI prefixes
+The 11th CGPM (1960, Resolution 12) adopted a first series of prefixes and sym-
+bols of prefixes to form the names and symbols of the decimal multiples and sub-
+multiples of SI units. Prefixes for 10"" and 10"'* were added by the 12th CGPM
+(1964, Resolution 8) and those for 10" and
+10'* by the 15th CGPM (1975, Resolu-
+tion 10).
+Table 7
+SI prefixes
+Factor
+Prefix
+Symbol
+Factor
+Prefix
+Symbol
+10"
+exa
+E
+10-'
+deci
+d
+10"
+peta
+P
+10-^
+centi
+c
+10
+tera
+T
+10-'
+milli
+m
+10'
+giga
+G
+10-*
+micro
+10*
+mega
+M
+io-»
+nano
+n
+10'
+kUo
+k
+10-'^
+pico
+P
+10^
+hecto
+h
+10-"
+femto
+f
+10'
+deka*
+da
+10-18
+atto
+a
+ni.2
+Rules for using SI prefixes
+In accord with the general principles adopted by the ISO, the CIPM recommends
+that the following rules for using the SI prefixes be observed:
+1.
+Prefix symbols are printed in roman (upright) type without spacing between
+the prefix symbol and the unit symbol.
+2.
+The grouping formed by the prefix symbol attached to the unit symbol consti-
+tutes a new inseparable symbol (of a multiple or submultiple of the unit concerned)
+which can be raised to a positive or negative power and which can be combined
+with other unit symbols to form compound unit symbols,
+for example:
+1 cm^=(10-^ m)'= 10"' m^
+1 cm-'=(10-^ m)-' = 10' m-'
+1 /Lis-'=(10-S)-' = 10' S-'
+1 V/cm=(l V)/(10-' m)= 10^ V/m
+3.
+Compound prefixes,
+i.e., prefixes formed by the juxtaposition of two or more
+SI prefixes, are not to be used,
+for example:
+1 nm
+but not:
+1 mjiim
+4.
+A prefix should never be used alone
+for example:
+lOVm^
+but not:
+M/m^
+* USA Editors' note: Outside the USA, the spelling "deca"
+is extensively used.
+10
+
+III.3
+The kilogram
+Among the base units of the International System, the unit of mass is the only one
+whose name, for historical reasons, contains a prefix. Names of decimal multiples
+and sub-multiples of the unit of mass are formed by attaching prefixes to the word
+"gram" (CIPM (1967), Recommendation 2),
+for example: 10~* kg= 1 milligram (1 mg)
+but not:
+1 microkilogram (1
+jiikg).
+11
+
+IV.
+UNITS OUTSIDE THE INTERNATIONAL SYSTEM
+IV.l
+Units used with the Internatioiial System
+The CIPM (1969) recognized that users of SI will wish to employ with
+it certain
+units not part of it, but which are important and are widely used. These units are
+given
+in table
+8. The combination of units of this table with SI
+units to form
+compound units should be restricted to special cases in order not to lose the advan-
+tage of the coherence of SI units.
+Table 8
+Units in use with the International System
+Name
+Symbol
+Value in SI units
+minute
+min
+1 min = 60s
+hour*"'
+h
+1 h
+= 60min = 3 600s
+day
+d
+1 d
+= 24h = 86 400s
+degree
+o
+1
+=
+(fl-/180)rad
+minute
+t
+1
+'
+=
+(1/60)° =(ir/10 800) rad
+second
+m
+1
+•
+=
+(1/60)' =(ir/648 000) rad
+liter<*>
+1.L
+1 L
+= ldm'=10-'m'
+metric ton*'*'
+t
+1
+1
+=
+10' kg
+<'"The symbol of this unit
+is included in Resolution 7 of the 9th CGPM (1948).
+<*' This unit and the symbol
+1 were adopted by CIPM in 1879 (Proces-Verbaux CIPM,
+1879, p. 41). The
+alternative symbol, L, was adopted by the 16th CGPM (1979, Resolution 6) in order to avoid the risk of
+confusion between the letter
+1 and the number
+1.' The present definition of the liter is in Resolution 6 of
+the 12th CGPM (1964).
+'"•This unit and its symbol were adopted by the International Committee in 1879 {Procis-Verbaux CIPM,
+1879, p. 41).
+It is likewise necessary to recognize, outside the International System, some other
+units that are useful in specialized fields, because their values expressed in SI units
+must be obtained by experiment, and are therefore not known exactly (table 9).
+Table 9
+Units used with the International System whose values
+in SI units are obtained experimentally
+Name
+Symbol
+Defmition
+electronvolt
+eV
+(a)
+unified atomic mass unit
+u
+(b)
+The electronvolt
+is the kinetic energy acquired by an electron in passing through a potential differ-
+ence of
+1 volt in vacuum;
+1 eV= 1.602 19 x 10"" J approximately.
+***The unified atomic mass unit
+is equal to (1/12) of the mass of an atom of the nuclide '^C;
+1 u= 1.660 57 X 10"^' kg approximately.
+' USA Editors' note:
+In some English-speaking countries this unit
+is called "tonne."
+' USA Editors' note:
+In the USA, the recommended symbol for liter is L.
+12
+
+IV.2
+Units in use temporarily
+In view of existing practice in certain fields or countries, the CIPM (1978) consid-
+ered that it was acceptable for those units listed in table 10 to continue to be used
+with SI units until the CIPM considers their use no longer necessary. However,
+these units should not be introduced where they are not used at present.
+Table 10
+Units in use temporarily with the International System
+Name
+Symbol
+Value in SI unit
+nautical mile'"'
+1 nautical mile= 1 852 m
+knot
+A
+1 nautical mile per hour =(1852/3600) m/s
+angstrom
+1 A=0.1 nm=10-"'m
+are<"
+a
+1 a=l dam^=10^m^
+hectare**"
+ha
+1 ha=l hm^=10''m2
+bam*'^'
+b
+1 b=100fm^=10-^' m^
+bar<*
+bar
+lbar=0.1 MPa=100kPa=1000hPa=10' Pa
+gal<'>
+Gal
+1 Gal=l cm/s^=10-Ws2
+curie^
+Ci
+1 0= 3.7X10'° Bq
+roentgen**'
+R
+1 R= 2.58X10-' CAg
+rad<*'
+rad
+1 rad=l cGy=10-2 Gy
+rem<''
+rem
+1 rem=l cSv=10-^ Sv
+*"* The nautical mUe is a special unit employed for marine and aerial navigation to express distances.
+TTie conventional value given above was adopted by the
+First
+International Extraordinary Hydro-
+graphic Conference, Monaco, 1929, under the name "International nautical mile."
+<*>This unit and its symbol were adopted by the CIPM in 1879 (Proces-Verbaux CIPM,
+1879, p. 41) and
+are used to express agrarian areas.
+'"'The bam is a special unit employed in nuclear physics to express effective cross sections.
+'^ This unit and its symbol are included in Resolution 7 of the 9th CGPM (1948).
+The gal
+is a special
+unit employed
+in geodesy and geophysics to express the acceleration due to
+gravity.
+^The curie
+is a special unit employed
+in nuclear physics to express activity of radionuclides (12th
+CGPM (1964), Resolution
+7).
+The roentgen is a special unit employed to express exposure of x or y radiations.
+'** The rad is a special unit employed to express absorbed dose of ionizing radiations. When there is risk
+of confusion with the symbol for radian, rd may be used as the symbol for rad.
+The rem is a special unit used in radioprotection to express dose equivalent.
+* USA Editors* note:
+In recommended USA practice, hectare would appear in table
+8. See Federal
+Register Notice of February 26, 1982, "Metric System of Measurement."
+13
+
+rv.3
+CGS units
+In the
+field of mechanics, the CGS system of units was based upon three base
+units: the centimeter, the gram, and the second.
+In the
+field of electricity and
+magnetism, units were expressed in terms of these three base units; this led to the
+establishment of several different systems, for example the CGS Electrostatic Sys-
+tem, the CGS Electromagnetic System, and the CGS Gaussian System. In these
+three last-mentioned systems, the system of quantities and the corresponding sys-
+tem of equations are often different from those used with SI units.
+The CIPM considers that it is in general preferable not to use, with the units of the
+International System, CGS units that have special names.* Such units are listed in
+table
+11.
+Table 11
+CGS units with special names
+Name
+Symbol
+Value in SI unit
+erg*")
+erg
+1 erg=10-'J
+dyne*"'
+dyn
+1 dyn=10-'N
+poise'"*
+P
+1 P=l dyn-s/cm^=0.1 Pa-s
+stokes
+St
+1 St=l cmVs=10-''mVs
+gauss'*'
+Gs,G
+1 Gs corresponds to 10~* T
+oersted'**
+Oe
+1 Oe corresponds to (1000/4i7-)A/m
+maxwell***
+Mx
+1 Mx corresponds to 10~' Wb
+stilb'**
+sb
+1 sb=l cd/cm2=l(ycd/m2
+phot
+ph
+1 ph=10''lx
+'''*This unit and its symbol were included in Resolution 7 of the 9th CGPM (1948).
+***This unit
+is part of the so-called "electromagnetic" 3-dimensional CGS system and cannot strictly
+speaking be compared to the correspionding unit of the International System, which has foiu" dimensions
+when only mechanical and electric quantities are considered.
+* The aim of the International System of Units and of the recommendations contained in this document
+is to secure a greater degree of uniformity, hence a better mutual understanding of the general use of
+units. Nevertheless in certain specialized fields of scientific research, in particular in theoretical physics,
+there may sometimes be very good reasons for using other systems or other units.
+Whichever units are used,
+it
+is important that the symbols employed for them follow current interna-
+tional recommendations.
+14
+
+IV.4
+Other units
+As regards units outside the International System which do not come under sec-
+tions IV. 1,
+2, and
+3, the CIPM considers that
+it
+is in general preferable to avoid
+them, and to use instead units of the International System. Some of those units are
+listed in table
+12.
+Table 12
+Other units generally deprecated
+Name
+Value in SI unit
+fenni
+1 fermi=l fni=10~"m
+metric carat'"*
+1 metric carat=200 mg=2x 10"'' kg
+torr
+1 torr=(101 325/760) Pa
+standard atmosphere (atm)'*'
+1 atm= 101 325 Pa
+kilogram-force (kgO
+1 kgf=9.806 65 N
+calorie (cal)*"'
+micron (fi.)'''*
+1 /i= 1 fim= 10~'
+m
+X unit*''
+stereCst)*"
+1 st=l m'
+gamma (y)
+1 7=1 nT=10~'T
+y<«>
+1 7=1 )ng=10-'kg
+X<*'
+1 X= 1 /xL= 10-' L= 10-» m'
+'"'This name was adopted by the 4th CGPM (1907, pp. 89-91) for commercial dealings in diamonds,
+pearls, and precious stones.
+<*' Resolution 4 of the
+10th CGPM
+(1954). The designation "standard atmosphere"
+for a reference
+pressure of 101 325 Pa is still acceptable.
+Several "calories" have been in use:
+— calorie labeled "at 15 °C":
+1 cali5=4.185 5 J (value adopted by the CIPM in 1950 (Proces-Verbaux
+CIPM. 22, 1950, pp. 79-80));
+— a calorie labeled "IT" (International Table):
+1 calrr=4.186 8 J (5th International Conference on
+the Properties of Steam, London,
+1956);
+— a calorie labeled "thermochemical":
+1 calth=4.184 J.
+<*The name of this unit and
+its symbol, adopted by the CIPM in 1879 (Proces-Verbaux CIPM,
+1879,
+p. 41) and repeated in Resolution 7 of the 9th CGPM (1948) were abolished by the 13th CGPM (1967,
+Resolution
+7).
+This special unit was employed to express wavelengths of x rays;
+1 x unit= 1.002 X 10"* nm approxi-
+mately.
+'"This special unit employed to measure firewood was adopted by the CIPM in 1879 with the symbol
+"s" (Proces-Verbaux CIPM,
+1879,
+p. 41). The 9th CGPM (1948, Resolution 7) changed the symbol to
+"St."
+'^'This symbol is mentioned in Proces-Verbaux CIPM,
+1880, p. 56.
+**'This symbol
+is mentioned in Proces-Verbaux CIPM,
+1880, p. 30.
+15
+
+APPENDIX I
+Decisions of the CGPM and the CIPM
+The more important decisions abrogated, modified, or added to, are indicated by an
+asterisk (*). These references and the footnotes have been added by the BIPM to
+make understanding of the text easier.
+CR:
+Comptes rendus des seances de la Conference Generale des Poids et Mesures
+(CGPM)
+PV:
+Proces-Verbaux des seances du Comite International des Poids et Mesures
+(CIPM)
+1st CGPM, 1889
+gjgj.
+Sanction ofthe international prototypes of the meter and the kilogram (CR, pp. 34-38)
+kilogram
+The General Conference
+considering
+the "Compte rendu of the President of the CIPM" and the "Report of the CIPM,"
+which show that, by the collaboration of the French section of the international
+Meter Commission and of the CIPM, the fundamental measurements of the interna-
+tional and national prototypes of the meter and of the kilogram have been made
+with all the accuracy and reliability that the present state of science permits; that
+the international and national prototypes of the meter and the kilogram are made of
+an alloy of platinum with
+10 percent iridium,
+to within 0.000
+1; the equality in
+length of the international Meter and the equality
+in mass of the international
+Kilogram with the length of the Meter and the mass of the Kilogram kept in the
+Archives of France;
+that the differences between the national Meters and the international Meter
+lie
+within 0.01 millimeter and that these differences are based on a hydrogen ther-
+mometer scale which can always be reproduced thanks to the stability of hydrogen,
+provided identical conditions are secured;
+that the differences between the national Kilograms and the international Kilogram
+lie within
+1 milligram;
+that the international Meter and Kilogram and the national Meters and Kilograms
+fulfill the requirements of the Meter Convention,
+sanctions
+A,
+As regards international prototypes:
+1.
+The Prototype of the meter chosen by the CIPM. This prototype,
+at the
+temperature of melting ice, shall henceforth represent the metric unit of length.*
+2.
+The Prototype of the kilogram adopted by the CIPM. This prototype shall
+henceforth be considered as the unit of mass.
+3.
+The hydrogen thermometer centigrade scale in terms of which the equations of
+the prototype Meters have been established.
+Definition abrogated in 1960 (see p. 24:
+11th CGPM, Resolution 6).
+16
+
+B.
+As regards national prototypes:
+3d CGPM, 1901
+liter
+Declaration concerning the definition of the liter (CR, p. 38)*
+The Conference declares:
+1.
+The unit of volume, for high accuracy determinations, is the volume occupied
+by a mass of
+1 kilogram of pure water, at
+its maximum density and at standard
+atmospheric pressure; this volume is called "liter."*
+2
+* Definition abrogated in 1964 (see p. 27:
+12th CGPM, Resolution 6)
+mass
+Declaration on the unit ofmass and on the definition of weight; conventional value ofg„
+and weight
+(CR, p.
+70)
+Taking into account the decision of the CIPM of 15 October 1887, according to
+which the kilogram has been defmed as a unit of mass;
+Taking into account the decision contained in the sanction of the prototypes of the
+Metric System, unanimously accepted by the CGPM on 26 September 1889;
+Considering the necessity to put an end to the ambiguity which in current practice
+still exists on the meaning of the word weight, used sometimes for mass, sometimes
+for mechanical force;
+The Conference declares:
+"1.
+The kilogram
+is the unit of mass;
+it
+is equal to the mass of the international
+prototype of the kilogram;
+"2.
+The word weight* denotes a quantity of the same nature as a force; the weight
+of a body is the product of its mass and the acceleration due to gravity; in particu-
+lar, the standard weight of a body
+is the product of
+its mass and the standard
+acceleration due to gravity;
+"3.
+The value adopted in the international Service of Weights and Measures for
+the standard acceleration due to gravity
+is 980.665 cm/s^ value already stated in
+the laws of some countries."^
+' "The mass of the international Kilogram
+is taken as the unit for the international Service of Weights
+and Measures" (PV, 1887, p. 88).
+^This conventional reference "standard value" (g„ = 9.806 65 m/s^) was confirmed in 1913 by the 5th
+CGPM (CR, p. 44). This value should be used for reduction to standard gravity of measurements made
+in any location on Earth.
+USA Editors' note:
+In the USA, ambiguity exists in the use of the term weight as a quantity to mean
+either force or mass. In science and technology this declaration (CGPM (1901))
+is usually followed,
+with the newton the corresponding unit. In commercial and everday use, weight
+is often used in the
+sense of mass for which the SI unit
+is the kilogram.
+17
+
+7th CGPM, 1927
+meter
+Definition of the meter by the international Prototype (CR, p. 49)*
+The unit of length is the meter, defined by the distance, at 0°, between the axes of
+the two central lines marked on the bar of platinum-iridium kept at the BIPM, and
+declared Prototype of the meter by the
+1st CGPM, this bar being subject to stan-
+dard atmospheric pressure and supported on two cylinders of at least one centime-
+ter diameter, symmetrically placed in the same horizontal plane at a distance of 571
+mm from each other.*
+• Definition abrogated in 1960 (see p. 24; 11th CGPM, Resolution 6).
+CIPM, 1946
+photometric
+Definitions ofphotometric units (PV, 20, p. 119)
+units
+Resolution
+'
+4.
+The photometric units may be defined as follows:
+New candle (unit of luminous intensity).—The value of the new candle is such that
+the brightness of the full radiator at the temperature of solidification of platinum is
+60 new candles per square centimeter.*
+New lumen (unit of luminous flux).—The new lumen is the luminous flux emitted in
+unit solid angle (steradian) by an isotropic point source having a luminous intensity
+of
+1 new candle.
+5
+* Definition modified in 1967 (see p. 30:
+13th CGPM, Resolution 5).
+mechanical
+Definitions of electric units (PV, 20, 131)
+and
+electric
+Resolution 2
+units
+4.
+A)
+Definitions of the mechanical units which enter the definitions of electric
+units:
+Unit offorce. —The unit of force [in the MKS (Meter, Kilogram, Second) system]
+is that force which gives to a mass of
+1 kilogram an acceleration of
+1 meter per
+second, per second.
+Joule (unit of energy or work).—The joule
+is the work done when the point of
+application of
+1 MKS unit of force [newton] moves a distance of
+1 meter in the
+direction of the force.
+Watt (Unit of power).—The watt
+is the power which in one second gives rise to
+energy of
+1 joule.
+^ The two definitions contained in this Resolution were ratified by the 9th CGPM (1948), which also
+approved the name candela given to the "new candle" (CR, p. 54). For the lumen the qualifier "new"
+was later abandoned.
+The definitions contained in this Resolution 2 were approved by the 9th CGPM (1948), (CR, p. 49),
+which moreover adopted the name newton (Resolution 7) for the MKS unit of force.
+18
+
+B)
+Definitions of electrical units. The CIPM accepts the following propositions
+which define the theoretical value of the electric units:
+Ampere (unit of electric current).—The ampere
+is that constant current which,
+if
+maintained in two straight parallel conductors of infinite length, of negligible circu-
+lar cross-section, and placed
+1 meter apart in vacuum, would produce between
+these conductors a force equal to 2X 10~^ MKS unit of force [newton] per meter of
+length.
+Volt (unit of potential difference and of electromotive
+force).—The volt
+is the
+difference of electric potential between two points of a conducting wire carrying a
+constant current of
+1 ampere, when the power dissipated between these points
+is
+equal to
+1 watt.
+Ohm (unit of electric resistance).—The ohm is the electric resistance between two
+points of a conductor when a constant potential difference of
+1
+volt, applied to
+these points, produces in the conductor a current of
+1 ampere, the conductor not
+being the seat of any electromotive force.
+Coulomb (unit of quantity of electricity).—The coulomb is the quantity of electric-
+ity carried in
+1 second by a current of
+1 ampere.
+Farad (unit of capacitance).—The farad is the capacitance of a capacitor between
+the plates of which there appears a potential difference of 1 volt when it is charged
+by a quantity of electricity of
+1 coulomb.
+Henry (unit of electric inductance).—The henry is the inductance of a closed circuit
+in which an electromotive force of
+1 volt is produced when the electric current in
+the circuit varies uniformly at the rate of
+1 ampere per second.
+Weber (unit of magnetic flux).—The weber
+is that magnetic flux which, linking a
+circuit of one turn, would produce in
+it an electromotive force of
+1 volt if it were
+reduced to zero at a uniform rate in
+1 second.
+9th CGPM, 1948
+thermodynamic
+Triple point of water; thermodynamic scale with a single fixed point; unit of quantity of
+scale
+heat (joule) (CR, pp. 55 and 63).
+unit of
+quantity of heat
+Resolution 3
+1.
+With present-day techniques, the triple point of water is capable of providing a
+thermometric reference point with an accuracy higher than can be obtained from
+the melting point of ice.
+In
+consequence
+the CCTC
+[Consultative
+Committee
+for
+Thermometry
+and
+Calorimetry] considers that the zero of the centesimal thermodynamic scale must
+be defined as the temperature 0.0 10 0 degree below that of the triple point of water.
+2.
+The CCTC accepts the principle of an absolute thermodynamic scale with a
+single fundamental
+fixed point,
+at present provided by the
+triple point of pure
+water, the absolute temperature of which will be fixed at a later date.
+The introduction of this new
+scale does not
+affect
+in any way the use of the
+International Scale, which remains the recommended practical scale.
+' The three propositions contained in this Resolution 3 were adopted by the General Conference.
+19
+
+3.
+The unit of quantity of heat is the joule.
+Note:
+It
+is requested
+that the
+results of calorimetric experiments be
+as
+far as
+possible expressed in joules.
+If the experiments are made by comparison with the rise of temperature of water
+(and that, for some reason,
+it is not possible to avoid using the calorie) the informa-
+tion necessary for conversion to joules must be provided.
+The CIPM, advised by the CCTC, should prepare a table giving,
+in joules per
+degree, the most accurate values that can be obtained from experiments on the
+specific heat of water.*
+degree
+Adoption of "degree Celsius"
+Celsius
+From three names ("degree centigrade," "centesimal degree," "degree Celsius")
+proposed to denote the degree of temperature, the CIPM has chosen "degree Cel-
+sius" (PV, 21,
+1948, p.
+88).
+This name is also adopted by the General Conference (CR, p. 64).
+Proposal for establishing a practical system of units of measurement (CR, p. 64).
+Resolution 6
+The General Conference,
+considering
+that the CIPM has been requested by the International Union of Physics to adopt
+for international use a practical international system of units; that the International
+Union of Physics recommends the MKS system and one electric unit of the abso-
+lute practical system, but does not recommend that the CGS system be abandoned
+by physicists;
+that the CGPM has itself received from the French Government a similar request,
+accompanied by a draft to be used as basis of discussion for the establishment of a
+complete specification of units of measurement;
+instructs the CIPM:
+to seek by an energetic, active, official enquiry the opinion of scientific, technical,
+and educational circles of all countries (offering them in effect the French docu-
+ment as basis);
+to gather and study the answers;
+to make recommendations for a single practical system of units of measurement,
+suitable for adoption by all countries adhering to the Meter Convention.
+practical
+system of
+units of
+measurement
+' A table, prepared in response to this request, was approved and published by the CIPM in 1950 (PV,
+22, p. 92).
+20
+
+symbols and
+Writing and printing of unit symbols and of numbers (CR, p. 70)
+numbers
+Resolution 7
+Principles
+Roman (upright) type, in general lower case,
+is used for symbols of units; if how-
+ever the symbols are derived from proper names, capital roman type is used. These
+symbols are not followed by a full stop.
+In numbers, the comma (French practice) or the dot (British practice) is used only
+to separate the integral part of numbers from the decimal part. Numbers may be
+divided in groups of three in order to facilitate reading; neither dots nor commas
+are ever inserted in the spaces between groups.
+Unit
+Symbol
+Unit
+Symbol
+• meter
+m
+ampere
+A
+• square meter
+volt
+V
+• cubic meter
+m'
+watt
+W
+• micron*
+J*
+ohm
+n
+• liter**
+1
+coulomb
+C
+• gram
+g
+farad
+F
+• metric ton
+t
+henry
+H
+second
+s
+hertz
+Hz
+erg
+erg
+poise
+P
+dyne
+dyn
+newton
+N
+degree Celsius
+°C
+• candela (new candle*)
+cd
+• degree absolute***
+"K
+lux
+Ix
+calorie
+cal
+lumen
+Im
+bar
+bar
+stilb
+sb
+hour
+h
+Notes
+I.
+The symbols whose unit names are preceded by dots are those which had
+already been adopted by a decision of the CIPM.
+II.
+The symbol for the stere, the unit of volume for firewood, shall be "st" and
+not "s," which had been previously assigned to
+it by the CIPM.
+III.
+To indicate a temperature interval or difference, rather than temperature, the
+word "degree" in full, or the abbreviation "deg," must be used.****
+See p. 31, Resolution 7 of the 13th CGPM (1967).
+*• An alternative symbol, L, was adopted in 1979 (see p. 37:
+16th CGPM, Resolution 6).
+•*• Name and symbol changed in 1967 (see p. 29:
+13th CGPM, Resolution
+3).
+*••• Decision abrogated in 1967 (see p. 29:
+13th CGPM, Resolution
+3).
+21
+
+10th CGPM, 1954
+thermo-
+Definition of the thermodynamic temperature scale (CR, p. 79)
+dynamic
+scale
+Resolution 3
+The
+10th CGPM
+decides
+to
+define
+the thermodynamic
+temperature
+scale by
+choosing the triple point of water as the fundamental fixed point, and assigning to
+it the temperature 273.16 degrees Kelvin, exactly.^
+standard
+Definition of standard atmosphere (CR, p. 79)
+atmosphere
+Resolution 4
+The
+10th CGPM, having noted that the definition of the standard atmosphere
+given by the 9th CGPM when defining the International Temperature Scale led
+some physicists to believe that this definition of the standard atmosphere was valid
+only for accurate work in thermometry,
+declares that it adopts, for general use, the definition:
+1
+standard atmosphere =
+1 013 250 dynes per square centimeter,
+i.e.,
+101 325 newtons per square meter.
+practical
+system
+of units
+Practical system of units (CR, p. 80)
+Resolution 6
+In accordance with the wish expressed by the 9th CGPM in its Resolution 6 con-
+cerning the establishment of a practical system of units of measurement for interna-
+tional use, the 10th CGPM
+decides to adopt as base units of the system, the following units:
+length
+mass
+time
+electric current
+thermodynamic temperature
+luminous intensity
+meter
+kilogram
+second
+ampere
+degree Kelvin*
+candela
+* Name changed to "kelvin" in 1967 (see p. 29:
+13th CGPM, Resolution 3).
+' See p. 29, Resolution 4 of the 13th CGPM (1967) which explicity defines the kelvin.
+22
+
+CIPM, 1956
+Definition of the unit of time
+(PV, 25, p. 77)*
+Resolution
+1
+In virtue of the powers invested in it by Resolution 5 of the 10th CGPM, the CIPM
+considering
+1.
+that
+the
+9th
+General
+Assembly
+of
+the
+International
+Astronomical Union
+(Dublin, 1955) declared itself in favor of linking the second to the tropical year;
+2.
+that, according to the decisions of the 8th General Assembly of the Interna-
+tional Astronomical Union (Rome, 1952), the second of ephemeris time (ET) is the
+fraction
+^408986 496^ ^
+' °^
+tropical year for 1900 January 0 at 12 h ET,
+decides
+"The
+second
+is
+the
+fraction
+1/31
+556 925.974 7
+of
+the
+tropical
+year
+for
+1900 January 0 at 12 hours ephemeris time."*
+Definition abrogated in 1967 (see p. 28:
+13th CGPM, Resolution
+1).
+International System of Units (PV, 25, p. 83)
+Resolution 3
+The CIPM
+considering
+the task entrusted to it by Resolution 6 of the 9th CGPM concerning the establish-
+ment of a practical system of units of measurement suitable for adoption by
+all
+countries adhering to the Meter Convention.
+the documents received from twenty-one countries
+in reply
+to the enquiry
+re-
+quested by the 9th CGPM,
+Resolution
+6
+of the
+10th CGPM,
+fixing
+the
+base
+units
+of the
+system
+to be
+established,
+recommends
+1.
+that the name "International System of Units" be given to the system founded
+on the base units adopted by the 10th CGPM, viz:
+[There follows the list of the six base units with their symbols, reproduced in Resolution 12 of the 11th
+CGPM (I960)]
+2.
+that the units listed in the table below be used, without excluding others which
+might be added later:
+[There follows the table of units reproduced in paragraph 4 of Resolution 12 of the
+1 1th CGPM (I960)]
+23
+
+11th CGPM, 1960
+Definition of the meter (CR, p. 85)*
+Resolution 6
+The 11th CGPM
+considering
+that the international Prototype does not define the meter with an accuracy ade-
+quate for the present needs of metrology.
+decides
+that it is moreover desirable to adopt a natural and indestructible standard,
+1.
+The meter
+is the length equal to
+1 650 763.73 wavelengths in vacuum of the
+radiation corresponding to the transition between the levels 2 pio and 5 ds of the
+krypton 86 atom.*
+2.
+The definition of the meter
+in force since
+1889, based on the international
+Prototype of platinum-iridium,
+is abrogated.
+3.
+The international Prototype of the meter sanctioned by the
+1st CGPM in 1889
+shall be kept at the BIPM under the conditions specified in 1889.
+* Definition abrogated in 1983 (see p. 38:
+17th CGPM, Resolution
+1).
+Definition of the unit of time (CR, p. 86)*
+Resolution 9
+The
+1 1th CGPM
+considering
+the powers given to the CIPM by the 10th CGPM, to defme the fundamental unit
+of time,
+the decision taken by the CIPM in 1956,
+ratifies the following definition:
+"The
+second
+is
+the
+fraction
+1/31
+556 925.974 7
+of
+the
+tropical
+year
+for
+1900 January 0 at 12 hours ephemeris time."*
+• Definition abrogated in 1967 (see p. 28:
+13th CGPM, Resolution
+1).
+24
+
+International System of Units (CR, p.
+87).
+Resolution 12
+The 11th CGPM
+considering
+Resolution 6 of the 10th CGPM, by which
+it adopted six base units on which to
+establish a practical system of measurement for international use:
+length
+meter
+m
+mass
+kilogram
+kg
+time
+second
+s
+electric current
+ampere
+A
+thermodynamic temperature
+degree Kelvin
+°K*
+luminous intensity
+candela
+cd
+Resolution 3 adopted by the CIPM in 1956,
+the recommendations adopted by the CIPM in 1958 concerning an abbreviation for
+the name of the system, and prefixes to form multiples and sub-multiples of the
+units,
+decides
+1.
+the system founded on the six base units above
+is called "International System
+of Units,"**
+2.
+the international abbreviation of the name of the system
+is: SI,
+3.
+names of multiples and sub-multiples of the units are formed by means of the
+following prefixes:***
+Multiplying factor
+Prefix
+Symbol
+1 000 000 000 000
+10'2
+tera
+T
+1 000 000 000
+10'
+giga
+G
+1 000 000
+10'
+mega
+M
+1 000
+10'
+kilo
+k
+100
+102
+hecto
+h
+10
+10'
+deka
+da
+0.1
+10-'
+deci
+d
+0.01
+10-2
+centi
+c
+0.001
+10-3
+milli
+m
+0.000 001
+10-'
+micro
+|t
+0.000 000 001
+10-'
+nano
+n
+0.000 000 000 001
+10-'2
+pico
+P
+4.
+the units listed below are used in the system, without excluding others which
+might be added later
+SUPPLEMENTARY UNITS
+plane angle
+radian
+rad
+solid angle
+steradian
+sr
+* Name and symbol of unit modified in 1967 (see p. 29:
+13th CGPM, Resolution
+3).
+** A seventh base unit, the mole, was adopted in 1971 by the 14th CGPM, Resolution
+3, see p.
+33.
+•*• See pages 28 and 35 for the four new prefixes adopted by the 12th CGPM (1964), Resolution 8, and
+the 15th CGPM (1975), Resolution
+10.
+25
+
+DERIVED UNITS *
+area
+square meter
+volume
+cubic meter
+m'
+frequency
+hertz
+Hz
+1/s
+mass density (density)
+kilogram per cubic meter
+kg/m'
+speed, velocity
+meter per second
+m/s
+angular velocity
+radian per second
+rad/s
+acceleration
+meter per second squared
+m/s^
+angular acceleration
+radian per second squared
+rad/s^
+force
+newton
+N
+kg
+• m/s'
+pressure (mechanical stress)
+newton per square meter
+N/m^
+kinematic viscosity
+square meter per second
+mVs
+dynamic viscosity
+newton-second per square meter
+N
+• s/m'
+work, energy, quantity of heat
+joule
+J
+N-m
+power
+watt
+W
+J/s
+quantity of electricity
+coulomb
+C
+A-s
+potential difference.
+electromotive force
+volt
+V
+W/A
+electric field strength
+volt per meter
+V/m
+electric resistance
+ohm
+ft
+V/A
+capacitance
+farad
+F
+A-s/V
+magnetic flux
+weber
+Wb
+V -s
+inductance
+henry
+H
+V-s/A
+magnetic flux density
+tesla
+T
+Wb/m'
+magnetic field strength
+ampere per meter
+A/m
+magnetomotive force
+ampere
+A
+luminous flux
+lumen
+Im
+cd
+• sr
+luminance
+candela per square meter
+cd/m^
+illuminance
+lux
+Ix
+Im/m^
+* See page 30 for the other units added by the 13th CGPM (1967), Resolution 6.
+cubic
+Cubic decimeter and liter (CR, p. 88)
+decimeter
+and liter
+Resolution 13
+The 11th CGPM,
+considering
+that the cubic decimeter and the liter are unequal and differ by
+about
+28 parts
+in
+10^
+that determination of physical quantities which involve measurements of volume
+are being made more and more accurately, thus increasing the risk of confusion
+between the cubic decimeter and the liter.
+requests the CIPM to study the problem and submit
+its conclusions to the
+12th
+CGPM.
+CIPM, 1961
+cubic decimeter and liter (PV, 29, p. 34)
+Recommendation
+The CIPM recommends that the results of accurate measurements of volume be
+expressed in units of the International System and not in liters.
+26
+
+12th CGPM, 1964
+firequency
+Atomic standard offrequency (CR, p. 93)
+standard
+Resolution 5
+The 12th CGPM,
+considering
+that the
+11th CGPM noted in
+its Resolution
+10 the urgency,
+in the interests of
+accurate metrology, of adopting an atomic or molecular standard of time interval,
+that in spite of the results already obtained with cesium atomic frequency stan-
+dards, the time has not yet come for the CGPM to adopt a new definition of the
+second, base unit of the International System of Units, because of the new and
+considerable improvements likely to be obtained from work now in progress,
+considering also that it is not desirable to wait any longer before time measurements
+in physics are based on atomic or molecular frequency standards,
+empowers the CIPM to name the atomic or molecular frequency standards to be
+employed for the time being,
+requests the Organizations and Laboratories knowledgeable in this field to pursue
+work connected with a new definition of the second.
+DECLARATION OF THE CIPM (1964) (PV, 32, p. 26, and CR, p. 93)
+The CIPM,
+empowered by Resolution 5 of the 12th CGPM to name atomic or molecular fre-
+quency standards for temporary use for time measurements in physics,
+declares that the standard to be employed
+is the transition between the hyperfine
+levels F=4, M=0 and F=3, M=0 of the ground state
+of the cesium 133 atom,
+unperturbed by external fields, and that the frequency of this transition is assigned
+the value 9 192 631 770 hertz.
+liter
+Liter (CR, p. 93)
+Resolution 6
+The 12th CGPM,
+considering Resolution 13 adopted by the 11th CGPM in 1960 and the Recommen-
+dation adopted by the CIPM in 1961,
+1.
+abrogates the definition of the liter given in 1901 by the 3d CGPM,
+2.
+declares that the word "liter" may be employed as a special name for the cubic
+decimeter,
+3.
+recommends that the name liter should not be employed to give the results of
+high accuracy volume measurements.
+27
+
+curie
+Curie (CR, p. 94)
+Resolution 7
+The 12th CGPM,
+considering that the curie has been used for a long time in many countries as a unit
+of activity for radionuclides.
+recognizing that in the International System of Units (SI), the unit of this activity is
+the second to the power of minus one (s~'),*
+accepts that the curie be still retained, outside SI, as unit of activity, with the value
+3.7 X 10'° s-'. The symbol for this unit is Ci.
+* In 1975 the name "becquerel" (Bq) was adopted for the SI unit of activity (see p. 34:
+15th
+CGPM, Resolution 8):
+1 Ci=3.7x 10'° Bq.
+femto
+SI prefixes fern to and atto (CR, p. 94)
+and atto
+Resolution 8
+The 12th CGPM,
+decides to add to the
+list of prefixes for the formation of names of multiples and
+sub-multiples of units, adopted by the 11th CGPM, Resolution 12, paragraph 3, the
+following two new prefixes:
+Multiplying factor
+Prefix
+Symbol
+10-"
+femto
+f
+10"'*
+atto
+a
+13th CGPM, 1967-1968
+second
+SI unit of time (second) (CR, p. 103)
+Resolution
+1
+The 13th CGPM,
+considering
+that the definition of the second adopted by the CIPM in 1956 (Resolution
+1) and
+ratified by Resolution 9 of the 11th CGPM (1960), later upheld by Resolution 5 of
+the 12th CGPM (1964),
+is inadequate for the present needs of metrology,
+that at
+its meeting of 1964 the CIPM, empowered by Resolution
+5 of the
+12th
+CGPM
+(1964), recommended,
+in order
+to
+fulfill
+these
+requirements,
+a cesium
+atomic frequency standard for temporary use,
+that this frequency standard has now been sufficiently tested and found sufficiently
+accurate to provide a definition of the second fulfilling present requirements,
+that the time has now come to replace the defmition now in force of the unit of
+time of the International System of Units by an atomic definition based on that
+standard.
+28
+
+decides
+1.
+The SI unit of time is the second defined as follows:
+"The second is the duration of 9 192 631 770 periods of the radiation corresponding
+to the transition between the two hyperfine levels of the ground state of the cesium
+133 atom."
+2.
+Resolution
+1 adopted by the CIPM at its meeting of 1956 and Resolution 9 of
+the 11th CGPM are now abrogated.
+kelvin
+SI unit of thermodynamic temperature (kelvin) (CR, p. 104)
+(degree
+Celsius)
+Resolution 3
+The 13th CGPM
+considering
+the names "degree Kelvin" and "degree," the symbols ""K" and "deg," and the
+rules for their use given in Resolution 7 of the 9th CGPM (1948), in Resolution 12
+of the 11th CGPM (1960), and the decision taken by the CIPM in 1962 (PV, 30,
+p. 27), that the unit of thermodynamic temperature and the unit of temperature
+interval are one and the same unit, which ought to be denoted by a single name and
+single symbol,
+decides
+1.
+the unit of thermodynamic temperature is denoted by the name "kelvin" and its
+symbol is "K";
+2.
+the same name and the same symbol are used to express a temperature interval;
+3.
+a temperature interval may also be expressed in degrees Celsius;
+4.
+the decisions mentioned in the opening paragraph concerning the name of the
+unit of thermodynamic temperature, its symbol, and the designation of the unit to
+express an interval or a difference of temperatures are abrogated, but the usages
+which derive from these decisions remain permissible for the time being.*
+* At its 1980 meeting the CIPM approved the report of the 7th meeting of the CCU which
+requested that the use of the symbols "°K" and "deg" no longer be permitted.
+kelyin
+Resolution 4
+The 13th CGPM,
+considering that it is useful to formulate more explicitly the definition of the unit of
+thermodynamic temperature contained in Resolution 3 of the 10th CGPM (1954).
+decides to express this definition as follows:
+"The kelvin, unit of thermodynamic temperature,
+is the fraction 1/273A6 of the
+thermodynamic temperature of the triple point of water."
+29
+
+candela
+SI unit of luminous intensity (candela) (CR, p. 104)*
+Resolution 5
+The 13th CGPM
+considering
+the definition of the unit of luminous intensity ratified by the 9th CGPM (1948) and
+contained in the "Resolution concerning the change of photometric units" adopted
+by CIPM in 1946 (PV, 20, p.
+119) in virtue of the powers conferred by the 8th
+CGPM (1933).
+that this definition
+fixes satisfactorily the unit of luminous intensity, but that
+its
+wording may be open to criticism,
+decides to express the definition of the candela as follows:
+"The candela is the luminous intensity, in the perpendicular direction, of a surface
+of 1/600 000 square meter of a blackbody at the temperature of freezing platinum
+under a pressure of 101 325 newtons per square meter."*
+* Definition abrogated in 1979 (see p. 35:
+16th CGPM, Resolution 3).
+SI derived
+SI derived units (CR, p. 105)
+units
+Resolution 6
+The 13th CGPM
+considering that
+it is useful to add some derived units to the list of paragraph 4 of
+Resolution 12 of the 11th CGPM (1960),
+decides to add:
+wave number
+1 per meter
+m~'
+entropy
+joule per kelvin
+J/K
+specific heat capacity
+joule per kilogram kelvin
+J/(kg'K)
+thermal conductivity
+watt per meter kelvin
+W/(m'K)
+radiant intensity
+watt per steradian
+W/sr
+activity (of a radioactive source)
+1 per second
+s"'*
+• The unit of activity received a special name and symbol in 1975 (see p. 34:
+15th CGPM, Resolution 8).
+30
+
+Abrogation of earlier decisions (micron, new candle) (CR, p. 105)
+Resolution 7
+The 13th CGPM,
+considering that subsequent decisions of the General Conference concerning the
+International System of Units are incompatible with parts of Resolution 7 of the 9th
+CGPM (1948),
+decides accordingly to remove from Resolution 7 of the 9th Conference:
+1.
+the unit name "micron," and the symbol "/x" which had been given to that unit,
+but which has now become a prefix;
+2.
+the unit name "new candle."
+CIPM, 1967
+multiples of
+Decimal multiples and sub-multiples of the unit of mass (PV, 35, p. 29)
+kilogram
+Recommendation 2
+The CIPM,
+considering that the rule for forming names of decimal multiples and sub-multiples
+of the units of paragraph 3 of Resolution
+12 of the 11th CGPM (1960) might be
+interpreted in different ways when applied to the unit of mass,
+declares that the rules of Resolution 12 of the
+1 1th CGPM apply to the kilogram in
+the following manner: the names of decimal multiples and sub-multiples of the unit
+of mass are formed by attaching prefixes to the word "gram."
+CIPM, 1969
+SI
+International System of Units:
+Rules for application of Resolution 12 of the 11th
+CGPM (1960) (PV, 37, p. 30)
+Recommendation
+1 (1969)
+The CIPM,
+considering that Resolution 12 of the 11th CGPM (1960) concerning the Interna-
+tional System of Units, has provoked discussions on certain of its aspects,
+declares
+1.
+the base units, the supplementary units, and the derived units, of the Interna-
+tional System of Units, which form a coherent set, are denoted by the name "SI
+units";
+2.
+the prefixes adopted by the CGPM for the formation of decimal multiples and
+sub-multiples of SI units are called "SI prefixes";
+micron
+(ju.)
+new candle
+31
+
+and recommends
+3.
+the use of SI
+units, and of their decimal multiples and sub-multiples whose
+names are formed by means of SI prefixes.
+Note
+:
+The name "supplementary units," appearing in Resolution
+12 of the 11th
+CGPM (and in the present Recommendation)
+is given to SI units for which the
+General Conference declines to state whether they are base units or derived units.*
+See p. 37:
+Recommendation
+1 (CI- 1980) of the CIPM.
+14th CGPM, 1971
+pascal;
+Pascal; Siemens
+Siemens
+The 14th CGPM (CR, p. 59) adopted the special names "pascal" (symbol Pa), for
+the SI unit newton per square meter, and "Siemens" (symbol S), for the SI unit of
+electric conductance (reciprocal ohm).
+TAI
+International Atomic Time; function of CIPM (CR, p. 77)
+Resolution
+1
+The 14th CGPM
+considering
+that the second, unit of time of the International System of Units, has since 1967
+been defined in terms of a natural atomic frequency; and no longer in terms of the
+time scales provided by astronomical motions,
+that the need for an International Atomic Time (TAI) scale is a consequence of the
+atomic definition of the second,
+that several international organizations have ensured and are
+still successfully en-
+suring the establishment of time scales based on astronomical motions, particularly
+thanks to the permanent services of the Bureau International de I'Heure (BIH),
+that BIH has started to establish an atomic time scale of recognized quality and
+proven usefulness,
+that the atomic frequency standards for realizing the second have been considered
+and must continue to be considered by CIPM, helped by a Consultative Commit-
+tee, and that the unit interval of the International Atomic Time scale must be the
+second realized according to its atomic definition,
+that all the competent international scientific organizations and the national labora-
+tories active in this field have expressed the wish that CIPM and CGPM should
+give a definition of International Atomic Time, and should contribute to the estab-
+lishment of the International Atomic Time scale,
+that the usefulness of International Atomic Time entails close coordination with the
+time scales based on astronomical motions,
+I
+32
+
+requests the CIPM
+1.
+to give a definition of International Atomic Time
+*
+;
+2.
+to take
+the necessary steps, in agreement with the international organizations
+concerned, to ensure that available scientific competence and existing facilities are
+used in the best possible way to realize the International Atomic Time scale and to
+satisfy the requirements of users of International Atomic Time.
+SI unit of amount of substance (mole) (CR, p. 78)
+Resolution 3
+The 14th CGPM
+considering the advice of the International Union of Pure and Applied Physics, of
+the International Union of Pure and Applied Chemistry, and of the International
+Organization for Standardization, concerning the need to define a unit of amount of
+substance,
+decides
+1.
+The mole is the amount of substance of a system that contains as many elemen-
+tary
+entities
+as there are atoms*
+in 0.012 kilogram of carbon
+12:
+its symbol
+is
+"mol."
+2.
+When the mole
+is used, the elementary entities must be specified and may be
+atoms, molecules, ions, electrons, other particles, or specified groups of such parti-
+cles.
+3.
+The mole is a base unit of the International System of Units.
+• At its 1980 meeting, the CIPM approved the report of the 7th meeting of the CCU (1980)
+specifying that "in this definition,
+it is understood that unbound atoms of carbon
+12, at rest
+and in their ground state, are referred to."
+' In anticipation of this request, the CIPM had asked the Consultative Committee for the Definition of
+the Second (CCDS), to prepare a definition of International Atomic Time. This definition, approved by
+CIPM at
+its 59th session (October 1970),
+is as follows:
+"International Atomic Time [TAI]
+is the time reference coordinate established by the Bureau International
+de VHeure on the basis of the readings ofatomic clocks operating in various establishments in accordance with
+the definition of the second, the unit of time of the International System of Units.
+33
+
+15th CGPM, 1975
+speed
+Recommended value (CR, p. 103)
+of light
+Resolution 2
+The 15th CGPM,
+considering the excellent agreement among the results of wavelength measurements
+on the radiations of lasers locked on a molecular absorption line in the visible or
+infrared region, with an uncertainty estimated at ±4x10"' which corresponds to
+the uncertainty of the realization of the meter,
+considering also the concordant measurements of the frequencies of several of these
+radiations,
+recommends the use of the resulting value for the speed of propagation of electro-
+magnetic waves in vacuum c = 299 792 458 meters per second.
+UTC
+Universal Coordinated Time (CR, p. 104)
+Resolution 5
+The 15th CGPM
+considering that the system called "Coordinated Universal Time" (UTC) is widely
+used, that it is broadcast in most radio transmissions of time signals, that this wide
+diffusion makes available to the users not only frequency standards but also Inter-
+national Atomic Time and an approximation to Universal Time (or, if one prefers,
+mean solar time),
+notes that Coordinated Universal Time provides the basis of civil time, the use of
+which is legal in most countries,
+judges that this usage can be strongly endorsed.
+bequerel
+SI units for ionizing radiations (CR, p. 105)
+gray
+Resolutions 8 and 9
+The 15th CGPM
+by reason of the pressing requirement, expressed by the International Commission
+on Radiation Units and Measurements (ICRU), to extend the use of the Interna-
+tional System of Units to radiological research and applications,
+by reason of the need to make as easy as possible the use of the units for nonspecial-
+ists,
+taking into consideration also the grave risk of errors in therapeutic work.
+34
+
+adopts the following special name for the SI unit of activity:
+becquerel, symbol Bq, equal to one reciprocal second
+adopts the following special name for the SI unit of ionizing
+radiation:
+gray, symbol Gy, equal to one joule per kilogram
+Note:
+The gray is the SI unit of absorbed dose. In the field of ionizing radiation
+the gray may also be used with other physical quantities also expressed joules per
+kilogram; the Consultative Committee for Units
+is made responsible for studying
+this matter in collaboration with the competent international organizations.'
+peta
+SI prefixes peta and exa (CR, p. 106)
+exa
+Resolution 10
+The 15th CGPM
+decides to add to the list of SI prefixes to be used for multiples, which was adopted
+by the 11th CGPM, Resolution
+12, paragraph 3, the two following prefixes:
+Multiplying factor
+Prefix
+Symbol
+10"
+peta
+P
+10"
+exa
+E
+16th CGPM, 1979
+candela
+SI unit of luminous intensity (candela) (CR, p. 100)
+Resolution 3
+The 16th CGPM
+considering
+that
+despite
+the
+notable
+efforts
+of some
+laboratories
+there
+remain
+excessive
+divergences between the
+results of realizations of the candela based upon the
+present blackbody primary standard,
+that radiometric techniques are developing rapidly, allowing precisions that are
+already equivalent to those of photometry and that these techniques are already in
+use in national laboratories to realize the candela without having to construct a
+blackbody,
+that the relation between luminous quantities of photometry and radiometric quan-
+tities, namely the value of 683 lumens per watt for the spectral luminous efficacy of
+monochromatic radiation of frequency 540x10'^ hertz, has been adopted by the
+International Committee for Weights and Measures in 1977,
+that this value has been accepted as being sufficiently accurate for the system of
+luminous photopic quantities, that
+it implies a change of only about 3% for the
+system of luminous scotopic quantities, and that
+it therefore ensures satisfactory
+continuity,
+' At its 1976 meeting, the CIPM approved the report of the 5th meeting of the CCU (1976), specifying
+that, following the advice of the ICRU, the gray may also be used to express specific energy imparted,
+kerma and absorbed dose index.
+35
+Resolution 8
+Resolution 9
+
+that the time has come to give the candela a definition that will allow an improve-
+ment in both the ease of realization and precision of photometric standards, and
+that applies to both photopic and scotopic photometric quantities and to quantities
+yet to be defined in the mesopic field,
+decides
+1.
+The candela
+is the luminous intensity, in a given direction, of a source that
+emits monochromatic radiation of frequency 540X 10'^ hertz and that has a radiant
+intensity in that direction of (1/683) watt per steradian.
+2.
+The definition of the candela (at the time called new candle) adopted by the
+CIPM
+in
+1946 by reason of the powers conferred by the
+8th CGPM
+in
+1933,
+ratified by the 9th CGPM in 1948, then amended by the 13th CGPM in
+1967,
+is
+abrogated.
+Special name for the SI unit of dose equivalent (CR, p. 100)
+Resolution 5
+The 16th CGPM
+considering
+the effort made to introduce SI units into the field of ionizing radiations,
+the risk to human beings of an underestimated radiation dose, a risk that could
+result from a confusion between absorbed dose and dose equivalent,
+that the proliferation of special names represents a danger for the International
+System of Units and must be avoided in every possible way, but that this rule can
+be broken when
+it is a mater of safeguarding human health.
+adopts the special name sievert, symbol Sv, for the SI unit of dose equivalent in the
+field of radioprotection. The sievert is equal to the joule per kilogram.'"
+At its 1984 meeting the CIPM decided to accompany this Resolution with the following explanation
+(see Recommendation
+1 (CI- 1984), page 39):
+"The quantity dose equivalent H is the product of the absorbed dose D of ionizing radiation and
+the dimensionless factors Q (quality factor) and
+(product of any other multiplying factors) stipulated
+by the International Commission on Radiological Protection:
+H=Q'ND.
+Thus, for a given radiation, the numerical value ofH in joules per kilogram may differ from that
+of D in joules per kilogram depending upon the values of Q and N. In order to avoid any risk of
+confusion between the absorbed dose D and the dose equivalent H, the special names for the respective
+units should be used, that is, the name gray should be used instead of joules per kilogram for the unit of
+absorbed doseD and the name sievert instead ofjoules per kilogram for the unit of dose equivalent H."
+36
+
+liter
+Symbols for the liter (CR, 101)
+Resolution 6
+The 16th CGPM
+recognizing
+the
+general
+principles
+adopted
+for
+writing
+the
+unit
+symbols
+in
+Resolution 7 of the 9th CGPM (1948),
+considering that the symbol 1 for the unit liter was adopted by the CIPM in 1879 and
+confirmed in the same Resolution of 1948,
+considering also that, in order to avoid the risk of confusion between the letter
+1 and
+the number
+1, several countries have adopted the symbol L instead of 1 for the unit
+liter,
+considering that the name liter, although not included in the International System of
+Units, must be admitted for general use with the System,
+decides, as an exception, to adopt the two symbols 1 and L as symbols to be used for
+the unit liter,
+considering further that in the future only one of these two symbols should be
+retained,
+invites the CIPM to follow the development of the use of these two symbols and to
+give the 18th CGPM its opinion as to the possibility of suppressing one of them.
+CIPM, 1980
+SI
+SI supplementary units (radian and steradian) (PV, 48, p. 24)
+supplementary
+units
+Resolution
+1 (CI- 1980)
+The CIPM,
+taking into consideration Resolution 3 adopted by ISO/TC12 in 1978 and Recom-
+mendation Ul (1980) adopted by the Consultative Committee for Units (CCU) at
+its 7th meeting,
+considering that the units radian and steradian are usually introduced into expres-
+sions for units when there is need for clarification, especially in photometry where
+the steradian plays an important role in distinguishing between units corresponding
+to different quantities,
+that in the equations used one generally expresses plane angle as the ratio of two
+lengths and solid angle as the ratio between an area and the square of a length, and
+consequently that these quantities are treated as dimensionless quantities,
+that the study of the formalisms in use in the scientific Held shows that none exists
+which
+is at the same time coherent and convenient and in which the quantities
+plane angle and solid angle might be considered as base quantities,
+considering also
+that the interpretation given by the CIPM in 1969 for the class of supplementary
+units introduced in Resolution 12 of the
+1 1th CGPM in 1960 allows the freedom of
+treating the radian and the steradian as SI base units.
+37
+
+that such a possibiUty compromises the internal coherence of the SI based on only
+seven base units,
+decides to interpret the class of supplementary units in the International System as
+a class of dimensionless derived units for which the CGPM allows the freedom of
+using or not using them in expressions for SI derived units.
+17th CGPM, 1983
+meter
+Definition of the meter (CR, p. 97)
+Resolution
+1
+The 17th CGPM,
+considering
+that the present definition does not allow a sufficiently precise realization of the
+meter for all requirements,
+that progress made in the stabilization of lasers allows radiations to be obtained that
+are more reproducible and easier to use than the standard radiation emitted by a
+krypton 86 lamp,
+that progress made in the measurement of the frequency and wavelength of these
+radiations has resulted in concordant determinations of the speed of light whose
+accuracy
+is limited principally by the realization of the present definition of the
+meter,
+that wavelengths determined from frequency measurements and a given value for
+the speed of light have a reproducibility superior to that which can be obtained by
+comparison with the wavelength of the standard radiation of krypton 86,
+that there
+is an advantage, notably for astronomy and geodesy,
+in maintaining
+unchanged the value of the speed of light recommended in 1975 by the 15th CGPM
+in its Resolution 2 (c =299 792 458 m/s),
+that a new definition of the meter has been envisaged in various forms all of which
+have
+the
+effect
+of
+giving
+the
+speed
+of
+light
+an
+exact
+value,
+equal
+to
+the
+recommended value, and that this introduces no appreciable discontinuity into the
+unit
+of length,
+taking
+into account
+the
+uncertainty
+of ±4xl0~'
+of the
+best
+realizations of the present definition of the meter,
+that these various forms, making reference either to the path travelled by light in a
+specified time interval or to the wavelength of a radiation of measured or specified
+frequency, have been the object of consultations and deep discussions, have been
+recognized as being equivalent and that a consensus has emerged in favor of the
+first form,
+that the CCDM is now in a position to give instructions for the practical realization
+of such a definition, instructions which could include the use of the orange radia-
+tion of krypton 86 used as standard up to now, and which may in due course be
+extended or revised.
+38
+
+decides
+1.
+The meter is the length of the path travelled by light in vacuum during a time
+interval of 1/299 792 458 of a second,
+2.
+The definition of the meter in force since 1960, based upon the transition be-
+tween the levels 2pio and Sds of the atom of krypton 86,
+is abrogated.
+meter
+On the realization of the definition of the meter (CR, p. 98)
+Resolution 2
+The 17th CGPM
+invites the CIPM
+to draw up instructions for the practical realization of the new definition of the
+meter,"
+to choose radiations which can be recommended as standards of wavelength for
+the interferometric measurement of length and to draw up instructions for their
+use,
+to pursue studies undertaken to improve these standards.
+aPM, 1984
+gray
+Concerning the sievert (FV, 52, p. 31)
+sievert
+Recommendation
+1 (CI- 1984)
+The CIPM,
+considering the confusion which continues to exist on the subject of Resolution 5,
+approved by the 16th CGPM (1979),
+decides
+to
+introduce
+the
+following
+explanation
+in
+the brochure "Le Systeme
+International d'Unites (SI)":
+"The quantity dose equivalent H is the product of the absorbed dose D of ionizing
+radiation and the dimensionless factors Q (quality factor) and
+(product of any
+other
+multiplying
+factors)
+stipulated
+by
+the
+International
+Commission
+on
+Radiological Protection:
+H=QN'D
+Thus, for a given radiation, the numerical value of f?^ in joules per kilogram may
+differ from that ofD in joules per kilogram depending upon the values of Q and N.
+In order to avoid any risk of confusion between the absorbed dose D and the dose
+equivalent H, the special names for the respective units should be used, that is, the
+name gray should be used instead of joules per kilogram for the unit of absorbed
+dose D and the name sievert instead of joules per kilogram for the unit of dose
+equivalent H. "
+" See Appendix
+II, p. 40 Recommendation
+1 (CI-1983) adopted by the CIPM in 1983.
+39
+
+APPENDIX II
+Practical Realization of the Definitions
+of Some Important Units
+1.
+Length
+The Recommendation
+1 (CI- 1983) was adopted by the CIPM in 1983 to specify the
+rules for the practical realization of the definition of the meter:
+The CIPM
+recommends
+that the meter be realized by one of the following methods:
+fl) by means of the
+length
+/ of the
+path
+travelled
+in vacuum by
+a
+plane
+electromagnetic wave in a time /; this length is obtained from the measured time
+t,
+using
+the
+relation
+l=C't
+and
+the
+value
+of
+the
+speed
+of
+light
+in
+vacuum
+c=299 792 458 m/s;
+b) hy means of the wavelength in vacuum \ of a plane electromagnetic wave of
+frequency /; this wavelength is obtained from the measured frequency /, using the
+relation \=c/f- and the value of the speed of light in vacuum c =299 792 458 m/s;
+c) by means of one of the radiations from the
+list below, whose stated wave-
+length in vacuum or whose stated frequency can be used with the uncertainty
+shown, provided that the given specifications and accepted good practice are fol-
+lowed;
+and that
+in
+all cases any necessary corrections be applied to take account of
+actual conditions such as diffraction, gravitation, or imperfection in the vacuum.
+List OF RECOMMENDED RADIATIONS, 1983
+In this list, the values of the frequency/and of the wavelength \ should be related
+exactly by the relation \f=c, with c=299 792 458 m/s but the values of X are
+rounded.
+1.
+Radiations of Lasers Stabilized by Saturated Absorption *
+1.1
+Absorbing molecule CH4, transition
+V3, P(7), component ¥f^.
+The values/= 88 376 181 608 kHz
+\= 3 392 231 397.0 fm
+with an estimated overall relative uncertainty of ±1.3x 10~'° [which results from
+an estimated relative standard deviation of 0.44 X 10"'°] apply to the radiation of a
+He-Ne laser stabilized with a cell of methane, within or external to the laser, sub-
+ject to the conditions:
+methane pressure < 3 Pa
+mean one-way axial intracavity surface power density ** < 10* W
+• m~^
+radius of wavefront curvature >
+1 m
+inequality of power between counter-propagating waves < 5%.
+40
+
+1.2.
+Absorbing molecule '"I2, transition 17-1, P(62), component o.
+The values /= 520 206 808.51 MHz
+\=576 294 760.27 fm
+with an estimated *** overall
+relative uncertainty of ±6x10^'° [which
+results
+from an estimated relative standard deviation of 2x 10~'°] apply to the radiation of
+a dye laser (or frequency-doubled He-Ne laser) stabilized with a
+cell of iodine,
+within or external to the laser, having a cold-fmger temperature of 6 °C±2 °C.
+1.3.
+Absorbing molecule '"I2, transition 11-5, R(127), component
+i.
+The values /=473 612 214.8 MHz
+\= 632 991 398.1 fm
+with an estimated overall relative uncertainty of ±1 X 10"' [which results from an
+estimated relative standard deviation of 3.4x10"'°] apply
+to the radiation of a
+stabilized He-Ne laser containing an iodine cell, subject to the conditions:
+cell-wall temperature between 16 °C and 50 °C with a cold-fmger temperature
+of 15 °C±1 °C
+one-way intracavity beam power ** 15 mW±10 mW
+frequency modulation amplitude, peak to peak, 6 MHz± 1 MHz.
+1.4.
+Absorbing molecule '"I2, transition 9-2, R(47), component o.
+The values /=489 880 355.1 MHz
+\=611 970 769.8 fm
+with an estimated overall relative uncertainty of ±l.lx 10"' [which results from
+an estimated relative standard deviation of 3.7 X 10"'°] apply to the radiation of a
+He-Ne laser stabilized with a cell of iodine, within or external to the laser, having
+a cold-fmger temperature of —5 °C±2 °C.
+1.5.
+Absorbing molecule
+'^^l2,
+transition
+43-0,
+P(13), component
+(sometimes
+called component s).
+The values /= 582 490 603.6 MHz
+\=514 673 466.2 fm
+with an estimated overall relative uncertainty of ±1.3x10"' [which results from
+an estimated relative standard deviation of 4.3 X 10"'°] apply to the radiation of an
+Ar"^ laser stabilized with a cell of iodine, within or external to the laser, having a
+cold-finger temperature of —5 °C±2 °C.
+Notes
+* Each of these radiations can be replaced, without degrading the accuracy, by a radiation correspond-
+ing to another component of the same transition or by another radiation, when the frequency difference
+is known with sufficient accuracy. Details of methods of stabilization are described in numerous scien-
+tific and technical publications. References to appropriate articles, illustrating accepted good practice
+for a particular radiation, may be obtained by application to a member laboratory of the CCDM, or the
+BIPM.
+*• The one-way intracavity beam power is obtained by dividing the output power by the transmittance
+of the output mirror.
+*•* This uncertainty, and the frequency and wavelength values, are based on the weighted mean of
+only two determinations. The more precise of the two, however, was a measurement dependent only on
+frequency mixing and multiplication techniques relative to the radiation in
+1.1. above.
+41
+
+2.
+Radiations of Spectral Lamps
+2.1.
+Radiations corresponding to the transition between the levels 2pio and Sdj of
+the atom of **Kr.
+The value X=605 780 210 fm
+with an estimated overall relative uncertainty of ±4X 10~' [which results from an
+estimated relative standard deviation of 1.3x 10~'] applies to the radiation emitted
+by a lamp operated under the conditions recommended by the CIPM {Proces-Ver-
+baux CIPM, 49th session, 1960, pp. 71-72 and Comptes Rendus, 11th CGPM.
+1960,
+p. 85).
+2.2.
+Radiations of the atoms *^Kr, "*Hg and "*Cd recommended by the CIPM in
+1963 (Comite Consultatifpour la Definition du Metre, 3rd session,
+1962, pp.
+18-19
+and Proces-Verbaux CIPM, 52nd session, 1963, pp. 26-27), with the indicated values
+for the wavelengths and the corresponding uncertainties.
+2.
+Mass
+The primary standard of the unit of mass
+is the international prototype of the
+kilogram kept at the BIPM. The mass of 1-kg secondary standards of platinum-irid-
+ium or of stainless steel
+is compared with the mass of the prototype by means of
+balances whose precision can reach
+1 in 10* or better. In the case of stainless steel
+standards, the accuracy of the comparison depends upon the accuracy with which
+the correction due to air buoyancy is known.
+By an easy operation a series of masses can be standaradized to obtain multiples and
+sub-multiples of the kilogram.
+3.
+Time
+Some research laboratories are able to construct the equipment required to produce
+electric oscillations at a frequency whose relationship to the transition frequency of
+the atom of cesium 133 which defines the second
+is known.
+It
+is possible thus to
+obtain pulses at desired frequencies,
+1 Hz,
+1 kHz, etc. Some cesiimi time standards
+are also commercially available.
+In the best equipment, the accuracy corresponds to an uncertainty of a part in 10'^
+or even in
+10'*.
+Radio stations broadcast waves whose frequencies are known with an uncertainty
+of a part in 10" or 10'^
+There exist very stable clocks and frequency generators besides those using cesium,
+including the hydrogen maser, and rubidium and quartz clocks. Their frequency
+has to be standardized by comparison with a cesium time standard, either directly,
+or by means of radio transmissions.
+Time signals broadcast by radio waves are given in a time scale called Coordinated
+Universal Time (UTC) as recommended by the 15th CGPM (Resolution 5) in 1975.
+UTC is defined in such a manner that
+it differs from TAI' by a whole number of
+seconds. The difference UTC— TAI was set equal to —10 s starting the
+first of
+January 1972, the date of application of the reformulation of UTC which previ-
+' See Appendix
+I, page 33 (footnote
+8), for the definition of TAI given by CIPM at the request of the
+14th CGPM (1971, Resolution
+1).
+42
+
+ously involved a frequency offset; this difference can be modified by
+1 second, by
+the use of a positive or negative leap second
+at the end of a month of UTC,
+preferably in the first instance at the end of December or of June, and in the second
+instance at the end of March or of September, to keep UTC in agreement with the
+time defined by the rotation of Earth with an approximation better than 0.9 s.^
+Furthermore, the legal times of most countries are offset from UTC by a whole
+number of hours (time zones and "daylight saving" time).
+The precision and accuracy of time measurement sometimes justify relativistic cor-
+rections. The defijiition of the second must be understood as the definition of the
+unit of proper time,
+i.e., strictly speaking the user must be in the neighborhood of
+the clock and at rest with respect to
+it. In general, within the expanse of a labora-
+tory, only the
+effects of special
+relativity are
+significant,
+if the clock
+is
+in the
+laboratory. But,
+in applications which bring into play distant clocks,
+it may be
+necessary to take general relativity theory into account. In particular, TAI is based
+upon a worldwide network of clocks and
+its definition has been completed as
+follows (declaration of the CCDS
+: BIPM Consultative Committee on the Definition
+of the Second.
+9, 1980, p. S
+15):
+"TAI is a coordinate time scale defined in a geocentric reference frame with the SI
+second as realized on the rotating geoid as the scale unit".
+For all clocks fixed in relation to the Earth, situated at sea level, the TAI second is
+equal to the second realized locally, but at 2 000 m altitude, for example, it appears
+to be longer, the difference being 2.2x 10~'^
+s.
+4.
+Electrical quantities
+So-called "absolute" electrical measurements,
+i.e., those that realize the unit ac-
+cording to its definition, can be undertaken only by laboratories enjoying excep-
+tional facilities.
+Electric current is obtained in amperes by measuring the force between two coils,
+of measurable shape and size, that carry the current.
+The ohm, the farad, and the henry are accurately linked by impedance measure-
+ments at a known frequency, and may be determined in absolute value by calcula-
+tion (1) of the self-inductance of a coil, or the mutual inductance of two coils, in
+terms of their linear dimensions, or (2) of the change in capacitance of a capacitor
+in terms of the change in length of its electrodes (method of Thompson-Lampard).
+The volt is deduced from the ampere and the ohm.
+The uncertainty in the absolute determination of the farad is a few parts in 10*; for
+the ampere,
+it is a few parts in
+10*.
+The results of absolute measurements are obtained by means of secondary stan-
+dards which are, for instance:
+1.
+coils of manganin wire for resistance standards;
+2.
+galvanic cells with cadmium sulfate electrolyte (for standards of electromotive
+force);
+3.
+capacitors (for standards of capacitance of 10 pF for example).
+Application of recent techniques also provides means of checking the stability of
+the secondary standards that maintain the electric units: measurement of the gyro-
+magnetic ratio of the proton y'^ for the ampere, measurement of the ratio h/e by the
+^The difference UTC -TAI was -22 s on
+1 Jan.
+1985.
+43
+
+Josephson effect for the volt, and measurement of the ratio h/e^ by the quantum
+Hall effect for the ohm.
+5.
+Temperature
+Absolute measurements of temperature in accordance with the definition of the
+unit of thermodynamic temperature, the kelvin, are related to thermodynamics, for
+example by the gas thermometer.
+At 273.16 K accuracy is of the order of 1 in 10^ but it is not as good at higher and
+at lower temperatures.
+The International Practical Temperature Scale of 1968, amended edition of 1975,
+adopted by the 15th CGPM, agrees with the best thermodynamic results to date.
+The text on this scale
+is published in BIPM Comite Consultatif de Thermometrie,
+10th session,
+1974, Annexe T31, and BIPM Comptes Rendus,
+15th CGPM,
+1975,
+Annexe 2; the English translation is published in Metrologia,
+12, No.
+1, 1976, p.
+7.
+The instruments employed to measure temperatures on the International Scale are
+the platinum resistance thermometer, the platinum- 10% rhodium/platinum thermo-
+couple, and the monochromatic optical pyrometer. These instruments are
+cali-
+brated at a number of reproducible temperatures, called "defining fixed points," the
+values of which are assigned by agreement.
+In 1978, a low temperature scale was established under the name "1976 Provisional
+0.5 K to 30 K Temperature Scale " (EPT-76). This provisional practical scale was
+published in BIPM Comite Consultatif de Thermometrie,
+12th session,
+1978, p. T7
+and BIPM Proces-Verbaux CIPM, 46, 1978, p. T7; the English translation was pub-
+lished in Metrologia,
+15, 1979, p. 65.
+6.
+Amount of substance
+All quantitative
+results of chemical analysis or of dosages can be expressed
+in
+moles, in other words in units of amount of substance of the elementary entities.
+The principle of physical measurements based on the definition of this unit
+is ex-
+plained below.
+The simplest case is that of a sample of a pure substance that is considered to be
+formed of atoms; call X the chemical symbol of these atoms. A mole of atoms X
+contains by definition as many atoms as there are '^C atoms in 0.012 kilogram of
+carbon 12. As neither the mass m('^C) of an atom of carbon 12 nor the mass m(X)
+of an atom X can be measured accurately, we use the ratio of these masses, m (X)/
+m('^C), which can be accurately determined.^ The mass corresponding to
+1 mole of
+X
+is then [m(X)/m('^C)]X 0.012 kg, which
+is expressed by saying that the molar
+mass Af(X) of X (quotient of mass by amount of substance) is
+A/(X) = [m (X)/m ('^C)] X 0.012 kg/mol.
+For example, the atom of fluorine "F and the atom of carbon '^C have masses that
+are in the ratio 18.9984/12. The molar mass of the molecular gas F2 is
+2 V
+1 8 9984
+M(F2)=^
+-
+X0.012 kg/mol =0.037 996 8 kg/mol.
+' There are many methods of measuring this ratio, the most direct one being by the mass spectrograph.
+44
+
+The amount of substance corresponding to a given mass of gas F2, 0.05 kg for
+example,
+is:
+0.05 kg
+,
+0.037 996 8kg.mol-'=^-^^^^°'°°'-
+In the case of a pure substance that is supposed made up of molecules B, which are
+combinations of atoms X, Y,
+.
+.
+. according to the chemical formula B=XaY^
+.
+.
+.
+,
+the mass of one molecule is m(B)=aw(X)+/3m(Y)+
+.
+.
+.
+This mass
+is not known with accuracy, but the ratio m(B)/m('^C) can be deter-
+mined accurately. The molar mass of a molecular substance B is then
+M{^)=^^)X^-^^'2' kg/mol=(a^^ + iS^^ +
+.
+. .)x0.012 kg/mol.
+The same procedure is used in the more general case when the composition of the
+substance B is specified as XgY^
+.
+.
+. even if a, i8,
+.
+.
+. are not integers. If we denote
+the mass ratios m(X)/m('^C), m(Y)/m('^C), ... by r(X), /-(Y),
+.
+.
+., the molar mass
+of the substance B is given by the formula:
+M(B)=[ar(X) + i8/-(Y)+
+.
+. .]X0.012 kg/mol.
+There are other methods based on the laws of physics and physical chemistry for
+measuring amounts of substance; three examples are given below:
+With perfect gases,
+1 mole of particles of any gas occupies the same volume at a
+temperature T and a pressure p (approximately 0.022 4 m^
+at J =273. 16 K and
+/> = 101 325 Pa); hence a method of measuring the ratio of amounts of substance for
+any two gases (the corrections to apply if the gases are not perfect are well known).
+For quantitative electrolytic reactions the ratio of amounts of substance can be
+obtained by measuring quantities of electricity. For example,
+1 mole of Ag and 1/2
+mole of Cu are deposited on a cathode by the same quantity of electricity (approx-
+imately 96 487 C).
+Application of the laws of Raoult is yet another method of determining ratios of
+amounts of substance in extremely dilute solutions.
+7.
+Photometric quantities
+The method approved by CIPM in 1937 (BIPM Proces-Verbaux CIPM,
+18, p. 237)
+for determining the value of photometric quantities for luminous sources whose
+radiation does not have the same spectral composition, utilizes a procedure taking
+account of the "spectral luminous efficiencies" V(\). By
+its Recommendation
+1
+(CI- 1972), CIPM recommends the use of the V(X) values adopted by the Interna-
+tional Commission on Illumination (CIE) in
+1971.* The weighting function V(X)
+was obtained for photopic
+vision,
+i.e., for retinas adapted to
+light. For retinas
+adapted to darkness, another function V'(X) gives the spectral luminous efficiency
+for scotopic vision (CIE
+1951);
+this function V'(X) was ratified by the CIPM in
+September 1976.
+" CIE Publications No. 18 (1970), page 43, and No. 15 (1971), page 93; BIPM Proces-Verbaux CIPM, 40,
+1972, Annexe
+1. The V{\) {=y{X)\ values are given for wavelengths in 1-nm steps from 360 to 830 nm;
+they are an improvement on the values in 10-nm steps adopted by CIPM in 1933, and previously by CIE
+in 1924.
+45
+
+Photometric quantities are thereby defined in purely physical terms as quantities
+proportional to the sum or integral of a spectral power
+distribution, weighted
+according to a specified ftinction of wavelength.
+Before 1979, the standard lamps then in use were calibrated by comparison with
+the luminance of a Planckian radiator (a blackbody) at the temperature of freezing
+platinum. Since the adoption of the new definition of the candela
+in
+1979,
+this
+measurement
+is carried out by comparison with
+the monochromatic
+radiation
+specified in the definition, or with some other radiation by taking account of V(X)
+or V'(X).
+The standard lamps are incandescent lamps powered by a specified direct current;
+they provide either a known luminous flux or, in a given direction, a known lumi-
+nous intensity.
+46
+
+APPENDIX III
+Note on the Organs of the Meter Convention
+BIPM, CIPM, CGPM
+The International Bureau of Weights and Measures (BIPM) was set up by the Meter
+Convention signed in Paris on 20 May 1875 by seventeen States during the final
+session of the Diplomatic Conference of the Meter. This Convention was amended
+in 1921.
+The BIPM has its headquarters near Paris, in the grounds (43 520 m^) of the Pavil-
+ion de Breteuil (Pare de Saint-Cloud), placed at its disposal by the French Govern-
+ment;
+its
+upkeep
+is
+financed
+jointly
+by
+the Member
+States
+of
+the
+Meter
+Convention.*
+The task of the BIPM is to ensure worldwide unification of physical measurements;
+it is responsible for:
+—establishing the fimdamental standards and scales for measurement of the princi-
+pal physical quantities and maintaining the international prototypes;
+—carrying out comparisons of national and international standards;
+—ensuring the coordination of corresponding measuring techniques;
+—carrying out and coordinating determinations relating to the fundamental physi-
+cal constants that are involved in the above-mentioned activities.
+The BIPM operates under the exclusive supervision of the International Committee
+for Weights and Measures (CIPM), which itself comes under the authority of the
+General Conference on Weights and Measures (CGPM).
+The General Conference consists of delegates from all the Member States of the
+Meter Convention and meets at present every four years. At each meeting
+it re-
+ceives the Report of the International Committee on the work accomplished, and it
+is responsible for:
+—discussing and instigating the arrangements required to ensure the propagation
+and improvement of the International System of Units (SI), which is the modem
+form of the metric system;
+—confirming the results of new fundamental metrological determinations and the
+various scientific resolutions of international scope;
+—adopting the important decisions concerning the organization and development
+of the BIPM.
+The International Committee consists of eighteen members each belonging to a
+different State;
+it meets at present every year. The officers of this Committee issue
+an Annual Report on the administrative and financial position of the BIPM to the
+Governments of the Member States of the Meter Convention.
+* In October 1985 forty-seven States were members of this Convention: Argentina (Rep. oO, Australia,
+Austria, Belgium, Brazil, Bulgaria, Cameroon, Canada, Chile, China (People's Rep. of), Czechoslovakia,
+Denmark, Dominican Republic, Egypt, Finland, France, German Democratic Rep., Germany (Federal
+Rep.
+oO,
+Hungary,
+India,
+Indonesia,
+Iran,
+Ireland,
+Israel,
+Italy,
+Japan,
+Korea
+(Dem.
+People's Rep.), Korea (Rep. of), Mexico, Netherlands, Norway, Pakistan, Poland, Portugal, Romania,
+South
+Africa,
+Spain, Sweden,
+Switzerland,
+Thailand, Turkey,
+U.S.S.R.,
+United Kingdom,
+U.S.A.,
+Uruguay, Venezuela, Yugoslavia.
+47
+
+The activities of the BIPM, which in the beginning were limited to the measure-
+ments of length and mass and to metrological studies in relation to these quantities,
+have been extended to standards of measurement for electricity (1927), photometry
+(1937), and ionizing radiations (196Q). To this end the original laboratories, built in
+1876-1878, were enlarged in 1929 and two new buildings were constructed in 1963-
+1964 for the ionizing radiation laboratories.
+Some thirty physicists or technicians are working in the BIPM laboratories. They
+are mainly conducting metrological research, international comparisons of realiza-
+tions of units, and the checking of standards used in the above-mentioned areas. An
+annual report in Procfes-Verbaux [of the International Committee] gives the details
+of the work in progress. BIPM's annual appropriation is of the order of 13 144 000
+gold francs, approximately 23 850 000 French francs (in 1985).
+In view of the extension of the work entrusted to the BIPM, the CIPM has set up
+since 1927, imder the name of Consultative Committees, bodies designed to provide
+it with information on matters that it refers to them for study and advice. These
+Consultative Committees, which may form temporary or permanent "Working
+Groups" to study special subjects, are responsible for coordinating the international
+work carried out in their respective fields and proposing recommendations con-
+cerning the amendments to be made to the definitions and values of units. In order
+to ensure worldwide uniformity in units of measurement, the International Com-
+mittee accordingly acts directly or submits proposals for sanction by the General
+Conference.
+The Consultative Committees have common regulations (BIPM Pnx^s-Verbaux
+CIPM,
+31, 1963, p. 97). Each Consultative Committee, the chairman of which is
+normally a member of the CIPM, is composed of delegates from the major metrol-
+ogy laboratories and specialized institutes, a list of which is drawn up by the CIPM,
+as well as individual members also appointed by the CIPM and one representative
+of BIPM. These committees hold their meetings at irregular intervals; at present
+there are eight of them in existence.
+1.
+The Consultative Committee for Electricity (CCE), set up in 1927.
+2.
+The Consultative Committee for Photometry and Radiometry (CCPR), new name
+given in 1971 to the Consultative Committee for Photometry set up in 1933
+(between 1930 and 1933 the preceding Committee (CCE) dealt with matters
+concerning Photometry).
+3.
+The Consultative Committee for Thermometry (CCT), which for a time was
+called Consultative Committee for Thermometry and Calorimetry (CCTC) set
+up in 1937.
+4.
+The Consultative Committee for the Definition of the Meter (CCDM), set up in
+1952.
+5.
+The Consultative Committee for the Definition of the Second (CCDS), set up in
+1956.
+6.
+The Consultative Committee for the Standards ofMeasurement ofIonizing Radia-
+tions (CCEMRI), set up in 1958. In 1969 this Consultative Committee estab-
+lished four
+sections: Section
+I (Measurement of x and 7
+rays,
+electrons);
+Section
+II (Measurement of radionuclides); Section
+III (Neutron measure-
+ments); Section IV (a-energy standards). In 1975 this last section was dissolved
+and Section II made responsible for its field of activity.
+7.
+The Consultative Committee for Units (CCU), set up in 1964 (this Consultative
+Committee replaced the "Commission for the System of Units" set up by the
+CIPM in 1954).
+8.
+The Consultative Committee for Mass and Related Quantities (CCM), set up in
+1980.
+48
+
+The proceedings of the General Conference,
+the
+International Committee,
+the
+Consultative Committees, and the International Bureau are published under the
+auspices of the latter in the following series:
+— Comptes rendus des seances de la Conference Generale des Poids et Mesures;
+— Proces-Verbaux des seances du Comite International des Poids et Mesures
+— Sessions des Comites Consultatifs;
+— Recueil de Travaux du Bureau International des Poids et Mesures (this collection
+for private distribution brings together articles published in scientific and technical
+journals and books, as well as certain work published in the form of duplicated
+reports).
+From time to time BIPM publishes a report on the development of the Metric
+System throughout the world, entitled Les recents progres du Systeme Metrique.
+The collection of the Travaux
+et Memoires du Bureau International des Poids et
+Mesures (22 volumes published between
+1881
+and
+1966) ceased
+in
+1966 by
+a
+decision of CIPM.
+Since 1965 the international journal Metrologia, edited under the auspices of CIPM,
+has published articles on the more important work on scientific metrology carried
+out
+throughout
+the
+world,
+on
+the
+improvement
+in
+measuring
+methods
+and
+standards, on units, etc., as well as reports concerning the activities, decisions, and
+recommendations of the various bodies created under the Meter Convention.
+49
+
+The International System of Units (SI) 5th Edition 1986
+Index
+(Numbers in boldface indicate the pages where the deflnitions of the units are to be found)
+Page
+acceleration due to gravity, standard
+value of (g„)
+17
+amount of substance
+44
+ampere
+3, 19
+atmosphere, standard
+22
+atto
+28
+becquerel
+34
+Bureau, International, of Weights and
+Measures (BIPM)
+47-49
+candela
+5, 30, 35
+candle, new
+18, 31
+Committee, International, for Weights
+and Measures (CIPM)
+47-49
+Committees, Consultative
+48
+Conference, General, on Weights and
+Measures (CGPM)
+47-49
+Convention, Meter
+47
+coulomb
+19
+cubic decimeter
+26
+curie
+28
+defmitions of units, practical
+realization of the
+40-46
+degree Celsius
+4, 20,29
+electrical quantities
+43
+exa
+35
+farad
+19
+femto
+28
+force
+18
+frequency standard ('"Cs)
+27
+gray
+34
+henry
+19
+Page
+mass
+42
+mass and weight
+17
+meter
+3,
+16,
+18, 24, 38, 39
+micron
+31
+mole
+33, 44
+newton
+18
+numbers, writing and printing of
+21
+ohm
+19
+pascal
+32
+peta
+35
+photometric quantities
+45
+prefixes, SI
+10, 25, 28, 35
+prefixes, SI, rules for use of
+10
+quantities, system of
+2
+quantity, meaning of
+5
+quantity of heat
+19
+radian
+8, 25
+realization, practical, of the definitions
+of some important units
+40-46
+second
+3, 23, 24, 28
+SI units and multiples thereof
+25, 31
+Siemens
+32
+sievert
+36
+steradian
+8, 25
+substance, amount of
+4, 33
+symbols, for base units
+5
+symbols, for derived units with
+special names
+6
+symbols, for the liter
+12, 37
+symbols, rules for writing and use of
+9, 21
+system of quantities
+2
+system of units, international
+23, 25
+system of units, proposal for
+establishing a practical
+20, 22, 23
+joule
+kelvin
+kilogram
+kilogram, multiples of
+legislation on units
+length
+liter
+liter (symbols)
+lumen
+18
+4, 29
+3, 16
+11, 31
+2
+38, 39
+17, 26, 27, 37
+37
+18
+TAI
+temperature
+temperature, Celsius
+temperature, thermodynamic
+thermodynamic scale
+time
+time, international atomic
+time, universal coordinated
+32
+44
+4
+4, 29
+19, 22
+42
+32, 34
+34, 42
+50
+
+Page
+unit of force
+18
+unit of quantity of heat (joule)
+19
+units in use temporarily
+13
+units, CGS, with special names
+14
+units, electric
+18
+units generally deprecated
+15
+units in use with SI
+12
+units, legislation on
+2
+units, photometric
+18
+units, SI base
+3
+units, SI base, symbols
+5
+units, SI derived
+6-8, 26, 30
+units, SI derived, with special names
+6
+imits, SI, multiples and submultiples of
+2, 10
+units, SI supplementary
+8, 9
+units, SI, the three classes of,
+1
+UTC
+34
+volt
+19
+watt
+18
+weber
+19
+51
+<l U
+. S
+.
+GOVERNMENT
+PRINTING
+OFFICE:
+1 9 8 6 - 4 9
+i
+" 0 7 0 / 4 0 0 9
+7
+
+Technical Publications
+Periodical
+Journal of Research—The Journal of Research of the National Bureau of Standards reports NBS research
+and development in those disciplines of the physical and engineering sciences in which the Bureau
+is active.
+These include physics, chemistry, engineering, mathematics, and computer sciences. Papers cover a broad
+range of subjects, with major emphasis on measurement methodology and the basic technology underlying
+standardization. Also included from time to time are survey articles on topics closely related to the Bureau's
+technical and scientific programs. Issued six times a year.
+Nonperiodicals
+Monographs—Major contributions to the technical literature on various subjects related to the Bureau's scien-
+tific and technical activities.
+Handbooks—Recommended codes of engineering and industrial practice (including safety codes) developed in
+cooperation with interested industries, professional organizations, and regulatory bodies.
+Special Publications—Include proceedings of conferences sponsored by NBS, NBS annual reports, and other
+special publications appropriate to this grouping such as wall charts, pocket cards, and bibliographies.
+Applied Mathematics Series—Mathematical tables, manuals, and studies of special interest to physicists,
+engineers, chemists, biologists, mathematicians, computer programmers, and others engaged in scientific and
+technical work.
+National Standard Reference Data Series—Provides quantitative data on the physical and chemical properties
+of materials, compiled from the world's literature and critically evaluated. Developed under a worldwide pro-
+gram coordinated by NBS under the authority of the National Standard Data Act (Public Law 90-396).
+NOTE: The Journal of Physical and Chemical Reference Data (JPCRD)
+is published quarterly for NBS by
+the American Chemical Society (ACS) and the American Institute of Physics (AIP). Subscriptions, reprints,
+and supplements are available from ACS, 1155 Sixteenth St., NW, Washington, EC 2{X)56.
+Building Science Series—Disseminates technical information developed at the Bureau on building materials,
+components, systems, and whole structures. The series presents research results, test methods, and perfor-
+mance criteria related to the structural and environmental functions and the durability and safety
+characteristics of building elements and systems.
+Technical Notes—Studies or reports which are complete in themselves but restrictive in their treatment of a
+subject. Analogous to monographs but not so comprehensive in scope or definitive in treatment of the subject
+area. Often serve as a vehicle for final reports of work performed at NBS under the spxDnsorship of other
+government agencies.
+Voluntary Product Standards—Developed under procedures published by the Department of Commerce in
+Part
+10, Title
+15, of the Code of Federal Regulations. The standards establish nationally recognized re-
+quirements for products, and provide all concerned interests with a basis for common understanding of the
+characteristics of the products. NBS administers this program as a supplement to the activities of the private
+sector standardizing organizations.
+Consumer Information Series—Practical information, based on NBS research and experience, covering areas
+of interest to the consumer. Easily understandable language and illustrations provide useful background
+knowledge for shopping in today's technological marketplace.
+Order the above NBS publications from: Superintendent of Documents, Government Printing Office,
+Washington, DC 20402.
+Order the following NBS publications—FIPS and NBSIR's—from the National Technical Information Ser-
+vice, Springfield, VA 22161.
+Federal Information Processing Standards Publications (FIPS PUB)—Publications in this series collectively
+constitute the Federal Information Processing Standards Register. The Register serves as the official source of
+information in the Federal Government regarding standards issued by NBS pursuant to the Federal Property
+and Administrative Services Act of 1949 as amended, Public Law 89-306 (79 Stat.
+1127), and as implemented
+by Executive Order 11717 (38 FR 12315, dated May 11, 1973) and Part 6 of Title 15 CFR (Code of Federal
+Regulations).
+NBS Interagency Reports (NBSIR)—A special series of interim or final reports on work performed by NBS
+for outside sponsors (both government and non-government). In general, initial distribution
+is handled by the
+sponsor; public distribution
+is by the National Technical Information Service, Springfield, VA 22161, in paper
+copy or microfiche form.
+
+U.S. Department of Commerce
+National Bureau of Standards
+Gaithersburg, MD 20899
+Official Business
+Penalty for Private Use $300

@@ -1,0 +1,812 @@
+Program Handbook
+Quality Assurance System
+Registration
+Requirements for
+Facilities Under
+Provisions of the Fastener
+Quality Act
+S. Wayne Stiefel
+Robert L. Gladhill
+Office of Standards Services
+Technology Services
+QC
+100
+U56
+NO. 6263
+1998
+i
+United States Department of Commerce
+Technology Administration
+National Institute of Standards and Technology
+
+NISTIR 6263
+Program Handbook
+Quality Assurance System
+Registration
+Requirements for
+Facilities Under
+Provisions of the Fastener
+Quality Act
+S. Wayne Stiefel
+Robert L. Gladhill
+Office of Standards Services
+Technology Services
+December 1998
+U. S. DEPARTMENT OF COMMERCE
+William M. Daley, Secretary
+TECHNOLOGY ADMINISTRATION
+Gary R. Bachula, Acting Under Secretary for Technology
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+Raymond G. Kammer, Director
+
+ACKNOWLEDGMENTS
+The authors would like to acknowledge the assistance of Jogindar S. Dhillon of the Office of
+Standards Services for researching the regulations as they pertained to accreditation of
+registration bodies and registration of facilities.
+Special thanks are also due to Gerry Funk for
+her patience in reworking the manuscript through many drafts, and production of a well-
+formatted handbook.
+
+TABLE OF CONTENTS
+Section
+Page
+1.0 INTRODUCTION
+1
+1
+. 1
+Definitions
+2
+2.0 REQUESTING EVALUATION
+6
+2.1 Who May Apply
+6
+2.2
+Listing Fee
+6
+3.0 ACCREDITATION OF CERTAIN MANUFACTURING
+FACILITIES AS LABORATORIES
+6
+4.0 FASTENER QUALITY ASSURANCE SYSTEM CRITERIA
+7
+4.1
+Quality Management System
+7
+4.2 Raw Material Traceability
+7
+4.3
+Subcontractor Traceability
+7
+4.4
+Quality Assurance Plan
+8
+4.5
+Quality Assurance Standards
+8
+5.0 TEST REPORT AND RECORD
+REQUIREMENTS FOR QAS REGISTERED FACILITIES
+9
+5.1
+Reports
+9
+5.2 Recordkeeping Requirements
+9
+5.3
+Test Reports
+11
+6.0 SAMPLING
+13
+7.0 SUBCONTRACTING
+13
+8.0 MAINTAINING RECOGNIZED STATUS
+13
+8.1 NIST Surveillance/Observer Status
+13
+8.2 Proper Use of Registration Status and Claims
+14
+BIBLIOGRAPHY
+15
+v
+
+1.0 INTRODUCTION
+On November 16, 1990, the United States Congress enacted the Fastener Quality Act (FQA),
+P.L. 101-592 (the Act). The Act was amended in 1996 by Section
+1 1 of P.L. 104-113. The Act
+protects the public safety by: (1) requiring that certain fasteners which are sold in commerce
+conform to the specifications to which they are represented to be manufactured; (2) providing for
+accreditation of laboratories and registration of manufacturing facilities engaged in fastener
+testing; and (3) requiring inspection, testing and certification, in accordance with standardized
+methods, of fasteners covered by the Act.
+This handbook describes the NIST requirements for registration of a fastener manufacturing
+facility (a Facility) employing a fastener quality assurance system (QAS), as defined in the
+regulations (the Regulations) and this handbook, by a Quality System Registrar
+1 (a Registrar)
+that in turn has been accredited by a NIST-recognized Accreditor.
+It provides specific guidance
+on the implementing regulations published at 15 CFR Part 280 “Procedures for Implementation
+of the Fastener Quality Act”, Sec. 280.104 and Subparts I through L.
+2
+Registration applies only
+to facilities that manufacture fasteners; raw material manufacturers must test the chemistry of
+metals in a laboratory listed on the Accredited Laboratory List.
+3
+Manufacturers are required by regulation to comply with the requirements in the fastener
+specification and standards, including sampling plans for final inspection and testing. However,
+the Regulations also provide in Sec. 280.104 for an alternative to lot-by-lot final inspection and
+testing recognizing current industry practices which rely on defect prevention employing quality
+assurance systems.
+Fastener Facilities which have registered quality systems may reduce the
+number of tests performed in an accredited laboratory, provided the fastener specification or
+standard recognizes the use of quality assurance systems. Some end-user fastener specifications
+require registered QAS Facilities to use control plans to assure production of fasteners meeting
+specification requirements. Under such circumstances, Facilities may be able to reduce their
+reliance on final inspection and testing by controlling the process of production to limit and
+control process variations which adversely affect the fastener produced. As confidence in the
+process is obtained, the control plan may allow reduction of the number of verifications or the
+number of fasteners from each lot required to be tested and inspected.
+Therefore, an advantage
+of the QAS Facility is to take account of such improvements in production by reducing the
+testing requirements.
+^ote: In some countries, the bodies which verify conformity of quality systems to specified standards are
+called “certification bodies,” in others “registration bodies,” in others “assessment and registration bodies” or
+“certification/registration bodies,” and in still others “registrars.” Reference to such bodies as “Registrars” should
+not be understood to be limiting.
+2 Section numbers denoted by “Sec.” or “Sec. 280.xxx” in this document reference the Regulations at 15
+CFR Part 280.
+^Facilities are advised to examine the requirements of Sections 3.0, Accreditation of Certain Manufacturing
+Facilities as Laboratories, and 6.0, Sampling, in this handbook to determine when fastener testing must be
+conducted by laboratories on the Accredited Laboratory List.
+1
+
+While in-process inspection may occur within registered Facilities, in most instances control
+plans require verification of fastener characteristics by laboratory testing, such as
+: tensile,
+hardness, fatigue, metallographic analysis of grain, corrosion resistance, dimensional
+conformance, etc. Such verifications must be performed by accredited laboratories.
+Furthermore, specifications requiring final inspection and testing on finished fasteners must also
+be performed in accredited laboratories. A Facility’s in-house laboratory which conducts
+laboratory tests on fasteners required by the fastener specifications or standards or by control
+plans used in conjunction with production of the fasteners must be accredited by a NIST-
+recognized laboratory accreditation body. The laboratory accreditation is separate from the
+Facility registration and may only be conducted by an Accredited Registrar if the Registrar’s
+organization has also been recognized by NIST as a laboratory accreditation body.
+To ensure the proper regulation of Facilities, NIST recognizes Accreditors that meet the
+requirements of Subpart K of the Regulations (see NISTIR 6261), which is based upon ISO/IEC
+Guide 61; the NIST-recognized Accreditors may in turn accredit Registrars that meet the
+requirements of Subpart L of the Regulations (see NISTIR 6262), which is based upon ISO/IEC
+Guide 62. The Registrars, in turn, may register Facilities that satisfy the elements of a Fastener
+Quality Assurance System (QAS), as defined in the Regulations and this handbook.
+Selected text from the Regulations is presented in italics in some sections of this handbook. For
+full understanding of all requirements, interested parties are advised to read the Regulations in
+their entirety.
+In addition to the quality system registration requirements, many other important
+issues are contained in that document. The Act and Regulations are accessible on the NIST FQA
+Home Page (http://www.nist.gov/fqa).
+NIST invites users to provide comments or suggestions for modifications, clarification or
+improvement of this document. Comments should be addressed to Accreditation Body
+Evaluation Program (ABEP) Program Manager, NIST, 100 Bureau Drive, Stop 2100,
+Gaithersburg, MD 20899-2100.
+1.1
+Definitions
+For the purposes of this handbook the following definitions are used. Those definitions
+taken from the Act or Regulations are shown in italics.
+1.1.1
+Accreditation: A procedure by which a body recognized by NIST confirms that a
+testing laboratory or a quality system registrar of fastener manufacturing facilities
+that employ a Fastener Quality Assurance System is competent to carry out specific
+tasks required by the implementing regulations for the Fastener Quality Act.
+1.1.2
+Accreditation Body Evaluation Program (ABEP): The program established by
+NIST to receive applications and to evaluate Accreditors (of testing laboratories or
+of quality system registrars) to determine if applicants meet applicable requirements
+of the Act and regulations at
+1 5 CFR Part 280. Based on the evaluation results,
+2
+
+ABEP makes recommendations to NIST regarding recognition of Accreditors.
+1.1.3
+Accredited Laboratory List: A list compiled and maintained by NIST of all
+testing laboratories which have been accredited either by NIST or by any NIST-
+recognized Accreditation Body in accordance with the requirements of The Act and
+the Regulations.
+1.1.4
+Accredited Registrar: A quality systems registration body which is accredited by a
+NIST recognized Accreditor and appears on the Registrars List.
+1.1.5
+Accreditor: A Registrar accreditation body or testing laboratory accreditation body
+that is recognized by NIST, and appears on the Accreditors List.
+1.1.6
+Accreditors List: A list of all Accreditors that have been evaluated and recognized
+by NIST in accordance with the requirements of the Act. Two Accreditors Lists are
+maintained, one for testing laboratory accreditors and one for Registrar accreditors.
+1.1.7
+Act: The Fastener Quality Act, P.L. 101-592, as amended by P.L. 104-113.
+1.1.8
+Advanced Product Quality Planning: A structured process for developing and
+implementing the methods of measurement and testing that will be used in
+production of a specific product or family of products to meet requirements. Quality
+planning incorporates both defect prevention and continuous improvement, rather
+than defect detection. Proper implementation requires use of interdisciplinary teams
+and systems to assure management of appropriate activities (e.g., product design
+and development; development/finalization of special characteristics; product and
+process validation; development and review of Control Plans; mistake proofing;
+feedback, assessment and corrective action - continuous improvement) during
+concept development through production. (See, for example. Advanced Product
+Quality Planning and Control Plan QS-9000 reference manual.)
+1.1.9
+Approved Signatory: An individual employed by a facility registered under the
+Act and these regulations who is recognized by a registrar as competent
+to sign test
+reports.
+1.1.10
+Authorized Representative: An employee of an organization with the authority to
+make binding commitments on behalf of the organization. The authorized
+representative is the person responsible for all communications between the Facility
+and the Registrar or NIST and who will ensure that the Facility complies with all
+Registrar and NIST program requirements.
+1.1.11
+Certificate of Registration: A document issued by a Registrar to a Facility that
+has met the criteria and conditions of registration. The certificate, together with the
+assigned code number and scope of registration issued by the Registrar, may be
+used as proof of registration status.
+3
+
+1.1.12
+Control Plans: Plans that describe the system controlling fastener products and
+processes. They are written documents used by facilities to address the important
+characteristics and engineering requirements of the fastener product. Each fastener
+product shall have a Control Plan, but in many cases, “family” Control Plans can
+cover a number of fastener products produced using a common process. The control
+plan must be maintained throughout the fastener life cycle. Initially,
+it is primarily
+used to document and communicate the plan for process control. Later,
+it guides
+manufacturing in how to control the process and ensure fastener quality. Finally, the
+control plan is continually updated as measurement systems and control methods
+are evaluated and improved to reflect the current methods of control and
+measurement systems used in production. (See, for example, Advanced Product
+Quality Planning and Control Plan QS-9000 reference manual.)
+1.1.13
+Facilities List: A list compiled and maintained by NIST of all Facilities which have
+been registered by accredited Registrars.
+1.1.14
+Facility: A fastener manufacturing facility or a facility performing subcontracted
+processes for a manufacturing facility, that has been registered by an accredited
+Registrar and that appears on the Facilities List.
+1.1.15
+Fastener: Fastener means any screw, nut, bolt or stud, washer or other item
+included within the definitionforfastener contained in section 3(5) ofthe Fastener
+Quality Act.
+The term
+‘fastener ” does not include a screw, nut, bolt or stud:
+(1)
+that is produced and marked as ASTMA307 Grade A,
+(2)
+that is produced in accordance with ASTM F432: or
+(3)
+that is held out as being produced to other than the provisions ofstandards and
+specifications published by a consensus standards organization, or a government
+agency.
+A screw, nut, bolt, stud or washer held out as being produced according to
+requirements ofa document other than a document published by a consensus
+standards organization is afastener within the meaning ofthe Act and this part if
+that document incorporates or references (directly or indirectly) standards and
+specifications published by a consensus standards organization or government
+agencyfor purposes ofdelineating performance or materials characteristics ofthe
+fastener.
+1.1.16
+Fastener Quality Assurance System (QAS):
+(1) Fastener Quality Assurance
+System (QAS) means a fastener manufacturing system that has as a stated goal the
+prevention ofdefects through continuous improvement, and which seeks to attain
+that goal by incorporating:
+(i) Advanced product quality planning;
+(ii) Monitoring
+and control ofthe manufacturing process; (Hi) Product verification activities
+embodied in a comprehensive and written control plan to address critical or
+significant product/process characteristics, documented process controls (including
+statistical process control),
+tests, and measurement systems to be used in
+4
+
+production; and (iv) The creation, maintenance, and retention ofelectronic,
+photographic, or paper records, available for inspection during the periods
+required by section 10 ofthe Act and Sec. 280.809 ofthe regulations, regarding the
+inspections,
+tests, and measurements required by or performedpursuant to the
+control plan or other quality system documentation, e.g., work instructions. See
+Section 4.0, Fastener Quality Assurance System Criteria, for amplification of
+requirements.
+1.1.17
+Lot: A quantity offasteners ofone part numberfabricated by the same production
+processfrom the same coil or heat number ofmetal as provided by the metal
+manufacturer and submittedfor inspection and testing at one time.
+1.1.18
+Lot Number: A number assigned by a manufacturer to the lot.
+1.1.19
+Lot Traceability : The recording and maintenance oflot-specific identification
+information sufficient to trace fastenersfrom a single lot throughout:
+(1)
+The manufacturer ’sfabrication or alteration process,
+(2) All inspection and testing operations, and
+(3)
+The subsequent chain ofdistribution in commerce.
+1 .1 .20
+Original Laboratory Testing Reports: (1) In general, a laboratory testing report
+which is originally signed by an approved signatory or is a copy thereof, certified
+by the laboratory that conducted the test; or (2) For purposes ofthe alternative
+proceduresfor chemical characteristics described in section 5 (d) ofthe Act and
+Sec. 280. 15 ofthe regulations only, a laboratory testing report which is originally
+signed by an approved signatory or is a copy thereof certified by the laboratory
+that conducted the test or by the metal manufacturer.
+1 .1 .21
+Recognized Accreditor: An accreditor that is recognized by NIST and appears on
+the Accreditors List.
+1
+. 1 .22
+Registered Facility: A facility that is registered by an accredited registrar and
+appears on the Facilities List.
+1 .1 .23
+Registrars List: A list compiled and maintained by NIST of all registrars which
+have been accredited by NIST-recognized Accreditors.
+1
+. 1 .24
+Registration: Procedure by which a body accredited by a NIST recognized
+Accreditor gives written assurance that a manufacturing facility conforms to the
+applicable requirements of a Fastener Quality Assurance System.
+1
+1 .25
+Tamper-resistant system:
+The use ofspecial paper or embossing stamps or other
+controls which discourage, prevent or minimize alteration of test reports
+subsequent to manufacturing, inspection and testing.
+5
+
+1
+. 1 .26
+Traceability of Measurements: A documented chain ofcomparisons connecting
+the accuracy ofa measuring instrument to other measuring instruments ofhigher
+accuracy and, ultimately, to a primary standard.
+2.0 REQUESTING EVALUATION
+2.1
+Who May Apply
+Fastener manufacturing facilities that desire to comply with the requirements of the Act and
+regulation may apply to an accredited Registrar for registration as a QAS Facility under the
+FQA. NIST will provide a list of accredited Registrars on the NIST FQA Home Page
+(http://www.nist.gov/fqa.)
+2.2
+Listing Fee
+A listing fee is paid by the Facility and forwarded to NIST by the accredited Registrar.
+3.0 ACCREDITATION OF CERTAIN MANUFACTURING FACILITIES AS
+LABORATORIES (Sec 280.104)
+3.1
+Subject to the limitations contained in paragraphs (3.3),
+(3.4), and (3.5), registration of
+a fastener manufacturing facility employing a fastener quality assurance system shall be
+deemed to meet the requirements as an accredited laboratory for purposes of the Act.
+The independent third-party Registrar registering such facility under this section shall
+comply with all procedures set forth in Subparts I through L of the Regulation.
+3.2
+Records documenting the inspection and testing of a lot of fasteners performed by the
+Facility shall be maintained in accordance with the requirements of sections 280.6,
+280.808, and 280.809 of the regulation (see 5.0, Test Report and Record Requirements
+for QAS Registered Facilities).
+3.3
+If a Facility accomplishes any in-process inspection and testing by performing
+laboratory tests on a sample of fasteners at any stage in the manufacturing process,
+those tests must be conducted by a laboratory on the Accredited Laboratory List. Such
+a laboratory may be located on the same premises as the fastener manufacturing facility
+if the laboratory is separately accredited under the laboratory accreditation provisions of
+the regulation.
+3.4 Any laboratory tests performed outside the Facility’s in-process inspection and testing
+must be conducted by a laboratory on the Accredited Laboratory List.
+3.5
+Chemical and raw material testing must be performed by a laboratory on the Accredited
+Laboratory List.
+6
+
+4.0
+FASTENER QUALITY ASSURANCE SYSTEM CRITERIA
+The Registrar’s audit team shall assess the quality assurance system employed at the
+fastener manufacturing Facility against all applicable registration requirements
+1
+. The QAS
+shall include, but is not limited to, the following elements in accordance with Sec. 280.2,
+Fastener Quality Assurance System (QAS).
+4.1
+Quality Management System
+The fastener manufacturing Facility shall have a documented QAS that satisfies the
+requirements of ISO 9001 or ISO 9002, or other quality system standards that incorporate
+ISO 9001 and ISO 9002 (e.g., QS-9000 series, AS9000, etc.). The quality assurance system
+must have as a stated goal the prevention of defects through continuous improvement, and
+seek to attain that goal by incorporating:
+(i)
+advanced product quality planning;
+(ii)
+monitoring and control of the manufacturing process;
+(iii)
+product verification activities embodied in a comprehensive and written control
+plan: which addresses critical or significant product/process characteristics;
+documents process controls (including statistical process control), tests, and
+measurement systems to be used in production; and
+(iv)
+the creation, maintenance, and retention of electronic, photographic, or paper
+records, available for inspection during the periods required by section
+1 0 of the
+Act and Sec. 280.809 of the regulations (See 5.0, of this handbook), regarding
+the inspections, tests, and measurements required by or performed pursuant to
+the control plan or other quality system documentation, e.g., work instructions.
+4.2
+Raw Material Traceability
+The raw material certification supplied to the fastener manufacturer shall be traceable to that
+of a mill heat of material that has been tested by a laboratory on the Accredited Laboratory
+List.
+4.3
+Subcontractor Traceability
+Any subcontracted processes, including plating and heat treating, shall be controlled by the
+fastener manufacturer to avoid product lot contamination.
+’NIST has determined that a fastener Facility registered for QS-9000 by a listed Registrar and meeting the
+additional requirements in the regulations, as detailed in this handbook and verified by a Registrar through on-site
+audit and registration, is eligible for listing as a Fastener Quality Assurance System Facility. QS-9000 Element
+4.10.6, Supplier Laboratory Requirements, states that accreditation of a facility’s laboratory is not required by QS-
+9000. However, the FQA requires use of accredited laboratories for both in-house testing as well as contracted
+testing with commercial/independent laboratories. A Facility requesting registration to a standard, which is
+equivalent to QS-9000, should contact a Registrar and make a formal request to initiate procedures for a
+determination of equivalence by NIST.
+7
+
+4.3.1
+These subcontracted processes shall be:
+(i)
+performed by a Facility on the Facilities List described in Sec. 280.810,
+or
+(ii)
+tested by a laboratory on the Accredited Laboratory List described in
+Sec. 280.101.
+4.3.2
+The finished lots of fasteners shall be traceable to subcontracted processes.
+4.4
+Quality Assurance Plan
+4.4.1
+The fastener manufacturer shall have a documented comprehensive control plan
+which shall include:
+(i)
+a fully documented fastener sampling plan which includes sampling
+frequency and sample size, and identification of inspection points in the
+manufacturing process;
+(ii)
+an emphasis on defect prevention;
+(iii)
+corrective action for nonconforming characteristics,
+(iv)
+identification of the standards and specifications upon which the plan is
+based.
+4.4.2
+The fastener manufacturer shall make the control plan available to the customer
+upon request.
+4.4.3
+In the event that the standards or specifications to which a manufacturer
+represents the fasteners in a particular sample to have been manufactured do not
+provide for frequency and levels of inspection, and size and selection of the sample to
+be inspected and tested, inspections and tests shall be carried out as noted in
+Sec. 280.10.
+(See 6.0, Sampling, of this handbook.)
+4.4.4
+The emphasis in the quality assurance plan shall be in-process controls or
+defect prevention and continuous improvement, rather than defect detection at the end
+of the production.
+4.5
+Quality Assurance Standards
+4.5.1
+The control plan shall include fastener characteristics:
+(i)
+specified by the sampling standard (e.g., ANSI/ASME B 1 8. 1 8.5M, 6M,
+and 7M),
+(ii)
+specifically indicated by the applicable fastener standards and
+specifications, and
+(iii)
+designated by the end user for evaluating product functionality.
+8
+
+5.0
+TEST REPORT AND RECORD REQUIREMENTS FOR QAS REGISTERED
+FACILITIES
+5.1
+Reports
+Registered Facilities shall comply with requirements of Sec. 280.808 of the regulations,
+the text of which follows:
+Sec. 280.808 Reports.
+Reports and records shall be maintained in such a manner to preserve original data, and
+be collected as required into a finalform, sufficient to satisfy customer and legal
+requirements.
+Such reports shall be provided upon request to the Bureau ofExport
+Administration, to the National Institute ofStandards and Technology, or to any other
+agency of the federal government authorized to obtain such records under this part
+1
+.
+5.2
+Recordkeeping Requirements
+Registered Facilities shall comply with requirements of Sec. 280.809 and Sec. 280.7 of
+the regulations. The relevant sections are reprinted here for the convenience of the
+reader.
+Sec. 280.809 Recordkeeping.
+Each ...fastener manufacturer whose Facility has been registered shall retain all
+applicable records required under the Act and this partfor 5 years.
+All records are
+subject to the requirements in Sec. 280. 7 of this part.
+Sec. 280. 7 Recordkeeping Requirement
+(a)
+Each laboratory accredited under Subparts C, D, or E or Facility registered under
+Sec. 280. 104 ofthis part shall retain for 5 years after the performance ofa test all records
+pertaining to that test concerning the inspection and testing, and certification, of
+fasteners under the Act and this part.
+The final test report or the test records maintained
+by the laboratory shall contain sufficient information to permit the test to be repeated at
+a later time ifa retest is necessary.
+The laboratory shall maintain the test report and a
+record ofall original observations, calculations, and derived data.
+The records shall
+include the identity ofpersonnel performing the testing.
+Proceduresfor storage and
+retrieval ofrecords must be documented and maintained in the laboratory's quality
+manual.
+1 Use of the term “part” in the regulations refers to 15 CFR Part 280, ‘‘Procedures for Implementation of
+the Fastener Quality Act.”
+9
+
+(b)
+Manufacturers, importers, private label distributors, andpersons
+1 who significantly
+alterfasteners shall retainfor 5 years after the performance ofa test all records
+pertaining to that test concerning the inspection and testing, and certification, of
+fasteners under the Act and these regulations.
+(c)
+Original records required.
+Persons required to keep records under this part must
+maintain the original records in the form in which that person receives or creates them
+unless that person meets all ofthe conditions ofparagraph (d) ofthis section relating to
+reproduction ofrecords. Original laboratory test reports described in sections 280.5,
+280.6, 280.13, and 280.15(b) ofthis part must be kept.
+(d)
+Reproduction oforiginal records. A person required to keep records under this part
+may maintain reproductions ofdocuments other than laboratory test reports instead of
+the original records using any photographic, photostatic, miniature photographic,
+micrographic, automated archival storage, or other process that completely, accurately,
+legibly and durably reproduces the original records (whether on paper, microfilm, or
+through electronic digital storage techniques).
+The process must meet all ofthe
+requirements ofparagraphs (d)(1) through (d)(9) ofthis section.
+(1)
+The system must be capable ofreproducing all records on paper.
+(2)
+The system must record and be able to reproduce all marks, information, and other
+characteristics ofthe original record, including both obverse and reverse sides ofpaper
+documents in legible form.
+(3)
+When displayed on a viewer, monitor, or reproduced on paper, the records must
+exhibit a high degree oflegibility and readability.
+(For purposes ofthis section, legible
+and legibility mean the quality ofa letter or numeral that enable the observer to identify
+it positively and quickly to the exclusion ofall other letters or numerals.
+Readable and
+readability mean the quality ofa group ofletters or numerals being recognized as
+complete words or numbers.)
+(4)
+The system must preserve the initial image (including both obverse and reverse sides
+ofpaper documents) and record all changes, who made them and when they were made.
+This information must be stored in such a manner that none of it may be altered once it is
+initially recorded.
+(5)
+The regulatedperson must establish written procedures to identify the individuals
+who are responsible for the operation, use and maintenance ofthe system.
+(6)
+The regulatedperson must establish written proceduresfor inspection and quality
+assurance ofrecords in the system and document the implementation ofthose procedures.
+1 The Regulations define Persons as any individual, partnership, limitedpartnership or corporate entity
+and/or a representative, agent or designee.
+10
+
+(7)
+The system must he complete and contain all records required to be kept by this part
+or the regulatedperson must provide a methodfor correlating, identifying and locating
+records relating to the same transaction(s) that are kept in other record keeping systems.
+(8)
+The regulatedperson must keep a record ofwhere, when, by whom, and on what
+equipment the records and other information were entered into the system.
+(9) Upon request by the Bureau ofExport Administration or NIST, the regulatedperson
+mustfurnish, at the examination site, the records, the equipment and, ifnecessary,
+knowledgeable personnelfor locating, reading, and reproducing any record in the
+system.
+(e) Destruction or disposal ofrecords.
+Ifthe Bureau ofExport Administration, NIST or
+any other government agency makes aformal or informal requestfor any record or
+records, such record or records may not be destroyed or disposed ofwithout the written
+authorization ofthe agency concerned.
+This prohibition applies even ifsuch records
+have been retainedfor a period oftime exceeding that required by paragraph (a) or (b)
+ofthis section.
+(f) All persons required to keep records by this part mustfurnish those records when
+requested to do so by an employee ofthe Bureau ofExport Administration or NIST
+5.3
+Test Reports (Sec. 280.6(b))
+When performing tests for which they are registered under this part, each facility
+registered under Subpart I or J ofthis Part and currently listed in the Facilities List shall
+issue test reports of its work which accurately, clearly, and unambiguously present test
+results, and all information required by this section.
+In addition, the facilities shall
+attach reports ofchemical characteristics and any report ofthe tests conducted in a
+laboratory under the accredited laboratories list.
+All reports must be in English or be
+translated into English, must be signed by an approved signatory, must be protected by a
+tamper resistant system, and contain the following information:
+(1)
+Name and address ofthe facility;
+(2)
+Unique identification ofthe test report, including date of issue and serial number,
+or other appropriate means including references to control plan identification;
+(3)
+Name and address of client, ifapplicable;
+(4)
+Fastener description, including:
+(i)
+Manufacturer (name and address);
+(ii)
+Productfamily (screw, nut, bolt, washer, or stud), drive and/or head
+configurations as applicable;
+(Hi)
+Date ofmanufacture;
+11
+
+(iv)
+Head markings (describe or draw manufacturer's recorded insignia and
+grade identification or property class symbols);
+(v)
+Nominal dimensions (diameter; length ofbolt, screw or stud; thickness of
+load bearing washer); threadform and class offit;
+(vi)
+Product standards and specifications related to the facility in writing by
+the manufacturer, importer or distributor;
+(vii)
+Lot number;
+(viii)
+Specification and gi
+Aade ofmaterial;
+(ix)
+Coating material and standard and specification as applicable;
+(5) Sampling information:
+(i)
+Standards and specifications or referencefor sampling scheme;
+(ii)
+Final manufacturing lot size;
+(Hi)
+Identification ofcontrol plan governing production ofthe lot to which the
+test report is applicable;
+(6)
+Test Results:
+(i)
+Test results ofactual tests required by applicable fastener standards and
+specifications, and characteristics designated by the end user;
+(ii)
+All deviationsfrom the test method;
+(Hi)
+All other items required on test reports according to the applicable
+fastener standards and specifications, and characteristics designated by
+the end user;
+(iv)
+Where the report contains results of tests performed by sub-contractors,
+these results shall be clearly identified along with the name ofthe
+laboratory/facility and accreditation/registration information listed in
+paragraph (b)(9) ofthis section.
+(v)
+Where all processes under the applicable OAS werefound to be in
+accordance with the inspections, tests and measurements required by the
+standards and specifications and the OAS and characteristics designated
+by the end user, a statement that the samples tested conform to the
+applicablefastener standards and specifications;
+(vi)
+Where any process under the applicable OAS wasfound not to be in
+accordance with the inspections,
+tests, or measurements required by such
+OAS, a statement that the samples tested do not conform to the applicable
+fastener standards and specifications and identification ofany
+nonconformance;
+(7)
+A statement that the report must not be reproduced except in full;
+(8)
+Name,
+title and signature ofapproved signatory accepting technical responsibility
+for the tests and test report;
+(9)
+The name ofthe registrar which registered the facility, and code number assigned
+to the facility by the registrar, and the expiration ofregistration (if applicable).
+12
+
+6.0
+SAMPLING (Sec. 280.10)
+(a) For tests conducted either in a Registered or non-Registered Facility, if a manufacturer
+represents that the fasteners in a particular sample have been manufactured to a standard or
+specification which provides for the size, selection or integrity of the sample to be inspected and
+tested, the sample shall be determined in accordance with that standard or specification.
+(b) For tests conducted by a non-Registered Facility in a laboratory on the Accredited Laboratory
+List, if a manufacturer represents that the fasteners in a particular sample have been
+manufactured to a standard or specification which does not provide for the size, selection or
+integrity of the sample to be inspected and tested, the sample shall be determined in accordance
+with the sampling plan provided by ASME/ANSI B18.18.2M, Inspection and Quality Assurance
+For High-Volume Machine Assembly Fasteners; ASME/ANSI B18.18.3M, Inspection and
+Quality Assurance for Special Purpose Fasteners; or ASME/ANSI B18.18.4M, Inspection and
+Quality Assurance for Highly Specialized Engineering Applications-Fasteners.
+(c) For tests conducted in a Registered Facility, if a manufacturer represents that the fasteners in
+a particular sample have been manufactured to a standard or specification which does not provide
+for the size, selection or integrity of the sample to be inspected and tested, the sample for
+inspections and tests by the Facility shall be determined by the sampling plan provided by its
+Fastener Quality Assurance System or by standards and specifications intended for use with a
+Fastener Quality Assurance System, as appropriate.
+Or, a manufacturer operating a Registered
+Facility may elect to conduct inspections and tests upon all of the fasteners within a specified lot,
+provided that this election is documented in the control plan of its Fastener Quality Assurance
+System.
+7.0
+SUBCONTRACTING (Sec. 280.807)
+If a
+... registered Facility subcontracts any of its functions to another entity it must place the
+work with another
+... registered Facility; inform the client, before the fact, that subcontracting
+will be necessary, and clearly indicate in all appropriate records, and reports to the client,
+specifically whatfunctions were subcontracted.
+Quality' documentation shall include
+procedures for subcontracting even if subcontracting is not a normal practice.
+8.0
+MAINTAINING RECOGNIZED STATUS (Sec. 280.804)
+8.1
+NIST Surveillance/Observer Status
+NIST has the right to participate as an observer during any on-site visit to a Facility being
+audited by an Accredited Registrar, or it may perform its own surveillance visit of a
+Facility at its discretion.
+13
+
+8.2
+Proper Use of Registration Status and Claims
+A Facility registered under the Act and regulations shall take no action which states or
+implies the approval, or endorsement by NIST or any other agency of the U.S. Federal
+Government of any product or report pertaining to a product associated with any
+activities carried out under the registration. No Facility may take any action which states
+or implies that it is registered or authorized by NIST to act or perform in any area(s)
+beyond that which was specified in the registration documents.
+14
+
+BIBLIOGRAPHY
+The Fastener Quality Act (Pub. L. 101-592, as amended by Pub. L. 104-113).
+Procedures for Implementation of the Fastener Quality Act; 15 CFR Part 280.
+ISO/IEC Guide 2:1996, Standardization and related activities—General vocabulary.
+ISO/IEC Guide 61
+: 1996, General requirementsfor assessment and accreditation of
+certification/registration bodies.
+ISO/IEC Guide 62:1996, General requirementsfor bodies operating assessment and
+certification/registration ofquality systems.
+ISO 8402:1994, Quality management and quality assurance— Vocabulary.
+ISO 9001
+: 1994, Quality systems—Modelfor quality assurance in design, development,
+production, installation, and servicing.
+ISO 9002:1994, Quality systems—Modelfor quality assurance in production, installation, and
+servicing.
+ISO 1001 1-1
+: 1990, Guidelinesfor auditing quality systems—Part 1: Auditing.
+ISO 1001 1-2:1991, Guidelinesfor auditing quality systems—Part 2: Qualification criteriafor
+quality systems auditors.
+ISO 1001 1-3:1991, Guidelinesfor auditing quality systems—Part 3: Management of audit
+programmes.
+ISO 10013:1995, Guidelinesfor developing quality manuals.
+QS-9000, Quality System Requirements , Third edition, March 1998, Chrysler Corporation, Ford Motor
+Company, General Motors Corporation-Automotive Industry Action Group.
+Advanced Product Quality Planning (APOP) and Control Plan Reference Manual, June 1994, Chrysler
+Corporation, Ford Motor Company, General Motors Corporation-Automotive Industry Action Group.
+Statistical Process Control (SPC) Reference Manual , 1992, Chrysler Corporation, Ford Motor
+Company, General Motors Corporation-Automotive Industry Action Group.
+15
+
+Stiefel, S. Wayne and Gladhill, Robert L., Proceduresfor Obtaining NIST Recognition as an
+Accreditor ofQuality System Registrars Under the Fastener Quality Act, NISTIR 6161, December
+1998.
+Stiefel, S. Wayne and Gladhill, Robert L., Accreditation Requirementsfor Quality System Registrars
+Under Provisions ofthe Fastener Quality Act, NISTIR 6262, December 1998.
+16
