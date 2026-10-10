@@ -1,0 +1,2594 @@
+NAT L INST. OF STAND & TECH
+R.I.C.
+A111D3 73MSQ1
+Questions and Answers on
+Quality, the ISO 9000
+Standard Series, Quality
+System Registration, and
+Related Issues
+NISTIR 4721
+Maureen Breitenberg
+U.S. DEPARTMENT OF COMMERCE
+National Institute of Standards
+and Technology
+Standards Code and Information Program
+Office of Standards Services
+Gaithersburg, MD 20899
+-QC
+100
+.056
+//4721
+1991
+U.S. DEPARTMENT OF COMMERCE
+Robert A. Mosbacher, Secretary
+NATIONAL INSTITUTE OF STANDARDS
+AND TECHNOLOGY
+John W. Lyons, Director
+NIST
+
+NISTIR 4721
+Questions and Answers on
+Quality, the ISO 9000
+Standard Series, Quality
+System Registration, and
+Related Issues
+Maureen Breitenberg
+U.S. DEPARTMENT OF COMMERCE
+National Institute of Standards
+and Technology
+Standards Code and Information Program
+Office of Standards Services
+Gaithersburg, MD 20899
+November 1991
+U.S. DEPARTMENT OF COMMERCE
+Robert A. Mosbacher, Secretary
+NATIONAL INSTITUTE OF STANDARDS
+AND TECHNOLOGY
+John W. Lyons, Director
+
+FOREWORD
+The Standards Code and Information Program periodically publishes
+information on various aspects of conformity assessment for use
+by those who operate or benefit
+from such systems.
+Recently
+there has been considerable interest
+in the content and
+application of international standards related to quality
+management,
+i.e.,
+the so-called ISO 9000 series.
+This report
+provides answers to some of the most often asked questions on
+this topic.
+This material
+is intended for those who are
+concerned about the ISO 9000 standards and should help foster
+a
+wider interest
+in the use of quality systems
+in general.
+This
+document also references other publications and services provided
+by this office which readers may find useful.
+The reader
+is also invited to share any comments on the material
+presented in this document.
+The attainment of quality
+is
+a
+dynamic and evolving process,
+and
+its continued maturation
+depends on feedback from those involved in the process.
+Ill
+
+ACKNOWLEDGEMENTS
+I would like to thank Mary Saunders,
+International Trade
+Administration's Office of European Community Affairs;
+Mr.
+Charles Hyer,
+the Marley Organization;
+Mr.
+Donald Mackay,
+Air-
+Conditioning and Refrigeration Institute;
+Dr.
+Curt Reimann and
+Dr.
+Robert Chapman,
+NIST's Office of Quality Programs;
+Patricia
+Kopp,
+American Society for Quality Control;
+and NIST's Standards
+Code and Information staff
+for their careful review of and
+comments on this document.
+Maureen A.
+Breitenberg
+Standards Code and Information
+IV
+
+ABSTRACT
+This report provides information on the development,
+content and
+application of the ISO 9000 standards to readers who are
+unfamiliar with these aspects of the standards.
+It attempts to
+answer some of the most commonly asked questions on quality;
+quality systems;
+the content,
+application and revision of the ISO
+9000 standards;
+quality system approval/registration;
+European
+Community requirements
+for quality system approval/registration;
+and sources
+for additional help.
+Key Words:
+conformity assessment;
+EN 29000;
+ISO 9000;
+quality
+assurance;
+quality control;
+quality system;
+quality system
+registration
+V
+
+•w
+L^%,X
+:: .cw
+-I
+f
+f si^'i"5
+9v:-:
+n'^:
+'
+‘
+’
+:
+'
+. j->
+•
+»’K.
+.
+’/4>t
+'
+fr
+.,
+-.««
+i^io.:-! OSS 40<*:ss- ,i43
+f!Ua:^tte^V
+" '
+'
+''M
+'
+'
+^
+::
+:7,7 r,t^vv -As
+^
+'
+-l-'
+•i;
+1.'^
+•I/-.
+^^'TaPsT^
+-.a ,>•'
+: ’';%' s- i
+Vy-' "/
+v
+•••
+•hI-?'-.
+:.m
+h
+M.
+-v^-uT .-:
+,..
+'V'l
+:
+,'
+,
+Jt'I
+i'iM
+J>\\
+L%&1
+
+TABLE OF CONTENTS
+Page
+Foreword
+iii
+Acknowledgements
+iv
+Abstract
+v
+Introduction
+1
+What
+is Quality?
+1
+What
+is
+a Quality System?
+2
+What
+is
+ISO?
+3
+What Are the ISO 9000,
+ANSI/ASQC Q
+90,
+and CEN/CENELEC EN 29000
+Standards?
+3
+What Sort of Information Is Contained
+in Each ISO 9000 Standard?
+.
+4
+Where Can Copies of these Standards be Obtained?
+5
+Are the ISO 9000 Standards Subject to Change?
+5
+Does TC 176 Have
+a Plan for Revising and Supplementing the ISO 9000
+Standards?
+6
+What
+Is the ISO 9000 Forum?
+6
+How Do the ISO 9000 Criteria Compare with Criteria Used
+in the
+Malcolm Baldrige National Quality Award Process?
+6
+What
+is Quality System Registration?
+7
+Who Evaluates Quality Systems?
+7
+What
+is the
+"New Approach"
+for Conformity Assessment of Regulated
+Products?
+8
+Will Quality System Approvals be Mandatory in the EC?
+8
+Who Will
+Be Able to Conduct Mandatory EC Quality System Approvals?
+9
+Will Quality System Registration Be Required for Nonregulated
+Products
+in the EC and Elsewhere?
+10
+What
+is the EOTC and How Does
+it Fit into the Picture?
+10
+Does the U.S.
+Have
+a Scheme
+for Quality System Registration?
+10
+Who Evaluates the Competence of Registrars?
+11
+Where Can U.S.
+Industry Go to Get Additional Help?
+11
+Appendix
+13
+Vll
+
+"£r>}
+?Jr^S
+^
+m.
+\
+9
+'
+^
+"
+<•
+i, ,
+'...». ^
+.?
+' »
+'i'.t:
+*<.j^'}H:' '
+.4
+•
+-
+4
+»
+t
+i,
+*(,«•''
+*."*
+•
+t
+u
+».
+f#l
+JR.
+»
+. #
+V
+I
+«
+,*
+oor<t?
+:<,::
+•
+,„,
+£115
+a,i
+-liJii'J
+;WS
+S-f 'IP'iJ'irav,.
+iJJ.'.'few
+.
+'•’"" 7- «£
+' ^
+•*
+'.•
+2
+’
+' i,
+‘'
+*
+.
+^
+fl®'
+-
+*
+”
+.
+«.
+..'a,.'
+<S*''''-';,v'
+-'-'
+-.V
+<! CTii-sja ^a-tiSnO "3
+'‘‘*1ti'
+'
+..
+I'
+(
+I
+’.
+'
+"'••
+/"
+..
+t
+I
+'i-
+i-
+*
+' ^
+k»
+'•» ‘^-^'^•' i
+*
+•• ^
+f
+‘^r
+i
+^
+^ ".'
+''; „/:>? -S'
+,';''
+,.;j ^';^*',;‘|k,
+.
+m^'::
+:
+'
+r!1^''X. '
+*;!':iS'
+.
+4I!K-='
+".I}^
+
+INTRODUCTION
+This report was designed to answer the most commonly asked questions
+on quality;
+quality systems;
+the content,
+application and revision of
+the ISO 9000 standards;
+quality system approval/registration;
+European
+Community requirements
+for quality system approval/registration;
+and
+related topics.
+The Standards Code and Information Program at the
+National Institute of Standards and Technology
+(NIST)
+has received an
+increasing number of inquiries on these topics,
+which
+is indicative of
+the expanding interest
+in quality by many sectors of the economy.
+This report has been prepared to provide basic information
+in this
+area.
+WHAT IS QUALITY?
+Quality improvement has now become both the corporate and
+international business strategy of the 1990 's.
+Cadillac and Milliken
+and Company each advertise winning the Malcolm Baldrige Award for
+quality.
+Ford Motor Company publicizes
+a "Quality
+is Job
+1"
+slogan,
+and many other companies are following suit.
+At the international
+level,
+interest has mushroomed
+in quality systems as
+a means of
+assuring the consistent conformity of products or services to
+a given
+set of standards or expectations.
+There has,
+however,
+been little agreement among either corporate
+management or professionals
+in the field regarding the meaning of
+"quality."
+The International Organization for Standardization
+(ISO)
+Standard 8402 defines quality
+as:
+"the totality of features and
+characteristics of
+a product or service that bear on
+its ability to
+satisfy stated or implied needs."
+However,
+there are problems with
+this definition.
+Whose needs does the service or product address?
+Who are its customers?
+In the testing services
+field,
+for example,
+totally erroneous test results may satisfy
+a client's needs quite well
+if the faulty test report can be used to allow him to sell his
+product,
+especially
+if an accurate test report would not.
+Nevertheless,
+such results are unlikely to satisfy the needs of the
+potential buyers of the product or of the agency responsible
+for
+regulating the product.
+Customers
+for
+a product or service produced by
+a company can be
+located within or outside the company or both,
+depending on the
+product or service.
+A product or service may be provided by one
+company unit to another solely for the latter's use,
+or for subsequent
+delivery to
+a customer outside the organization.
+It has been said
+that most product or service defects
+(no matter where they occur
+in
+the service or manufacturing process)
+usually find their way to the
+point of interface between
+a company and
+its outside customers.
+In an attempt to address this problem,
+ISO has added seven footnotes
+to
+its definition,
+including that:
+"in
+a contractual environment,
+needs are specified,
+whereas
+in other environments,
+implied needs
+1
+
+should be identified and defined"
+and that "needs can change with
+time."
+Needs can be defined
+in terms of safety;
+usability;
+availability;
+versatility;
+compatibility with other products;
+reliability; maintainability;
+overall cost
+(including purchase price,
+maintenance costs,
+and product
+life)
+;
+environmental
+impact;
+or other
+desired characteristics.
+Even
+if all
+"needs"
+can be identified and adeguately defined
+(often no
+easy task)
+,
+what about the issue of an "acceptable quality level
+(AQL) " — the maximum percentage of nonconforming products or service
+units that should be considered satisfactory as
+a process average?
+Stated
+in other words,
+how many
+(if
+any)
+mistakes can you make and
+still produce
+a "quality" product or service?
+A manufacturer's
+production system may be considered by his customers to produce a
+"quality" product
+if the AQL
+is
+0.1%,
+that
+is only one
+in 1,000
+products contains defects.
+Yet
+a
+1
+in 1,000 error rate for nurses
+whose job
+it
+is to hold babies
+(they only drop one out of
+a thousand)
+or for containers which hold highly toxic or hazardous materials
+(only
+one serious leak gets by for every 1,000 containers produced)
+are
+obviously not acceptable.
+There
+is
+a belief among many quality
+experts and their disciples that the only acceptable quality level
+for
+any manufactured product or service
+is
+100%
+("zero defects")
+,
+and that
+any failure to
+"do
+it right" the first time
+is not tolerable.
+This
+is
+not
+a universally held opinion.
+WHAT
+IS A QUALITY SYSTEM?
+Product quality depends on many variables,
+such as the caliber of the
+components or materials used;
+type of equipment used
+in design,
+production,
+handling,
+installation,
+testing and shipping;
+the
+equipment calibration and maintenance procedures employed;
+the
+training and experience of production and supervisory personnel;
+the
+level of "workmanship;"
+and sometimes the environmental conditions
+(temperature,
+humidity,
+level
+of dust particles)
+in the area where the
+product
+is produced.
+The process,
+organizational structure,
+procedures,
+and resources that manufacturers and suppliers use to
+control these variables to produce
+a product of consistent quality
+which meets defined specifications
+is called
+a quality system.
+^
+The
+V
+Note this definition
+is somewhat different from the ISO
+definitions.
+ISO Standard 9000-1987 defines quality system as:
+"the organization,
+structure,
+responsibilities,
+procedures,
+processes and resources for implementing quality management."
+The standard defines quality management as
+:
+"that aspect of the
+overall management function that determines and implements
+quality policy."
+The standard defines quality policy as:
+"the
+overall
+intentions and directions of an organization as regards
+quality,
+as formally expressed by top management."
+These ISO
+definitions also include several additional
+footnotes.
+2
+
+standards that are being adopted globally for quality systems are the
+ISO 9000 standards.
+WHAT IS ISO?
+ISO
+is the International Organization for Standardization,
+founded
+in
+1946 to promote the development of international standards and related
+activities,
+including conformity assessment,
+^
+to facilitate the
+exchange of goods and services worldwide.
+ISO
+is composed of member
+bodies from over
+90 countries,
+the U.S.
+member body being the American
+National Standards Institute
+(ANSI).
+ISO's work covers all areas
+except those related to electrical and electronic engineering,
+which
+are covered by the International Electrotechnical Commission
+(lEC)
+The results of ISO's technical work are published as International
+Standards or Guides.
+WHAT ARE THE ISO 9000, ANSI/ASOC O
+90,
+AND CEN/CENELEC EN 29000
+STANDARDS?
+In
+1987,
+the ISO published
+a series
+of
+five international standards
+(ISO 9000,
+9001,
+9002,
+9003,
+and 9004),
+developed by ISO Technical
+Committee
+(TC)
+176 on quality systems.
+This series,
+together with the
+terminology and definitions contained
+in ISO Standard 8402,
+provides
+guidance on the selection of an appropriate quality management program
+(system)
+for
+a supplier's operations.
+The ISO 9000 standards were intended to be advisory
+in nature and were
+developed primarily for use
+in two-party contractual situations or for
+internal auditing.
+However,
+the standards are currently being applied
+under
+a much broader range of conditions and circumstances.
+In some
+cases,
+compliance with one of the ISO 9000 standards
+(or their
+equivalent)
+has been or will be mandated by a U.S.,
+foreign national,
+or regional government body.
+Conformance to ISO 9000 standards
+is
+also being required
+in purchasing specifications with increasing
+frequency.
+The ISO 9000 Standard Series has been adopted
+in the United States as
+the ANSI/American Society for Quality Control
+(ASQC)
+Q
+90 Series.
+In
+Europe,
+it has been adopted by the European Committee
+for
+Standardization
+(CEN)
+and the European Committee for Electrotechnical
+Standardization
+(CENELEC)
+as the European Norm
+(EN)
+29000 Series.
+According to
+a recent survey by
+ISO,
+forty-three
+(43)
+countries have
+V
+Conformity assessment includes testing,
+inspection,
+laboratory accreditation,
+certification,
+quality system
+assessment,
+and other activities intended to assure the
+conformity of products to
+a set of standards and/or technical
+specifications.
+3
+
+national standards that are identical
+or equivalent to the ISO 9000
+Standard Series.
+Additional countries are considering their adoption.
+WHAT SORT OF INFORMATION IS CONTAINED IN EACH ISO 9000 STANDARD?
+The ISO 9000 Standard Series
+is generic
+in scope.
+Each standard
+addresses
+a different aspect of quality assurance,
+depending on the
+needs of the user.
+ISO 9001,
+9002
+and 9003 describe three distinct quality system models
+of varying stringency for use
+in different applications.
+Common
+elements
+in ISO 9001,
+9002,
+and 9003
+include the need
+for;
+an
+effective quality system;
+ensuring that measurements are valid,
+that
+measuring and testing equipment
+is calibrated regularly;
+the use of
+appropriate statistical techniques; having a product identification
+and traceability system; maintaining an adequate record keeping
+system;
+having an adequate product handling,
+storage,
+packaging and
+delivery system; having an adequate inspection and testing system as
+well
+as
+a process for dealing with nonconforming items;
+and ensuring
+adequate personnel training and experience.
+ISO 9000
+(ANSI/ASQC Q
+90)
+,
+Quality Management and Quality Assurance
+Standards
+- Guidelines
+for Selection and Use
+,
+explains fundamental
+quality concepts;
+defines key terms;
+and provides guidance on
+selecting,
+using,
+and
+(if necessary)
+tailoring ISO 9001,
+9002,
+and
+9003
+ISO 9001
+(ANSI/ASQC Q
+91)
+,
+Quality Systems
+- Model
+for Quality
+Assurance
+in Desiqn/Development
+,
+Production.
+Installation and
+Servicing
+.
+is the most comprehensive standard
+in the series.
+ISO 9001
+covers all elements listed
+in ISO 9002
+and 9003.
+In addition,
+it
+addresses design,
+development,
+and servicing capabilities.
+ISO 9002
+(ANSI/ASQC Q 92),
+Quality Systems
+- Model
+for Quality
+Assurance
+in Production and Installation
+,
+addresses the prevention,
+detection,
+and correction of problems during production and
+installation.
+It
+is more extensive and more sophisticated than ISO
+9003.
+ISO 9003
+(ANSI/ASQC Q 93),
+Quality Systems
+- Model
+for Quality
+Assurance
+in Final Inspection and Test
+,
+is the least comprehensive
+standard.
+It addresses requirements
+for the detection and control of
+problems during final
+inspection and testing.
+ISO 9004
+(ANSI/ASQC Q
+94)
+,
+Quality Management and Quality System
+Elements
+- Guidelines
+,
+provides guidance for
+a supplier to use
+in
+developing and implementing
+a quality system and
+in determining the
+extent to which each quality system element
+is applicable.
+ISO 9004
+examines each of the quality system elements
+(cross-referenced in the
+other ISO 9000 standards)
+in greater detail and can be used for
+internal and external auditing purposes.
+4
+
+WHERE CAN COPIES OF THESE STANDARDS BE OBTAINED?
+Copies of ISO draft/ final standards and European standards
+(ENs)
+can
+be purchased from:
+The American National Standards Institute,
+11 West 42nd Street,
+13th Floor,
+New York,
+NY
+10036,
+Phone:
+(212)
+642-
+4900,
+Fax:
+(212)
+302-1286.
+ARE THE ISO 9000 STANDARDS SUBJECT TO CHANGE?
+According to ISO procedures,
+all
+ISO standards,
+including those
+in the
+ISO 9000
+series,
+must be reviewed and revised or reaffirmed at least
+once every five years.
+ISO has already begun to revise and supplement
+the ISO 9000 series.
+Some of these standards/guidelines will
+supplement ISO 9000 and ISO 9004,
+while others will be included in the
+new ISO 10000 series.
+Both series have been reserved for use by ISO
+TC
+176.
+Recently released ISO standards and guidelines
+in the quality area
+include:
+ISO 9000-3,
+Guidelines
+for the Application of ISO 9001 to the
+Development.
+Supply and Maintenance of Software ;
+ISO 9004-2,
+Quality
+Management and Quality System Elements
+- Part
+2:
+Guidelines
+for
+Services ;
+ISO 10011 Part
+1,
+Guidelines
+for Auditing Quality Systems
+-
+Auditing ;
+ISO 10011 Part
+2,
+Guidelines
+for Auditing Quality Systems
+-
+Qualification Criteria
+for Auditors ;
+ISO 10011 Part
+3,
+Guidelines
+for
+Auditing Quality Systems
+- Managing Audit Programs;
+and ISO 10012-1,
+Quality Assurance Requirements
+for Measuring Equipment
+- Part
+1:
+Management of Measuring Equipment .
+In addition,
+ISO/DIS
+(Draft International Standard)
+8402-1 Quality
+Systems Terminology ;
+and DIS 9000-2 Addendum to 9000 on Guidelines
+for
+Implementing 9001-2-3
+;
+DIS 9004-3 Addendum to 9004
+on Processed
+Materials are under review by ISO TC
+176.
+ISO TC
+176
+is also
+considering committee draft
+(CD)
+9004-4 Addendum to 90004
+on Quality
+Improvement ;
+guidance documents on project management,
+quality plans,
+quality manuals,
+the economics of quality,
+and configuration
+management;
+documents covering revisions to ISO 9000,
+9001-2-3;
+and
+9004;
+and a working draft
+(WD)
+10012-2:
+Quality Assurance Requirements
+for Measuring Equipment
+- Part
+2:
+Measuring Equipment.
+Some national and regional standards bodies are developing
+supplemental guidance for the application of the ISO 9000 series to
+specific industries.
+CEN and CENELEC,
+for example,
+are developing
+more specific requirements
+for the application of the ISO 9001 to the
+V
+Information on drafts or proposed standards work was
+provided by Patricia Kopp,
+Standards Coordinator at the American
+Society for Quality Control
+(ASQC)
+in Milwaukee,
+WI,
+Phone:
+414-
+272-8575.
+5
+
+4
+medical device industry.
+The U.S.
+Food and Drug Administration
+(FDA)
+is also considering replacing its current good manufacturing
+practices
+(GMP)
+regulations
+for medical devices with the ISO 9000
+standards with appropriate guidance for their application.
+The
+International Organization for Legal Metrology
+(OIML)
+is developing
+a
+document entitled:
+"Quality Assurance as Applied for Initial
+Verification of Measuring Instruments," which provides guidance on the
+applicability and use of the ISO 9000 Standard Series
+in the
+manufacture of measuring instruments.
+DOES TC
+176 HAVE A PLAN FOR REVISING AND SUPPLEMENTING THE ISO 9000
+STANDARDS?
+Vision 2000
+- A Strategy for International Standards'
+Implementation
+in the Quality Arena During the 1990s
+is
+a long range plan through the
+year 2000 developed by an Ad Hoc Task Force of ISO TC
+176.
+The plan
+includes providing additional guidance on how to apply the ISO 9000
+series standards to four generic product categories
+(hardware,
+software,
+processed materials,
+and services)
+,
+as well
+as providing
+guidance on related issues,
+such as quality system auditing.
+As noted
+above,
+these documents are
+in various stages of development.
+Minor
+modifications
+in the original
+ISO 9000 series are expected in
+1993,
+with major revisions
+in
+1997.
+The long range goal,
+according to
+Vision 2000
+.
+is to have
+a single Total Quality Management Standard by
+the year 2000.
+WHAT
+IS THE ISO 9000 FORUM?
+ISO has established
+a forum which will serve the needs of ISO 9000
+users by:
+providing information
+(such as
+a newsletter)
+;
+facilitating
+international discussions on new developments and issues affecting the
+application of the ISO 9000 standards; promoting the exchange of
+experience
+in such areas as training,
+promotion and operation of
+relevant schemes;
+harmonizing practices
+in the application and
+interpretation of the ISO 9000 standards; providing advice to ISO TC
+176 or the relevant ISO decision making body.
+HOW DO THE ISO 9000 CRITERIA COMPARE WITH CRITERIA USED IN THE MALCOLM
+BALDRIGE NATIONAL QUALITY AWARD PROCESS?
+The Malcolm Baldrige National Quality Award process
+is designed to
+recognize and award those firms with outstanding records of quality
+V
+CEN and CENELEC have issued
+a draft European standard,
+EN 46001
+- Specific Requirements
+for the Application of EN 29001
+to Medical
+Devices.
+Medical device manufacturers doing business
+in the EC will have to comply with the quality system
+requirements of EN 46001.
+6
+
+performance.
+The purpose of the program
+is therefore very different
+from the purpose behind the development of the ISO 9000 criteria.
+While the use of the ISO 9000 standards may be
+a good starting point
+in establishing
+a quality system,
+the criteria used
+in evaluating
+candidates
+for the Baldrige Award are much more detailed and extend
+beyond those areas covered by the ISO 9000 series.
+The Baldrige Award
+criteria are results oriented and cover all operations,
+processes,
+and
+work units of
+a company.
+The evaluation procedures emphasize the
+dynamics involved
+in the integration of all aspects of
+a firm's
+quality system and the firm's continuous improvements
+in quality.
+WHAT IS QUALITY SYSTEM REGISTRATION?
+Quality system registration or approval
+(sometimes misnamed "quality
+system certification"
+involves the assessment and periodic audit of
+the adequacy of
+a supplier's quality system by
+a third party,
+known as
+a quality system registrar.
+When
+a supplier's system conforms to the
+registrar's interpretation of an ISO 9000
+standard,
+the registrar
+issues the supplier
+a "certificate of registration."
+Interpretations
+of an ISO 9000 standard may not be consistent from one registrar to
+another.
+Note that the supplier's quality system
+is registered,
+not an
+individual product.
+Consequently, quality system registration does
+not imply product conformity to any given set of requirements.
+Registration programs can be conducted in conjunction with or
+independently from a certification
+^ program.
+Registrars may or may
+not concurrently operate
+a product certification program.
+WHO EVALUATES QUALITY SYSTEMS?
+A manufacturer may choose to evaluate his own quality system.
+Such
+self-audits are usually major components of the quality system itself.
+Such self-audits can increase the confidence of management
+in
+its
+production system and demonstrate to
+its personnel that the firm
+is
+committed to quality management.
+"Second party" evaluations are also common.
+In these cases,
+it
+is
+usually the buyer who requires and conducts quality system evaluations
+of his suppliers.
+These evaluations are mandatory only for companies
+wishing to become suppliers to that buyer.
+V
+ISO/IEC Guide
+48 uses the term "register," though many
+Europeans continue to use the term "certify."
+V Certification
+is defined
+in ISO Guide 2-1991 as the:
+"procedure by which
+a third party gives written assurance that
+a
+product,
+process or service conforms to specified requirements."
+7
+
+"Third party" quality system evaluations and registrations may be
+voluntary or mandatory and are conducted by persons or organizations
+independent of both the supplier and the buyer.
+According to a recent
+ISO survey,
+31 countries reported the existence of one or more third
+party registration schemes
+in their countries.
+WHAT
+IS THE
+»'NEW APPROACH" FOR CONFORMITY ASSESSMENT OF REGULATED
+PRODUCTS?
+The Government of the European Community
+(EC)
+has established
+a
+conformity assessment scheme for EC-regulated
+^ products.
+The EC has
+specified conformity assessment methods
+in terms of eight "modules,"
+such as self-certification
+(also called "manufacturer's declaration"),
+type testing,
+quality system approval,
+or final product verification
+by
+a third party.
+Each "new approach" directive specifies the
+alternative means
+(set of modules)
+which suppliers must use to certify
+their products as being
+in conformance with the "essential
+requirements"
+spelled out
+in each directive.
+When EC directives require the use of
+a third party
+in the conformity
+assessment process,
+each member country government must provide the EC
+government with
+a list of such bodies.
+Each member country government
+must determine that the bodies
+it notifies,
+referred to as
+a "notified
+bodies,"
+are competent to declare that a regulated product
+is
+in
+conformity to the "essential requirements"
+spelled out
+in
+a particular
+directive.
+Member states notify bodies by both conformity assessment
+method
+(module)
+and by directive to the
+EC,
+which
+is then responsible
+for compiling
+a list of all
+such bodies.
+Each EC country must accept the results of conformity assessments by
+notified bodies
+in all other EC countries unless there
+is cause to
+believe that the product was improperly tested.
+Each EC country
+is
+responsible for assuring that the bodies
+it designates as notified
+bodies comply with the criteria
+for competence of testing
+laboratories,
+certification and laboratory accreditation bodies,
+and
+quality system registrars spelled out
+in the European EN 45000 series
+of standards.
+WILL QUALITY SYSTEM APPROVALS BE MANDATORY IN THE EC?
+Having an approved quality system will not be
+a blanket requirement
+for all products.
+However,
+for suppliers of medical devices,
+construction products,
+industrial safety equipment,
+telecommunications
+V
+Regulated products are those
+for which the EC Commission
+has developed or
+is developing an EC-wide technical harmonization
+directive which provides manufacturers with
+a single set of
+requirements that must be met to place their products on the EC
+market
+8
+
+terminal equipment,
+gas appliances,
+commercial
+scales,
+and possibly
+other products,
+approval
+of
+a supplier's quality system will be
+a key
+component of the EC's legal requirements
+for safety certification,
+as
+specified
+in the EC directives pertaining to those products.
+In other
+directives,
+such as the Council Directive dated June
+14,
+1989
+on
+machinery
+(89/392/EEC)
+,
+manufacturers of some products will be
+permitted to self declare that their product conforms to the
+requirements of the directive and to place the European Community
+(CE)
+mark on the product.
+However,
+such machinery manufacturers must
+maintain a file on the manufacture of those products,
+including
+information on "the internal measures that will be implemented to
+ensure that the machinery remains
+in conformity with the provisions of
+the Directive" —
+in other words,
+on the manufacturer's quality
+system.
+It
+is possible that the ISO 9000
+(EN 29000)
+Series Standards
+could be used within the European Community to evaluate the adequacy
+of such quality systems.
+WHO WILL BE ABLE TO CONDUCT MT^DATORY EC QUALITY SYSTEM APPROVALS?
+At the present time,
+notified bodies must be physically located within
+the geographical boundaries of the European Community.
+The EC has
+developed
+a draft document entitled.
+Working Document on Negotiations
+with Third Countries Concerning the Mutual Recognition of Conformity
+Assessment
+,
+which provides guidance for the establishment of mutual
+recognition agreements with third countries.
+Until the final version
+of that document
+is available and one or more mutual recognition
+agreements are subsequently established between the United States and
+the European Community,
+there can be no notified bodies
+in the United
+States.
+A mutual recognition agreement would allow U.S.
+entities to
+perform all required conformity assessment procedures included within
+the scope of the agreement.
+There remains the possibility that some conformity assessment tasks
+may be subcontracted by notified bodies to bodies outside the
+EC,
+including organizations
+in the United States.
+Such subcontracting
+would be done at the discretion of the notified body,
+which would
+continue to be responsible for the final assessment of product
+conformity.
+Subcontractors must comply with all requirements of the
+EN 45000 series.
+Though drafts of Guiding Principles
+for
+Subcontracting by "Notified Bodies" pursuant to the Council Resolution
+of
+13 December 1990 Concerning the Modules
+for the Various Phases of
+the Conformity Assessment Procedures have been circulated,
+final EC
+guidance on subcontracting
+is still pending.
+Permission for
+subcontracting certain testing functions has already been given by the
+EC Council
+of Ministers.
+9
+
+WILL QUALITY SYSTEM REGISTRATION BE REQUIRED FOR NONREGULATED PRODUCTS
+IN THE EC AND ELSEWHERE?
+In the nonregulated product area,
+producers desiring to do business
+in
+the European Community
+(EC)
+and elsewhere may be required by
+procurement authorities or buyers to be audited and registered as
+being
+in compliance with an ISO 9000 standards.
+Such requirements
+will result from marketplace demands,
+as opposed to regulatory
+requirements
+It should be noted that
+in the United States,
+the U.S.
+Department of
+Defense
+is expected to replace the use of some of
+its military quality
+standards
+(MIL-Q-9858A and MIL-I-45028A)
+with the ISO 9000 standards.
+Other foreign government procurement authorities have already or are
+likely to follow suit.
+WHAT IS THE EOTC AND HOW DOES
+IT FIT INTO THE PICTURE?
+The European Organization for Testing and Certification
+(EOTC)
+was
+created by the EC
+in April
+1990 under
+a memorandum of understanding
+with the European Committee for Standardization
+(CEN)
+,
+the European
+Committee for Electrotechnical Standardization
+(CENELEC)
+,
+and the
+European Free Trade Association
+(EFTA)
+countries.
+The EOTC was formed
+to promote the mutual recognition of test results,
+certification
+procedures,
+and quality system assessments and registrations
+in
+nonregulated product areas throughout the EC and EFTA.
+The EOTC will
+also be responsible for providing technical assistance to the EC
+Commission
+in the implementation of some EC legislation,
+especially in
+the preparation of mutual recognition agreements with non-EC
+countries.
+It
+is anticipated that there will be
+a Specialized
+Committee of the EOTC
+in the area of Quality Assurance.
+However,
+this
+committee will not be established until after December
+31,
+1992.
+Nevertheless the need for expert advice
+in this area was recognized by
+the EOTC
+in July
+1991.
+The European Organization for Quality
+(EOQ)
+and the European Committee for Quality System Assessment and
+Certification
+(EQS)
+have been offered observership status
+in EOTC to
+fill this need.
+The EOTC
+is expected to be fully operational by the
+end of
+1992.
+For further information on the EOTC,
+contact:
+EOTC,
+Rue
+Stassart
+33,
+2nd Floor,
+B-1050 Brussels,
+Belgium,
+Phone:
+32
+2
+519
+6969,
+Fax:
+32
+2
+519
+69
+17/19.
+DOES THE U.S.
+HAVE A SCHEME FOR QUALITY SYSTEM REGISTRATION?
+Until recently,
+U.S.
+companies relied on quality system registration
+firms
+in Europe and Canada to register their quality systems,
+but this
+is no longer the case.
+Today,
+the number of U.S. -based organizations
+offering consulting services,
+assessment and/or quality system
+registration
+is growing rapidly.
+10
+
+WHO EVALUATES THE COMPETENCE OF REGISTRARS?
+In
+1989,
+the Registration Accreditation Board
+(RAB)
+was established as
+an affiliate of the American Society of Quality Control
+(ASQC)
+to
+develop
+a program to evaluate the quality of services offered by
+registrars.
+RAB issued its first approval
+in March
+1991,
+and several
+more firms have been approved since then.
+Talks are underway between
+the RAB and ANSI to place the RAB program under ANSI.
+Information on
+the RAB program
+is available
+from:
+the RAB,
+c/o ASQC,
+611 East
+Wisconsin Ave.
+,
+Milwaukee,
+WI
+53202,
+Phone 414-272-8575.
+Programs similar to that of the RAB have been underway
+in Canada,
+in a
+number of European countries,
+and elsewhere
+in the world for some
+time.
+WHERE CAN U.S.
+INDUSTRY GO TO GET ADDITIONAL HELP?
+Additional
+information
+is available
+from:
+National Center for Standards and Certification
+Information
+(NCSCI)
+National Institute of Standards and Technology
+(NIST)
+TRF Bldg.
+Room A163
+Gaithersburg,
+MD 20899
+Phone:
+(301)
+975-4040
+Fax:
+(301)
+926-1559
+and from
+Office of EC Affairs
+International Trade Administration,
+Room 3036
+14th and Constitution Ave.
+,
+SW
+Washington,
+DC 20230
+Phone:
+(202)
+377-5276
+Fax:
+(202)
+377-2155
+Both agencies are located
+in the Department of Commerce and can refer
+interested parties to other sources of information within and outside
+the federal government.
+11
+
+•''»r 7
+vU
+It:.
+i
+-',
+:,. /„-,^ ;
+fB
+v’-i
+I
+‘
+'
+^
+'
+^
+-.i—
+-:»L't.L^
+dM-M.*iu;WWiiiai,-,SiU.r4iAAit;f-j«tiM'«4\
+:f
+;..
+' Cl
+-3-
+rf^Q v-i
+I
+, W'
+i V ‘
+c'-'".
+>^-
+'
+.t>:l';*i!»i^lia[>m^- tw
+:
+-1
+Tt^t-r',
+r^i
+-itv?
+.
+r
+=‘ A
+I -EjS
+:i
+. ^
+V
+. ^
+\
+;.
+'i‘
+'r
+'",.:''..4'|
+, ’
+‘
+'
+‘':“ ;rS^
+/
+:^2..:±::^^fsm^^
+•A.
+'ir
+i:-
+r-
+.
+...
+,
+:
+. >.
+m*:0.
+.
+‘•'’''Vi, f
+:
+'
+-R
+.„ •twivi.nii'ip
+:’7 .i''••r’'^Jr4
+Tt'
+'
+''''Ti.i^
+>->:^
+-
+.A
+':*•'?
+t'
+m
+-wp:;'
+':^:;1
+s(V«4fe
+ii
+9
+
+APPENDIX
+INFORMATION AND PUBLICATIONS
+AVAILABLE FROM
+Standards Code and Information Program
+(SCI)
+National Institute of Standards and Technology
+Administration Building, Room A629
+Gaithersburg, MD
+20899
+(301)
+975-4040
+o The ABC's of Standards-Related Activities
+in the United States
+(NBSIR 87-3576)
+This report
+is an introduction to voluntary standardization,
+product
+certification and laboratory accreditation for readers not fully
+familiar with these topics.
+It stresses some of the more important
+aspects of these
+fields;
+furnishes the reader with both historical and
+current information on these topics;
+describes the importance and
+impact of the development and use of standards;
+and serves as
+background for using available documents and services.
+Order as PB 87-224309
+from NTIS.
+o
+The ABC'S of Certification Activities
+in the United States
+(NBSIR
+88-3821)
+This report,
+a sequel to NBSIR 87-3576,
+The ABC
+' S
+of Standards-
+Related Activities
+in the United States
+,
+provides an introduction to
+certification for readers not entirely familiar with this topic.
+It
+highlights some of the more important aspects of this
+field,
+furnishes
+the reader with information necessary to make informed purchases,
+and
+serves as background for using available documents and services.
+Order as PB 88-239793
+from NTIS.
+o
+Laboratory Accreditation
+in the United States
+(NISTIR 4576)
+This report,
+a sequel to NBSIR 87-3576 The ABC'S of Standards-
+Related Activities
+in the United States and NBSIR 88-3821 The ABC'S of
+Certification Activities
+in the United States
+,
+is designed to provide
+information on laboratory accreditation to readers who are new to this
+field.
+It discusses some of the more significant facets of this topic,
+provides information necessary to make informed decisions on the
+selection and use of laboratories,
+and serves as background for using
+other available documents and services.
+Order as PB 91-194495
+from NTIS.
+o Directory of International
+and Regional Organizations Conducting
+Standards-Related Activities
+(NIST SP 767)
+This directory contains information on
+338
+international and
+regional organizations which conduct standardization,
+certification,
+laboratory accreditation,
+or other standards- related activities.
+It
+describes their work in these areas,
+as well
+as the scope of each
+organization,
+national affiliations of members,
+U.S.
+participants,
+restrictions on membership,
+and the availability of any standards
+in
+English.
+Order as SN 003-003-02937-8
+from GPO.
+13
+
+o Directory of European Regional Standards-Related Organizations
+(NIST
+SP 795)
+This directory identifies more than
+150 European regional
+organizations
+- both governmental and private
+- that engage
+in
+standards development,
+certification,
+laboratory accreditation and
+other standards-related activities,
+such as quality assurance.
+Entries
+describe the type and purpose of each organization;
+acronyms;
+national
+affiliations of members;
+the nature of the standards-related activity;
+and other related information.
+Order as SN 003-003-03038-4
+from GPO.
+o Standards Activities of Organizations
+in the United States
+(NIST SP
+806)
+The directory identifies and describes activities of over 750 U.S.
+public and private sector organizations which develop,
+publish,
+and
+revise standards; participate
+in this process;
+or identify standards
+and make them available through information centers or distribution
+channels.
+NIST SP 806,
+a revision of NBS SP
+681,
+covers activities
+related to both mandatory and voluntary U.S.
+standards.
+SP 806 also
+contains
+a subject index and related listings that cover acronyms and
+initials,
+defunct bodies and organizations with name changes.
+Copies not available from SCI.
+Order as SN 003-003-03070-8
+from GPO.
+o Directory of Private Sector Product Certification Programs
+(NIST SP
+774)
+This directory presents information from
+132 private sector
+organizations
+in the United States which engage
+in product
+certification activities.
+Entries describe the type and purpose of
+each organization,
+the nature of the activity,
+product certified,
+standards used,
+certification requirements,
+availability and cost of
+services,
+and other relevant details.
+Copies not available from SCI.
+Order as SN 003-003-02984-0
+from GPO.
+o Directory of Federal Government Certification Programs
+(NBS SP 739)
+This directory presents information on U.S.
+Government certification
+programs for products and services.
+Entries describe the scope and
+nature of each certification program,
+testing and inspection
+practices,
+standards used,
+methods of identification and enforcement,
+reciprocal recognition or acceptance of certification,
+and other
+relevant details.
+Order as SN 003-003-02852-5
+from GPO.
+o Directory of Federal Government Laboratory Accreditation/
+Designation Programs
+(NIST SP
+808)
+This directory provides updated information on
+31
+federal government
+laboratory accreditation and similar type programs conducted by the
+federal government.
+These programs,
+which include some type of
+assessment regarding laboratory capability,
+designate sets of
+laboratories or other entities to conduct testing to assist federal
+agencies
+in carrying out their responsibilities.
+The directory also
+lists
+13
+other federal agency programs of possible interest,
+including
+14
+
+programs involving very limited laboratory assessment and programs
+still under development.
+Order as SN 003-003-03069-4
+from GPO.
+o Directory of State and Local Government Laboratory Accreditation/
+Designation Programs
+(NIST SP 815)
+This directory provides updated information on 21 state and
+11 local
+government laboratory accreditation and similar type programs.
+These
+programs,
+which include some type of assessment regarding laboratory
+capability,
+designate private sector laboratories or other entities to
+conduct testing to assist state and local government agencies
+in
+carrying out their responsibilities.
+Entries describe the scope and
+nature of each program,
+laboratory assessment criteria and procedures
+used
+in the program,
+products and fields of testing covered,
+program
+authority,
+and other relevant details.
+Order from SN 003-003-03093-7
+GPO.
+o Barriers Encountered by U.S.
+Exporters of Telecommunications
+Eguioment
+(NBSIR 87-3641)
+This report addresses the perceived institution of unreasonable
+technical trade barriers by major European trading partners to the
+export of telecom products and systems by U.S.
+companies.
+The GATT
+technical office,
+which has responsibilities to assist U.S.
+exporters
+to take advantage of trade opportunities,
+informally contacted over
+a
+period of six months,
+telecom companies and agencies to assess the
+extent of unreasonableness
+in foreign national standards,
+regulations,
+testing and certification requirements,
+and accreditation procedures.
+Order as PB 88-153630
+from NTIS.
+o A Review of U.S.
+Participation
+in International Standards Activities
+(NBSIR 88-3698)
+This report describes the role of international
+standards,
+their
+increasingly significant importance
+in world trade,
+and the extent of
+past and current U.S.
+participation
+in the two major international
+standardization bodies
+- ISO and lEC.
+The degree of U.S.
+participation
+covers the 20 year period 1966-1986.
+A coarse analysis of data
+indicates some correlation between U.S.
+participation and recent
+export performance
+for several major product categories.
+Order as PB 88-164165
+from NTIS.
+o An Update of U.S.
+Participation
+in International Standards
+Activities
+(NISTIR 89-4124)
+This report presents updated information on the current level
+of
+U.S.
+participation
+in ISO and lEC
+(reference:
+NBSIR 88-3698).
+Order as PB 89-228282/AS
+from NTIS.
+o
+A Summary of the New European Community Approach to Standards
+Development
+(NBSIR 88-3793-1)
+This paper summarizes European Community
+(EC)
+plans to aggressively
+pursue
+its goal of achieving an "internal market" by
+1992 and the
+standards-related implications of such
+a program on U.S.
+exporters.
+Order as PB 88-229489/AS
+from NTIS.
+15
+
+o
+Trade Implications of Processes and Production Methods
+fPPMs)
+(NISTIR 90-4265)
+This report discusses processes and production methods
+(or PPM's)
+and their relationship to trade,
+the GATT Agreement on Technical
+Barriers to Trade,
+and traditional product standards used
+in
+international commerce.
+The report provides background information on
+PPM's,
+a suggested definition,
+and the possible extension of their
+application from the agricultural sector to industrial products.
+Order as PB 90-205485
+from NTIS.
+[SEE LAST PAGE FOR NTIS AND GPO CONTACTS]
+The following documents are available upon request from OSCI.
+o tbt news
+This newsletter provides information on government programs and
+available services established
+in support of the GATT Agreement on
+Technical Barriers to Trade
+(Standards
+Code)
+.
+tbt news reports on the
+latest notifications of proposed foreign regulations;
+bilateral
+consultations with major U.S.
+trade partners; programs of interest to
+U.S.
+exporters;
+and availability of standards and certification
+information.
+Subscription
+is
+free upon request.
+o Technical Barriers to Trade
+This booklet explains the basic rules of the international Agreement
+on Technical Barriers to Trade negotiated during the Tokyo Round of
+the Multilateral Trade Negotiations
+(MTN)
+,
+and describes Title IV of
+the U.S.
+Trade Agreements Act of
+1979 which implements the United
+States'
+obligations under the Agreement.
+The Agreement,
+popularly
+known as the Standards Code,
+was designed to eliminate the use of
+standards and certification systems as barriers to trade.
+The booklet
+describes the functions of the Departments of Commerce and
+Agriculture,
+the Office of the U.S.
+Trade Representative,
+and the
+State Department
+in carrying out the U.S.'s responsibilities.
+o "GATT Standards Code Activities"
+This brochure gives
+a brief description of NIST's activities
+in
+support of the Standards Code.
+These activities include operating the
+U.S.
+GATT inquiry point
+for information on standards and certification
+systems;
+notifying the GATT Secretariat of proposed U.S.
+regulations;
+assisting U.S.
+industry with trade-related standards problems;
+responding to inquiries on foreign and U.S.
+proposed regulations;
+and
+preparing reports on the Standard Code.
+o GATT Standards Code Activities of the National
+Institute of
+Standards and Technology
+This annual report describes the GATT Standards Code activities
+conducted by the Standards Code and Information Program for each
+calendar year.
+NIST responsibilities include operating the GATT
+inquiry point,
+notifying the GATT Secretariat of proposed U.S.
+Federal
+government regulations which may affect trade,
+assisting U.S.
+industry
+16
+
+with standards-related trade problems,
+and responding to inquiries
+about proposed foreign and U.S.
+regulations.
+o Free handout material
+on office activities and standards-related
+information such
+as:
+government sources of specifications and
+standards;
+foreign standards bodies;
+U.S.
+standards
+organizations;
+and
+a brochure on the National Center for Standards and
+Certification Information
+(NCSCI)
+In addition to general
+inquiry services,
+the following assistance
+is
+also available;
+o EC Hotline
+This hotline reports on draft standards of the European Committee on
+Standardization
+(CEN)
+,
+the European Committee for Electrotechnical
+Standardization
+(CENELEC)
+and the European Telecommunications
+Standards Institute
+(ETSI)
+.
+It also provides information on selected
+EC directives.
+The recorded message
+is updated weekly and gives the
+product,
+document number and closing date
+for comments.
+The hotline
+number
+is
+(301)
+921-4164
+(not toll-free).
+o GATT Hotline
+A telephone hotline provides current information received from the
+GATT Secretariat
+in Geneva,
+Switzerland,
+on proposed foreign
+regulations which may significantly affect trade.
+The recorded message
+is updated weekly and gives the product,
+country,
+closing date for
+comments
+(if
+any)
+and Technical Barriers to Trade
+(TBT)
+notification
+number.
+The hotline number
+is
+(301)
+975-4041
+(not toll-free)
+.
+o NCSCI provides assistance to U.S.
+and foreign exporters
+in obtaining
+current standards,
+regulations and certification information for the
+manufacture of products.
+To aid foreign exporters,
+NCSCI also provides
+directory information of
+state offices prepared to respond to queries
+concerning conditions to be met by goods
+for sale
+in their state.
+Publication Ordering Information
+NTIS
+- National Technical Information Service
+5285 Port Royal Road
+Springfield,
+VA
+22161
+Telephone:
+(703)
+487-4650
+Fax:
+(703)
+321-8547
+GPO
+- Superintendent of Documents
+U.S.
+Government Printing Office
+Washington,
+DC
+20402
+Telephone:
+(202)
+783-3238
+Fax:
+(202)
+275-2529
+17
+
+'
+ituo
+. \ ;
+'
+,y;
+ii^
+-
+r'.r
+-'U
+'•
+,;,'PVr..
+•
+?(,
+HO
+^ii^^rti-;^^.,oHa^s
+£.!!'
+icari^ alii ims^'->
+tiasqo-issS »#.i|gS
+<*^i:!*^i:S^
+{r:'^^!^'^ ''.rt#
+1
+V
+i -:r.
+ma.j uc^",
+ti;
+.
+•
+• .";r i,>vv>:
+/
+.jkiA- <»v.v>-J<Wi;it %>'
+' ut
+vor.
+liig'a^ 'V^m
+,.
+. *'iT;n,,
+:irks;^ijS^
+'^ife!iiS^ til
+th.te
+: Vv
+’’CiaG.V
+rdSfvt!
+,,
+’
+t,tt^'
+,i^.|^i3f«3i^^
+.
+..
+.
+.
+.
+'}^3
+mre
+<Af
+::i^’.
+'•..h,
+.1:
+<>.(»» T1’
+r^oCl'sJU.iiSi^T.a.t
+.
+”
+’
+'
+i
+,
+i' .:.r;l-.0
+:,iv>ai.'._~':;'fe
+aiJtjJSifei^^
+•gJa.Stei>8»#»4.^4'aiyTOM
+,£ ?'o^rt
+«<vi^rip^fv
+.
+t;>.^- C:i^® #
+.
+.^
+•!
+l;‘i
+.. .V
+/> .r
+^m
+'
+x
+,
+i"
+...:::!,i^v)^
+4r
+-
+^
+/
+
+4.
+TITLE AND SUBTITLE
+NO vpmnpr
+i mm
+i
+Questions
+and Answers
+on
+Quality,
+the
+ISO
+9000
+Standard
+Series,
+Quality
+System
+Registration, andRelatedlssues
+5.
+AUTHOR(S)
+Maureen
+Breitenberg
+6.
+PERFORMING ORGANIZATION (IF JOINT OR OTHER THAN NIST, SEE INSTRUCTIONS)
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+GAITHERSBURG, MD 20899
+7.
+CONTRACT/GRANT NUMBER
+8.
+TYPE OF REPORT AND PERIOD COVERED
+NIST-114A
+U.S. DEPARTMENT OF COMMERCE
+(REV. 3-90)
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+BIBLIOGRAPHIC DATA SHEET
+1.
+PUBUCATION OR REPORT NUMBER
+NISTIR 4721
+2.
+PERFORMING ORGANIZATION REPORT NUMBER
+3.
+PUBUCATION DATE
+9.
+SPONSORING ORGANIZATION NAME AND COMPLETE ADDRESS (STREET, CITY, STATE, ZIP)
+Same
+10. SUPPLEMENTARY NOTES
+11. ABSTRACT
+(A 200-WORD OR LESS FACTUAL SUMMARY OF MOST SIGNIFICANT INFORMATION.
+LITERATURE SURVEY, MENTION IT HERE.)
+IF DOCUMENT INCLUDES A SIGNIFICANT BIBUOGRAPHY OR
+Thi s
+report
+pro vi de s
+informciti 0 n
+on
+th e
+d e V el op me nt
+,
+con te nt
+,
+a nd
+app
+1
+i ca ti on
+of
+the
+ISO
+9000
+s ta ndards
+tc)
+re ad er s
+w ho
+ar &
+un fa m i
+i
+i a r
+wi tb
+th ese
+asp ect S
+OT
+the
+s tanda rd s
+.
+It
+attemp) ts
+to
+an sw er
+some
+of
+t he most
+c ommo nly
+as ked
+que s t i 0 n
+on
+quality
+9
+qua 1
+i ty
+systems
+th e
+CO n te nt
+,
+a PP 1
+i ca t i 0 n
+an d
+re V i s i on
+of
+the
+ISO
+9000
+s ta nda rds
+;
+qua 1
+i ty
+sy s te m
+app rov al /r eg i s tra ti on
+9
+Eu rop ean
+Commun ity
+req u i remen ts
+f 0 r
+qu al
+i ty
+sys; tern
+a PP rov al/ re gi St ra ti on
+;
+a nd
+s our ces
+for
+add i t i ona
+h el p
+•
+12. KEY WORDS
+(6 TO 12 ENTRIES; ALPHABETICAL ORDER; CAPITALIZE ONLY PROPER NAMES; AND SEPARATE KEY WORDS BY SEMICOLONS)
+Conformity
+assessment;
+EN
+29000;
+ISO
+9000;
+quality
+assurance;
+quality
+control;
+quality
+system;
+quality
+system
+registration
+13. AVAILABIUTY
+XX
+UNUMITED
+FOR OFFICIAL DISTRIBUTION. DO NOT RELEASE TO NATIONAL TECHNICAL INFORMATION SERVICE (NTIS).
+ORDER FROM SUPERINTENDENT OF DOCUMENTS, U.S. GOVERNMENT PRINTING OFFICE,
+WASHINGTON, DC 2040Z
+ORDER FROM NATIONAL TECHNICAL INFORMATION SERVICE (NTIS), SPRINGFIELD, VA 22161.
+14. NUMBER OF PRINTED PAGES
+23
+15. PRICE
+4.02
+ELECTRONIC FORM
+
+^r^:n«,asa«F^
+li; £.:...,
+'
+..V
+'
+‘
+,'V'
+'
+'
+fW..
+>.11.,.Mil.-
+~
+“
+%n.»'
+nm-
+—
+—^
+—>—
+' iaMM
+'
+>i'^W««^«»iM*^^»«»«p»^^»*-i) »y|4i|ni iitiii
+rtfcMi»- ia^ % wn*p« pM
+' >H .»
+iii^'fw»tii
+'
+.
+,,
+*
+-
+*^y<m
+'-
+“-.J'
+'.viaji
+'
+;’
+f’
+::¥4
+-
+1
+iTj
+in'
+»:
+'
+7Sy,...«.’«v>7»wri5J^'OTi7r^wW;««5^
+I
+f VI)
+-joni.'m-iS
+- \U i&^p
+iO'OOt
+. ni:
+rtA^
+i.i'ttii
+1
+"'
+Ci
+"
+'<fi't
+f-.'
+n?wyi
+
+:
+\
+i
+I
+f
+
+I
+)
+'yt
+'
+•v'+V.'
+.''"'"I
+/>
+f
+I
+^

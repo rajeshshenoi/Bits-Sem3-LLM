@@ -1,0 +1,4046 @@
+Douglas S. Thomas 
+Brian A. Weiss 
+ 
+This publication is available free of charge from: 
+https://doi.org/10.6028/NIST.AMS.100-34 
+ 
+ 
+ 
+Economics of Manufacturing  
+Machinery Maintenance  
+A Survey and Analysis of U.S. Costs and Benefits  
+NIST Advanced Manufacturing Series 100-34
+
+NIST Advanced Manufacturing Series 100-34 
+Economics of Manufacturing 
+Machinery Maintenance 
+A Survey and Analysis of U.S. Costs and Benefits 
+Douglas S. Thomas 
+Applied Economics Office 
+Engineering Laboratory 
+Brian A. Weiss 
+Intelligent Systems Division 
+Engineering Laboratory 
+This publication is available free of charge from: 
+https://doi.org/10.6028/NIST.AMS.100-34 
+June 2020 
+U.S. Department of Commerce 
+Wilbur L. Ross, Jr., Secretary 
+National Institute of Standards and Technology 
+Walter Copan, NIST Director and Undersecretary of Commerce for Standards and Technology
+
+Certain commercial entities, equipment, or materials may be identified in this 
+ document in order to describe an experimental procedure or concept adequately. 
+Such identification is not intended to imply recommendation or endorsement by the 
+National Institute of Standards and Technology, nor is it intended to imply that the 
+entities, materials, or equipment are necessarily the best available for the purpose. 
+National Institute of Standards and Technology Advanced Manufacturing Series 100-34 
+Natl. Inst. Stand. Technol. Adv. Man. Ser. 100-34, 52 pages (June 2020) 
+This publication is available free of charge from: 
+https://doi.org/10.6028/NIST.AMS.100-34
+
+i 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Abstract 
+This report examines costs of machinery maintenance along with losses due to inadequate 
+maintenance strategies in discrete manufacturing (NAICS 321-339, excluding NAICS 324 and 
+325) using data collected from U.S. manufacturers. The report further examined the perceived 
+and observed benefits of investing in and advancing maintenance strategies. Estimates for costs 
+and losses are annual values for 2016. Machinery maintenance expenditures for NAICS 321-
+339 (excluding 324 and 325) were estimated to be $57.3 billion for 2016. Losses due to 
+preventable maintenance issues amounted to $119.1 billion. The top 25 % of those 
+establishments relying on reactive maintenance was associated with 3.3 times more downtime 
+than those in the bottom 25 %. They were also associated with 16.0 times more defects, 2.8 
+more lost sales due to defects from maintenance, 2.4 times more lost sales due to delays from 
+maintenance, and 4.9 times more inventory increases due to maintenance issues. 
+ 
+Key words 
+Manufacturing; maintenance; machinery; economics; costs; monitoring; diagnostics; 
+prognostics 
+ 
+Acknowledgements 
+The author wishes to thank all those who contributed so many excellent ideas and 
+suggestions for this report. Special appreciation is extended to Mr. Jose Colucci and Ms. 
+Beth Colbert from the Manufacturing Extension Partnership for their assistance in 
+developing and administering the Machinery Maintenance Survey along with Howard 
+Penrose for his assistance in distributing the survey.  
+ 
+Appreciation is also extended to Dr. Michael Brundage of the Engineering Laboratory’s 
+Systems Integration Division for his technical guidance and suggestions. Special appreciation 
+is extended to Dr. David Butry and Dr. Juan Fung of the Engineering Laboratory’s Applied 
+Economics Office for their thorough reviews and many insights. The author also wishes to 
+thank Dr. Nicos Martys, Materials and Structural Systems Division, for his review and Ms. 
+Donna Ramkissoon for her assistance in collecting and cataloging data. 
+ 
+We would like to thank the Manufacturing Extension Partnership for helping to develop the 
+Machinery Maintenance Survey and promoting the survey. 
+ 
+We would also like to thank the Society for Maintenance and Reliability Professionals for 
+promoting the Machinery Maintenance Survey.   
+ 
+This report and its findings would not be possible without the help of these people and 
+organizations. We appreciate their contributions.
+
+ii 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table of Contents 
+Executive Summary ................................................................................................................ 1 
+Acronyms ................................................................................................................................. 2 
+ 
+Introduction ..................................................................................................................... 3 
+1.1. Background ................................................................................................................. 3 
+1.2. Purpose, Scope, and Approach .................................................................................... 4 
+ 
+Maintenance Strategies ................................................................................................... 8 
+2.1. Reactive Maintenance ................................................................................................. 8 
+2.2. Preventive Maintenance .............................................................................................. 9 
+2.3. Predictive Maintenance ............................................................................................. 10 
+2.4. Maintenance Strategy Advancement ......................................................................... 11 
+ 
+Survey and Sampling..................................................................................................... 12 
+3.1. Literature Gap and Data Needed ............................................................................... 12 
+3.2. Sample Size and Margin of Error .............................................................................. 12 
+3.3. Sample Stratification ................................................................................................. 14 
+ 
+Maintenance Costs and Associated Inventory Costs .................................................. 16 
+4.1. Direct Maintenance Costs ......................................................................................... 16 
+4.2. Additional Costs due to Faults and Failure ............................................................... 22 
+4.3. Inventory ................................................................................................................... 22 
+ 
+Losses due to Maintenance Issues ................................................................................ 25 
+5.1. Unplanned Downtime ................................................................................................ 25 
+5.2. Defects ....................................................................................................................... 26 
+5.3. Lost Sales due to Maintenance Issues ....................................................................... 28 
+5.4. Injuries ....................................................................................................................... 29 
+ 
+Perceived Benefits of Advancing Maintenance Strategies ......................................... 32 
+ 
+Observed Benefits of Preventive and Predictive Maintenance ................................. 35 
+7.1. High and Low Levels of Reactive Maintenance ....................................................... 35 
+7.2. High and Low Levels of Predictive/Preventive Maintenance ................................... 36 
+7.3. Levels of Investment in Maintenance ....................................................................... 37 
+ 
+Summary ........................................................................................................................ 39 
+8.1. Costs and Losses ....................................................................................................... 39 
+8.2. Perceived and Observed Benefits of Advanced Maintenance Techniques ............... 40 
+Appendix A: Machinery Maintenance Survey ................................................................... 44
+
+iii 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+List of Tables 
+Table 3.1: Stratification for Mailing Surveys ......................................................................... 14 
+Table 3.2: Responses to Survey by Employment Size and Industry ...................................... 15 
+Table 4.1: Comparison of Methods for Calculating Direct Maintenance Costs ..................... 20 
+Table 4.2: Comparison of Methods for Estimating Maintenance Costs ................................. 21 
+Table 4.3: Estimated Additional Costs due to Faults and Failures ......................................... 23 
+Table 4.4: Inventory due to Maintenance Issues .................................................................... 24 
+Table 5.1: Downtime Costs due to Maintenance Issues ......................................................... 26 
+Table 5.2: Defects due to Reactive Maintenance .................................................................... 27 
+Table 5.3: Lost Sales due to Unplanned Downtime Caused by Maintenance Issues ............. 29 
+Table 5.4: Injuries and Deaths Associated with Maintenance Issues ..................................... 30 
+Table 6.1: Perceived Benefits of Adopting Predictive Maintenance ...................................... 33 
+Table 7.1: Distribution of Maintenance Types ....................................................................... 35 
+Table 7.2: High and Low Level of Reactive Maintenance Compared, Average of Responses
+................................................................................................................................................. 36 
+Table 7.3: High and Low Level Predictive Maintenance Compared, Average of Responses 
+(Establishments with <50 % Reactive Maintenance) ............................................................. 37 
+Table 7.4: Establishments Compared by Level of Investment in Maintenance, Average of 
+Responses ................................................................................................................................ 38 
+Table 8.1: Costs and Losses Associated with Maintenance ................................................... 39 
+Table 8.2: Observed Benefits of Advanced Maintenance Techniques ................................... 41 
+ 
+List of Figures 
+Figure 1.1: Categories of Cost Analysis ................................................................................... 5 
+Figure 3.1: Required Sample Size by Margin of Error and Confidence Interval ................... 13
+
+1 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Executive Summary 
+This report examines costs of machinery maintenance along with losses due to inadequate 
+maintenance strategies in discrete manufacturing (NAICS 321-339, excluding NAICS 324 
+and 325) using data collected from U.S. manufacturers. The report further examined the 
+perceived and observed benefits of investing in and advancing maintenance strategies. 
+Estimates for costs and losses are annual values for 2016.  
+Maintenance Costs: 2016 Machinery maintenance expenditures for NAICS 321-339 
+(excluding 324 and 325) were estimated to be $57.3 billion. Additional expenditures due 
+to faults and failures were estimated at $16.3 billion and costs for inventory to buffer 
+against maintenance issues costed $0.9 billion. In total, these maintenance activities costed 
+$74.5 billion. 
+Preventable Losses: The 2016 losses due to preventable maintenance issues amounted to 
+$119.1 billion: $18.1 billion due to downtime, $0.8 billion due to defects, and $100.2 
+billion due to lost sales from delays and defects. Additionally, an estimated 16.03 injuries 
+and 0.05 deaths per million employees were associated with these maintenance issues.  
+Benefits of Advanced Maintenance Strategies: The estimated 2016 perceived benefit of 
+adopting some additional amount of predictive maintenance was $6.5 billion from 
+downtime reduction and $67.3 billion in increased sales ($73.8 billion in total). Other 
+perceived benefits such as reduced defects are also likely to occur but were not monetized.  
+The top 25 % of those establishments relying on reactive maintenance was associated with 
+3.3 times more downtime than those in the bottom 25 %. They were also associated with 
+16.0 times more defects, 2.8 more lost sales due to defects from maintenance, 2.4 times 
+more lost sales due to delays from maintenance, and 4.9 times more inventory increases 
+due to maintenance issues. On average, 45.7 % of machinery maintenance was reactive 
+maintenance. Those who relied less on reactive maintenance, and more on preventive 
+and/or predictive maintenance, were more likely to use a pull (i.e., make to order) stock 
+strategy and tend to be differentiators as opposed to being a cost competitor. That is, they 
+rely more on their reputation and produce products on demand. The implication being that 
+reactive maintenance reduces quality and increases uncertainty in production time. 
+Among those establishments that primarily rely on preventive and predictive maintenance 
+(i.e., less than 50 % reactive maintenance), the top 50 % in predictive maintenance was 
+associated with 15 % less downtime, an 87 % lower defect rate, and 66 % less inventory 
+increases due to unplanned maintenance. Those who relied more on predictive maintenance 
+than preventive were more likely to have a pull (i.e., make to order) stock strategy and 
+more likely to be a differentiator as opposed to being a cost competitor. Moreover, 
+predictive maintenance is associated with higher quality products and shorter production 
+times through reduced downtime. For those establishments that invested more heavily into 
+preventive or predictive maintenance, on average they had 44 % less downtime, 54 % lower 
+defect rate, 35 % fewer lost sales due to defects from maintenance, and 29 % less lost sales 
+due to delays from maintenance issues.
+
+2 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Acronyms 
+ASM  
+Annual Survey of Manufactures 
+BEA  
+Bureau of Economic Analysis 
+BOY  
+Beginning of Year 
+CBP  
+County Business Patterns 
+EC 
+ 
+Economic Census 
+EOY  
+End of Year 
+IO 
+ 
+Input Output 
+MEP  
+Manufacturing Extension Partnership 
+NAICS 
+North American Industry Classification System 
+NIST  
+National Institute of Standards and Technology 
+PdM  
+Predictive Maintenance 
+PM 
+ 
+Preventive Maintenance 
+R&D  
+Research and Development 
+RM 
+ 
+Reactive Maintenance 
+SMM  
+Small to Medium-sized Manufacturer 
+SMRP  
+Society for Maintenance & Reliability Professionals
+
+3 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Introduction 
+1.1. 
+Background 
+Companies compete based on two primary factors: cost and differentiation. Cost 
+competitors aim to produce and sell a product for a low price while differentiators focus 
+on enhancing the quality and reputation of their brand and products. One factor that can 
+affect product cost, quality, and production time is the maintenance of manufacturing 
+machinery. Machinery maintenance typically leads to downtime, either planned or 
+unplanned. Unplanned downtime often stems from breakdowns along with increasing 
+defects when machinery operates outside of specification. This can result in production 
+delays and customer dissatisfaction. The increase in unexpected delays often leads to 
+increased inventory throughout the supply chain to deal with uncertainty, which incurs 
+additional costs.  
+Generally, there are three primary approaches to manufacturing machinery maintenance. 
+These strategies include the following (which are derived from a series of practical case 
+studies1, 2): 
+• Predictive maintenance (PdM), which is analogous to condition-based 
+maintenance, is initiated based on predictions of failure made using observed data 
+such as temperature, noise, and vibration.  
+• Preventive maintenance (PM), which is related to scheduled maintenance and 
+planned maintenance, is scheduled, timed, or based on a cycle 
+• Reactive maintenance (RM), which is related to run-to-failure, corrective 
+maintenance, failure-based maintenance, and breakdown maintenance, is 
+maintenance done, typically, after equipment has failed to produce a product within 
+desired quality or production targets, or after the equipment has stopped altogether. 
+RM, generally, requires the least amount of investment; however, it is associated with the 
+most amount of downtime and defects. PdM requires a higher level of investment, but it 
+likely results in the least amount of downtime (both planned and unplanned) and defects. 
+PM is somewhere in the middle of these two. The potential effect on maintenance costs 
+and benefits of moving between the different maintenance techniques is not well 
+documented, especially at the aggregated national level. The estimates that have been 
+made, which are mostly at the firm level, show the impacts of PdM are measured using a 
+wide range of metrics and, within each metric, have a wide range of values.3 
+This report is a continuation of the work that developed NIST AMS 100-18, which 
+examined the literature, available data, and data needs for estimating the costs and losses 
+relevant to different manufacturing maintenance techniques.4 The previous report 
+ 
+1 Jin, X., Siegel, D., Weiss, B. A., Gamel, E., Wang, W., Lee, J., & Ni, J. (2016). The present status and future growth of maintenance 
+in US manufacturing: results from a pilot survey. Manuf Rev (Les Ulis), 3, 10. https://doi.org/10.1051/mfreview/2016005  
+2 Jin, X., Weiss, B. A., Siegel, D., & Lee, J. (2016). Present Status and Future Growth of Advanced Maintenance Technology and 
+Strategy in US Manufacturing. Int J Progn Health Manag, 7(Spec Iss on Smart Manufacturing PHM), 012. 
+https://www.ncbi.nlm.nih.gov/pubmed/28058173  
+3 Thomas, Douglas. (2018). The Costs and Benefits of Advanced Maintenance in Manufacturing. NIST Advanced Manufacturing 
+Series 100-18. https://doi.org/10.6028/NIST.AMS.100-18 
+4 Thomas, Douglas. (2018). The Costs and Benefits of Advanced Maintenance in Manufacturing. NIST Advanced Manufacturing 
+Series 100-18. https://doi.org/10.6028/NIST.AMS.100-18
+
+4 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+concluded that the majority of research related to predictive maintenance focuses on 
+technological issues and, although there are some studies that incorporate economic data, 
+these represent a minority of the literature.  Many of the economic assessments are 
+individual case studies, personal insights, and other anecdotal observations. A limited 
+number of publications cite prevalent economic methods that are used for investment 
+analysis. Numerous papers present methods for examining maintenance costs, focusing on 
+the technological aspects; however, many do not provide data or examples. This gap in the 
+literature means that the potential benefits of widespread adoption of utilizing different 
+maintenance methods are largely unknown or are based on anecdotal observations. This 
+report extends the work of AMS 100-18 by analyzing data collected from discrete 
+manufacturing establishments to estimate costs and losses.  
+1.2. 
+Purpose, Scope, and Approach 
+The purpose of this report is to examine and measure the costs and losses associated with 
+the three different approaches to machinery maintenance: reactive, preventive, and 
+predictive maintenance. Much of this data was captured in a Machinery Maintenance 
+Survey that was distributed to the manufacturing community.  
+This report utilizes the North American Industry Classification System (NAICS) for 
+classifying industry activity. It focuses on examining discrete manufacturing, including: 
+• NAICS 321: Wood Product Manufacturing 
+• NAICS 322: Paper Manufacturing 
+• NAICS 323: Printing and Related Support Activities 
+• NAICS 326: Plastics and Rubber Products Manufacturing 
+• NAICS 327: Nonmetallic Mineral Product Manufacturing 
+• NAICS 331: Primary Metal Manufacturing 
+• NAICS 332: Fabricated Metal Product Manufacturing 
+• NAICS 333: Machinery Manufacturing 
+• NAICS 334: Computer and Electronic Product Manufacturing 
+• NAICS 335: Electrical Equipment, Appliance, and Component Manufacturing 
+• NAICS 336: Transportation Equipment Manufacturing 
+• NAICS 337: Furniture and Related Product Manufacturing 
+• NAICS 339: Miscellaneous Manufacturing 
+The manufacturing industries that are absent or not part of the examination include food 
+manufacturing (NAICS 311), beverage and tobacco products (NAICS 312), textile mills 
+(NAICS 313), textile products (NAICS 314), apparel and leather (NAICS 315 and 316), 
+petroleum products (NAICS 325), and chemical products (NAICS 324). These were 
+excluded as there were no responses to a survey questionnaire in these subsectors and they 
+involved processes that differ from the other discrete manufacturing processes. The 
+original focus of this work was on medium and high-tech manufacturing (i.e., NAICS 333-
+336); however, the Machinery Maintenance Survey was distributed through multiple 
+means including notifications in mass media. As a result, the respondents to the Machinery 
+Maintenance Survey varied outside of the targeted industries; therefore, the scope was 
+widened to include more NAICS codes.
+
+5 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Examining industry activity often has either a solution-based focus or a problem/cost-based 
+focus.5 The difference can be elusive or unclear but is distinguishable and impacts the 
+application of the data along with the revealed insights. As illustrated in Figure 1.1, a 
+solution-based approach in manufacturing examines the reduced cost that might result from 
+an improvement, investment, or technology. The left side of the figure represents 
+component level data collection, which is more costly, and moving toward the right is more 
+aggregated data collection, which is less costly but also less useful and accurate. Toward 
+the top is more problem-based data collection while toward the bottom is solution-based 
+data collection. To illustrate, consider examining the impact of adopting energy efficient 
+lighting. An alternative to a solution-based approach is a problem/cost-based approach 
+where costs are categorized by more natural classifications and avoids specifying a 
+solution. For instance, examining the total expenditures on energy for lighting, there are 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1.1: Categories of Cost Analysis 
+Source: Thomas, Douglas. 2019. The Model Based Enterprise: A Literature Review of Costs and Benefits 
+for Discrete Manufacturing. Advanced Manufacturing Series 100-26. 
+https://doi.org/10.6028/NIST.AMS.100-26 
+ 
+ 
+5 Thomas, Douglas. (2019). The Model Based Enterprise: A Literature Review of Costs and Benefits for 
+Discrete Manufacturing. Advanced Manufacturing Series 100-26. https://doi.org/10.6028/NIST.AMS.100-
+26 
+Solution-Based  
+Problem-Based  
+Component 
+Aggregated 
+Loss of accuracy and/or 
+usefulness 
+Level of Data Collection and/or Reporting 
+Type of Approach  
+High Cost of Data 
+Collection  Infeasible 
+Ideal for examining or comparing the 
+impact of potential efficiency improvements 
+Ideal for identifying cost areas with a potentially 
+high return for efficiency improvement
+
+6 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+many solutions to reducing lighting costs (e.g., energy efficient lighting, turning off some 
+lights, or inserting skylights) and a solution-based approach could be used to examine each, 
+but each of these solutions addresses a cost characterized in a problem-based approach. 
+The effect on the data collection is how the costs are categorized. Neither approach is 
+better, but rather, the approach taken affects the type of questions that can be answered 
+from the results. This report has a problem/cost-based focus where it aims to examine the 
+costs/losses that manufacturers face relevant to machinery maintenance. The benefit of 
+such a focus is that it does not assume a solution; that is, it provides information that 
+measures the magnitude of the problem to be solved (i.e., the costs/losses associated with 
+maintenance or lack thereof). Thus, it presents a problem to be solved rather than a solution 
+to be evaluated. 
+Another aspect of a cost analysis is the aggregation of costs. At least two challenges arise 
+with high levels of aggregation. The first challenge is the accuracy of the analysis. If data 
+for an analysis is gathered at a level that is too aggregated, there is the risk of a loss of 
+accuracy, particularly in a solution-based approach, as this approach often cuts across 
+natural cost categories tracked by a firm. To illustrate, consider a survey that asks someone 
+to estimate the hours per year they spend driving their car compared to one that asks each 
+component of their drive time (e.g., number of hours per day they spend driving to and 
+from work). An aggregated question such as one on the total hours per year they spend 
+driving is difficult to answer, as they must consider all at once the different places that they 
+drive. Someone is much more likely to estimate with accuracy the amount of time they 
+spend driving to work and other individual components of their total driving. The second 
+challenge with high levels of aggregation is that it limits the insights of being able to 
+identify solutions or efficiency improvements. The more aspects of the costs that are 
+measured, the more possible solutions that may be identified and compared. Unfortunately, 
+the more components there are, the higher the burden in data collection and analysis, which 
+could make a study infeasible. Businesses and citizens are already weary of completing 
+surveys and the higher the burden, the fewer the responses. This report will aim to measure 
+detailed components of costs associated with maintenance. It utilizes the results of data 
+collected from U.S. manufacturers through our Machinery Maintenance Survey discussed 
+in detail within this report. 
+The preceding report, AMS 100-26 referenced above, identified categories of costs, losses, 
+and maintenance, which include the following: 
+• Direct maintenance and repair costs 
+• Indirect costs 
+o Downtime  
+o Lost sales due to quality/delays  
+o Defects  
+• Separating maintenance types (i.e., predictive, preventive, and reactive)  
+This report presents approaches to maintenance in Section 2 followed by a discussion on 
+the Machinery Maintenance Survey in Section 3. Direct maintenance costs are discussed 
+in Section 4. Section 5 discusses losses, including downtime, lost sales, and defects along 
+with additional losses and injuries due to inadequate maintenance strategies. Section 6 
+discusses the perceived benefits that might be realized by increasing predictive
+
+7 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+maintenance while Section 7 highlights observed differences between firms that have 
+adopted more preventive and predictive maintenance. Finally, Section 8 summarizes the 
+findings.
+
+8 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Maintenance Strategies 
+Manufacturers deploy a range of maintenance strategies with the intent of optimizing their 
+planned downtime and minimizing their unplanned downtime. Manufacturers, from large 
+enterprises to small job shops, have all adopted and tailored a maintenance strategy, or 
+combination thereof, to ensure the enterprise satisfies its customers through timely delivery 
+of acceptable quality parts. Larger manufacturers typically have more established 
+maintenance protocols that often include some more advanced maintenance capabilities 
+based upon their own research and development (R&D) activities or emerging, 
+commercially available solutions.6 In contrast, small to medium-sized manufacturers 
+(SMMs) are on average not as advanced in their maintenance approaches – compared to 
+their larger counterparts, SMMs typically don’t have the R&D personnel or additional 
+capital to invest in emerging or advanced maintenance capabilities7.  
+ 
+As noted in the Introduction, the three most common maintenance strategies are reactive 
+maintenance, preventive maintenance, and predictive maintenance. Manufacturers use 
+each of these strategies to varying effect to maintain their operational productivity, 
+process/part quality, and equipment availability.  
+2.1. 
+Reactive Maintenance 
+Reactive maintenance (RM) is the simplest and easiest of the maintenance strategies to 
+define – do nothing until something breaks, fails, or stops operating within required 
+specifications. Unfortunately, RM is often the most expensive maintenance strategy to 
+employ long-term and can lead to unsafe scenarios, but has the lowest first-cost. At 
+minimum, equipment failure leads to the repair or replacement of that specific item. The 
+failure of a single piece of equipment can also lead to damage or failure(s) of other 
+interconnected elements (e.g., failure of a timing belt in a car’s engine often requires the 
+repair or replacement of additional engine parts). More importantly, personal safety can be 
+compromised in a failure (e.g., failure of the timing belt in a car can cause a deadly car 
+accident). RM is seldom the preferred maintenance strategy to effectively maintain 
+equipment or processes. Very few manufacturers know that something will break and not 
+do anything to prevent it. RM is usually paired with some form of preventive and/or 
+predictive maintenance (to be discussed in Section 2.2 and Section 2.3). The disadvantages 
+of RM are well known. Perhaps the only advantage of RM is that it requires little to invest 
+in this strategy (i.e., do nothing prior to any faults or failures). Manufacturers tend to avoid 
+RM in nearly every instance possible realizing the costly and often unforeseen 
+consequences that can arise. 
+ 
+One of the few, cost effective uses of RM is in the replacement of most light bulbs. When 
+probing why RM works in most failed light bulb scenarios, there are a lot of reasons RM 
+is the most preferred, cost-effective measure. The various reasons RM works in this 
+situation include: 
+ 
+ 
+6 Jin, X., Siegel, D., Weiss, B. A., Gamel, E., Wang, W., Lee, J., & Ni, J. (2016). The present status and future growth of maintenance 
+in US manufacturing: results from a pilot survey. Manuf Rev (Les Ulis), 3, 10. doi:10.1051/mfreview/2016005 
+7 Helu, M., & Weiss, B. A. (2016). The current state of sensing, health management, and control for small-to-medium-szed 
+manufacturers. Paper presented at the ASME 2016 Manufacturing Science and Engineering Conference, MSEC2016.
+
+9 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+• Redundancy – when a light bulb fails, there is often a neighboring light bulb that 
+still illuminates the area. The overall lighting may be dimmer than before the 
+failure, yet the illumination is usually sufficient until a replacement is installed. 
+• Little collateral failures – when a light bulb fails, it seldom creates a domino effect 
+causing other systems or elements to fail.  
+• Availability – most light bulbs are readily available either as a spare part within an 
+organization’s (or home’s) inventory or as an item for purchase from a supplier (or 
+local hardware store). Coupled with availability is that a light bulb is typically cost 
+effective to keep in inventory.  
+• Minimal required tools – changing a lightbulb does not require any special tools. 
+Sometimes, readily available tools are needed such as a screwdriver and/or a ladder. 
+• Minimal required skills – changing a lightbulb typically does not require any 
+special or formal training 
+ 
+RM would be a viable option for other equipment, whether it be within an industrial facility 
+or a home, if the equipment had similar failure and recovery characteristics noted above. 
+Unfortunately, there are an extremely limited amount of processes and equipment whose 
+failure would have such a minimal impact on a manufacturing organization. RM is the least 
+preferred of the available maintenance strategies and is only undertaken as a last resort 
+when faults or failures cannot be avoided. 
+2.2. 
+Preventive Maintenance 
+Preventive Maintenance (PM) is a strategy focused on performing specific maintenance 
+routines based upon a specified interval unit(s) - often time- or usage-based. A common 
+example that has been prevalent is the guidance for an automobile owner to change the 
+vehicle’s oil every 3 months or 3000 miles (4828 kilometers) driven (whichever comes 
+first). The units can be easily monitored as time in months or distance in miles (or 
+kilometers). Similarly, there are numerous intervals that manufacturers monitor to guide 
+their own PM activities. Manufacturers have a strong history of performing PM in their 
+facilities to sufficiently uphold equipment and process uptime.8 Some of the units that 
+manufacturers track to determine maintenance routines include hours (e.g., how many 
+hours has a process been operational since its last maintenance activity?), cycles (e.g., how 
+many cuts has the machine made?), parts produced, and employee work shifts. PM units 
+are often easy to measure, easy to track, and easy to articulate across all layers of the 
+organization from the equipment operator, maintenance personnel, to the plant manager, 
+and beyond. Additionally, PM is relatively easy to schedule, especially for legacy processes 
+that have been relatively stable in their operations. The scheduling units for PM typically 
+include units (e.g., parts, shifts, etc.) that are relatively inexpensive to track. Advanced 
+sensing technology is seldom required to determine how many hours a piece of equipment 
+has been running or how many parts have been produced by a process. 
+ 
+One disadvantage of PM is that it is possible to over-maintain equipment. Although the 
+equipment may be less likely to experience an unexpected failure with more-than-
+ 
+8 Jin, X., Weiss, B. A., Siegel, D., & Lee, J. (2016). Present Status and Future Growth of Advanced Maintenance Technology and 
+Strategy in US Manufacturing. Int J Progn Health Manag, 7(Spec Iss on Smart Manufacturing PHM), 012. Retrieved from 
+https://www.ncbi.nlm.nih.gov/pubmed/28058173
+
+10 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+necessary PM, this excess can lead to wasted money in unnecessary labor hours and 
+materials. PM is planned downtime which is still downtime. The more time a piece of 
+equipment is down, the less opportunity there is for it to be operating to produce a product 
+or perform a process to support the organization’s revenue stream.  
+ 
+An organization typically designs the PM strategy to be a tradeoff between the potential 
+for excess maintenance and the risk of not doing enough maintenance thereby increasing 
+the presence of a fault and failure leading to RM. The potential for excess maintenance 
+leading to excess cost is also balanced with the invested cost of a Predictive Maintenance 
+strategy, discussed in detail in section 2.3. 
+2.3. 
+Predictive Maintenance 
+Predictive Maintenance (PdM) is a strategy that dictates maintenance activities based upon 
+measures of reliability and/or condition. Reliability-centered maintenance (RCM) and 
+condition-based maintenance (CBM) are under the PdM strategy umbrella. Reliability and 
+condition can be measured at the physical level of a piece of manufacturing equipment, 
+workcell, assembly line, etc. and can also be measured at the functional level of a 
+manufacturing process. Measurements are often obtained through sensor data and can be 
+paired with historical data and models to ascertain existing reliability or conditions. 
+Depending upon the availability of data and/or model richness, future reliability or 
+conditions can be forecast. Regardless of the prediction of a future state, a manufacturers’ 
+awareness of current reliability and conditions offers them critical insight to plan 
+maintenance activities. 
+ 
+A key benefit of PdM is that maintenance is timelier and less likely to be unnecessary and 
+excessive as compared to PM. Since PdM maintenance is usually performed less frequently 
+than PM maintenance, there is less equipment downtime allowing for more revenue-
+generating manufacturing operations. One downside to PdM is that it usually requires a 
+larger upfront investment by the manufacturer as compared to PM. The manufacturer needs 
+to determine exactly what and how they want to monitor. They need to determine what 
+measurements will signal the need for maintenance activities. A financial investment is 
+required to procure and integrate the appropriate hardware and software to capture and 
+analyze the necessary data. Often a workforce investment is required to train personnel on 
+what measures should be monitored, how data should be analyzed, and responses in the 
+presence of specific triggers. Recognizing the advantages and disadvantages of PdM, most 
+manufacturers seek to optimize between PM and PdM while minimizing RM. It is unlikely 
+that manufacturers will maintain the same maintenance strategy paradigm throughout the 
+life of their operation given changing manufacturing equipment and processes, the 
+evolution of sensing and monitoring technology, the increased affordability of computing 
+power and data storage, the expanded capability of software algorithms to monitor and 
+predict future health states, and the possible reconfigurations of assembly lines to produce 
+new or custom products. Manufacturers, particularly those that want to remain competitive 
+on the global stage, should strategically look to advance their maintenance strategies to 
+maximize equipment uptime and maintain necessary part quality and productive targets.
+
+11 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+2.4. 
+Maintenance Strategy Advancement 
+There are several motivations for a manufacturer to advance their maintenance strategy 
+including the four motivations mentioned below. 
+ 
+• Increase safety – some faults and failures lead to unsafe working conditions, some 
+of which could be deadly. Advancing a maintenance strategy can lower the 
+probability of realizing a specific fault or failure and/or lower the consequence of 
+the fault or failure in the event it occurs.   
+• Decrease downtime – all maintenance takes time. RM is unpredictable, can lead to 
+events outside of an organization’s control, and result in substantial downtime. 
+Moving to a PM strategy allows an organization to better plan their maintenance 
+efforts and be less likely to succumb to RM. Moving to PdM can also be a great 
+way to further lower maintenance activities if it results in less downtime as 
+compared to a PM strategy. 
+• Maintain quality – one common side effect of degraded equipment or process health 
+is degraded part or process quality. Even though a process may be operational, 
+degraded quality can indicate the increased potential for a fault or failure or 
+depending upon the level of quality, the process (or equipment) could be considered 
+in a failure state if it cannot produce parts at the required level of quality. Quality 
+measurement can also be an indicator of equipment or process health.   
+• Maintain productivity – similar to degraded health leading to degraded quality, 
+degraded health can also lead to degraded productivity. For example, if a healthy 
+workcell can produce 35 parts an hour, a degraded workcell may no longer be able 
+to produce at this rate. If the required productivity (to meet customer demand) is 32 
+parts an hour, a productivity decrease to 34 parts an hour may not result in an 
+immediate maintenance response (if due to degraded health). A response is more 
+likely to occur as the productivity continues downward especially if it falls below 
+32 parts an hour. Each manufacturer determines their own response to specific 
+productivity changes.  
+ 
+Ultimately, a manufacturer wants to maintain or increase its competitiveness to remain 
+profitable. This can include lowering costs through decreased maintenance activities or 
+increasing revenue by maintaining necessary levels of quality or productivity. Each of the 
+four elements noted above will influence the manufacturer regarding where they should 
+focus their attention and investments. The more certainty a manufacturer has in quantifying 
+a return on investment (especially if it’s a relatively short period of time), the more likely 
+they are to make an investment in that specific area – advancing maintenance strategies are 
+no different. Currently, there is a wide range of financial investment in maintenance by the 
+manufacturing community. The data collected in this survey attempts to better ascertain 
+the state of manufacturing maintenance investment.
+
+12 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Survey and Sampling 
+Data was collected from manufacturing establishments through a survey instrument, the 
+Machinery Maintenance Survey (see Appendix A), which targeted managers of machinery 
+maintenance. The survey was distributed through multiple means: mail, email, newsletters, 
+and in-person presentations. A total of 85 responses were returned; however, some of these 
+were dropped due to issues with the responses. For instance, some respondents were not 
+manufacturing establishments, and some did not complete key questions. Questions 
+included in the survey are presented in Appendix A. The survey was reviewed by numerous 
+practitioners to ensure that the questions were appropriate and reasonable. Below is a 
+discussion regarding sample size, margin of error, and sample stratification.  
+ 
+3.1. 
+Literature Gap and Data Needed 
+ 
+As discussed previously, this report is a continuation of the work that developed NIST 
+AMS 100-18, which examined the literature, available data, and data needs for estimating 
+the costs and losses relevant to different manufacturing maintenance techniques. That 
+report identified that the current literature on maintenance costs and the benefits from 
+investing in maintenance methods has focused on case studies. Much of the research was 
+from other countries, which may or may not reveal insights into U.S. manufacturing. The 
+report identified that data was needed to measure direct maintenance and repair costs, costs 
+from unplanned downtime due to maintenance issues, lost sales due to delays from 
+maintenance issues, lost sales due to quality degradation from maintenance issues, and the 
+costs of defects. Data was also needed to measure the cost of increases in inventory that 
+might result to address disruptions from maintenance issues. The Machinery Maintenance 
+Survey presented in Appendix A was designed to collect the relevant data. 
+ 
+3.2. 
+Sample Size and Margin of Error 
+A minimum sample size required for statistical analysis is influenced by several items, 
+including the margin of error and population size. An estimate of the sample size needed 
+can be represented by:9,10 
+ 
+Equation 1 
+𝑆𝑎𝑚𝑝𝑙𝑒 𝑆𝑖𝑧𝑒=
+𝑧2 ∗𝑝(1 −𝑝)
+𝑒2
+1 + (𝑧2 ∗𝑝(1 −𝑝)
+𝑒2𝑁
+)
+ 
+ 
+where 
+𝑁 = Population size 
+𝑒 = Margin of error 
+ 
+9 Lepkowski, James. Sampling People, Networks and Records. (2018). Coursera course. https://www.coursera.org/learn/sampling-
+methods/home/welcome 
+10 Barnett, Vic. Sample Survey: Principles and Methods. (New York, NY: Oxford University Press Inc., 2002): 58-63.
+
+13 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+𝑧 = z-score 
+𝑝 = proportion of the population 
+ 
+This method, however, is used for estimating the proportion of a population that falls into 
+a certain category (e.g., proportion of people that have red hair). This study is, generally, 
+estimating the mean of a population, which can be represented as:11  
+ 
+𝑆𝑎𝑚𝑝𝑙𝑒 𝑆𝑖𝑧𝑒= (𝑧𝜎
+𝑒)
+2
+ 
+ 
+where 
+𝜎 = Standard deviation 
+𝑒 = Margin of error 
+𝑧 = z-score 
+ 
+An approximate sample size of 70 to 80 responses or more was targeted, as a previous 
+NIST report estimated that a sample size of 77 would have a 10 % margin of error at a 
+95 % confidence interval.12 However, as few as 14 respondents were estimated to result in 
+a 20 % margin of error at a 90 % confidence interval. Figure 3.1 graphs the estimated 
+sample sizes required at different confidence intervals and margins of error with a  
+ 
+ 
+Figure 3.1: Required Sample Size by Margin of Error and Confidence Interval  
+Note: Standard deviation equals 75 627, as calculated from the Annual Survey of Manufactures 
+Source: Thomas, Douglas. (2018). The Costs and Benefits of Advanced Maintenance in Manufacturing. 
+NIST Advanced Manufacturing Series 100 18. https://doi.org/10.6028/NIST.AMS.100-18 
+ 
+ 
+11 NIST. (2013). Engineering Statistics Handbook. Sample Sizes. http://www.itl.nist.gov/div898/handbook/prc/section2/prc222.htm 
+12 Thomas, Douglas. (2018). The Costs and Benefits of Advanced Maintenance in Manufacturing. NIST Advanced Manufacturing 
+Series 100 18. https://doi.org/10.6028/NIST.AMS.100-18 
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+0%
+2%
+4%
+6%
+8%
+10%
+12%
+14%
+16%
+18%
+20%
+Required Sample Size
+Margin of Error
+
+14 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+constant standard deviation estimated from the Annual Survey of Manufactures. This is 
+only an estimate, as each set of responses in the Machinery Maintenance Survey has its 
+own margin of error. The responses to the Machinery Maintenance Survey tended to have 
+larger error compared to the estimates made using the Annual Survey of Manufactures. 
+This is not entirely surprising, as the Annual Survey of Manufactures asks questions about 
+items that are frequently tracked (e.g., payroll) while the Machinery Maintenance Survey 
+asks about issues that, for many firms, are not formally tracked. A 90 % confidence interval 
+was calculated for the estimates in this report by rearranging the equation for sample size 
+to estimate the margin of error. This value was added/subtracted to the estimate to provide 
+a 90 % confidence interval:13 
+ 
+Equation 2 
+𝐶𝑜𝑛𝑓𝑖𝑑𝑒𝑛𝑐𝑒 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙= 𝐸𝑠𝑡𝑖𝑚𝑎𝑡𝑒±
+𝑧𝜎
+√𝑆𝑎𝑚𝑝𝑙𝑒 𝑆𝑖𝑧𝑒
+ 
+ 
+For a 90 % confidence interval, 𝑧 is equal to 1.645. 
+3.3. 
+Sample Stratification 
+The surveys that were mailed were stratified by establishment type to increase the 
+probability that there were responses from different groups of establishments. These 
+groupings were by region and industry. Establishments from NAICS 333, 334, 335, and 
+336 were selected randomly from three regions of the country for a total of 12 stratifications 
+(see Table 3.1). The survey was anonymous; therefore, the responses do not indicate the 
+region. Table 3.2 presents the responses by NAICS by establishment size after the filtering 
+the data.  
+ 
+ 
+Table 3.1: Stratification for Mailing Surveys 
+Region NAICS  Description 
+Distribution 
+1 
+333 
+Machinery Manufacturing 
+25% 
+2 
+333 
+Machinery Manufacturing 
+12% 
+3 
+333 
+Machinery Manufacturing 
+8% 
+1 
+334 
+Computer and Electronic Product Manufacturing 
+10% 
+2 
+334 
+Computer and Electronic Product Manufacturing 
+5% 
+3 
+334 
+Computer and Electronic Product Manufacturing 
+8% 
+1 
+335 
+Electrical Equipment, Appliance, and Component Manufacturing 
+5% 
+2 
+335 
+Electrical Equipment, Appliance, and Component Manufacturing 
+3% 
+3 
+335 
+Electrical Equipment, Appliance, and Component Manufacturing 
+3% 
+1 
+336 
+Transportation Equipment Manufacturing 
+10% 
+2 
+336 
+Transportation Equipment Manufacturing 
+7% 
+3 
+336 
+Transportation Equipment Manufacturing 
+5% 
+ 
+ 
+13 NIST. (2013). Engineering Statistics Handbook. Sample Sizes. http://www.itl.nist.gov/div898/handbook/prc/section2/prc222.htm
+
+15 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ 
+Table 3.2: Responses to Survey by Employment Size and Industry 
+  
+32 
+332 333 334 335 336 339 
+TOTAL 
+a.  1 to 4 Employees 
+  
+1 
+  
+  
+  
+  
+  
+1 
+b.  5 to 9 Employees 
+1 
+1 
+1 
+2 
+  
+  
+  
+5 
+c.   10 to 19 Employees 
+  
+1 
+3 
+3 
+  
+  
+  
+7 
+d.   20 to 49 Employees 
+3 
+5 
+3 
+4 
+  
+1 
+1 
+17 
+e.   50 to 99 Employees 
+  
+3 
+4 
+2 
+1 
+3 
+1 
+14 
+f.   100 to 249 Employees 
+2 
+8 
+1 
+1 
+2 
+2 
+1 
+17 
+g.   250 to 499 Employees 
+1 
+1 
+  
+  
+1 
+2 
+1 
+6 
+h.   500 to 999 Employees 
+  
+1 
+  
+  
+  
+  
+  
+1 
+i.   1000 or more 
+Employees 
+  
+  
+  
+1 
+  
+1 
+  
+2 
+Blank 
+  
+  
+1 
+  
+  
+  
+  
+1 
+TOTAL 
+7 
+21 
+13 
+13 
+4 
+9 
+4 
+71
+
+16 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+  Maintenance Costs and Associated Inventory Costs 
+Direct maintenance and repair costs include the cost of labor and materials along with 
+cascading effects, which refers to subsequent damage caused by a breakdown of a machine 
+(e.g., repair). Section 4.1 discusses direct maintenance costs and Section 4.2 presents 
+subsequent damage. Costs due to increased inventory due to uncertainty from maintenance 
+issues is discussed in Section 4.3.  
+4.1. 
+Direct Maintenance Costs 
+Two general methods are used to estimate direct maintenance costs (e.g., maintenance 
+department expenditures). The first utilizes survey responses to the following topics: 
+ 
+• Establishment size (Question 1) 
+• Payroll (Question 2) 
+• Shipments (Question 4) 
+• NAICS codes (Question 5) 
+• Maintenance and repair (Question 6) 
+ 
+The responses are scaled-up using industry data on payroll or shipments. Additionally, post 
+stratification by industry and employment size can be used, where portions of the data are 
+each scaled. The scaling would match the company size and industry corresponding to 
+national data:  
+ 
+Equation 3 
+𝐷𝑀𝐶= ∑∑(𝐸𝑀𝑥,𝑠,𝑖
+𝑆𝑀𝑥,𝑠,𝑖
+𝑆𝑀𝑇𝑂𝑇,𝑠,𝑖)
+𝑆
+𝑠=1
+𝐼
+𝑖=1
+ 
+ 
+where 
+𝐷𝑀𝐶 = Direct maintenance costs 
+𝐸𝑀𝑥,𝑠,𝑖 = Estimate of maintenance costs for establishment x with strata size s within 
+industry strata i 
+𝑆𝑀𝑥,𝑠,𝑖 = Scaling metric from establishment 𝑥, which is either total payroll or shipments 
+(depending on the method used) for industry i with size s 
+𝑆𝑀𝑇𝑂𝑇,𝑠,𝑖 = Total payroll or shipments (depending on the method used) for industry i with 
+size s, where 𝑇𝑂𝑇 indicates the total from either the Annual Survey of 
+Manufactures or the Economic Census 
+ 
+Three different stratifications for calculating estimates are utilized in this approach. 
+Stratification is used to address any over/under representation of any groups that could 
+result in skewing estimates of costs. Manufacturers may experience different maintenance 
+costs as a result of the types of products they are producing and the size of their 
+establishment. If one group is over-/under-represented, it can skew the aggregated estimate. 
+The first strata uses a combination of industry and establishment size:
+
+17 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+• Industries: NAICS 321-333, 337 and Establishment size: 1 to 99 employees 
+• Industries: NAICS 334-336, 339 and Establishment size: 1 to 99 employees 
+• Industries: NAICS 321-333, 337 and Establishment size: 100 or more employees 
+• Industries: NAICS 334-336, 339 and Establishment size: 100 or more employees 
+ 
+In this strata, industry 𝑖 varies between two sets of industries: NAICS 321-333, 337 and 
+NAICS 334-336, 339. The establishment size 𝑠 varies between “1 to 99 employees” and 
+“100 or more employees.” The second strata is by employment alone: 
+ 
+• 1 to 19 employees 
+• 20 to 99 employees 
+• 100 or more employees 
+ 
+The industry 𝑖 is constant (i.e., NAICS 321-339 excluding 324 and 325) while 
+establishment size 𝑠 varies between the three groups. The last strata is by industry: 
+ 
+• NAICS 321-332, 337 
+• NAICS 333-334 
+• NAICS 335-336, 339 
+ 
+The establishment size is constant (i.e., all establishment sizes) while industry 𝑖 varies 
+between the three groups. Moreover, there are three alternatives for varying establishment 
+size 𝑠 and industry 𝑖. 
+ 
+The groupings attempt to combine similar types of manufacturing activities while also 
+trying to keep a minimum number of establishments in each group. An alternative to using 
+survey data is using input-output data. The BEA Benchmark input-output tables have data 
+for over 350 industries (Bureau of Economic Analysis 2014), including “NAICS 8113: 
+Commercial and Industrial Machinery and Equipment Repair and Maintenance.” This data 
+includes Make tables, which show the production of commodities (products) by industry, 
+and Use tables, which show the use of commodities required for producing the output of 
+each industry.14 The data is categorized by altered codes from NAICS (i.e., some codes are 
+combined into unique groupings). The tables show how much each industry (e.g., 
+automobile manufacturing) purchases from other industries; thus, it shows how much 
+“Commercial and Industrial Machinery and Equipment Repair and Maintenance” services 
+were purchased by each industry. However, this does not reveal internal expenditures on 
+maintenance and repairs.  
+To estimate internal expenditures, using input-output data, we can first estimate 
+maintenance labor using the Occupational Employment Statistics and estimate additional 
+costs using the data on “NAICS 8113: Commercial and Industrial Machinery and 
+Equipment Repair and Maintenance.” Maintenance costs could be estimated by taking the 
+proportion of shipments to payroll in NAICS 8113, which creates a multiplier for 
+maintenance overhead and costs, and multiplying it by the proportion of compensation for 
+ 
+14 For additional discussion on input-output tables, please see Horowitz, Karen J. and Mark A. Planting. (2009). Concepts and Method 
+of the Input-Output Accounts. Bureau of Economic Analysis. 
+https://www.bea.gov/sites/default/files/methodologies/IOmanual_092906.pdf
+
+18 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+maintenance occupations in discrete manufacturing to total compensation for all 
+employees. This value can then be multiplied by payroll for discrete manufacturing. 
+Finally, the outsourced maintenance can be added. This method is represented as the 
+following: 
+ 
+Equation 4 
+ 
+𝐷𝑀𝐶= (𝑆𝐻𝐼𝑃8113
+𝑃𝑅8113
+) (∑
+∑
+𝐶𝑂𝑀𝑃𝑂𝐶𝐶,𝐼𝑁𝐷
+3
+𝑂𝐶𝐶=1
+339
+𝐼𝑁𝐷=321
+∑
+𝐶𝑂𝑀𝑃𝐼𝑁𝐷
+339
+𝐼𝑁𝐷=321
+) (∑
+𝑃𝑅𝐼𝑁𝐷
+339
+𝐼𝑁𝐷=321
+) + 𝑂𝑆 
+ 
+where 
+𝑆𝐻𝐼𝑃8113 = Shipments or output from the BEA IO data for NAICS 8113 depending on 
+the approach used 
+𝑃𝑅8113 = Payroll from the BEA IO data for NAICS 8113 
+𝑃𝑅𝐼𝑁𝐷 = Payroll from the BEA IO data, where 𝐼𝑁𝐷 indexes the set of NAICS codes from 
+321 through 339, excluding 324 and 325 
+𝐶𝑂𝑀𝑃𝑂𝐶𝐶,𝐼𝑁𝐷 = Compensation estimated in NIST’s Manufacturing Cost Guide, where 
+𝑂𝐶𝐶 indexes the set of Standard Occupation Codes 491011, 492000, and 499000 
+and where 𝐼𝑁𝐷 indexes the set of NAICS codes from 321 through 339, excluding 
+324 and 325 
+𝐶𝑂𝑀𝑃𝐼𝑁𝐷 = Compensation estimated in NIST’s Manufacturing Cost Guide, where 𝐼𝑁𝐷 
+indexes the set of NAICS codes from 321 through 339, excluding 324 and 325 
+𝑂𝑆 = Outsourced maintenance 
+ 
+There are numerous options regarding estimating the direct costs of maintenance using 
+Equation 3. Three data sources could be used for 𝑆𝑀𝑇𝑂𝑇,𝑠,𝑖: 
+• 2016 Payroll data from the County Business Patterns that is 
+o Stratified by establishment size and/or industry NAICS or 
+o Not stratified 
+• 2007 Shipment data from the Economic Census (as discussed later, this source is 
+utilized due to data limitations) that is 
+o Stratified by establishment size and/or industry NAICS or 
+o Not stratified 
+• 2016 Shipment data from the Annual Survey of Manufactures 
+o Stratified by industry NAICS or 
+o Not stratified 
+ 
+To select an option, the following needs to be considered: 
+• Does using payroll as a proxy for shipments impact the estimate? 
+• Does maintenance vary significantly by establishment size? 
+• Does maintenance vary significantly by NAICS code? 
+ 
+The calculations from Equation 4 can be compared to that from Equation 3; however, the 
+former may be less than the latter due to a couple of factors. The first is that there may be
+
+19 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+fundamental differences in the maintenance that is outsourced compared to that which is 
+internal to an establishment. It is plausible that outsourced maintenance is more 
+standardized, reducing costs and overhead. Internal maintenance might be more specialized 
+or unique.  
+A series of direct maintenance cost estimates were made, as shown in Table 4.1. Each line 
+in the table represents a different estimate varying the factors shown in the columns. The 
+column labeled “Strata” indicates whether the estimate is stratified by the number of 
+employees in an establishment (i.e., Emp) and/or by the industry NAICS code. The column 
+labeled “Data for Scaling” indicates which dataset was used: County Business Patterns 
+(CBP), Economic Census (EC), or the Annual Survey of Manufactures (ASM). It also 
+indicates whether shipments or payroll was used. Stratified estimates also include the 
+estimate for each stratum. The “Ratio” is the ratio of maintenance costs to 
+payroll/shipments estimated from the survey respondents. The column labeled “Est. A” 
+uses all the respondent data while “Est. B” excludes an outlier.  
+The estimates for NAICS 321-339 (excluding NAICS 324 and 325) range from $47.5 
+billion to $121.7 billion; however, as discussed later, using payroll as a proxy for shipments 
+has a significant effect on the estimates. The range of estimates using shipments ranges 
+from $51.9 billion to $79.5 billion. A primary driver in the difference is due to one outlier. 
+As seen in Table 4.1, the average ratio using shipments ranges from 0.006 to 0.032; 
+however, one response, the outlier, has a ratio that is nearly 10 times higher. This is 
+unusually high and seemed to be a mistake when compared to other responses; however, it 
+is also within an industry that produces precision parts. One commonly used threshold for 
+identifying outliers is the lower/upper quartile minus/plus 1.5 times the interquartile.15 The 
+difference between the outlier and the threshold was more than 12 times the interquartile. 
+Note that the method that avoids using the Machinery Maintenance Survey data (i.e., 
+method using Equation 4) estimates maintenance costs at $47.5 billion, which is closer to 
+the lower estimate using the survey. 
+Each resultant estimate in Table 4.1 has a different advantage and disadvantage in terms of 
+controlling for various issues (e.g., sampling bias). There is no obvious approach to 
+conclusively determine which method is the most accurate; however, the impact can be 
+compared using different methods to identify which factors are likely to matter more. These 
+comparisons provide anecdotal evidence for selecting the best methods for estimation.  
+Payroll does not necessarily correlate with the amount of production in an industry as 
+production can be more/less labor intensive; therefore, shipments tends to be the preferred 
+scaling metric. Unfortunately, industry level data on shipments that is stratified by 
+establishment size and industry is from 2007, making it dated. Thus, there are tradeoffs 
+between using shipments and payroll – shipments is a more robust scaler while payroll has 
+more recent data. We can use recent data on shipments, but it will only be stratified by 
+industry. Moreover, it must be determined what factors matter most. 
+ 
+15 National Institute of Standards and Technology. 2012. “What are outliers in the data?” 
+https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm
+
+20 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 4.1: Comparison of Methods for Calculating Direct Maintenance Costs  
+Id 
+Strata 
+Size 
+(employees) 
+#Obs. 
+NAICS Code Included* 
+Data for Scaling 
+Est A 
+Ratio 
+Est B 
+Ratio 
+Est A  
+Standard 
+Deviation 
+Est B 
+Standard 
+Deviation 
+Est A  
+Mean 
+$Billion 
+Est B 
+Mean 
+$Billion 
+1 
+1 -Emp/NAICS 
+1 to 99  
+26 
+NAICS 321-333, 337 
+CBP: Payroll 
+0.124 
+0.078 
+0.056 
+0.020 
+14.4 
+9.0 
+2 
+2 -Emp/NAICS 
+1 to 99  
+18 
+NAICS 334-336, 339 
+CBP: Payroll 
+0.099 
+0.099 
+0.023 
+0.023 
+3.7 
+3.7 
+3 
+3 -Emp/NAICS 
+100 or More  
+14 
+NAICS 321-333, 337 
+CBP: Payroll 
+0.213 
+0.213 
+0.026 
+0.026 
+36.3 
+36.3 
+4 
+4 -Emp/NAICS 
+100 or More  
+12 
+NAICS 334-336, 339 
+CBP: Payroll 
+0.045 
+0.045 
+0.003 
+0.003 
+8.1 
+8.1 
+5 
+Sum of Emp/NAICS Strata 
+Total 
+70 
+NAICS 321-339 
+CBP: Payroll 
+0.118 
+0.101 
+0.040 
+0.021 
+62.5 
+57.2 
+6 
+1 - Emp 
+1 to 19  
+13 
+NAICS 321-339 
+CBP: Payroll 
+0.112 
+0.112 
+0.024 
+0.024 
+4.5 
+4.5 
+7 
+2 - Emp 
+20 to 99  
+31 
+NAICS 321-339 
+CBP: Payroll 
+0.114 
+0.075 
+0.055 
+0.020 
+12.9 
+8.5 
+8 
+3 - Emp 
+100 or More  
+26 
+NAICS 321-339 
+CBP: Payroll 
+0.134 
+0.134 
+0.022 
+0.022 
+47.0 
+47.0 
+9 
+Sum of EMP Strata 
+Total 
+70 
+NAICS 321-339 
+CBP: Payroll 
+0.118 
+0.101 
+0.040 
+0.021 
+64.3 
+60.0 
+10 
+1 - NAICS 
+Total 
+28 
+NAICS 321-332, 337 
+CBP: Payroll 
+0.178 
+0.136 
+0.057 
+0.021 
+79.6 
+61.2 
+11 
+2 - NAICS 
+Total 
+26 
+NAICS 333-334 
+CBP: Payroll 
+0.088 
+0.088 
+0.025 
+0.025 
+22.4 
+22.4 
+12 
+3 - NAICS 
+Total 
+16 
+NAICS 335-336, 339 
+CBP: Payroll 
+0.065 
+0.065 
+0.008 
+0.008 
+19.6 
+19.6 
+13 
+Sum of NAICS Strata 
+Total 
+70 
+NAICS 321-339 
+CBP: Payroll 
+0.118 
+0.101 
+0.040 
+0.021 
+121.7 
+103.2 
+14 
+1 -Emp/NAICS 
+1 to 99  
+26 
+NAICS 321-333, 337 
+EC: Shipments 
+0.031 
+0.020 
+0.056 
+0.020 
+18.4 
+12.0 
+15 
+2 -Emp/NAICS 
+1 to 99  
+18 
+NAICS 334-336, 339 
+EC: Shipments 
+0.017 
+0.017 
+0.023 
+0.023 
+2.9 
+2.9 
+16 
+3 -Emp/NAICS 
+100 or More  
+14 
+NAICS 321-333, 337 
+EC: Shipments 
+0.027 
+0.027 
+0.026 
+0.026 
+35.9 
+35.9 
+17 
+4 -Emp/NAICS 
+100 or More  
+12 
+NAICS 334-336, 339 
+EC: Shipments 
+0.006 
+0.006 
+0.003 
+0.003 
+8.3 
+8.3 
+18 
+Sum of Emp/NAICS Strata 
+Total 
+70 
+NAICS 321-339 
+EC: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+65.6 
+59.1 
+19 
+1 - Emp 
+1 to 19  
+13 
+NAICS 321-339 
+EC: Shipments 
+0.023 
+0.023 
+0.024 
+0.024 
+3.2 
+3.2 
+20 
+2 - Emp 
+20 to 99  
+31 
+NAICS 321-339 
+EC: Shipments 
+0.027 
+0.017 
+0.055 
+0.020 
+17.2 
+10.8 
+21 
+3 - Emp 
+100 or More  
+26 
+NAICS 321-339 
+EC: Shipments 
+0.017 
+0.017 
+0.022 
+0.022 
+46.4 
+46.4 
+22 
+Sum of EMP Strata 
+Total 
+70 
+NAICS 321-339 
+EC: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+66.8 
+60.4 
+23 
+1 - NAICS 
+Total 
+28 
+NAICS 321-332, 337 
+EC: Shipments 
+0.032 
+0.021 
+0.057 
+0.021 
+49.4 
+32.0 
+24 
+2 - NAICS 
+Total 
+26 
+NAICS 333-334 
+EC: Shipments 
+0.021 
+0.021 
+0.025 
+0.025 
+17.5 
+17.5 
+25 
+3 - NAICS 
+Total 
+16 
+NAICS 335-336, 339 
+EC: Shipments 
+0.009 
+0.009 
+0.008 
+0.008 
+10.1 
+10.1 
+26 
+Sum of NAICS Strata 
+Total 
+70 
+NAICS 321-339 
+EC: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+77.0 
+59.6 
+27 
+1 - NAICS 
+Total 
+28 
+NAICS 321-332, 337 
+ASM: Shipments 
+0.032 
+0.021 
+0.057 
+0.021 
+42.6 
+27.6 
+28 
+2 - NAICS 
+Total 
+26 
+NAICS 333-334 
+ASM: Shipments 
+0.021 
+0.021 
+0.025 
+0.025 
+13.5 
+13.5 
+29 
+3 - NAICS 
+Total 
+16 
+NAICS 335-336, 339 
+ASM: Shipments 
+0.009 
+0.009 
+0.008 
+0.008 
+10.8 
+10.8 
+30 
+Sum of NAICS Strata 
+Total 
+70 
+NAICS 321-339 
+ASM: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+66.9 
+51.9 
+31 
+n/a 
+Total 
+70 
+NAICS 321-339 
+ASM: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+72.2 
+57.3 
+32 
+n/a 
+Total 
+70 
+NAICS 321-339 
+ASM: Payroll 
+0.118 
+0.101 
+0.040 
+0.021 
+57.9 
+49.6 
+33 
+n/a 
+Total 
+70 
+NAICS 321-339 
+EC: Shipments 
+0.022 
+0.018 
+0.040 
+0.021 
+79.5 
+63.0 
+36 
+n/a 
+Total 
+n/a 
+Total 
+BEA IO + BLS Occ. 
+n/a 
+n/a 
+n/a 
+n/a 
+47.5 
+n/a 
+* Excluding NAICS 324 (petroleum and coal products) and NAICS 325 (chemicals) 
+NOTE: Estimate B excludes an outlier
+
+21 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 4.2: Comparison of Methods for Estimating Maintenance Costs 
+Reference 
+Comparison 
+ID 
+  
+Comparison 
+ID 
+Absolute 
+Percent  
+Change 
+Average 
+of Abs. 
+Percent 
+Change 
+1 
+Payroll 
+32 - Est. A 
+vs. 
+Shipments 
+31 - Est. A 
+24.7% 
+20.1% 
+2 
+Payroll 
+32 - Est. B 
+vs. 
+Shipments 
+31 - Est. B 
+15.6% 
+3 
+1 - Emp 
+19 - Ratio 
+vs.  
+2 - Emp 
+20 - Ratio 
+15.0% 
+27.0% 
+4 
+1 - Emp 
+19 - Ratio 
+vs. 
+3 - Emp 
+21 - Ratio 
+28.3% 
+5 
+2 - Emp 
+20 - Ratio 
+vs.  
+3 - Emp 
+21 - Ratio 
+37.6% 
+6 
+1 - NAICS 
+23 - Ratio 
+vs.  
+2 - NAICS 
+24 - Ratio 
+33.7% 
+54.7% 
+7 
+1 - NAICS 
+23 - Ratio 
+vs.  
+3 - NAICS 
+25 - Ratio 
+72.2% 
+8 
+2 - NAICS 
+24 - Ratio 
+vs.  
+3 - NAICS 
+25 - Ratio 
+58.1% 
+9 
+ASM: 
+Shipments 
+31 - Est. A 
+vs.  
+EC: 
+Shipments 
+33 - Est. A 
+10.0% 
+12.6% 
+10 
+ASM: 
+Shipments 
+30 - Est. A 
+vs. 
+EC: 
+Shipments 
+26 - Est. A 
+15.1% 
+11 
+EC: 
+Shipments 
+33 - Est. A 
+vs.  
+EC: 
+Shipments 
+33 - Est. B 
+20.7% 
+20.7% 
+12 
+ASM: 
+Shipments 
+31 - Est. A 
+vs.  
+ASM: 
+Shipments 
+31 - Est B.  
+20.7% 
+ 
+A selection of the estimates is compared in Table 4.2. To gain insight into whether using 
+payroll as a proxy for shipments has a significant effect on the estimate, one can make 
+several comparisons, which are labeled as reference 1 and 2 in the table. Reference 1 
+compares estimate A for ID 32 (i.e., 32 – Est. A) in Table 4.1 to estimate A for ID 31. 
+Reference 2 compares estimate B for ID 31 and ID 32. These comparisons reveal insight 
+into the impact of using payroll compared to shipments while holding the year, 
+employment, and industry constant. Using payroll as a proxy changed the estimates by 
+between 15.6 % and 24.7 %, a fairly large impact. Scaling using shipments tends to be 
+more stable, regardless of stratification. For instance, all values using this data range 
+between $51.9 billion and $79.5 billion, a range spanning $27.6 billion. Payroll, on the 
+other hand, ranges between $49.6 billion and $121.7 billion, a $72.1 billion range. 
+Moreover, it is preferable to use shipments, as payroll is not a perfect substitute.  
+Employment size and industry has an impact on the estimates, as seen in comparison 
+reference 3 through 8, which examine the ratios from Table 4.1. As can be seen in the table, 
+the ratios are not the same for different establishment sizes nor is it the same across 
+industries. Therefore, stratification by industry and employment might have a significant 
+impact on the estimates. To stratify using shipments means using the Economic Census 
+data collected for 2007.  
+Comparing the use of Economic Census data adjusted to 2016 compared to using data from 
+the Annual Survey of Manufactures (i.e., comparison reference 9 and 10) suggests there is 
+a smaller impact (i.e., 12.6 %) from adjusting data than from excluding establishment size
+
+22 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+from the strata (i.e., 27 % change between strata from reference 3 through 5); however, 
+estimates using the two methods are close. Moreover, using Economic Census data from 
+2007, excluding the outlier, is a reasonable method for scaling, which puts maintenance 
+costs at $63.7 billion with a 90 % confidence interval between $33.9 billion and $84.3 
+billion (not shown elsewhere).  
+One issue with stratifying the data, however, is that there are a small number of 
+establishments (i.e., observations) per strata. Typically, between 10 and 30. Thus, an 
+alternative is to use the Annual Survey of Manufactures estimate with no stratification, 
+which has a similar estimate at $57.3 billion (see ID 31 in Table 4.1), the confidence 
+interval is slightly tighter, ranging from $42.4 billion to $72.2 billion. Because of this issue, 
+when data is scaled, both the Economic Census data and Annual Survey of Manufacturers 
+are used to produce estimates with the latter being considered the primary method.  
+4.2. 
+Additional Costs due to Faults and Failure 
+In addition to direct maintenance costs (e.g., maintenance department costs), there are 
+potentially unscheduled costs such as damage that might be caused by a breakdown. This 
+category could be a loss rather than a cost; however, maintenance and repair, typically, 
+includes replacement of various parts, components, and equipment. Therefore, for this 
+report, it is included as a cost. To scale this data, Equation 3 is utilized where 𝐸𝑀𝑥,𝑠,𝑖 is 
+replaced with additional expenditures estimated from question 8 in the Machinery 
+Maintenance Survey. 
+ 
+Table 4.3 provides an estimate of additional costs due to faults and failures. The values are 
+scaled using shipments from the Economic Census and Annual Survey of Manufactures. 
+Using shipments from the Economic Census stratified by size and industry, puts cost 
+estimates at $16.3 billion. The estimate using total shipments (i.e., ID 14 in Table 4.3) is 
+$16.3 billion with the 90 % confidence interval being between $7.1 billion and $25.5 
+billion (not shown elsewhere). 
+4.3. 
+Inventory 
+Uncertainty in production time is often addressed by increasing inventory, which creates a 
+buffer that prevents delays in deliveries. Inventory can result in significant costs, as it ties 
+up the capital invested in producing the inventory and there are costs associated with 
+warehousing. The inventory associated with maintenance is estimated by taking the 
+average of the responses and multiplying by the inventory estimate from the Annual Survey 
+of Manufactures: 
+ 
+Equation 5 
+𝐼𝑁𝑉𝑇𝑂𝑇= ∑(𝑃𝐼𝑖∗𝐼𝑁𝑉𝐴𝑆𝑀,𝐵𝑂𝑌,𝑖+ 𝐼𝑁𝑉𝐴𝑆𝑀,𝐸𝑂𝑌,𝑖
+2
+)
+𝐼
+𝑖=1
+ 
+ 
+𝐼𝑁𝑉𝑇𝑂𝑇 = Total inventory maintained to deal with delays from unplanned maintenance
+
+23 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+𝑃𝐼𝑥,𝑖 = Average percent of finished goods inventory maintained to deal with delays from 
+unplanned maintenance for establishments within industry strata i 
+𝐼𝑁𝑉𝐴𝑆𝑀,𝐵𝑂𝑌,𝑖= Finished goods inventory for the beginning of year (BOY) in the Annual 
+Survey of Manufactures.  
+𝐼𝑁𝑉𝐴𝑆𝑀,𝐸𝑂𝑌,𝑖= Finished goods inventory for the end of year (DOY) in the Annual Survey 
+of Manufactures.  
+ 
+The rule of thumb is that carrying costs are 20 % of the value of inventory.16,17 As seen in 
+Table 4.4, the estimated inventory due to maintenance issues is $4.1 billion, estimated  
+ 
+ 
+Table 4.3: Estimated Additional Costs due to Faults and Failures 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code 
+Included 
+Source 
+Ratio of Additional Losses to 
+Shipments 
+Shipments ($billions) 
+Estimated Value of Additional 
+Costs due to Maintenance Issues 
+($billions) 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+EC 
+0.0056 
+538.4 
+3.4 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+EC 
+0.0032 
+154.7 
+0.6 
+3 
+3 -Emp/NAICS 
+100 or More  NAICS 321-333, 337 
+EC 
+0.0080 
+1208.2 
+10.8 
+4 
+4 -Emp/NAICS 
+100 or More  NAICS 334-336, 339 
+EC 
+0.0011 
+1265.1 
+1.5 
+5 
+Total 
+Total 
+NAICS 321-339 
+EC 
+0.0045 
+3166.3 
+16.3 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+EC 
+0.0046 
+121.7 
+0.6 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+EC 
+0.0048 
+571.4 
+3.1 
+8 
+3 - Emp 
+100 or More  NAICS 321-339 
+EC 
+0.0044 
+2473.3 
+12.1 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+0.0045 
+3166.3 
+15.8 
+6 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+EC 
+0.0072 
+1396.1 
+11.2 
+7 
+2 - NAICS 
+Total 
+NAICS 333-334 
+EC 
+0.0042 
+746.2 
+3.5 
+8 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+EC 
+0.0014 
+1024.0 
+1.6 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+0.0045 
+3166.3 
+16.3 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+ASM 
+0.0072 
+1342.4 
+10.7 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+ASM 
+0.0042 
+642.0 
+3.0 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+ASM 
+0.0014 
+1228.7 
+2.0 
+13 
+Total 
+Total 
+NAICS 321-339 
+ASM 
+0.0045 
+3213.1 
+15.7 
+14 
+n/a 
+Total 
+NAICS 321-339 
+ASM 
+0.0045 
+3213.1 
+16.3 
+ 
+16 Tuovila, Alicia. 2019. “Inventory Carrying Cost.” https://www.investopedia.com/terms/c/carryingcostofinventory.asp 
+17 Wasp Barcode Technologies. 2020. “The Real Cost of Carrying Inventory.” http://www.waspbarcode.com/buzz/real-cost-carrying-
+inventory
+
+24 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ 
+ 
+using industry strata, and $4.3 billion without strata. Therefore, the estimated costs, 
+assuming the cost is 20 % of inventory, are between $0.8 billion and $0.9 billion. 
+ 
+ 
+Table 4.4: Inventory due to Maintenance Issues 
+Id 
+Strata 
+Size (employees) 
+NAICS Code Included 
+Percent of Inventory due to 
+Maintenance Issues 
+Total Inventories ($billion) 
+Inventory due to Maintenance 
+Issues ($billion) 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+3.8 
+n/a 
+- 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+2.3 
+n/a 
+- 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+2.6 
+n/a 
+- 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+5.4 
+n/a 
+- 
+5 
+Total 
+Total 
+NAICS 321-339 
+3.5 
+n/a 
+- 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+4.8 
+n/a 
+- 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+2.5 
+n/a 
+- 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+3.9 
+n/a 
+- 
+9 
+Total 
+Total 
+NAICS 321-339 
+3.5 
+n/a 
+- 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+3.3 
+59.9 
+2.0 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+3.5 
+32.9 
+1.2 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+3.1 
+31.7 
+1.0 
+13 
+Total 
+Total 
+NAICS 321-339 
+3.5 
+175.8 
+4.1 
+14 
+n/a 
+Total 
+NAICS 321-339 
+3.5 
+124.5 
+4.3
+
+25 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Losses due to Maintenance Issues 
+In addition to the costs of maintenance and repair, there are losses that result from 
+inadequate maintenance and unexpected breakdowns that might have been prevented 
+through more rigorous maintenance methods. This section estimates these losses, including 
+unplanned downtime (Section 5.1), defects (Section 5.2), lost sales due to delays or defects 
+(Section 5.3), and injuries (Section 5.4).  
+5.1. 
+Unplanned Downtime 
+When machinery unexpectedly breaks down due to maintenance issues, operations can be 
+stopped. This leaves labor and machinery unexpectedly idle. Question 9 of the Machinery 
+Maintenance Survey inquires about the percent of planned production time that is 
+unplanned downtime and the percent of that downtime that is due to maintenance activities. 
+If there was less downtime, then lower levels of energy, labor, and capital would be, in 
+general, needed to produce the same goods. To estimate the cost of unplanned downtime, 
+the percent of planned production time that is unplanned downtime due to maintenance 
+issues is multiplied by the cost of energy, labor, and capital. This can be represented as: 
+ 
+Equation 6 
+𝐷𝑇𝐶= ∑[𝐷𝑊𝑁𝑖∗𝐷𝑀𝑖∗(𝐸𝑖+ 𝐿𝑖+ 𝐾𝑖,𝑀+ 𝐾𝑖,𝐵)]
+𝐼
+𝑖=1
+ 
+ 
+where 
+𝐷𝑇𝐶 = Unplanned downtime costs due to maintenance issues 
+𝐷𝑊𝑁𝑖 = Average percent downtime for industry strata 𝑖 from question 9 in the Machinery 
+Maintenance Survey 
+𝐷𝑀𝑖 = Average percent of downtime that is due to maintenance for industry strata 𝑖 from 
+question 9.a in the Machinery Maintenance Survey 
+𝐸𝑖 = Sum of energy costs for industry strata 𝑖 from the Annual Survey of Manufactures 
+𝐿𝑖 = Sum of labor costs for industry strata 𝑖 from the Annual Survey of Manufactures 
+𝐾𝑖,𝑀 = Sum of annual capital expenditures for machinery (𝑀) for industry strata 𝑖 from the 
+Annual Survey of Manufactures 
+𝐾𝑖,𝐵 = Sum of annual capital expenditures for buildings (𝐵) for industry strata 𝑖 from the 
+Annual Survey of Manufactures 
+ 
+Energy and capital data are not available by establishment size; therefore, estimates for 
+size strata are not made. Table 5.1 presents the estimates for downtime costs due to 
+maintenance issues. Labor costs range from $12.1 billion to $13.8 billion. Capital costs for 
+machinery ranges from $2.5 billion to $2.6 billion and for buildings it is $1.0 billion. The 
+cost of energy is between $1.1 billion and $1.3 billion. The total is $18.1 billion with the
+
+26 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 5.1: Downtime Costs due to Maintenance Issues 
+ 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code 
+Included 
+  
+Percent of Planned Production Time that is 
+Downtime 
+Percent of Downtime due to Reactive 
+Maintenance 
+Estimated Cost of Downtime due to 
+Maintenance Issues - Labor ($billion) 
+Estimated Cost of Downtime - Capital 
+Depreciation for Machinery ($billion) 
+Estimated Cost of Downtime - Capital 
+Depreciation for Buildings ($billion) 
+Estimated Cost of Downtime - Energy 
+($billion) 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+EC 
+7.9 
+39.9 
+3.7 
+- 
+- 
+- 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+EC 
+4.0 
+36.5 
+0.5 
+- 
+- 
+- 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+EC 
+12.8 
+15.8 
+3.9 
+- 
+- 
+- 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+EC 
+7.4 
+28.2 
+3.9 
+- 
+- 
+- 
+5 
+Total 
+Total 
+NAICS 321-339 
+EC 
+7.8 
+31.7 
+12.1 
+- 
+- 
+- 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+EC 
+8.5 
+19.8 
+0.5 
+- 
+- 
+- 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+EC 
+5.6 
+46.0 
+3.2 
+- 
+- 
+- 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+EC 
+10.5 
+21.7 
+8.7 
+- 
+- 
+- 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+7.8 
+31.7 
+12.4 
+- 
+- 
+- 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+EC 
+9.8 
+32.9 
+8.0 
+- 
+- 
+- 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+EC 
+7.3 
+29.7 
+2.9 
+- 
+- 
+- 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+EC 
+5.1 
+34.4 
+2.6 
+- 
+- 
+- 
+13 
+Total 
+Total 
+NAICS 321-339 
+EC 
+7.8 
+31.7 
+13.6 
+- 
+- 
+- 
+14 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+ASM 
+9.8 
+32.9 
+8.0 
+1.7 
+0.6 
+1.0 
+15 
+2 - NAICS 
+Total 
+NAICS 333-334 
+ASM 
+7.3 
+29.7 
+2.9 
+0.4 
+0.2 
+0.1 
+16 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+ASM 
+5.1 
+34.4 
+2.9 
+0.5 
+0.2 
+0.1 
+17 
+Total 
+Total 
+NAICS 321-339 
+ASM 
+7.8 
+31.7 
+13.8 
+2.6 
+1.0 
+1.3 
+18 
+n/a 
+Total 
+NAICS 321-339 
+ASM 
+7.8 
+31.7 
+13.5 
+2.5 
+1.0 
+1.1 
+ 
+ 
+90 % confidence interval for the total (i.e., ID 18 from Table 5.1) being between $9.4 
+billion and $29.5 billion (not shown elsewhere). 
+5.2. 
+Defects 
+In addition to downtime costs, there are products that are scrapped or reworked because of 
+defects. Question 10 in the Machinery Maintenance Survey asks about the rate of product 
+defects and the percent that is associated with maintenance issues. To estimate the losses 
+from defects, the percent of products that are defective due to maintenance issues is 
+multiplied by the value of shipments: 
+ 
+Equation 7 
+𝐶𝑂𝐷= ∑𝐷𝐸𝐹𝑖∗𝐷𝑀𝑖∗𝑆𝐻𝐼𝑃𝑖
+𝐼
+𝑖=1
+
+27 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ 
+where 
+𝐶𝑂𝐷 = Cost of defects 
+𝐷𝐸𝐹𝑖 = Average percent of products that are defective for industry strata 𝑖 from question 
+10 in the Machinery Maintenance Survey 
+𝐷𝑀𝑖 = Average percent of defects for industry strata 𝑖 that is due to maintenance issues 
+from question 10.a in the Machinery Maintenance Survey 
+𝑆𝐻𝐼𝑃𝑖 = The total value of shipments for industry strata 𝑖 from the Annual Survey of 
+Manufactures or Economic Census 
+ 
+As seen in Table 5.2, the defect rate varies between 0.1 % and 2.7 % for the different strata. 
+Only a small percent of the defects was attributed to maintenance issues, which  
+ 
+Table 5.2: Defects due to Reactive Maintenance 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code 
+Included 
+Source 
+Rate of Defects (percent) 
+Percent of Defects due to 
+Reactive Maintenance 
+Shipments ($billions) 
+Estimated Value of Defects due to 
+Reactive Maintenance ($million) 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+EC 
+1.3 
+2.5 
+538.4 
+200 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+EC 
+0.2 
+1.7 
+154.7 
+7 
+3 
+3 -Emp/NAICS 
+100 or More  NAICS 321-333, 337 
+EC 
+2.7 
+0.2 
+1 208.2 
+71 
+4 
+4 -Emp/NAICS 
+100 or More  NAICS 334-336, 339 
+EC 
+0.7 
+3.4 
+1 265.1 
+332 
+5 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.2 
+2.1 
+3 166.3 
+609 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+EC 
+0.1 
+0.1 
+121.7 
+0 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+EC 
+1.2 
+3.1 
+571.4 
+244 
+8 
+3 - Emp 
+100 or More  NAICS 321-339 
+EC 
+1.7 
+1.9 
+2 473.3 
+899 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.2 
+2.1 
+3 166.3 
+1 143 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+EC 
+1.5 
+1.3 
+1 396.1 
+291 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+EC 
+1.5 
+2.2 
+746.2 
+269 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+EC 
+0.5 
+3.1 
+1 024.0 
+166 
+13 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.2 
+2.1 
+3 166.3 
+726 
+14 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+ASM 
+1.5 
+1.3 
+1 342.4 
+250 
+15 
+2 - NAICS 
+Total 
+NAICS 333-334 
+ASM 
+1.5 
+2.2 
+642.0 
+207 
+16 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+ASM 
+0.5 
+3.1 
+1 228.7 
+179 
+17 
+Total 
+Total 
+NAICS 321-339 
+ASM 
+1.2 
+2.1 
+3 213.1 
+636 
+18 
+n/a 
+Total 
+NAICS 321-339 
+ASM 
+1.2 
+2.1 
+3 213.1 
+810
+
+28 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ranged between 0.1 % and 3.4 % among the strata. The low percent associated with 
+maintenance resulted in the cost of defects being one of the lower costs associated with 
+maintenance. Using a method of stratifying by industry and establishment size, the cost of 
+defects due to maintenance is estimated at $0.6 billion. Using unstratified data from the 
+Annual Survey of Manufactures, the estimate is $0.8 billion with a 90 % confidence 
+interval between $24 million to $2.7 billion (not shown elsewhere). The wide range is due 
+to significant variation in both the reported defect rates and percent of defects due to 
+maintenance.  
+5.3. 
+Lost Sales due to Maintenance Issues 
+In some instances, defects and downtime can result in lost sales due to quality issues and 
+delayed deliveries. The Machinery Maintenance Survey asked manufacturers about the lost 
+sales due to these issues (see questions 9.b and 10.b). To estimate the value of lost sales, 
+the percent of lost sales is multiplied by total shipments from the Annual Survey of 
+Manufactures or the Economic Census: 
+ 
+Equation 8 
+𝑇𝐿𝑆= ∑∑[𝑆𝐻𝐼𝑃𝑠,𝑖∗(𝐿𝑆𝐷𝐹,𝑠,𝑖+ 𝐿𝑆𝐷𝑊𝑁,𝑠,𝑖)]
+𝐼
+𝑖=1
+𝑆
+𝑠=1
+ 
+ 
+where 
+𝑇𝐿𝑆 = Total lost sales due to delays or defects due to maintenance issues 
+𝐿𝑆𝑧,𝑠,𝑖 = Average of the percent of sales lost due to 𝑧 for establishments with strata size s 
+within industry strata 𝑖 where 𝑧 is either defects (𝐷𝐹) or downtime (𝐷𝑊𝑁) 
+𝑆𝐻𝐼𝑃𝑠,𝑖 = Shipments from either the Economic Census or the Annual Survey of 
+Manufactures within industry strata i with strata size s 
+ 
+As seen in Table 5.3, the cost of lost sales due to maintenance issues is estimated at $88.3 
+billion, using strata by size and industry. With no strata, the estimate is $100.2 billion with 
+a 90 % confidence interval between $33.5 billion and $166.8 billion (not shown 
+elsewhere). The wide range is not unexpected, as this is a difficult item to assess; that is, it 
+is difficult to know what sales are lost. It is important to note that some of these sales are 
+lost to other U.S. establishments; thus, one establishment’s loss is another’s gain. However, 
+some losses can go to establishments outside of the U.S.
+
+29 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 5.3: Lost Sales due to Unplanned Downtime Caused by Maintenance Issues 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code 
+Included 
+Source 
+Average lost sales due to maintenance 
+issues causing defects (percent) 
+Average lost sales due to maintenance 
+issues causing delays (percent) 
+Estimated Value of Lost Sales due to 
+Maintenance Issues ($billions) 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+EC 
+1.8 
+3.6 
+31.9 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+EC 
+0.1 
+1.1 
+2.1 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+EC 
+0.2 
+1.5 
+23.3 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+EC 
+1.1 
+1.1 
+30.9 
+5 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.0 
+2.1 
+88.3 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+EC 
+1.0 
+2.3 
+4.4 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+EC 
+1.2 
+2.8 
+25.6 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+EC 
+0.7 
+1.3 
+53.8 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.0 
+2.1 
+83.9 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+EC 
+1.1 
+3.1 
+64.5 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+EC 
+1.2 
+1.8 
+25.1 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+EC 
+0.5 
+1.3 
+20.7 
+13 
+Total 
+Total 
+NAICS 321-339 
+EC 
+1.0 
+2.1 
+110.3 
+14 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+ASM 
+1.1 
+3.1 
+55.6 
+15 
+2 - NAICS 
+Total 
+NAICS 333-334 
+ASM 
+1.2 
+1.8 
+19.3 
+16 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+ASM 
+0.5 
+1.3 
+22.2 
+17 
+Total 
+Total 
+NAICS 321-339 
+ASM 
+1.0 
+2.1 
+97.1 
+18 
+n/a 
+Total 
+NAICS 321-339 
+ASM 
+1.0 
+2.1 
+100.2 
+ 
+5.4. 
+Injuries 
+Machinery that breaks down can also be associated with injuries. Question 13 of the 
+Machinery Maintenance Survey asks about the percent of injuries that are associated with 
+reactive maintenance. To estimate the number of injuries and deaths, the average percent 
+of injuries associated with maintenance issues was estimated for each industry strata and 
+multiplied by the number of injuries in that strata recorded in the Bureau of Labor 
+Statistics’ Injuries, Illness, and Fatalities Program:18  
+ 
+ 
+18 Bureau of Labor Statistics. (2019). Injuries, Illness, and Fatalities Program. http://www.bls.gov/iif/
+
+30 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Equation 9 
+𝐼𝑁𝐽𝑀𝐴𝐼𝑁= ∑(𝑃𝐼𝑖∗𝐼𝑁𝐽𝐵𝐿𝑆,𝑖)
+𝐼
+𝑖=1
+ 
+ 
+where 
+𝐼𝑁𝐽𝑀𝐴𝐼𝑁 = Estimated number of injuries due to maintenance issues 
+𝑃𝐼𝑖 = Percent of injuries associated with maintenance issues from question 13 in the 
+Manufacturing Maintenance Survey 
+𝐼𝑁𝐽𝐵𝐿𝑆,𝑖 = Number of injuries from industry strata 𝑖 from the Bureau of Labor Statistics’ 
+Injuries, Illness, and Fatalities Program 
+ 
+Deaths were estimated in a similar fashion where injuries are replaced with deaths from 
+the Bureau of Labor Statistics’ Injuries, Illness, and Fatalities Program. The industry data 
+is not parsed by establishment size; therefore, estimates cannot be made using strata by 
+establishment size. As seen in Table 5.4, the estimated number of injuries is 134.9 using  
+ 
+ 
+Table 5.4: Injuries and Deaths Associated with Maintenance Issues 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code Included 
+Percent of Injuries due 
+to Maintenance 
+Total Injuries 
+Total Deaths 
+Estimated Injuries due 
+to Maintenance 
+Estimated Deaths due 
+to Maintenance 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+0.0 
+n/a 
+n/a 
+- 
+- 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+0.0 
+n/a 
+n/a 
+- 
+- 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+0.2 
+n/a 
+n/a 
+- 
+- 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+0.7 
+n/a 
+n/a 
+- 
+- 
+5 
+Total 
+Total 
+NAICS 321-339 
+0.2 
+n/a 
+n/a 
+- 
+- 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+0.0 
+n/a 
+n/a 
+- 
+- 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+0.0 
+n/a 
+n/a 
+- 
+- 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+0.4 
+n/a 
+n/a 
+- 
+- 
+9 
+Total 
+Total 
+NAICS 321-339 
+0.2 
+n/a 
+n/a 
+- 
+- 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+0.1 
+52 170 
+181 
+42.4 
+0.1 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+0.0 
+12 520 
+43 
+0.0 
+0.0 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+0.4 
+22 100 
+43 
+92.5 
+0.2 
+13 
+Total 
+Total 
+NAICS 321-339 
+0.2 
+86 790 
+267 
+134.9 
+0.3 
+14 
+n/a 
+Total 
+NAICS 321-339 
+0.2 
+86 790 
+267 
+134.1 
+0.4
+
+31 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+strata by industry and 134.1 with no strata with a 90 % confidence interval between 0 and 
+492.7 (not shown). The estimated number of deaths was 0.3 using strata by industry or 
+roughly one death every three years. Using no strata, the number of deaths was 0.4 with a 
+90 % confidence interval between 0 and 1.5 (not shown).
+
+32 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Perceived Benefits of Advancing Maintenance Strategies 
+Managers of machinery maintenance might believe that their establishment would benefit 
+from investing in their maintenance strategies. Question 12 of the Machinery Maintenance 
+Survey asks about some of these benefits, including downtime, sales, and injuries. Benefits 
+are estimated in Table 6.1. Cost savings from downtime reduction was calculated by 
+multiplying the percent of establishments that indicated there would be a benefit from 
+adopting predictive maintenance by the percent reduction in downtime multiplied by the 
+percent of planned production time that was down time from question 9. This was 
+multiplied by the sum of labor, capital, and energy expenditures from the Annual Survey 
+of Manufactures: 
+ 
+Equation 10 
+𝐵𝑒𝑛𝑒𝑓𝑖𝑡𝑠𝐷𝑤𝑛= ∑[𝐷𝑊𝑁𝑖∗𝑅𝐷𝑖∗(𝐸𝑖+ 𝐿𝑖+ 𝐾𝑖,𝑀+ 𝐾𝑖,𝐵)]
+𝐼
+𝑖=1
+ 
+ 
+where 
+𝐵𝑒𝑛𝑒𝑓𝑖𝑡𝑠𝐷𝑤𝑛 = Perceived benefits from reduced unplanned downtime resulting from 
+adopting predictive maintenance 
+𝐷𝑊𝑁𝑖 = Average percent downtime for industry strata 𝑖 from question 9 in the 
+Machinery Maintenance Survey 
+𝑅𝐷𝑖 = Average percent reduction in downtime that is due to adopting predictive 
+maintenance for industry strata 𝑖 from question 12 in the Machinery Maintenance 
+Survey 
+𝐸𝑖 = Sum of energy costs for industry strata 𝑖 from the Annual Survey of Manufactures 
+𝐿𝑖 = Sum of labor costs for industry strata 𝑖 from the Annual Survey of Manufactures 
+𝐾𝑖,𝑀 = Sum of annual capital expenditures for machinery (M) industry strata 𝑖 from the 
+Annual Survey of Manufactures 
+𝐾𝑖,𝐵 = Sum of annual capital expenditures for buildings (B) for industry strata 𝑖 from the 
+Annual Survey of Manufactures 
+ 
+ 
+Increased sales due to the adoption of predictive maintenance was calculated by 
+multiplying the percent increase in sales by shipments: 
+ 
+Equation 11 
+𝐵𝑒𝑛𝑒𝑓𝑖𝑡𝑠𝑆𝑎𝑙𝑒𝑠= ∑∑[𝑆𝐻𝐼𝑃𝑠,𝑖∗𝐼𝑆𝑠,𝑖]
+𝐼
+𝑖=1
+𝑆
+𝑠=1
+ 
+ 
+where 
+𝐵𝑒𝑛𝑒𝑓𝑖𝑡𝑠𝑆𝑎𝑙𝑒𝑠= Increased sales due to adopting predictive maintenance 
+𝐼𝑆𝑠,𝑖 = Average increase in sales due to adopting predictive maintenance for establishments 
+with strata size s within industry strata 𝑖
+
+33 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 6.1: Perceived Benefits of Adopting Predictive Maintenance 
+Id 
+Strata 
+Size (employees) 
+NAICS Code Included 
+  
+Percent that indicated a 
+benefit 
+Percent change in 
+downtime, if any 
+Cost Savings from Downtime 
+Reduction ($billion) 
+Percent change in sales, if 
+any 
+Increase in Sales ($billion) 
+Percent change in injuries, if 
+any 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+EC 
+46.2 
+-29.3 
+  
+5.3 
+13.2 
+-0.3 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+EC 
+66.7 
+-3.5 
+  
+1.2 
+1.3 
+0.0 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+EC 
+85.7 
+-12.8 
+  
+1.7 
+17.9 
+-1.0 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+EC 
+100.0 
+-18.4 
+  
+2.2 
+27.7 
+0.0 
+5 
+Total 
+Total 
+NAICS 321-339 
+EC 
+67.2 
+-16.9 
+  
+3.1 
+60.1 
+-0.3 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+EC 
+33.3 
+-6.3 
+  
+3.3 
+1.3 
+-0.7 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+EC 
+62.1 
+-23.0 
+  
+4.0 
+14.3 
+0.0 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+EC 
+92.0 
+-14.7 
+  
+1.9 
+44.4 
+-0.4 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+67.2 
+-16.9 
+  
+3.1 
+59.9 
+-0.3 
+6 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+EC 
+60.7 
+-16.4 
+  
+4.1 
+35.1 
+-0.7 
+7 
+2 - NAICS 
+Total 
+NAICS 333-334 
+EC 
+66.7 
+-16.7 
+  
+3.0 
+15.0 
+-0.2 
+8 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+EC 
+78.6 
+-20.2 
+  
+1.8 
+14.6 
+0.0 
+9 
+Total 
+Total 
+NAICS 321-339 
+EC 
+67.2 
+-16.9 
+  
+3.1 
+64.6 
+-0.3 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+ASM 
+60.7 
+-16.4 
+3.5 
+4.1 
+33.7 
+-0.7 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+ASM 
+66.7 
+-16.7 
+1.4 
+3.0 
+12.9 
+-0.2 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+ASM 
+78.6 
+-20.2 
+1.7 
+1.8 
+17.5 
+0.0 
+13 
+Total 
+Total 
+NAICS 321-339 
+ASM 
+67.2 
+-16.9 
+6.5 
+3.1 
+64.1 
+-0.3 
+14 
+n/a 
+Total 
+NAICS 321-339 
+ASM 
+67.2 
+-16.9 
+6.5 
+3.1 
+67.3 
+-0.3
+
+34 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+𝑆𝐻𝐼𝑃𝑠,𝑖 = Shipments from either the Economic Census or the Annual Survey of 
+Manufactures within industry strata i with strata size s 
+ 
+The percent change in injuries is the average for each industry/size strata. The total  
+benefits of decreased downtime and increased sales amount to $70.6 billion, estimated 
+using industry strata. The total is $73.8 billion without stratifying and has a 90 % 
+confidence interval between $39.5 billion and $109.4 billion (not shown elsewhere).
+
+35 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Observed Benefits of Preventive and Predictive Maintenance 
+On average, establishment maintenance practices were 17.3 % predictive maintenance, 
+31.8 % preventive maintenance, and 45.7 % reactive maintenance (see Table 7.1). 
+However, there were significant variations between establishments. One question that 
+arises is how the costs and losses compare for the different levels of predictive, preventive, 
+and reactive maintenance. In this section, we compare establishments by the types of 
+maintenance that they employ. It is important to note that although decreased costs/losses 
+might be associated with advanced maintenance strategies, the decrease may not be 
+completely caused by them. For instance, an establishment might take multiple measures 
+to reduce defects or downtime. 
+ 
+Table 7.1: Distribution of Maintenance Types 
+Id 
+Strata 
+Size 
+(employees) 
+NAICS Code Included 
+Predictive 
+Preventive 
+Reactive 
+Other 
+1 
+1 -Emp/NAICS 
+1 to 99  
+NAICS 321-333, 337 
+19.9 25.2 51.8 
+3.1 
+2 
+2 -Emp/NAICS 
+1 to 99  
+NAICS 334-336, 339 
+20.4 37.2 36.2 
+5.4 
+3 
+3 -Emp/NAICS 
+100 or More  
+NAICS 321-333, 337 
+13.7 28.1 52.4 
+5.9 
+4 
+4 -Emp/NAICS 
+100 or More  
+NAICS 334-336, 339 
+13.2 45.0 33.9 
+6.7 
+5 
+Total 
+Total 
+NAICS 321-339 
+17.3 31.8 45.7 
+4.7 
+6 
+1 - Emp 
+1 to 19  
+NAICS 321-339 
+20.2 31.0 43.8 
+5.1 
+7 
+2 - Emp 
+20 to 99  
+NAICS 321-339 
+20.1 29.7 46.2 
+3.4 
+8 
+3 - Emp 
+100 or More  
+NAICS 321-339 
+13.5 35.9 43.8 
+6.2 
+9 
+Total 
+Total 
+NAICS 321-339 
+17.3 31.8 45.7 
+4.7 
+10 
+1 - NAICS 
+Total 
+NAICS 321-332, 337 
+17.9 27.1 49.9 
+5.1 
+11 
+2 - NAICS 
+Total 
+NAICS 333-334 
+20.0 31.3 44.6 
+4.9 
+12 
+3 - NAICS 
+Total 
+NAICS 335-336, 339 
+14.3 37.2 42.5 
+3.9 
+13 
+Total 
+Total 
+NAICS 321-339 
+17.3 31.8 45.7 
+4.7 
+ 
+7.1. 
+High and Low Levels of Reactive Maintenance 
+Table 7.2 presents the average levels of various responses by the level of reactive 
+maintenance that they have. The first group are those that heavily use reactive maintenance, 
+representing the top 25 %. The next group are those that were in the middle (i.e., the middle 
+50 %) and the last group are those with the least amount, representing the bottom 25 %. As 
+can be seen, those in the top 25 % had 3.28 times more downtime than those who used RM 
+the least, 13.0 % downtime compared to 4.0 %. The planned production time that was 
+downtime associated with maintenance was 7.17 times higher, 6.7 % compared to 0.9 %. 
+The defect rate was 16.00 times higher for those in the top 25 % compared to those in the 
+bottom 25 %, 3.3 % compared to 0.2 % defect rates. Similarly, lost sales were 1.9 % due
+
+36 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 7.2: High and Low Level of Reactive Maintenance Compared, Average of 
+Responses 
+Percent of Maintenance that 
+is Reactive, Groupings
+Percent of Maintenance that is Reactive
+Ratio of Maintenance Costs to the Value of Shipments
+Percent of Planned Production Time that is Downtime
+Percent of Downtime that is due to Reactive Maintenance
+Percent of Planned Production Time that is Downtime due 
+to Maintenance Issues
+Defect Rate
+Percent of Sales Lost due to Defects Resulting from 
+Maintenance Issues
+Percent of Sales Lost due to Delays Resulting from 
+Maintenance Issues
+Ratio of Additional Costs Due to Irreparable Faults and 
+Failures to Shipments
+Percent Increase in Inventory due to Maintenance
+Shipments ($million)
+Percent that Primarily use a Pull or Make to Order Strategy 
+as Opposed to a Push or Make to Stock Strategy
+Percent that are Differentiators
+Highest 25 Percent
+81.5 0.019 13.0
+51.6
+6.7
+3.3
+1.9
+2.6
+0.0067
+6.7
+36.6
+50.0
+66.7
+Middle 50 Percent
+44.1 0.020
+6.8
+26.0
+1.8
+0.6
+0.6
+2.5
+0.0044
+2.5
+6.1
+77.4
+74.2
+Lowest 25 Percent
+14.4 0.030
+4.0
+23.6
+0.9
+0.2
+0.7
+1.1
+0.0030
+1.4
+121.7
+89.5
+73.7
+High 25 divided by Low 25
+5.67
+0.62
+3.28
+2.18
+7.17
+16.00
+2.81
+2.37
+2.25
+4.89
+0.30
+0.56
+0.90
+Low 25 divided by High 25
+0.18
+1.61
+0.30
+0.46
+0.14
+0.06
+0.36
+0.42
+0.44
+0.20
+3.33
+1.79
+1.11 
+ 
+ 
+to defects and 2.6 % for delays compared to 0.7 % and 1.1 %; that is, they were 2.81 and 
+2.37 times higher. The ratio of additional costs was 2.25 times higher and inventory 
+increases were 4.89 times higher. Given the small sample in these different groupings, 
+many of the differences are not statistically significant, making them anecdotal evidence; 
+however, using the students t-test to “determine whether two samples are likely to have 
+come from the same two underlying populations that have the same mean,”19 the difference 
+in downtime due to maintenance issues and inventory for the top and bottom 25 % were 
+statistically significant at the 10 % level. In this instance it was assumed that there were 
+unequal variances. Those who relied less on reactive maintenance were more likely to have 
+a pull (i.e., make to order) stock strategy and were more likely to be a differentiator. These 
+last two tendencies make sense, as customers are more likely to be affected by delays due 
+to downtime in a make to order stock strategy. Similarly, defects have greater consequences 
+for an establishment that competes by differentiating itself, as opposed to competing based 
+on cost. 
+7.2. 
+High and Low Levels of Predictive/Preventive Maintenance 
+The previous section examined reactive maintenance. This section examines those that 
+utilizes predictive/preventive maintenance. Table 7.3 presents those with less than 50 % 
+ 
+19 Microsoft. 2019. T.Test Function. https://support.office.com/en-us/article/t-test-function-d4e08ec3-c545-485f-962e-276f7cbed055
+
+37 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+reactive maintenance (i.e., those who primarily rely on predictive or preventive 
+maintenance) to understand the impact of moving from preventive maintenance to 
+predictive maintenance. Among this group, the upper 50 % using predictive maintenance 
+had less downtime due to maintenance issues, a lower defect rate, and less inventory 
+increases due to maintenance. Those who used less predictive maintenance and more 
+preventive maintenance had 1.18 times as much downtime, 7.80 times more defects, and 
+2.98 times more increases in inventory due to maintenance issues. 
+ 
+ 
+Table 7.3: High and Low Level Predictive Maintenance Compared, Average of 
+Responses (Establishments with <50 % Reactive Maintenance) 
+Percent of Maintenance 
+that is predictive, 
+Groupings
+Percent of Maintenance that is Predictive
+Ratio of Maintenance Costs to the Value of 
+Shipments
+Percent of Planned Production Time that is 
+Downtime
+Percent of Downtime that is due to Reactive 
+Maintenance
+Percent of Planned Production Time that is 
+Downtime due to Maintenance Issues
+Defect Rate (percent)
+Percent of Sales Lost due to Defects Resulting 
+from Maintenance Issues
+Percent of Sales Lost due to Delays Resulting 
+from Maintenance Issues
+Ratio of Additional Costs Due to Irreparable 
+Faults and Failures to Shipments
+Percent Increase in Inventory due to 
+Maintenance
+Shipments ($million)
+Percent that Primarily use a Pull or Make to 
+Order Strategy as Opposed to a Push or Make 
+to Stock Strategy
+Percent that are Differentiators
+Lowest 50 Percent
+8.8
+0.014
+5.1
+25.2
+1.2
+0.7
+0.6
+1.4
+0.0033
+2.8
+69.7
+87.5
+81.3
+Highest 50 Percent
+43.9 0.043
+4.4
+20.8
+0.6
+0.1
+0.8
+1.2
+0.0034
+0.9
+722.1
+82.4
+73.7
+Low divided by High
+0.20
+0.32
+1.18
+1.21
+2.13
+7.80
+0.74
+1.21
+0.96
+2.98
+0.10
+1.06
+1.10
+High divided by Low
+4.97
+3.16
+0.85
+0.82
+0.47
+0.13
+1.34
+0.83
+1.05
+0.34 10.35
+0.94
+0.91 
+ 
+ 
+7.3. 
+Levels of Investment in Maintenance 
+Table 7.4 parses the respondents out by question 15 in the Machinery Maintenance Survey, 
+which is a multiple-choice question where respondents indicate the level of investment that 
+their establishment makes in maintenance. Those with higher levels of investment used 
+more predictive maintenance and tend to have less downtime, 9.6 % compared to 5.4 %. 
+Defect rates also tend to be lower where those who indicated that they had few or minor 
+investments had a defect rate of 1.6 % compared to 0.7 %. Similarly, those with more 
+investment had less lost sales. Those with more maintenance investments tended to be more 
+likely to use a pull (i.e., a make to order) stock strategy and was more likely to rely on 
+differentiation as their competitive strategy, as opposed to being a cost competitor.
+
+38 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 7.4: Establishments Compared by Level of Investment in Maintenance, Average of 
+Responses 
+Percent of 
+Maintenance that is 
+predictive, 
+Groupings
+Percent of Maintenance that is Predictive
+Ratio of Maintenance Costs to the Value 
+of Shipments
+Percent of Planned Production Time that is 
+Downtime
+Percent of Downtime that is due to 
+Reactive Maintenance
+Percent of Planned Production Time that is 
+Downtime due to Maintenance Issues
+Defect Rate (percent)
+Percent of Sales Lost due to Defects 
+Resulting from Maintenance Issues
+Percent of Sales Lost due to Delays 
+Resulting from Maintenance Issues
+Ratio of Additional Costs Due to 
+Irreparable Faults and Failures to 
+Shipments
+Percent Increase in Inventory due to 
+Maintenance
+Shipments ($million)
+Percent that Primarily use a Pull or Make 
+to Order Strategy as Opposed to a Push or 
+Make to Stock Strategy
+Percent that are Differentiators
+Few or Minor 
+Investments (option 
+A and B)
+12.1 0.018
+9.6
+33.0
+3.1
+1.6
+1.1
+2.5
+0.0039
+3.3
+130.7
+0.7
+0.7
+Moderate or Major 
+Investments (option 
+C and D)
+25.0 0.030
+5.4
+31.1
+1.3
+0.7
+0.7
+1.8
+0.0054
+3.7
+472.5
+0.8
+0.8
+Low divided by High
+0.49
+0.62
+1.78
+1.06
+2.32
+2.16
+1.53
+1.41
+0.71
+0.89
+0.28
+0.79
+0.80
+High divided by Low
+2.06
+1.61
+0.56
+0.94
+0.43
+0.46
+0.65
+0.71
+1.41
+1.12
+3.61
+1.26
+1.26
+
+39 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+ Summary 
+This report examined annual costs of maintenance along with losses due to inadequate 
+maintenance strategies. It further examined the perceived and observed benefits of 
+investing in and advancing maintenance strategies. Below is a discussion of the findings. 
+8.1. 
+Costs and Losses 
+As shown in Table 8.1, maintenance expenditures for NAICS 321-339, excluding 324 and 
+325, were estimated to be $57.3 billion. Additional expenditures due to faults and failure 
+were estimated at $16.3 billion and costs for inventory to buffer against maintenance issues 
+costing $0.9 billion. In total, these maintenance activities costed an estimated $74.5 billion. 
+ 
+The losses due to preventable maintenance issues amounted to $18.1 billion due to 
+downtime, $0.8 billion due to defects, and $100.2 billion due to lost sales from delays and 
+defects with an estimated 134.1 injuries and 0.4 deaths on average being associated with 
+maintenance issues. The total of the dollar losses amounts to $119.1 billion. 
+ 
+For context, these costs might be compared to other manufacturing costs; however, any 
+comparison of this type will vary depending on how costs are categorized. Categorizing 
+costs by NAICS code and measuring them in terms of value added using NIST’s 
+Manufacturing Cost Guide, both costs and losses related to maintenance each rank above  
+ 
+ 
+Table 8.1: Costs and Losses Associated with Maintenance 
+  
+Estimate 
+($2016 Billion) 
+90 % 
+Confidence 
+Interval 
+Costs 
+74.5 
+50.8 103.3 
+Direct Maintenance Costs 
+57.3 
+42.4 
+72.2 
+Costs due to Faults and Failures 
+16.3 
+7.1 
+25.5 
+Inventory Costs 
+0.9 
+1.3 
+5.6 
+Losses 
+119.1 
+43.9 197.3 
+Unplanned Downtime 
+18.1 
+10.4 
+27.8 
+Labor 
+13.5 
+7.1 
+22.1 
+Capital Depreciation Buildings 
+2.5 
+1.8 
+3.1 
+Capital Depreciation Machinery 
+1.0 
+0.7 
+1.2 
+Energy 
+1.1 
+0.8 
+1.4 
+Defects 
+0.8 
+0.0 
+2.7 
+Lost Sales 
+100.2 
+33.5 166.8 
+Due to Defects 
+31.2 
+3.6 
+58.7 
+Due to Delays 
+69.0 
+29.8 108.1 
+Total Costs and Losses 
+193.6 
+94.7 300.7
+
+40 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+the 95th percentile for the industries examined in this report.20 Moreover, maintenance costs 
+rank relatively high. For additional context, the industries studied in this report spent $491 
+billion on payroll including maintenance staff, $82 billion on machinery/equipment, $33 
+billion on electricity, $15 billion on capital expenditures on buildings/structures, and $4 
+billion on computer hardware/other equipment, according to 2016 data from the Annual 
+Survey of Manufactures.21 According to the same data, the value added for these industries 
+amounted to $1.5 trillion.  
+8.2. 
+Perceived and Observed Benefits of Advanced Maintenance Techniques 
+The perceived benefit of potentially adopting some amount of predictive maintenance was 
+$6.5 billion from downtime reduction and $67.3 billion in increased sales. Other benefits 
+such as reduced defects may also occur but were not monetized.  
+ 
+As seen in Table 8.2, relying on reactive maintenance was associated with 3.3 times more 
+downtime, 16.0 times more defects, 2.8 times more lost sales due to defects from 
+maintenance, 2.4 times more lost sales due to delays from maintenance, and 4.89 times 
+more inventory increases due to maintenance issues. On average, 45.7 % of machinery 
+maintenance was reactive maintenance. Those who relied less on reactive maintenance 
+were more likely to use a pull (i.e., make to order) stock strategy and more likely to be 
+differentiators as opposed to being a cost competitor. That is, they rely more on their 
+reputation and produced products on demand. The implication being that reactive 
+maintenance reduces quality and increases uncertainty in production time. Among those 
+establishments that primarily rely on preventive and predictive maintenance, predictive 
+maintenance was associated with 15 % less downtime, 87 % lower defect rate, and 66 % 
+less inventory increases due to maintenance issues. There were two counterintuitive results 
+in this category. It is important to note that due to the limited number of respondents, some 
+of the results are not statistically significant, including those that are counterintuitive. 
+Moreover, the results in Table 8.2 should be seen as anecdotal. Those establishments that 
+relied more on predictive maintenance were more likely to have a pull (i.e., make to order) 
+stock strategy and more likely to be a differentiator as opposed to being a cost competitor, 
+which associates predictive maintenance with higher quality products and shorter 
+production times through reduced downtime. 
+ 
+For those establishments that invested more heavily into maintenance, on average they had 
+44 % less downtime, 54 % lower defect rate, 35 % fewer lost sales due to defects from 
+maintenance, and 29 % less lost sales due to delays from maintenance issues. Those who 
+invest more heavily in maintenance were more likely to have a pull (i.e., make to order) 
+stock strategy and more likely to be a differentiator as opposed to being a cost competitor. 
+ 
+ 
+ 
+ 
+20 National Institute of Standards and Technology. 2019. Manufacturing Cost Guide. Beta Version 1.0. https://www.nist.gov/services-
+resources/software/manufacturing-cost-guide 
+21 U.S. Census Bureau. (2020). Annual Survey of Manufactures. https://www.census.gov/programs-surveys/asm.html
+
+41 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Table 8.2: Observed Benefits of Advanced Maintenance Techniques 
+  
+Reactive (top 25 
+%) vs. Other  
+(Lowest 25 %) 
+Preventive vs. 
+Predictive  
+(top 50 %)*  
+Few/Minor 
+Investments vs. 
+Moderate/Major 
+Investments in 
+Maintenance 
+Ratio of Maintenance Costs to the 
+Value of Shipments 
+Other is 1.61 
+times higher 
+Predictive is 3.16 
+times higher 
+Mod/Maj is 1.61 
+times higher 
+Percent of Planned Production 
+Time that is Downtime 
+Reactive is 3.28 
+times higher 
+Preventive is 1.18 
+times higher 
+Few/Min is 1.78 
+times higher 
+Percent of Downtime that is due 
+to Reactive Maintenance 
+Reactive is 2.18 
+times higher 
+Preventive is 1.21 
+times higher 
+Few/Min is 1.06 
+times higher 
+Percent of Planned Production 
+Time that is Downtime due to 
+Maintenance Issues 
+Reactive is 7.89 
+times higher 
+Preventive is 2.13 
+times higher 
+Few/Min is 2.32 
+times higher 
+Defect Rate (percent) 
+Reactive is 16.00 
+ times higher 
+Preventive is 7.80 
+times higher 
+Few/Min is 2.16 
+times higher 
+Percent of Sales Lost due to 
+Defects Resulting from 
+Maintenance Issues 
+Reactive is 2.81 
+times higher 
+Predictive is 1.34 
+times higher 
+Few/Min is 1.53 
+times higher 
+Percent of Sales Lost due to 
+Delays Resulting from 
+Maintenance Issues 
+Reactive is 2.37 
+times higher 
+Preventive is 1.21 
+times higher 
+Few/Min is 1.41 
+times higher 
+Ratio of Additional Costs Due to 
+Irreparable Faults and Failures to 
+Shipments 
+Reactive is 2.25 
+times higher 
+Predictive is 1.05 
+times higher 
+Mod/Maj is 1.41 
+times higher 
+Percent Increase in Inventory due 
+to Maintenance 
+Reactive is 4.89 
+times higher 
+Preventive is 2.98 
+times higher 
+Mod/Maj is 1.12 
+times higher 
+* Among those establishments that primarily use either predictive or preventive maintenance 
+NOTE: Counterintuitive or unexpected results are shown in RED
+
+42 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Bibliography 
+ 
+Barnett, Vic. Sample Survey: Principles and Methods. (New York, NY: Oxford 
+University Press Inc., 2002): 58-63. 
+Bureau of Labor Statistics. (2019). Injuries, Illness, and Fatalities Program. 
+http://www.bls.gov/iif/ 
+Helu, M., & Weiss, B. A. (2016). The current state of sensing, health management, and 
+control for small-to-medium-szed manufacturers. Paper presented at the ASME 2016 
+Manufacturing Science and Engineering Conference, MSEC2016. 
+Horowitz, Karen J. and Mark A. Planting. (2009). Concepts and Method of the Input-
+Output Accounts. Bureau of Economic Analysis. 
+https://www.bea.gov/sites/default/files/methodologies/IOmanual_092906.pdf 
+Jin, X., Siegel, D., Weiss, B. A., Gamel, E., Wang, W., Lee, J., & Ni, J. (2016). The 
+present status and future growth of maintenance in US manufacturing: results from a pilot 
+survey. Manuf Rev (Les Ulis), 3, 10. doi:10.1051/mfreview/2016005 
+Jin, X., Weiss, B. A., Siegel, D., & Lee, J. (2016). Present Status and Future Growth of 
+Advanced Maintenance Technology and Strategy in US Manufacturing. Int J Progn 
+Health Manag, 7(Spec Iss on Smart Manufacturing PHM), 012. Retrieved from 
+https://www.ncbi.nlm.nih.gov/pubmed/28058173 
+Lepkowski, James. Sampling People, Networks and Records. (2018). Coursera course. 
+https://www.coursera.org/learn/sampling-methods/home/welcome 
+Microsoft. 2019. T.Test Function. https://support.office.com/en-us/article/t-test-function-
+d4e08ec3-c545-485f-962e-276f7cbed055 
+National Institute of Standards and Technology. 2012. “What are outliers in the data?” 
+https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm 
+National Institute of Standards and Technology. 2019. Manufacturing Cost Guide. Beta 
+Version 1.0. https://www.nist.gov/services-resources/software/manufacturing-cost-guide 
+NIST. (2013). Engineering Statistics Handbook. Sample Sizes. 
+http://www.itl.nist.gov/div898/handbook/prc/section2/prc222.htm 
+Thomas, Douglas. (2018). The Costs and Benefits of Advanced Maintenance in 
+Manufacturing. NIST Advanced Manufacturing Series 100 18. 
+https://doi.org/10.6028/NIST.AMS.100-18 
+Thomas, Douglas. (2019). The Model Based Enterprise: A Literature Review of Costs 
+and Benefits for Discrete Manufacturing. Advanced Manufacturing Series 100-26. 
+https://doi.org/10.6028/NIST.AMS.100-26
+
+43 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Tuovila, Alicia. 2019. “Inventory Carrying Cost.” 
+https://www.investopedia.com/terms/c/carryingcostofinventory.asp 
+U.S. Census Bureau. (2020). Annual Survey of Manufactures. 
+https://www.census.gov/programs-surveys/asm.html 
+U.S. Census Bureau. (2020). County Business Patterns. 
+https://www.census.gov/programs-surveys/cbp.html 
+U.S. Census Bureau. (2020). Economic Census. https://www.census.gov/programs-
+surveys/economic-census.html  
+Wasp Barcode Technologies. 2020. “The Real Cost of Carrying Inventory.” 
+http://www.waspbarcode.com/buzz/real-cost-carrying-inventory
+
+44 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+Appendix A: Machinery Maintenance Survey 
+1. Approximately how many employees work at this establishment (select one)? 
+a. 1 to 4 Employees 
+b. 5 to 9 Employees 
+c. 10 to 19 Employees 
+d. 20 to 49 Employees 
+e. 50 to 99 Employees 
+f. 100 to 249 Employees 
+g. 250 to 499 Employees 
+h. 500 to 999 Employees 
+i. 1000 or more Employees 
+2. What is the estimated total annual payroll for this establishment? 
+3. What type of products are produced at this establishment? 
+4. What is the estimated total annual value of products shipped for this 
+establishment? 
+5. What is the primary NAICS code for this establishment? 
+6. What is the estimated annual expenditures on manufacturing machinery 
+maintenance and repair at this establishment (e.g., maintenance department 
+budget)? 
+7. What percent of machinery maintenance and repair costs do you estimate is 
+predictive (i.e., condition-based maintenance using data such as temperature, 
+noise, and/or vibration), preventive (i.e., scheduled, timed, or based on a cycle), 
+and reactive maintenance (i.e., run to failure)? 
+ 
+ 
+Predictive Maintenance                                                     % 
+ 
+ 
+ 
+ 
+Preventive Maintenance                                                    % 
+ 
+ 
+ 
+ 
+Reactive Maintenance                                                        % 
+ 
+ 
+ 
+ 
+Other Maintenance Costs (e.g., training)                           % 
+ 
+ 
+ 
+ 
+Total maintenance and repair                               100        % 
+ 
+ 
+8. In addition to the costs discussed above, what do you estimate were additional 
+expenditures per year, if any, used for replacing machinery that was damaged due 
+to irreparable faults or failures? 
+9. What percent of the planned production time do you estimate is downtime? 
+                                                                          
+Is this information tracked formally? 
+If so, are you familiar with the estimates? 
+Yes         No 
+Yes         No
+
+45 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+                                                   
+ 
+a. What percent of the downtime (i.e., planned production time that is 
+downtime) is due to reactive maintenance (i.e., unplanned maintenance 
+and repair)? 
+ 
+b. What percent, if any, of sales do you estimate were lost due to delays from 
+downtime caused by maintenance issues?  
+ 
+            
+ 
+10. What do you estimate is the rate of product defects for this establishment? 
+ 
+a. What percent of defects do you estimate are a result of reactive 
+maintenance?  
+                                                        
+ 
+b. What percent of sales, if any, do you estimate were lost due to defects 
+caused by maintenance issues? 
+11. Do you believe that your establishment would benefit from converting some 
+portion of reactive and preventive maintenance to predictive maintenance? 
+a. Yes 
+b. No  
+12. If yes, what benefits and costs do you believe could come about by converting 
+some portion of reactive and preventive maintenance to predictive maintenance? 
+ 
+% change in maintenance and repair costs, if any 
+ 
+ 
+% change in downtime, if any 
+ 
+ 
+% change in sales, if any 
+ 
+ 
+% change in injuries, if any 
+ 
+                Other benefits, costs, or comments 
+ 
+13. What percent of injuries, if any, are associated with reactive maintenance at this 
+establishment? 
+14. What is the lead time for a product at this establishment (i.e., the time it takes a 
+new set of inputs to move all the way through the operation)? 
+15. Please select the most accurate statement for this establishment: 
+ 
+Is this information tracked formally? 
+If so, are you familiar with the estimates? 
+Yes         No 
+Yes         No 
+ 
+ 
+ 
+ 
+Is this information tracked formally? 
+If so, are you familiar with the estimates? 
+Yes         No 
+Yes         No
+
+46 
+This publication is available free of charge from: https://doi.org/10.6028/NIST.AMS.100-34 
+a. Very few investments are made to reduce future maintenance related costs 
+and losses. 
+b. Minor investments, such as in planning software, are made to reduce 
+future maintenance related costs and losses. 
+c. Moderate investments, such as in monitoring equipment for some 
+machinery, are made to reduce future maintenance related costs and 
+losses. 
+d. Significant or major investments, such as analysis software and 
+monitoring equipment for most machines, are made to reduce future 
+maintenance related costs and losses.  
+16. How many hours per week is this establishment operating on average this year? 
+17. What percent increase in finished goods inventory, if any, do you estimate is 
+maintained to deal with delays from unplanned maintenance issues?  
+18. What is the primary competitive focus of this establishment and its products 
+(select one)?  
+a. Cost competitiveness: we compete primarily based on having a low cost 
+for the customer 
+b. Differentiation: we compete primarily based on differentiating ourselves 
+from others through quality, reputation, service, brand name, or other 
+similar characteristics 
+19. Does this establishment primarily use a push (i.e., make to stock) or pull (i.e., 
+make to order) strategy (select one)? 
+a. Push or make to stock strategy 
+b. Pull or make to order strategy 
+20. What best describes the management style used at this establishment (select one): 
+a. Autocratic: Decisions are made at the top with limited input from staff 
+b. Consultative: Decisions are made at the top with input from staff 
+c. Democratic: Employees take part in the decision-making process 
+d. Delegative: Employees make a great deal of the decisions with limited 
+guidance from management
