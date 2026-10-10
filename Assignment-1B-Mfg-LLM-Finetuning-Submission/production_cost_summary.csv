@@ -1,0 +1,4 @@
+Configuration,Model Footprint (GB),Avg Latency (s),Throughput (tok/s),Cost / 1M tokens (₹)
+bfloat16 + Greedy,2.2,1.49,98.2,9.9
+4-bit NF4 + Greedy,0.75,2.85,52.6,18.49
+4-bit NF4 + Speculative,1.02,4.83,31.0,31.39
